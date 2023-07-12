@@ -23,9 +23,9 @@ Simply press Download ZIP
 
 1. Download the game through Steam
 2. Locate where the game is installed. It's usually in the Steam folder, then you can find the game in \steamapps\common\Black Survival
-3. Put steam_appid.txt and .local files in that said folder
-4. You must replace your Assembly-CSharp.dll and Assembly-CSharp-firstpass.dll in \BlackSurvival_Data\Managed with the one from the zipped folder you just downloaded
-5. You must also add discord_game_sdk.dll to \BlackSurvival_Data\Plugins\x86\
+3. Go to the ClientFiles Folder in the repo.
+4. Copy the files and folders to your \steamapps\common\Black Survival folder overwriting anything if it asks
+5. Run the game.
 
 
 ## Server side ##
