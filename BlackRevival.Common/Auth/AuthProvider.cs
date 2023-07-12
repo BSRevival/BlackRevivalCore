@@ -1,0 +1,26 @@
+﻿public enum AuthProvider
+{
+	NONE = 0,
+	GOOGLE = 1,
+	APPLE = 2,
+	LINE = 3,
+	FACEBOOK = 4,
+	LINKEDIN = 5,
+	EMAIL = 6,
+	DEVICE = 7,
+	STEAM = 8,
+	DMM = 10,
+	ESOUL = 11,
+	WECHAT = 12,
+	QQ = 13,
+	XSOLLA = 14,
+	APPLE_LOGIN = 15,
+	BOLTREND = 16,
+	NETEASE_IOS = 17,
+	NETEASE_ANDROID = 18,
+	NETEASE_STEAM = 19,
+	DISCORD = 20,
+	MOBTECH_QQ = 21,
+	MOBTECH_SMS = 22,
+	GUEST = 23
+}

@@ -1,0 +1,412 @@
+{
+  "attendanceEvent": [
+    {
+      "eid": 1,
+      "exp": 25,
+      "rwd": {
+        "1": {
+          "c": "1-GOLD",
+          "a": 1000,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "2": {
+          "c": "2-2",
+          "a": 1,
+          "goodsType": 2,
+          "subType": "2"
+        },
+        "3": {
+          "c": "12-CHARACTER_EXP_25",
+          "a": 1,
+          "goodsType": 12,
+          "subType": "CHARACTER_EXP_25"
+        },
+        "4": {
+          "c": "1-GEM",
+          "a": 60,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "5": {
+          "c": "8-CHARACTER_EXP",
+          "a": 5,
+          "goodsType": 8,
+          "subType": "CHARACTER_EXP"
+        },
+        "6": {
+          "c": "1-BEARPOINT",
+          "a": 100,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "7": {
+          "c": "8-CHARACTER_EXP",
+          "a": 10,
+          "goodsType": 8,
+          "subType": "CHARACTER_EXP"
+        },
+        "8": {
+          "c": "1-GOLD",
+          "a": 1500,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "9": {
+          "c": "12-CHARACTER_EXP_25",
+          "a": 2,
+          "goodsType": 12,
+          "subType": "CHARACTER_EXP_25"
+        },
+        "10": {
+          "c": "1-BEARPOINT",
+          "a": 150,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "11": {
+          "c": "8-CHARACTER_EXP",
+          "a": 15,
+          "goodsType": 8,
+          "subType": "CHARACTER_EXP"
+        },
+        "12": {
+          "c": "12-CHARACTER_EXP_25",
+          "a": 3,
+          "goodsType": 12,
+          "subType": "CHARACTER_EXP_25"
+        },
+        "13": {
+          "c": "1-BEARPOINT",
+          "a": 200,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "14": {
+          "c": "1-GEM",
+          "a": 100,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "15": {
+          "c": "1-GOLD",
+          "a": 2000,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "16": {
+          "c": "1-BEARPOINT",
+          "a": 250,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "17": {
+          "c": "1-GEM",
+          "a": 140,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "18": {
+          "c": "8-CHARACTER_EXP",
+          "a": 20,
+          "goodsType": 8,
+          "subType": "CHARACTER_EXP"
+        },
+        "19": {
+          "c": "1-GOLD",
+          "a": 2500,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "20": {
+          "c": "12-CHARACTER_EXP_25",
+          "a": 4,
+          "goodsType": 12,
+          "subType": "CHARACTER_EXP_25"
+        },
+        "21": {
+          "c": "4-203",
+          "a": 1,
+          "goodsType": 4,
+          "subType": "203"
+        }
+      },
+      "get": 1,
+      "evex": 7289103600000,
+      "mxs": 21
+    },
+    {
+      "eid": 2,
+      "exp": 8,
+      "rwd": {
+        "1": {
+          "c": "10-OFFENSIVE_BOX",
+          "a": 10,
+          "goodsType": 10,
+          "subType": "OFFENSIVE_BOX"
+        },
+        "2": {
+          "c": "10-DEFENSIVE_BOX",
+          "a": 20,
+          "goodsType": 10,
+          "subType": "DEFENSIVE_BOX"
+        },
+        "3": {
+          "c": "10-ICE_BOX",
+          "a": 30,
+          "goodsType": 10,
+          "subType": "ICE_BOX"
+        },
+        "4": {
+          "c": "8-GOLD",
+          "a": 20,
+          "goodsType": 8,
+          "subType": "GOLD"
+        },
+        "5": {
+          "c": "8-BEARPOINT",
+          "a": 30,
+          "goodsType": 8,
+          "subType": "BEARPOINT"
+        },
+        "6": {
+          "c": "1-GOLD",
+          "a": 5000,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "7": {
+          "c": "19-CHRISTMAS_01",
+          "a": 1,
+          "goodsType": 19,
+          "subType": "CHRISTMAS_01"
+        }
+      },
+      "get": 1,
+      "evex": 1545750000000,
+      "mxs": 7
+    },
+    {
+      "eid": 3,
+      "exp": 7,
+      "rwd": {
+        "1": {
+          "c": "2-33",
+          "a": 1,
+          "goodsType": 2,
+          "subType": "33"
+        },
+        "2": {
+          "c": "2-34",
+          "a": 1,
+          "goodsType": 2,
+          "subType": "34"
+        },
+        "3": {
+          "c": "2-31",
+          "a": 1,
+          "goodsType": 2,
+          "subType": "31"
+        }
+      },
+      "get": 2,
+      "evex": 7262492400000,
+      "mxs": 1
+    },
+    {
+      "eid": 4,
+      "exp": 1,
+      "rwd": {
+        "1": {
+          "c": "1-VOTE_TICKET",
+          "a": 1,
+          "goodsType": 1,
+          "subType": "VOTE_TICKET"
+        }
+      },
+      "get": 3,
+      "evex": 1597831200000,
+      "mxs": 1
+    },
+    {
+      "eid": 5,
+      "exp": 25,
+      "rwd": {
+        "1": {
+          "c": "1-GOLD",
+          "a": 500,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "2": {
+          "c": "1-BEARPOINT",
+          "a": 100,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "3": {
+          "c": "1-TOURNAMENT_TICKET",
+          "a": 1,
+          "goodsType": 1,
+          "subType": "TOURNAMENT_TICKET"
+        },
+        "4": {
+          "c": "1-EXPERIMENT_MEMORY",
+          "a": 10,
+          "goodsType": 1,
+          "subType": "EXPERIMENT_MEMORY"
+        },
+        "5": {
+          "c": "1-GEM",
+          "a": 50,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "6": {
+          "c": "1-GOLD",
+          "a": 1000,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "7": {
+          "c": "1-BEARPOINT",
+          "a": 200,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "8": {
+          "c": "1-TOURNAMENT_TICKET",
+          "a": 1,
+          "goodsType": 1,
+          "subType": "TOURNAMENT_TICKET"
+        },
+        "9": {
+          "c": "1-EXPERIMENT_MEMORY",
+          "a": 20,
+          "goodsType": 1,
+          "subType": "EXPERIMENT_MEMORY"
+        },
+        "10": {
+          "c": "1-GEM",
+          "a": 100,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "11": {
+          "c": "1-GOLD",
+          "a": 1500,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "12": {
+          "c": "1-BEARPOINT",
+          "a": 300,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "13": {
+          "c": "1-TOURNAMENT_TICKET",
+          "a": 2,
+          "goodsType": 1,
+          "subType": "TOURNAMENT_TICKET"
+        },
+        "14": {
+          "c": "1-EXPERIMENT_MEMORY",
+          "a": 30,
+          "goodsType": 1,
+          "subType": "EXPERIMENT_MEMORY"
+        },
+        "15": {
+          "c": "1-GEM",
+          "a": 150,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "16": {
+          "c": "1-GOLD",
+          "a": 2000,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "17": {
+          "c": "1-BEARPOINT",
+          "a": 400,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "18": {
+          "c": "1-TOURNAMENT_TICKET",
+          "a": 2,
+          "goodsType": 1,
+          "subType": "TOURNAMENT_TICKET"
+        },
+        "19": {
+          "c": "1-EXPERIMENT_MEMORY",
+          "a": 40,
+          "goodsType": 1,
+          "subType": "EXPERIMENT_MEMORY"
+        },
+        "20": {
+          "c": "1-GEM",
+          "a": 200,
+          "goodsType": 1,
+          "subType": "GEM"
+        }
+      },
+      "get": 4,
+      "evex": 7289103600000,
+      "mxs": 20
+    },
+    {
+      "eid": 101,
+      "exp": 10,
+      "rwd": {
+        "1": {
+          "c": "4-3309",
+          "a": 1,
+          "goodsType": 4,
+          "subType": "3309"
+        },
+        "2": {
+          "c": "1-GEM",
+          "a": 100,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "3": {
+          "c": "1-BEARPOINT",
+          "a": 2500,
+          "goodsType": 1,
+          "subType": "BEARPOINT"
+        },
+        "4": {
+          "c": "1-GOLD",
+          "a": 20000,
+          "goodsType": 1,
+          "subType": "GOLD"
+        },
+        "5": {
+          "c": "1-CREDIT",
+          "a": 200,
+          "goodsType": 1,
+          "subType": "CREDIT"
+        },
+        "6": {
+          "c": "1-GEM",
+          "a": 300,
+          "goodsType": 1,
+          "subType": "GEM"
+        },
+        "7": {
+          "c": "1-CREDIT",
+          "a": 300,
+          "goodsType": 1,
+          "subType": "CREDIT"
+        }
+      },
+      "get": 1,
+      "evex": 1646060399000,
+      "mxs": 7
+    }
+  ]
+}

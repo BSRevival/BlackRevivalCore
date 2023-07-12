@@ -1,0 +1,1514 @@
+{
+  "researcherLevels": [
+    {
+      "l": 1,
+      "e": 0,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 2,
+      "e": 21,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 3,
+      "e": 42,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 4,
+      "e": 63,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 5,
+      "e": 84,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 6,
+      "e": 126,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 7,
+      "e": 168,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 8,
+      "e": 210,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 9,
+      "e": 252,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 10,
+      "e": 294,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 11,
+      "e": 336,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 12,
+      "e": 378,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 13,
+      "e": 420,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 14,
+      "e": 462,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 15,
+      "e": 524,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 16,
+      "e": 586,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 17,
+      "e": 648,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 18,
+      "e": 710,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 19,
+      "e": 793,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 20,
+      "e": 876,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 21,
+      "e": 959,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 22,
+      "e": 1042,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 23,
+      "e": 1125,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 24,
+      "e": 1208,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 25,
+      "e": 1291,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 26,
+      "e": 1374,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 27,
+      "e": 1478,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 28,
+      "e": 1582,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 29,
+      "e": 1686,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 30,
+      "e": 1790,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 31,
+      "e": 1894,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 32,
+      "e": 1998,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 33,
+      "e": 2102,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 34,
+      "e": 2206,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 35,
+      "e": 2310,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 36,
+      "e": 2435,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 37,
+      "e": 2560,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 38,
+      "e": 2705,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 39,
+      "e": 2850,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 40,
+      "e": 2995,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 41,
+      "e": 3140,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 42,
+      "e": 3285,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 43,
+      "e": 3430,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 44,
+      "e": 3575,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 45,
+      "e": 3720,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 46,
+      "e": 3865,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 47,
+      "e": 4031,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 48,
+      "e": 4197,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 49,
+      "e": 4363,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 50,
+      "e": 4529,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 51,
+      "e": 4695,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 52,
+      "e": 4861,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 53,
+      "e": 5027,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 54,
+      "e": 5193,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 55,
+      "e": 5380,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 56,
+      "e": 5567,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 57,
+      "e": 5754,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 58,
+      "e": 5941,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 59,
+      "e": 6149,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 60,
+      "e": 6357,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 61,
+      "e": 6565,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 62,
+      "e": 6773,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 63,
+      "e": 6981,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 64,
+      "e": 7189,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 65,
+      "e": 7397,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 66,
+      "e": 7605,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 67,
+      "e": 7833,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 68,
+      "e": 8061,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 69,
+      "e": 8289,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 70,
+      "e": 8517,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 71,
+      "e": 8745,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 72,
+      "e": 8973,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 73,
+      "e": 9201,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 74,
+      "e": 9429,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 75,
+      "e": 9678,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 76,
+      "e": 9927,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 77,
+      "e": 10176,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 78,
+      "e": 10425,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 79,
+      "e": 10695,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 80,
+      "e": 10965,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 81,
+      "e": 11235,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 82,
+      "e": 11505,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 83,
+      "e": 11775,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 84,
+      "e": 12045,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 85,
+      "e": 12315,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 86,
+      "e": 12585,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 87,
+      "e": 12876,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 88,
+      "e": 13167,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 89,
+      "e": 13458,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 90,
+      "e": 13749,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 91,
+      "e": 14040,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 92,
+      "e": 14331,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 93,
+      "e": 14622,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 94,
+      "e": 14913,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 95,
+      "e": 15224,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 96,
+      "e": 15535,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 97,
+      "e": 15846,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 98,
+      "e": 16157,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 99,
+      "e": 16489,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 100,
+      "e": 16821,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 101,
+      "e": 17236,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 102,
+      "e": 17651,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 103,
+      "e": 18066,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 104,
+      "e": 18502,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 105,
+      "e": 18938,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 106,
+      "e": 19373,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 107,
+      "e": 19830,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 108,
+      "e": 20286,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 109,
+      "e": 20743,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 110,
+      "e": 21220,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 111,
+      "e": 21697,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 112,
+      "e": 22175,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 113,
+      "e": 22652,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 114,
+      "e": 23150,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 115,
+      "e": 23648,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 116,
+      "e": 24167,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 117,
+      "e": 24685,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 118,
+      "e": 25204,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 119,
+      "e": 25723,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 120,
+      "e": 26242,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 121,
+      "e": 26760,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 122,
+      "e": 27279,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 123,
+      "e": 27819,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 124,
+      "e": 28358,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 125,
+      "e": 28898,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 126,
+      "e": 29437,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 127,
+      "e": 29997,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 128,
+      "e": 30558,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 129,
+      "e": 31118,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 130,
+      "e": 31699,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 131,
+      "e": 32280,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 132,
+      "e": 32861,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 133,
+      "e": 33442,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 134,
+      "e": 34023,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 135,
+      "e": 34604,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 136,
+      "e": 35185,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 137,
+      "e": 35766,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 138,
+      "e": 36347,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 139,
+      "e": 36928,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 140,
+      "e": 37550,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 141,
+      "e": 38173,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 142,
+      "e": 38795,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 143,
+      "e": 39418,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 144,
+      "e": 40061,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 145,
+      "e": 40704,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 146,
+      "e": 41348,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 147,
+      "e": 41991,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 148,
+      "e": 42634,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 149,
+      "e": 43277,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 150,
+      "e": 43941,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    },
+    {
+      "l": 151,
+      "e": 99999999,
+      "r": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      }
+    }
+  ]
+}

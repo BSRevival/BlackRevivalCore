@@ -1,0 +1,784 @@
+{
+  "radarMinMax": [
+    {
+      "nm": "Level",
+      "leg": 0,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 0,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 0,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 0,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 0,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 26,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 26,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 26,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 26,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 26,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 27,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 27,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 27,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 27,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 27,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 28,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 28,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 28,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 28,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 28,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 29,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 29,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 29,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 29,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 29,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 30,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 30,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 30,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 30,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 30,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 31,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 31,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 31,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 31,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 31,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 32,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 32,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 32,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 32,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 32,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 33,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 33,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 33,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 33,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 33,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 34,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 34,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 34,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 34,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 34,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 35,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 35,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 35,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 35,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 35,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 36,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 36,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 36,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 36,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 36,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 37,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 37,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 37,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 37,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 37,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 38,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 38,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 38,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 38,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 38,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 39,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 39,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 39,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 39,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 39,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 40,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 40,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 40,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 40,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 40,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 41,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 41,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 41,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 41,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 41,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 42,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 42,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 42,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 42,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 42,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 43,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 43,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 43,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 43,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 43,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 44,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 44,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 44,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 44,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 44,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 45,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 45,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 45,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 45,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 45,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 46,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 46,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 46,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 46,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 46,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 47,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 47,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 47,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 47,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 47,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 48,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 48,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 48,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 48,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 48,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 49,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 49,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 49,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 49,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 49,
+      "mn": 70,
+      "mx": 151
+    },
+    {
+      "nm": "Level",
+      "leg": 50,
+      "mn": 2,
+      "mx": 15
+    },
+    {
+      "nm": "Damage",
+      "leg": 50,
+      "mn": 100,
+      "mx": 2000
+    },
+    {
+      "nm": "AliveTime",
+      "leg": 50,
+      "mn": 180,
+      "mx": 960
+    },
+    {
+      "nm": "KillMob",
+      "leg": 50,
+      "mn": 8,
+      "mx": 8
+    },
+    {
+      "nm": "Mastery",
+      "leg": 50,
+      "mn": 70,
+      "mx": 151
+    }
+  ]
+}

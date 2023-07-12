@@ -1,0 +1,988 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BlackRevival.Common.Model
+{
+    public enum ExpeditionSkillId
+    {
+        // Token: 0x0400569A RID: 22170
+        NONE,
+        // Token: 0x0400569B RID: 22171
+        ENEMY_NORMAL_ATTACK_BASE_01,
+        // Token: 0x0400569C RID: 22172
+        ENEMY_NORMAL_ATTACK_BASE_02,
+        // Token: 0x0400569D RID: 22173
+        ENEMY_NORMAL_ATTACK_BASE_03,
+        // Token: 0x0400569E RID: 22174
+        NORMAL_ATTACK_BASE_01 = 11,
+        // Token: 0x0400569F RID: 22175
+        NORMAL_ATTACK_BASE_02,
+        // Token: 0x040056A0 RID: 22176
+        NORMAL_ATTACK_BASE_03,
+        // Token: 0x040056A1 RID: 22177
+        ADD_BLOOD_FEST = 100,
+        // Token: 0x040056A2 RID: 22178
+        ADD_EFFECT_TOY,
+        // Token: 0x040056A3 RID: 22179
+        BASIC_ATK_HIDE_AND_SEEK_01 = 121,
+        // Token: 0x040056A4 RID: 22180
+        BASIC_ATK_HIDE_AND_SEEK_02,
+        // Token: 0x040056A5 RID: 22181
+        BASIC_ATK_HIDE_AND_SEEK_03,
+        // Token: 0x040056A6 RID: 22182
+        ADD_ATK_HIDE_AND_SEEK_01 = 141,
+        // Token: 0x040056A7 RID: 22183
+        ADD_ATK_HIDE_AND_SEEK_02,
+        // Token: 0x040056A8 RID: 22184
+        ADD_ATK_HIDE_AND_SEEK_03,
+        // Token: 0x040056A9 RID: 22185
+        EFFECT_BLOOD_FEST = 131,
+        // Token: 0x040056AA RID: 22186
+        EFFECT_TOY,
+        // Token: 0x040056AB RID: 22187
+        RECOVERY_TREATMENT = 200,
+        // Token: 0x040056AC RID: 22188
+        BASIC_ATK_ARTERIOTOMY_01 = 111,
+        // Token: 0x040056AD RID: 22189
+        BASIC_ATK_ARTERIOTOMY_02,
+        // Token: 0x040056AE RID: 22190
+        BASIC_ATK_ARTERIOTOMY_03,
+        // Token: 0x040056AF RID: 22191
+        ADD_BLOODING_01 = 50201,
+        // Token: 0x040056B0 RID: 22192
+        ADD_BLOODING_02,
+        // Token: 0x040056B1 RID: 22193
+        ADD_BLOODING_03,
+        // Token: 0x040056B2 RID: 22194
+        EFFECT_BLOODING_01,
+        // Token: 0x040056B3 RID: 22195
+        EFFECT_BLOODING_02,
+        // Token: 0x040056B4 RID: 22196
+        EFFECT_BLOODING_03,
+        // Token: 0x040056B5 RID: 22197
+        ADD_KEEP_PAIN_START_FULL_STACK = 351,
+        // Token: 0x040056B6 RID: 22198
+        EFFECT_KEEP_PAIN_START_FULL_STACK,
+        // Token: 0x040056B7 RID: 22199
+        ADD_KEEP_PAIN = 300,
+        // Token: 0x040056B8 RID: 22200
+        KEEP_PAIN_RECOVERY = 304,
+        // Token: 0x040056B9 RID: 22201
+        REMOVE_KEEP_PAIN,
+        // Token: 0x040056BA RID: 22202
+        BASIC_ATK_RELEASE_01 = 321,
+        // Token: 0x040056BB RID: 22203
+        BASIC_ATK_RELEASE_02,
+        // Token: 0x040056BC RID: 22204
+        BASIC_ATK_RELEASE_03,
+        // Token: 0x040056BD RID: 22205
+        ADD_KEEP_PAIN_01 = 306,
+        // Token: 0x040056BE RID: 22206
+        ADD_KEEP_PAIN_02,
+        // Token: 0x040056BF RID: 22207
+        ADD_KEEP_PAIN_03,
+        // Token: 0x040056C0 RID: 22208
+        EFFECT_KEEP_PAIN_DP_DOWN_01 = 301,
+        // Token: 0x040056C1 RID: 22209
+        EFFECT_KEEP_PAIN_DP_DOWN_02,
+        // Token: 0x040056C2 RID: 22210
+        EFFECT_KEEP_PAIN_DP_DOWN_03,
+        // Token: 0x040056C3 RID: 22211
+        EFFECT_KEEP_PAIN = 50300,
+        // Token: 0x040056C4 RID: 22212
+        RECOVERY_BRAWLER = 400,
+        // Token: 0x040056C5 RID: 22213
+        BASIC_ATK_DOGFIGHT_01,
+        // Token: 0x040056C6 RID: 22214
+        BASIC_ATK_DOGFIGHT_02,
+        // Token: 0x040056C7 RID: 22215
+        BASIC_ATK_DOGFIGHT_03,
+        // Token: 0x040056C8 RID: 22216
+        ADD_DOGFIGHT = 411,
+        // Token: 0x040056C9 RID: 22217
+        EFFECT_DOGFIGHT = 421,
+        // Token: 0x040056CA RID: 22218
+        REMOVE_DOGFIGHT = 431,
+        // Token: 0x040056CB RID: 22219
+        ADD_PROMOTION = 500,
+        // Token: 0x040056CC RID: 22220
+        ADD_PROMOTION_ATK_UP,
+        // Token: 0x040056CD RID: 22221
+        REMOVE_PROMOTION,
+        // Token: 0x040056CE RID: 22222
+        EFFECT_PROMOTION,
+        // Token: 0x040056CF RID: 22223
+        EFFECT_PROMOTION_ATK_UP,
+        // Token: 0x040056D0 RID: 22224
+        BASIC_ATK_CHECK_01 = 511,
+        // Token: 0x040056D1 RID: 22225
+        BASIC_ATK_CHECK_02,
+        // Token: 0x040056D2 RID: 22226
+        BASIC_ATK_CHECK_03,
+        // Token: 0x040056D3 RID: 22227
+        ADD_CHECK = 521,
+        // Token: 0x040056D4 RID: 22228
+        EFFECT_DRAW_CARD,
+        // Token: 0x040056D5 RID: 22229
+        REMOVE_DRAW_CARD,
+        // Token: 0x040056D6 RID: 22230
+        ADD_COOKING = 601,
+        // Token: 0x040056D7 RID: 22231
+        EFFECT_COOKING,
+        // Token: 0x040056D8 RID: 22232
+        BASIC_ATK_SPICY_01 = 611,
+        // Token: 0x040056D9 RID: 22233
+        BASIC_ATK_SPICY_02,
+        // Token: 0x040056DA RID: 22234
+        BASIC_ATK_SPICY_03,
+        // Token: 0x040056DB RID: 22235
+        SPICY_HP_DOWN_01 = 621,
+        // Token: 0x040056DC RID: 22236
+        SPICY_HP_DOWN_02,
+        // Token: 0x040056DD RID: 22237
+        SPICY_HP_DOWN_03,
+        // Token: 0x040056DE RID: 22238
+        ADD_ATK_SPICY_01 = 631,
+        // Token: 0x040056DF RID: 22239
+        ADD_ATK_SPICY_02,
+        // Token: 0x040056E0 RID: 22240
+        ADD_ATK_SPICY_03,
+        // Token: 0x040056E1 RID: 22241
+        ADD_HOMERUN = 701,
+        // Token: 0x040056E2 RID: 22242
+        EFFECT_HOMERUN,
+        // Token: 0x040056E3 RID: 22243
+        ADD_CLUTH_HITTER = 711,
+        // Token: 0x040056E4 RID: 22244
+        EFFECT_CLUTH_HITTER,
+        // Token: 0x040056E5 RID: 22245
+        BASIC_ATK_CLUTH_HITTER_01 = 721,
+        // Token: 0x040056E6 RID: 22246
+        BASIC_ATK_CLUTH_HITTER_02,
+        // Token: 0x040056E7 RID: 22247
+        BASIC_ATK_CLUTH_HITTER_03,
+        // Token: 0x040056E8 RID: 22248
+        REMOVE_CLUTH_HITTER = 731,
+        // Token: 0x040056E9 RID: 22249
+        ADD_ADJUSTING = 801,
+        // Token: 0x040056EA RID: 22250
+        EFFECT_ADJUSTING,
+        // Token: 0x040056EB RID: 22251
+        REMOVE_ADJUSTING,
+        // Token: 0x040056EC RID: 22252
+        BASIC_ATK_UCHI_OTOSHI_01 = 811,
+        // Token: 0x040056ED RID: 22253
+        BASIC_ATK_UCHI_OTOSHI_02,
+        // Token: 0x040056EE RID: 22254
+        BASIC_ATK_UCHI_OTOSHI_03,
+        // Token: 0x040056EF RID: 22255
+        ADD_ATK_UCHI_OTOSHI_01,
+        // Token: 0x040056F0 RID: 22256
+        ADD_ATK_UCHI_OTOSHI_02,
+        // Token: 0x040056F1 RID: 22257
+        ADD_ATK_UCHI_OTOSHI_03,
+        // Token: 0x040056F2 RID: 22258
+        ADD_NOODLY_FINGERS_01 = 821,
+        // Token: 0x040056F3 RID: 22259
+        ADD_NOODLY_FINGERS_02,
+        // Token: 0x040056F4 RID: 22260
+        ADD_NOODLY_FINGERS_03,
+        // Token: 0x040056F5 RID: 22261
+        EFFECT_NOODY_FINGERS_01 = 831,
+        // Token: 0x040056F6 RID: 22262
+        EFFECT_NOODY_FINGERS_02,
+        // Token: 0x040056F7 RID: 22263
+        EFFECT_NOODY_FINGERS_03,
+        // Token: 0x040056F8 RID: 22264
+        ADD_TOUGH = 901,
+        // Token: 0x040056F9 RID: 22265
+        EFFECT_TOUGH,
+        // Token: 0x040056FA RID: 22266
+        BASIC_ATK_ONE_VS_17_01 = 911,
+        // Token: 0x040056FB RID: 22267
+        BASIC_ATK_ONE_VS_17_02,
+        // Token: 0x040056FC RID: 22268
+        BASIC_ATK_ONE_VS_17_03,
+        // Token: 0x040056FD RID: 22269
+        ADD_ATK_ONE_VS_17 = 921,
+        // Token: 0x040056FE RID: 22270
+        ADD_HUNTING_TIME = 1001,
+        // Token: 0x040056FF RID: 22271
+        EFFECT_HUNTING_TIME,
+        // Token: 0x04005700 RID: 22272
+        BASIC_ATK_LEGSHOT_01 = 1011,
+        // Token: 0x04005701 RID: 22273
+        BASIC_ATK_LEGSHOT_02,
+        // Token: 0x04005702 RID: 22274
+        BASIC_ATK_LEGSHOT_03,
+        // Token: 0x04005703 RID: 22275
+        ADD_SLOWED_01 = 1021,
+        // Token: 0x04005704 RID: 22276
+        ADD_SLOWED_02,
+        // Token: 0x04005705 RID: 22277
+        ADD_SLOWED_03,
+        // Token: 0x04005706 RID: 22278
+        EFFECT_SLOWED_01 = 1031,
+        // Token: 0x04005707 RID: 22279
+        EFFECT_SLOWED_02,
+        // Token: 0x04005708 RID: 22280
+        EFFECT_SLOWED_03,
+        // Token: 0x04005709 RID: 22281
+        ADD_OCTAGON_FEVER = 1101,
+        // Token: 0x0400570A RID: 22282
+        EFFECT_OCTAGON_FEVER,
+        // Token: 0x0400570B RID: 22283
+        ADD_ARDENT_WILL,
+        // Token: 0x0400570C RID: 22284
+        EFFECT_ARDENT_WILL,
+        // Token: 0x0400570D RID: 22285
+        REMOVE_ARDENT_WILL,
+        // Token: 0x0400570E RID: 22286
+        BASIC_ATK_HOT_BLOODED_COMBO_01 = 1111,
+        // Token: 0x0400570F RID: 22287
+        BASIC_ATK_HOT_BLOODED_COMBO_02,
+        // Token: 0x04005710 RID: 22288
+        BASIC_ATK_HOT_BLOODED_COMBO_03,
+        // Token: 0x04005711 RID: 22289
+        ADD_ATK_HOT_BLOODED_COMBO_01,
+        // Token: 0x04005712 RID: 22290
+        ADD_ATK_HOT_BLOODED_COMBO_02,
+        // Token: 0x04005713 RID: 22291
+        ADD_GROGGY,
+        // Token: 0x04005714 RID: 22292
+        EFFECT_GROGGY = 1121,
+        // Token: 0x04005715 RID: 22293
+        ADD_STIGMA = 1201,
+        // Token: 0x04005716 RID: 22294
+        EFFECT_STIGMA,
+        // Token: 0x04005717 RID: 22295
+        REMOVE_STIGMA = 1212,
+        // Token: 0x04005718 RID: 22296
+        BASIC_ATK_JUDGEMENT_01 = 1221,
+        // Token: 0x04005719 RID: 22297
+        BASIC_ATK_JUDGEMENT_02,
+        // Token: 0x0400571A RID: 22298
+        BASIC_ATK_JUDGEMENT_03,
+        // Token: 0x0400571B RID: 22299
+        ADD_ATK_JUDGEMENT_01 = 1231,
+        // Token: 0x0400571C RID: 22300
+        ADD_ATK_JUDGEMENT_02,
+        // Token: 0x0400571D RID: 22301
+        ADD_ATK_JUDGEMENT_03,
+        // Token: 0x0400571E RID: 22302
+        ADD_SHRINE_OF_CRRPUTION = 1241,
+        // Token: 0x0400571F RID: 22303
+        EFFECT_SHRINE_OF_CRRPUTION,
+        // Token: 0x04005720 RID: 22304
+        ADD_STUNT_ACTING = 1301,
+        // Token: 0x04005721 RID: 22305
+        EFFECT_STUNT_ACTING,
+        // Token: 0x04005722 RID: 22306
+        BASIC_ATK_LIVER_BLOW_01 = 1311,
+        // Token: 0x04005723 RID: 22307
+        BASIC_ATK_LIVER_BLOW_02,
+        // Token: 0x04005724 RID: 22308
+        BASIC_ATK_LIVER_BLOW_03,
+        // Token: 0x04005725 RID: 22309
+        ADD_LIVER_BREAK = 1321,
+        // Token: 0x04005726 RID: 22310
+        EFFECT_LIVER_BREAK,
+        // Token: 0x04005727 RID: 22311
+        ADD_ATK_LIVER_BREAK_01 = 1331,
+        // Token: 0x04005728 RID: 22312
+        ADD_ATK_LIVER_BREAK_02,
+        // Token: 0x04005729 RID: 22313
+        ADD_ATK_LIVER_BREAK_03,
+        // Token: 0x0400572A RID: 22314
+        ADD_PUNISHMENT = 1402,
+        // Token: 0x0400572B RID: 22315
+        BASIC_ATK_EYE_OF_AZRAEL_01 = 1421,
+        // Token: 0x0400572C RID: 22316
+        BASIC_ATK_EYE_OF_AZRAEL_02,
+        // Token: 0x0400572D RID: 22317
+        BASIC_ATK_EYE_OF_AZRAEL_03,
+        // Token: 0x0400572E RID: 22318
+        BASIC_ATK_PUNISHMENT = 1431,
+        // Token: 0x0400572F RID: 22319
+        ADD_UNNERVED = 1501,
+        // Token: 0x04005730 RID: 22320
+        EFFECT_UNNERVED,
+        // Token: 0x04005731 RID: 22321
+        ADD_MALICE = 1511,
+        // Token: 0x04005732 RID: 22322
+        EFFECT_MALICE = 1514,
+        // Token: 0x04005733 RID: 22323
+        ADD_MASTERY_DISTORTED_MALICE = 1521,
+        // Token: 0x04005734 RID: 22324
+        BASIC_ATK_EASYSHOT_01 = 1531,
+        // Token: 0x04005735 RID: 22325
+        BASIC_ATK_EASYSHOT_02,
+        // Token: 0x04005736 RID: 22326
+        BASIC_ATK_EASYSHOT_03,
+        // Token: 0x04005737 RID: 22327
+        ADD_ATK_EASYSHOT_01 = 1541,
+        // Token: 0x04005738 RID: 22328
+        ADD_ATK_EASYSHOT_02,
+        // Token: 0x04005739 RID: 22329
+        ADD_ATK_EASYSHOT_03,
+        // Token: 0x0400573A RID: 22330
+        REMOVE_RANDOM_CARD_1 = 1551,
+        // Token: 0x0400573B RID: 22331
+        ADD_DUENDE = 1601,
+        // Token: 0x0400573C RID: 22332
+        EFFECT_DUENDE,
+        // Token: 0x0400573D RID: 22333
+        REMOVE_LADRON_DE_ALMAS = 1641,
+        // Token: 0x0400573E RID: 22334
+        REMOVE_ALMA_LADRON = 1671,
+        // Token: 0x0400573F RID: 22335
+        BASIC_ATK_ALMA_LADRON_01 = 1611,
+        // Token: 0x04005740 RID: 22336
+        BASIC_ATK_ALMA_LADRON_02,
+        // Token: 0x04005741 RID: 22337
+        BASIC_ATK_ALMA_LADRON_03,
+        // Token: 0x04005742 RID: 22338
+        ADD_LADRON_DE_ALMAS_01 = 1621,
+        // Token: 0x04005743 RID: 22339
+        ADD_LADRON_DE_ALMAS_02,
+        // Token: 0x04005744 RID: 22340
+        ADD_LADRON_DE_ALMAS_03,
+        // Token: 0x04005745 RID: 22341
+        EFFECT_LADRON_DE_ALMAS_01 = 1631,
+        // Token: 0x04005746 RID: 22342
+        EFFECT_LADRON_DE_ALMAS_02,
+        // Token: 0x04005747 RID: 22343
+        EFFECT_LADRON_DE_ALMAS_03,
+        // Token: 0x04005748 RID: 22344
+        ADD_ALMA_LADRON_01 = 1651,
+        // Token: 0x04005749 RID: 22345
+        ADD_ALMA_LADRON_02,
+        // Token: 0x0400574A RID: 22346
+        ADD_ALMA_LADRON_03,
+        // Token: 0x0400574B RID: 22347
+        EFFECT_ALMA_LADRON_01 = 1661,
+        // Token: 0x0400574C RID: 22348
+        EFFECT_ALMA_LADRON_02,
+        // Token: 0x0400574D RID: 22349
+        EFFECT_ALMA_LADRON_03,
+        // Token: 0x0400574E RID: 22350
+        ADD_CHEERUP = 1701,
+        // Token: 0x0400574F RID: 22351
+        EFFECT_CHEERUP,
+        // Token: 0x04005750 RID: 22352
+        BASIC_ATK_CHANGE_01 = 1711,
+        // Token: 0x04005751 RID: 22353
+        BASIC_ATK_CHANGE_02,
+        // Token: 0x04005752 RID: 22354
+        BASIC_ATK_CHANGE_03,
+        // Token: 0x04005753 RID: 22355
+        ADD_CHANGE_01 = 1721,
+        // Token: 0x04005754 RID: 22356
+        ADD_CHANGE_02,
+        // Token: 0x04005755 RID: 22357
+        ADD_CHANGE_03,
+        // Token: 0x04005756 RID: 22358
+        RECOVERY_CHANGE_01 = 1741,
+        // Token: 0x04005757 RID: 22359
+        RECOVERY_CHANGE_02,
+        // Token: 0x04005758 RID: 22360
+        RECOVERY_CHANGE_03,
+        // Token: 0x04005759 RID: 22361
+        ADD_PLAY_DEAD = 1801,
+        // Token: 0x0400575A RID: 22362
+        RECOVERY_PLAY_DEAD,
+        // Token: 0x0400575B RID: 22363
+        EFFECT_PLAY_DEAD,
+        // Token: 0x0400575C RID: 22364
+        ADD_REVENGE = 1811,
+        // Token: 0x0400575D RID: 22365
+        CHANGE_REVENGE,
+        // Token: 0x0400575E RID: 22366
+        EFFECT_REVENGE,
+        // Token: 0x0400575F RID: 22367
+        BASIC_ATK_REVENGE_PLAY_01 = 1821,
+        // Token: 0x04005760 RID: 22368
+        BASIC_ATK_REVENGE_PLAY_02,
+        // Token: 0x04005761 RID: 22369
+        BASIC_ATK_REVENGE_PLAY_03,
+        // Token: 0x04005762 RID: 22370
+        ADD_ATK_REVENGE_PLAY = 1831,
+        // Token: 0x04005763 RID: 22371
+        ADD_RECOVERY_REVENGE_PLAY = 1841,
+        // Token: 0x04005764 RID: 22372
+        REMOVE_REVENGE = 1851,
+        // Token: 0x04005765 RID: 22373
+        BASIC_ATK_BLAZE_01 = 1901,
+        // Token: 0x04005766 RID: 22374
+        BASIC_ATK_BLAZE_02,
+        // Token: 0x04005767 RID: 22375
+        BASIC_ATK_BLAZE_03,
+        // Token: 0x04005768 RID: 22376
+        ADD_BLAZE_01 = 1911,
+        // Token: 0x04005769 RID: 22377
+        ADD_BLAZE_02,
+        // Token: 0x0400576A RID: 22378
+        ADD_BLAZE_03,
+        // Token: 0x0400576B RID: 22379
+        REMOVE_BLAZE_01,
+        // Token: 0x0400576C RID: 22380
+        REMOVE_BLAZE_02,
+        // Token: 0x0400576D RID: 22381
+        REMOVE_BLAZE_03,
+        // Token: 0x0400576E RID: 22382
+        EFFECT_BLAZE_01,
+        // Token: 0x0400576F RID: 22383
+        EFFECT_BLAZE_02,
+        // Token: 0x04005770 RID: 22384
+        EFFECT_BLAZE_03,
+        // Token: 0x04005771 RID: 22385
+        ADD_ARSON_01 = 1921,
+        // Token: 0x04005772 RID: 22386
+        ADD_ARSON_02,
+        // Token: 0x04005773 RID: 22387
+        ADD_ARSON_03,
+        // Token: 0x04005774 RID: 22388
+        EFFECT_ARSON_01,
+        // Token: 0x04005775 RID: 22389
+        EFFECT_ARSON_02,
+        // Token: 0x04005776 RID: 22390
+        EFFECT_ARSON_03,
+        // Token: 0x04005777 RID: 22391
+        ADD_ATK_BLAZE_01 = 1931,
+        // Token: 0x04005778 RID: 22392
+        ADD_ATK_BLAZE_02,
+        // Token: 0x04005779 RID: 22393
+        ADD_ATK_BLAZE_03,
+        // Token: 0x0400577A RID: 22394
+        ADD_MARIONETTE = 2001,
+        // Token: 0x0400577B RID: 22395
+        EFFECT_MARIONETTE,
+        // Token: 0x0400577C RID: 22396
+        REMOVE_MARIONETTE,
+        // Token: 0x0400577D RID: 22397
+        BASIC_ATK_PULLING_STRINGS_01 = 2011,
+        // Token: 0x0400577E RID: 22398
+        BASIC_ATK_PULLING_STRINGS_02,
+        // Token: 0x0400577F RID: 22399
+        BASIC_ATK_PULLING_STRINGS_03,
+        // Token: 0x04005780 RID: 22400
+        ADD_PULLING_STRINGS_01 = 2021,
+        // Token: 0x04005781 RID: 22401
+        ADD_PULLING_STRINGS_02,
+        // Token: 0x04005782 RID: 22402
+        ADD_PULLING_STRINGS_03,
+        // Token: 0x04005783 RID: 22403
+        EFFECT_PULLING_STRINGS_01 = 2031,
+        // Token: 0x04005784 RID: 22404
+        EFFECT_PULLING_STRINGS_02,
+        // Token: 0x04005785 RID: 22405
+        EFFECT_PULLING_STRINGS_03,
+        // Token: 0x04005786 RID: 22406
+        ADD_HUNTERS_SIGHT = 2101,
+        // Token: 0x04005787 RID: 22407
+        EFFECT_HUNTERS_SIGHT,
+        // Token: 0x04005788 RID: 22408
+        BASIC_ATK_BULLSEYE_01 = 2111,
+        // Token: 0x04005789 RID: 22409
+        BASIC_ATK_BULLSEYE_02,
+        // Token: 0x0400578A RID: 22410
+        BASIC_ATK_BULLSEYE_03,
+        // Token: 0x0400578B RID: 22411
+        ADD_ATK_BULLSEYE_01 = 2121,
+        // Token: 0x0400578C RID: 22412
+        ADD_ATK_BULLSEYE_02,
+        // Token: 0x0400578D RID: 22413
+        ADD_ATK_BULLSEYE_03,
+        // Token: 0x0400578E RID: 22414
+        ADD_NO_MERCY = 2201,
+        // Token: 0x0400578F RID: 22415
+        EFFECT_NO_MERCY,
+        // Token: 0x04005790 RID: 22416
+        EFFECT_NO_MERCY_CRITICAL_HAPPEN,
+        // Token: 0x04005791 RID: 22417
+        REMOVE_NO_MERCY,
+        // Token: 0x04005792 RID: 22418
+        REMOVE_NO_MERCY_STACK,
+        // Token: 0x04005793 RID: 22419
+        ADD_NO_MERCY_CRITICAL_HAPPEN,
+        // Token: 0x04005794 RID: 22420
+        BASIC_ATK_PHONY_DEAL_01 = 2211,
+        // Token: 0x04005795 RID: 22421
+        BASIC_ATK_PHONY_DEAL_02,
+        // Token: 0x04005796 RID: 22422
+        BASIC_ATK_PHONY_DEAL_03,
+        // Token: 0x04005797 RID: 22423
+        ADD_ENEMY_PHONY_DEAL = 2221,
+        // Token: 0x04005798 RID: 22424
+        EFFECT_ENEMY_PHONY_DEAL,
+        // Token: 0x04005799 RID: 22425
+        RECOVERY_ACTION_COST_MYSELF_PHONY_DEAL_01 = 2241,
+        // Token: 0x0400579A RID: 22426
+        RECOVERY_ACTION_COST_MYSELF_PHONY_DEAL_02,
+        // Token: 0x0400579B RID: 22427
+        RECOVERY_ACTION_COST_MYSELF_PHONY_DEAL_03,
+        // Token: 0x0400579C RID: 22428
+        ADD_MANZAK = 2301,
+        // Token: 0x0400579D RID: 22429
+        EFFECT_MANZAK,
+        // Token: 0x0400579E RID: 22430
+        BASIC_ATK_BALCI_01 = 2311,
+        // Token: 0x0400579F RID: 22431
+        BASIC_ATK_BALCI_02,
+        // Token: 0x040057A0 RID: 22432
+        BASIC_ATK_BALCI_03,
+        // Token: 0x040057A1 RID: 22433
+        ADD_ATK_BALCI_01_1 = 2321,
+        // Token: 0x040057A2 RID: 22434
+        ADD_ATK_BALCI_02_1,
+        // Token: 0x040057A3 RID: 22435
+        ADD_ATK_BALCI_02_2,
+        // Token: 0x040057A4 RID: 22436
+        ADD_ATK_BALCI_03_1,
+        // Token: 0x040057A5 RID: 22437
+        ADD_ATK_BALCI_03_2,
+        // Token: 0x040057A6 RID: 22438
+        ADD_ATK_BALCI_03_3,
+        // Token: 0x040057A7 RID: 22439
+        ADD_WEAPON_POLISHING = 2401,
+        // Token: 0x040057A8 RID: 22440
+        EFFECT_WEAPON_POLISHING,
+        // Token: 0x040057A9 RID: 22441
+        REMOVE_WEAPON_POLISHING,
+        // Token: 0x040057AA RID: 22442
+        ADD_FIORA_TOUCH = 2411,
+        // Token: 0x040057AB RID: 22443
+        EFFECT_FIORA_TOUCH,
+        // Token: 0x040057AC RID: 22444
+        BASIC_ATK_CONTRE_ATTAQUE_01 = 2421,
+        // Token: 0x040057AD RID: 22445
+        BASIC_ATK_CONTRE_ATTAQUE_02,
+        // Token: 0x040057AE RID: 22446
+        BASIC_ATK_CONTRE_ATTAQUE_03,
+        // Token: 0x040057AF RID: 22447
+        ADD_CONTRE_ATTAQUE_01 = 2431,
+        // Token: 0x040057B0 RID: 22448
+        ADD_CONTRE_ATTAQUE_02,
+        // Token: 0x040057B1 RID: 22449
+        ADD_CONTRE_ATTAQUE_03,
+        // Token: 0x040057B2 RID: 22450
+        EFFECT_CONTRE_ATTAQUE_01 = 2441,
+        // Token: 0x040057B3 RID: 22451
+        EFFECT_CONTRE_ATTAQUE_02,
+        // Token: 0x040057B4 RID: 22452
+        EFFECT_CONTRE_ATTAQUE_03,
+        // Token: 0x040057B5 RID: 22453
+        ADD_PEACE_MAKER = 2501,
+        // Token: 0x040057B6 RID: 22454
+        ADD_PEACE_ZONE = 2511,
+        // Token: 0x040057B7 RID: 22455
+        EFFECT_PEACE_ZONE,
+        // Token: 0x040057B8 RID: 22456
+        BASIC_ATK_DISSONANCE_01 = 2521,
+        // Token: 0x040057B9 RID: 22457
+        BASIC_ATK_DISSONANCE_02,
+        // Token: 0x040057BA RID: 22458
+        BASIC_ATK_DISSONANCE_03,
+        // Token: 0x040057BB RID: 22459
+        ADD_DISSONANCE_01 = 2531,
+        // Token: 0x040057BC RID: 22460
+        ADD_DISSONANCE_02,
+        // Token: 0x040057BD RID: 22461
+        ADD_DISSONANCE_03,
+        // Token: 0x040057BE RID: 22462
+        EFFECT_DISSONANCE_01 = 2541,
+        // Token: 0x040057BF RID: 22463
+        EFFECT_DISSONANCE_02,
+        // Token: 0x040057C0 RID: 22464
+        EFFECT_DISSONANCE_03,
+        // Token: 0x040057C1 RID: 22465
+        RECOVERY_MUKBANG = 2602,
+        // Token: 0x040057C2 RID: 22466
+        EFFECT_SUBSCRIBE,
+        // Token: 0x040057C3 RID: 22467
+        REMOVE_SUBSCRIBE,
+        // Token: 0x040057C4 RID: 22468
+        BASIC_ATK_DONATION_01 = 2611,
+        // Token: 0x040057C5 RID: 22469
+        BASIC_ATK_DONATION_02,
+        // Token: 0x040057C6 RID: 22470
+        BASIC_ATK_DONATION_03,
+        // Token: 0x040057C7 RID: 22471
+        ADD_SUBSCRIBE_01 = 2621,
+        // Token: 0x040057C8 RID: 22472
+        ADD_SUBSCRIBE_02,
+        // Token: 0x040057C9 RID: 22473
+        ADD_ONAIR = 2631,
+        // Token: 0x040057CA RID: 22474
+        EFFECT_ONAIR,
+        // Token: 0x040057CB RID: 22475
+        RECOVERY_JUSTICE = 2701,
+        // Token: 0x040057CC RID: 22476
+        REMOVE_DEBUFF_FOR_JUSTICE,
+        // Token: 0x040057CD RID: 22477
+        EFFECT_JUSTICE,
+        // Token: 0x040057CE RID: 22478
+        REMOVE_JUSTICE,
+        // Token: 0x040057CF RID: 22479
+        BASIC_ATK_DOUBLE_SHOT_01_1 = 2711,
+        // Token: 0x040057D0 RID: 22480
+        BASIC_ATK_DOUBLE_SHOT_01_2,
+        // Token: 0x040057D1 RID: 22481
+        BASIC_ATK_DOUBLE_SHOT_02_1 = 2721,
+        // Token: 0x040057D2 RID: 22482
+        BASIC_ATK_DOUBLE_SHOT_02_2,
+        // Token: 0x040057D3 RID: 22483
+        BASIC_ATK_DOUBLE_SHOT_03_1 = 2731,
+        // Token: 0x040057D4 RID: 22484
+        BASIC_ATK_DOUBLE_SHOT_03_2,
+        // Token: 0x040057D5 RID: 22485
+        ADD_JUSTICE_01 = 2741,
+        // Token: 0x040057D6 RID: 22486
+        ADD_JUSTICE_02,
+        // Token: 0x040057D7 RID: 22487
+        ADD_JUSTICE_03,
+        // Token: 0x040057D8 RID: 22488
+        ADD_ARCHAEOLOGICAL_ANALYSIS = 2801,
+        // Token: 0x040057D9 RID: 22489
+        EFFECT_ARCHAEOLOGICAL_ANALYSIS,
+        // Token: 0x040057DA RID: 22490
+        ADD_ARCHAEOLOGICAL_DISCOVERY = 2811,
+        // Token: 0x040057DB RID: 22491
+        EFFECT_ARCHAEOLOGICAL_DISCOVERY,
+        // Token: 0x040057DC RID: 22492
+        REMOVE_ARCHAEOLOGICAL_DISCOVERY,
+        // Token: 0x040057DD RID: 22493
+        BASIC_ATK_NO_EXCAVATION_01 = 2821,
+        // Token: 0x040057DE RID: 22494
+        BASIC_ATK_NO_EXCAVATION_02,
+        // Token: 0x040057DF RID: 22495
+        BASIC_ATK_NO_EXCAVATION_03,
+        // Token: 0x040057E0 RID: 22496
+        ADD_CONSERVATION_OBJECT_01 = 2831,
+        // Token: 0x040057E1 RID: 22497
+        ADD_CONSERVATION_OBJECT_02,
+        // Token: 0x040057E2 RID: 22498
+        ADD_CONSERVATION_OBJECT_03,
+        // Token: 0x040057E3 RID: 22499
+        EFFECT_CONSERVATION_OBJECT_01 = 2841,
+        // Token: 0x040057E4 RID: 22500
+        EFFECT_CONSERVATION_OBJECT_02,
+        // Token: 0x040057E5 RID: 22501
+        EFFECT_CONSERVATION_OBJECT_03,
+        // Token: 0x040057E6 RID: 22502
+        ADD_CONSECRATION = 2901,
+        // Token: 0x040057E7 RID: 22503
+        EFFECT_CONCENRATION,
+        // Token: 0x040057E8 RID: 22504
+        BASIC_ATK_SERMON_01 = 2911,
+        // Token: 0x040057E9 RID: 22505
+        BASIC_ATK_SERMON_02,
+        // Token: 0x040057EA RID: 22506
+        BASIC_ATK_SERMON_03,
+        // Token: 0x040057EB RID: 22507
+        ADD_ATK_SERMON_01 = 2921,
+        // Token: 0x040057EC RID: 22508
+        ADD_ATK_SERMON_02,
+        // Token: 0x040057ED RID: 22509
+        ADD_ATK_SERMON_03,
+        // Token: 0x040057EE RID: 22510
+        ADD_BLOOD_TRANSFUSION = 3001,
+        // Token: 0x040057EF RID: 22511
+        EFFECT_BLOOD_TRANSFUSION,
+        // Token: 0x040057F0 RID: 22512
+        ADD_ATK_BLOOD_VEIL,
+        // Token: 0x040057F1 RID: 22513
+        REMOVE_BLOOD_TRANSFUSION,
+        // Token: 0x040057F2 RID: 22514
+        BASIC_ATK_BLOODY_HANDS_01 = 3011,
+        // Token: 0x040057F3 RID: 22515
+        ADD_ATK_BLOODY_HANDS_01 = 3021,
+        // Token: 0x040057F4 RID: 22516
+        BLOODY_HANDS_HP_DOWN_01 = 3031,
+        // Token: 0x040057F5 RID: 22517
+        BASIC_ATK_BLOODY_HANDS_02 = 3012,
+        // Token: 0x040057F6 RID: 22518
+        ADD_ATK_BLOODY_HANDS_02 = 3022,
+        // Token: 0x040057F7 RID: 22519
+        BLOODY_HANDS_HP_DOWN_02 = 3032,
+        // Token: 0x040057F8 RID: 22520
+        BASIC_ATK_BLOODY_HANDS_03 = 3013,
+        // Token: 0x040057F9 RID: 22521
+        ADD_ATK_BLOODY_HANDS_03 = 3023,
+        // Token: 0x040057FA RID: 22522
+        BLOODY_HANDS_HP_DOWN_03 = 3033,
+        // Token: 0x040057FB RID: 22523
+        ADD_LEEHUAZI = 3101,
+        // Token: 0x040057FC RID: 22524
+        EFFECT_LEEHUAZI,
+        // Token: 0x040057FD RID: 22525
+        EFFECT_LEEHUAZI_STACK,
+        // Token: 0x040057FE RID: 22526
+        REMOVE_LEEHUAZI,
+        // Token: 0x040057FF RID: 22527
+        BASIC_ATK_DRUNKEN_MASTER_01 = 3111,
+        // Token: 0x04005800 RID: 22528
+        BASIC_ATK_DRUNKEN_MASTER_02 = 3121,
+        // Token: 0x04005801 RID: 22529
+        BASIC_ATK_DRUNKEN_MASTER_03 = 3131,
+        // Token: 0x04005802 RID: 22530
+        ADD_ATK_DRUNKEN_MASTER = 3141,
+        // Token: 0x04005803 RID: 22531
+        BOSS_ADD_PUNISHMENT = 11402,
+        // Token: 0x04005804 RID: 22532
+        BOSS_BASIC_ATK_EYE_OF_AZRAEL_01 = 11421,
+        // Token: 0x04005805 RID: 22533
+        BOSS_BASIC_ATK_EYE_OF_AZRAEL_02,
+        // Token: 0x04005806 RID: 22534
+        BOSS_BASIC_ATK_EYE_OF_AZRAEL_03,
+        // Token: 0x04005807 RID: 22535
+        BOSS_BASIC_ATK_PUNISHMENT = 11431,
+        // Token: 0x04005808 RID: 22536
+        BOSS_ADD_STIGMA = 11201,
+        // Token: 0x04005809 RID: 22537
+        BOSS_EFFECT_STIGMA,
+        // Token: 0x0400580A RID: 22538
+        BOSS_REMOVE_STIGMA = 11212,
+        // Token: 0x0400580B RID: 22539
+        BOSS_BASIC_ATK_JUDGEMENT_01 = 11221,
+        // Token: 0x0400580C RID: 22540
+        BOSS_BASIC_ATK_JUDGEMENT_02,
+        // Token: 0x0400580D RID: 22541
+        BOSS_BASIC_ATK_JUDGEMENT_03,
+        // Token: 0x0400580E RID: 22542
+        BOSS_ADD_ATK_JUDGEMENT_01 = 11231,
+        // Token: 0x0400580F RID: 22543
+        BOSS_ADD_ATK_JUDGEMENT_02,
+        // Token: 0x04005810 RID: 22544
+        BOSS_ADD_ATK_JUDGEMENT_03,
+        // Token: 0x04005811 RID: 22545
+        BOSS_ADD_SHRINE_OF_CRRPUTION = 11241,
+        // Token: 0x04005812 RID: 22546
+        BOSS_EFFECT_SHRINE_OF_CRRPUTION,
+        // Token: 0x04005813 RID: 22547
+        BOSS_ADD_HUNTING_TIME = 11001,
+        // Token: 0x04005814 RID: 22548
+        BOSS_EFFECT_HUNTING_TIME,
+        // Token: 0x04005815 RID: 22549
+        BOSS_BASIC_ATK_LEGSHOT_01 = 11011,
+        // Token: 0x04005816 RID: 22550
+        BOSS_BASIC_ATK_LEGSHOT_02,
+        // Token: 0x04005817 RID: 22551
+        BOSS_BASIC_ATK_LEGSHOT_03,
+        // Token: 0x04005818 RID: 22552
+        BOSS_ADD_SLOWED_01 = 11021,
+        // Token: 0x04005819 RID: 22553
+        BOSS_ADD_SLOWED_02,
+        // Token: 0x0400581A RID: 22554
+        BOSS_ADD_SLOWED_03,
+        // Token: 0x0400581B RID: 22555
+        BOSS_EFFECT_SLOWED_01 = 11031,
+        // Token: 0x0400581C RID: 22556
+        BOSS_EFFECT_SLOWED_02,
+        // Token: 0x0400581D RID: 22557
+        BOSS_EFFECT_SLOWED_03,
+        // Token: 0x0400581E RID: 22558
+        BOSS_ADD_BLOOD_FEST = 10100,
+        // Token: 0x0400581F RID: 22559
+        BOSS_ADD_EFFECT_TOY,
+        // Token: 0x04005820 RID: 22560
+        BOSS_BASIC_ATK_HIDE_AND_SEEK_01 = 10121,
+        // Token: 0x04005821 RID: 22561
+        BOSS_BASIC_ATK_HIDE_AND_SEEK_02,
+        // Token: 0x04005822 RID: 22562
+        BOSS_BASIC_ATK_HIDE_AND_SEEK_03,
+        // Token: 0x04005823 RID: 22563
+        BOSS_ADD_ATK_HIDE_AND_SEEK_01 = 10141,
+        // Token: 0x04005824 RID: 22564
+        BOSS_ADD_ATK_HIDE_AND_SEEK_02,
+        // Token: 0x04005825 RID: 22565
+        BOSS_ADD_ATK_HIDE_AND_SEEK_03,
+        // Token: 0x04005826 RID: 22566
+        BOSS_EFFECT_BLOOD_FEST = 10131,
+        // Token: 0x04005827 RID: 22567
+        BOSS_EFFECT_TOY,
+        // Token: 0x04005828 RID: 22568
+        BOSS_ADD_STUNT_ACTING = 11301,
+        // Token: 0x04005829 RID: 22569
+        BOSS_EFFECT_STUNT_ACTING,
+        // Token: 0x0400582A RID: 22570
+        BOSS_BASIC_ATK_LIVER_BLOW_01 = 11311,
+        // Token: 0x0400582B RID: 22571
+        BOSS_BASIC_ATK_LIVER_BLOW_02,
+        // Token: 0x0400582C RID: 22572
+        BOSS_BASIC_ATK_LIVER_BLOW_03,
+        // Token: 0x0400582D RID: 22573
+        BOSS_ADD_LIVER_BREAK = 11321,
+        // Token: 0x0400582E RID: 22574
+        BOSS_EFFECT_LIVER_BREAK,
+        // Token: 0x0400582F RID: 22575
+        BOSS_ADD_ATK_LIVER_BREAK_01 = 11331,
+        // Token: 0x04005830 RID: 22576
+        BOSS_ADD_ATK_LIVER_BREAK_02,
+        // Token: 0x04005831 RID: 22577
+        BOSS_ADD_ATK_LIVER_BREAK_03,
+        // Token: 0x04005832 RID: 22578
+        BOSS_ADD_PROMOTION = 10500,
+        // Token: 0x04005833 RID: 22579
+        BOSS_ADD_PROMOTION_ATK_UP,
+        // Token: 0x04005834 RID: 22580
+        BOSS_REMOVE_PROMOTION,
+        // Token: 0x04005835 RID: 22581
+        BOSS_EFFECT_PROMOTION,
+        // Token: 0x04005836 RID: 22582
+        BOSS_EFFECT_PROMOTION_ATK_UP,
+        // Token: 0x04005837 RID: 22583
+        BOSS_BASIC_ATK_CHECK_01 = 10511,
+        // Token: 0x04005838 RID: 22584
+        BOSS_BASIC_ATK_CHECK_02,
+        // Token: 0x04005839 RID: 22585
+        BOSS_BASIC_ATK_CHECK_03,
+        // Token: 0x0400583A RID: 22586
+        BOSS_ADD_CHECK = 10521,
+        // Token: 0x0400583B RID: 22587
+        BOSS_EFFECT_DRAW_CARD,
+        // Token: 0x0400583C RID: 22588
+        BOSS_REMOVE_DRAW_CARD,
+        // Token: 0x0400583D RID: 22589
+        BOSS_RECOVERY_BRAWLER = 10400,
+        // Token: 0x0400583E RID: 22590
+        BOSS_BASIC_ATK_DOGFIGHT_01,
+        // Token: 0x0400583F RID: 22591
+        BOSS_BASIC_ATK_DOGFIGHT_02,
+        // Token: 0x04005840 RID: 22592
+        BOSS_BASIC_ATK_DOGFIGHT_03,
+        // Token: 0x04005841 RID: 22593
+        BOSS_ADD_DOGFIGHT = 10411,
+        // Token: 0x04005842 RID: 22594
+        BOSS_EFFECT_DOGFIGHT = 10421,
+        // Token: 0x04005843 RID: 22595
+        BOSS_REMOVE_DOGFIGHT = 10431,
+        // Token: 0x04005844 RID: 22596
+        BOSS_ADD_PLAY_DEAD = 11801,
+        // Token: 0x04005845 RID: 22597
+        BOSS_RECOVERY_PLAY_DEAD,
+        // Token: 0x04005846 RID: 22598
+        BOSS_EFFECT_PLAY_DEAD,
+        // Token: 0x04005847 RID: 22599
+        BOSS_ADD_REVENGE = 11811,
+        // Token: 0x04005848 RID: 22600
+        BOSS_CHANGE_REVENGE,
+        // Token: 0x04005849 RID: 22601
+        BOSS_EFFECT_REVENGE,
+        // Token: 0x0400584A RID: 22602
+        BOSS_BASIC_ATK_REVENGE_PLAY_01 = 11821,
+        // Token: 0x0400584B RID: 22603
+        BOSS_BASIC_ATK_REVENGE_PLAY_02,
+        // Token: 0x0400584C RID: 22604
+        BOSS_BASIC_ATK_REVENGE_PLAY_03,
+        // Token: 0x0400584D RID: 22605
+        BOSS_ADD_ATK_REVENGE_PLAY = 11831,
+        // Token: 0x0400584E RID: 22606
+        BOSS_ADD_RECOVERY_REVENGE_PLAY = 11841,
+        // Token: 0x0400584F RID: 22607
+        BOSS_REMOVE_REVENGE = 11851,
+        // Token: 0x04005850 RID: 22608
+        ADD_ENHANCE_VF = 20001,
+        // Token: 0x04005851 RID: 22609
+        EFFECT_ENHANCE_VF,
+        // Token: 0x04005852 RID: 22610
+        BASIC_ATK_VF_ATTACK_01 = 20011,
+        // Token: 0x04005853 RID: 22611
+        BASIC_ATK_VF_ATTACK_02,
+        // Token: 0x04005854 RID: 22612
+        BASIC_ATK_VF_ATTACK_03,
+        // Token: 0x04005855 RID: 22613
+        ADD_INJECTION_VF = 20101,
+        // Token: 0x04005856 RID: 22614
+        EFFECT_INJECTION_VF,
+        // Token: 0x04005857 RID: 22615
+        BASIC_ATK_RELEASE_VF_01 = 20111,
+        // Token: 0x04005858 RID: 22616
+        BASIC_ATK_RELEASE_VF_02,
+        // Token: 0x04005859 RID: 22617
+        BASIC_ATK_RELEASE_VF_03,
+        // Token: 0x0400585A RID: 22618
+        RECOVERY_RELEASE_VF_01 = 20121,
+        // Token: 0x0400585B RID: 22619
+        RECOVERY_RELEASE_VF_02,
+        // Token: 0x0400585C RID: 22620
+        RECOVERY_RELEASE_VF_03,
+        // Token: 0x0400585D RID: 22621
+        ADD_NEURASTHENIA = 20201,
+        // Token: 0x0400585E RID: 22622
+        EFFECT_NEURASTHENIA,
+        // Token: 0x0400585F RID: 22623
+        BASIC_ATK_NERVE_ATTACK_01 = 20211,
+        // Token: 0x04005860 RID: 22624
+        BASIC_ATK_NERVE_ATTACK_02,
+        // Token: 0x04005861 RID: 22625
+        BASIC_ATK_NERVE_ATTACK_03,
+        // Token: 0x04005862 RID: 22626
+        ADD2_NEURASTHENIA_01,
+        // Token: 0x04005863 RID: 22627
+        ADD2_NEURASTHENIA_02,
+        // Token: 0x04005864 RID: 22628
+        ADD2_NEURASTHENIA_03,
+        // Token: 0x04005865 RID: 22629
+        PASSIVE_DRUNKEN_AVOID = 133,
+        // Token: 0x04005866 RID: 22630
+        ADDITIONAL_DAMAGE = 50401,
+        // Token: 0x04005867 RID: 22631
+        ADDITIONAL_MASTERY,
+        // Token: 0x04005868 RID: 22632
+        STATUS_AVOID_ATTACK_PLUS = 51001,
+        // Token: 0x04005869 RID: 22633
+        CRITICAL_HAPPEN_FOR_ATK = 50701,
+        // Token: 0x0400586A RID: 22634
+        CRITICAL_DMG_FOR_ATK = 50601,
+        // Token: 0x0400586B RID: 22635
+        DRAIN_DMG_TO_HEALTH,
+        // Token: 0x0400586C RID: 22636
+        BURN_STAMINA = 50501,
+        // Token: 0x0400586D RID: 22637
+        THROW_WEAPON = 50801,
+        // Token: 0x0400586E RID: 22638
+        DOUBLE_ATTACK,
+        // Token: 0x0400586F RID: 22639
+        BLOCK_USE_SKILL = 50901,
+        // Token: 0x04005870 RID: 22640
+        INCR_DMG_FROM_HIT = 51101,
+        // Token: 0x04005871 RID: 22641
+        DECR_DMG_FROM_HIT = 51201,
+        // Token: 0x04005872 RID: 22642
+        INCR_DMG_FOR_ATK = 51301,
+        // Token: 0x04005873 RID: 22643
+        DECR_DMG_FOR_ATK = 51401,
+        // Token: 0x04005874 RID: 22644
+        ADDITIONAL_RATE = 51501,
+        // Token: 0x04005875 RID: 22645
+        MULTIPLE_DAMAGE = 515151,
+        // Token: 0x04005876 RID: 22646
+        REDUCE_COOLTIME_FROM_HEALTH = 515123,
+        // Token: 0x04005877 RID: 22647
+        MAKE_ITEM = 383712,
+        // Token: 0x04005878 RID: 22648
+        EXIST_EFFECT_CHANGE_NEW_EFFECT = 1923012,
+        // Token: 0x04005879 RID: 22649
+        ABILITY_DMG = 1283084,
+        // Token: 0x0400587A RID: 22650
+        WEAPON_DMG_DECR = 125246,
+        // Token: 0x0400587B RID: 22651
+        CANNOT_GAIN_MASTERY = 23462356,
+        // Token: 0x0400587C RID: 22652
+        ABILITY_DECR = 34523563,
+        // Token: 0x0400587D RID: 22653
+        ABILITY_INCR_BY_DECR = 23462342,
+        // Token: 0x0400587E RID: 22654
+        EFFECT_SLOW = 23474537,
+        // Token: 0x0400587F RID: 22655
+        DELETE_BUFF = 756756,
+        // Token: 0x04005880 RID: 22656
+        COPY_BACKPACK_ITEM = 3458567,
+        // Token: 0x04005881 RID: 22657
+        DMG_AT_SAME_EFFECT = 3574356
+    }
+}

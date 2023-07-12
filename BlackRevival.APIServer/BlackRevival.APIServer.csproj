@@ -1,0 +1,108 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
+        <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BlackRevival.Common\BlackRevival.Common.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="static\data\win64\BundleList.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="static\data\win64\StandaloneWindows64">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="static\data\win64\StandaloneWindows64.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="static\data\win64\StandaloneWindows64_ui_1.unity3d">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\BundleList.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_ui_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <Content Remove="Data\GameDB\aglaiaPass.json" />
+      <None Include="Data\GameDB\aglaiaPass.json" />
+      <Content Remove="Data\GameDB\attendanceEvent.json" />
+      <None Include="Data\GameDB\attendanceEvent.json" />
+      <Content Remove="Data\GameDB\avatarBonus.json" />
+      <None Include="Data\GameDB\avatarBonus.json" />
+      <Content Remove="Data\GameDB\battle.json" />
+      <None Include="Data\GameDB\battle.json" />
+      <Content Remove="Data\GameDB\character.json" />
+      <None Include="Data\GameDB\character.json" />
+      <Content Remove="Data\GameDB\collection.json" />
+      <None Include="Data\GameDB\collection.json" />
+      <Content Remove="Data\GameDB\constants.json" />
+      <None Include="Data\GameDB\constants.json" />
+      <Content Remove="Data\GameDB\expeditionArea.json" />
+      <None Include="Data\GameDB\expeditionArea.json" />
+      <Content Remove="Data\GameDB\expeditionCard.json" />
+      <None Include="Data\GameDB\expeditionCard.json" />
+      <Content Remove="Data\GameDB\expeditionEnemyGroup.json" />
+      <None Include="Data\GameDB\expeditionEnemyGroup.json" />
+      <Content Remove="Data\GameDB\expeditionEvent.json" />
+      <None Include="Data\GameDB\expeditionEvent.json" />
+      <Content Remove="Data\GameDB\expeditionMastery.json" />
+      <None Include="Data\GameDB\expeditionMastery.json" />
+      <Content Remove="Data\GameDB\expeditionSkill.json" />
+      <None Include="Data\GameDB\expeditionSkill.json" />
+      <Content Remove="Data\GameDB\expeditionUnit.json" />
+      <None Include="Data\GameDB\expeditionUnit.json" />
+      <Content Remove="Data\GameDB\expTable.json" />
+      <None Include="Data\GameDB\expTable.json" />
+      <Content Remove="Data\GameDB\field.json" />
+      <None Include="Data\GameDB\field.json" />
+      <Content Remove="Data\GameDB\item.json" />
+      <None Include="Data\GameDB\item.json" />
+      <Content Remove="Data\GameDB\league.json" />
+      <None Include="Data\GameDB\league.json" />
+      <Content Remove="Data\GameDB\miniLeague.json" />
+      <None Include="Data\GameDB\miniLeague.json" />
+      <Content Remove="Data\GameDB\monster.json" />
+      <None Include="Data\GameDB\monster.json" />
+      <Content Remove="Data\GameDB\perk.json" />
+      <None Include="Data\GameDB\perk.json" />
+      <Content Remove="Data\GameDB\product.json" />
+      <None Include="Data\GameDB\product.json" />
+      <Content Remove="Data\GameDB\quest.json" />
+      <None Include="Data\GameDB\quest.json" />
+      <Content Remove="Data\GameDB\radarMinMax.json" />
+      <None Include="Data\GameDB\radarMinMax.json" />
+      <Content Remove="Data\GameDB\researcherLevel.json" />
+      <None Include="Data\GameDB\researcherLevel.json" />
+      <Content Remove="Data\GameDB\signature.json" />
+      <None Include="Data\GameDB\signature.json" />
+      <Content Remove="Data\GameDB\skill.json" />
+      <None Include="Data\GameDB\skill.json" />
+      <Content Remove="Data\GameDB\sns.json" />
+      <None Include="Data\GameDB\sns.json" />
+      <Content Remove="Data\GameDB\tutorial.json" />
+      <None Include="Data\GameDB\tutorial.json" />
+      <Content Remove="Data\GameDB\vote.json" />
+      <None Include="Data\GameDB\vote.json" />
+      <Content Remove="Data\GameDB\webResource.json" />
+      <None Include="Data\GameDB\webResource.json" />
+    </ItemGroup>
+
+</Project>

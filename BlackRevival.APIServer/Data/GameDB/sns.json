@@ -1,0 +1,79 @@
+{
+  "snsLinks": [
+    {
+      "plf": "android",
+      "lan": "ko",
+      "lnk": "https://bsinstall.page.link/android"
+    },
+    {
+      "plf": "android",
+      "lan": "en",
+      "lnk": "https://bsinstall.page.link/android"
+    },
+    {
+      "plf": "android",
+      "lan": "zh_CN",
+      "lnk": "https://bsinstall.page.link/android"
+    },
+    {
+      "plf": "android",
+      "lan": "jp",
+      "lnk": "https://bsinstall.page.link/android"
+    },
+    {
+      "plf": "android",
+      "lan": "zh_TW",
+      "lnk": "https://bsinstall.page.link/android"
+    },
+    {
+      "plf": "ios",
+      "lan": "ko",
+      "lnk": "https://bsinstall.page.link/iosKr"
+    },
+    {
+      "plf": "ios",
+      "lan": "en",
+      "lnk": "https://bsinstall.page.link/iosEn"
+    },
+    {
+      "plf": "ios",
+      "lan": "zh_CN",
+      "lnk": "http://cnbs.17m3.com/ios_d"
+    },
+    {
+      "plf": "ios",
+      "lan": "jp",
+      "lnk": "https://bsinstall.page.link/iosJp"
+    },
+    {
+      "plf": "ios",
+      "lan": "zh_TW",
+      "lnk": "http://cnbs.17m3.com/ios_d"
+    },
+    {
+      "plf": "steam",
+      "lan": "ko",
+      "lnk": "https://bsinstall.page.link/steam"
+    },
+    {
+      "plf": "steam",
+      "lan": "en",
+      "lnk": "https://bsinstall.page.link/steam"
+    },
+    {
+      "plf": "steam",
+      "lan": "zh_CN",
+      "lnk": "http://cnbs.17m3.com/steam_d"
+    },
+    {
+      "plf": "steam",
+      "lan": "jp",
+      "lnk": "https://bsinstall.page.link/steam"
+    },
+    {
+      "plf": "steam",
+      "lan": "zh_TW",
+      "lnk": "http://cnbs.17m3.com/steam_d"
+    }
+  ]
+}

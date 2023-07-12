@@ -1,0 +1,513 @@
+{
+  "skinCollectionList": [
+    {
+      "cod": 1000,
+      "csts": [
+        1304,
+        2903,
+        3403
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1001,
+      "csts": [
+        405,
+        805,
+        1205
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1002,
+      "csts": [
+        105,
+        505,
+        706,
+        2304
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1003,
+      "csts": [
+        205,
+        2404,
+        3303
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1004,
+      "csts": [
+        2504,
+        2603,
+        2703
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1005,
+      "csts": [
+        1407,
+        1805,
+        1905
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1100,
+      "csts": [
+        406,
+        1206,
+        3304
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1101,
+      "csts": [
+        1106,
+        2305,
+        3103
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1102,
+      "csts": [
+        1505,
+        1607,
+        1906
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1103,
+      "csts": [
+        707,
+        806,
+        3204
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1104,
+      "csts": [
+        2106,
+        2904,
+        3703
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1105,
+      "csts": [
+        2804,
+        3003,
+        3803
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1200,
+      "csts": [
+        807,
+        2008,
+        3903
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1201,
+      "csts": [
+        207,
+        2906,
+        3105
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1202,
+      "csts": [
+        107,
+        2207,
+        4103
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1203,
+      "csts": [
+        3306,
+        3805,
+        3904
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1006,
+      "csts": [
+        1606,
+        2803,
+        3203
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1106,
+      "csts": [
+        1305,
+        2206,
+        3404
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1007,
+      "csts": [
+        1705,
+        2005,
+        3503
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1107,
+      "csts": [
+        904,
+        1107,
+        1408
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1108,
+      "csts": [
+        206,
+        2007,
+        2805,
+        2905
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1008,
+      "csts": [
+        605,
+        2105,
+        2205
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1109,
+      "csts": [
+        106,
+        305,
+        2107,
+        3704
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1204,
+      "csts": [
+        407,
+        1209,
+        4203
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1110,
+      "csts": [
+        708,
+        1208,
+        1608,
+        2308
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1205,
+      "csts": [
+        1307,
+        3706,
+        4303
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1111,
+      "csts": [
+        2405,
+        3205,
+        3305,
+        3604
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1206,
+      "csts": [
+        306,
+        2505,
+        4204
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1301,
+      "csts": [
+        906,
+        4106,
+        4205
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1207,
+      "csts": [
+        2708,
+        2806,
+        3806
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1208,
+      "csts": [
+        1009,
+        2109,
+        3605
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1302,
+      "csts": [
+        209,
+        1910,
+        3504
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1209,
+      "csts": [
+        1807,
+        2010,
+        4403
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1303,
+      "csts": [
+        3408,
+        4305,
+        4504
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1210,
+      "csts": [
+        2309,
+        4005,
+        4304
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    },
+    {
+      "cod": 1304,
+      "csts": [
+        1110,
+        2506,
+        3708
+      ],
+      "gds": {
+        "c": "1-CREDIT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      }
+    }
+  ]
+}

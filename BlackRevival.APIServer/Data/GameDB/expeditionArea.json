@@ -1,0 +1,10113 @@
+{
+  "expeditionArea": [
+    {
+      "cod": 201,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 10,
+          "eet": 202,
+          "esp1": "ALLY_GUN",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 110021,
+          "eet": 101,
+          "esp1": "OSPREY_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 110031,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 110041,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 110051,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 110061,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 110062,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_VERY_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 110071,
+          "eet": 101,
+          "esp1": "BIRD_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 110081,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 110091,
+          "eet": 101,
+          "esp1": "OSPREY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 110121,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 201,
+      "evl": [],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 110131,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 110141,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 110142,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 110151,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 110152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_04",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 110161,
+          "eet": 101,
+          "esp1": "DOG_DUMMY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 110171,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 201,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 201,
+      "evl": [
+        {
+          "eid": 110181,
+          "eet": 101,
+          "esp1": "BEARILLA_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 11,
+          "eet": 202,
+          "esp1": "ALLY_STAB",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 120021,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 6,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120031,
+          "eet": 101,
+          "esp1": "GORILLA_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 120041,
+          "eet": 101,
+          "esp1": "BAT_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120051,
+          "eet": 101,
+          "esp1": "CROW_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 120061,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        },
+        {
+          "eid": 120071,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 120081,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120121,
+          "eet": 101,
+          "esp1": "BAT_NORMAL_01",
+          "esp2": "",
+          "erpc": 3,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120131,
+          "eet": 101,
+          "esp1": "GORILLA_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120141,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 120142,
+          "eet": 101,
+          "esp1": "BEAR_HARD_03",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120151,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 120152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 120161,
+          "eet": 101,
+          "esp1": "DOG_DUMMY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 120171,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 202,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 202,
+      "evl": [
+        {
+          "eid": 120181,
+          "eet": 101,
+          "esp1": "BEARILLA_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 12,
+          "eet": 202,
+          "esp1": "ALLY_ALL",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130021,
+          "eet": 101,
+          "esp1": "BAT_EASY_02",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130031,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 130041,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130061,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 130071,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 130081,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130091,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130101,
+          "eet": 101,
+          "esp1": "BAT_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130121,
+          "eet": 101,
+          "esp1": "GORILLA_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130131,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130141,
+          "eet": 101,
+          "esp1": "CROW_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130151,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 130152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_04",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 130161,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 130171,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 203,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 4,
+      "ftp": 203,
+      "evl": [
+        {
+          "eid": 130181,
+          "eet": 101,
+          "esp1": "BEAR_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 13,
+          "eet": 202,
+          "esp1": "ALLY_ALL",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 140021,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140031,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_EASY_02",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 140041,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 140051,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 140061,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140071,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140081,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140101,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140111,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140121,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 6,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140131,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140141,
+          "eet": 101,
+          "esp1": "BEAR_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140151,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 140152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_04",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 140161,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 204,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 204,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 140181,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 14,
+          "eet": 202,
+          "esp1": "ALLY_THROW",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150021,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 150031,
+          "eet": 101,
+          "esp1": "GORILLA_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 150041,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 150061,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150081,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150091,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 150101,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150121,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150131,
+          "eet": 101,
+          "esp1": "OSPREY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150141,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 150142,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150151,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 150161,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 150171,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 205,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 205,
+      "evl": [
+        {
+          "eid": 150181,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 15,
+          "eet": 202,
+          "esp1": "ALLY_BLUNT",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160021,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 160022,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 160031,
+          "eet": 101,
+          "esp1": "OSPREY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160041,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 160051,
+          "eet": 101,
+          "esp1": "OSPREY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160071,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160081,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160101,
+          "eet": 101,
+          "esp1": "OSPREY_VERY_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160111,
+          "eet": 101,
+          "esp1": "BEAR_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160121,
+          "eet": 101,
+          "esp1": "GORILLA_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 160122,
+          "eet": 101,
+          "esp1": "GORILLA_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160131,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160141,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160151,
+          "eet": 101,
+          "esp1": "OSPREY_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160161,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 160171,
+          "eet": 101,
+          "esp1": "BIRD_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 206,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 206,
+      "evl": [
+        {
+          "eid": 160181,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 16,
+          "eet": 202,
+          "esp1": "ALLY_BLADE",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 170021,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170041,
+          "eet": 101,
+          "esp1": "BAT_NORMAL_02",
+          "esp2": "",
+          "erpc": 3,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 170051,
+          "eet": 101,
+          "esp1": "BAT_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 170061,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 170071,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170081,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170091,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170101,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170121,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170131,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170141,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 170142,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170151,
+          "eet": 101,
+          "esp1": "GORILLA_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 170161,
+          "eet": 101,
+          "esp1": "DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 207,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 207,
+      "evl": [
+        {
+          "eid": 170181,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 17,
+          "eet": 202,
+          "esp1": "ALLY_THROW",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 180021,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 180031,
+          "eet": 101,
+          "esp1": "BAT_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180041,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 180051,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_EASY_02",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180061,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180091,
+          "eet": 101,
+          "esp1": "BAT_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 5,
+      "ftp": 208,
+      "evl": [],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180121,
+          "eet": 101,
+          "esp1": "BEAR_HARD_03",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 180122,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180131,
+          "eet": 101,
+          "esp1": "BAT_HARD_02",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180141,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 180142,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180151,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 180161,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 180171,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 208,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 208,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 18,
+          "eet": 202,
+          "esp1": "ALLY_PUNCH",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190031,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190041,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 190051,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190061,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 190071,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 190081,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190091,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 190101,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 190111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190121,
+          "eet": 101,
+          "esp1": "BEAR_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190131,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190141,
+          "eet": 101,
+          "esp1": "GORILLA_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 190142,
+          "eet": 101,
+          "esp1": "GORILLA_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190151,
+          "eet": 101,
+          "esp1": "CROW_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 3,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 190161,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 190171,
+          "eet": 101,
+          "esp1": "DOG_DUMMY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 209,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 209,
+      "evl": [
+        {
+          "eid": 190181,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 19,
+          "eet": 202,
+          "esp1": "ALLY_BLUNT",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 200021,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 200031,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200041,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 200051,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 200071,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200081,
+          "eet": 101,
+          "esp1": "BAT_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 200101,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200121,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_HARD_03",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200131,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200141,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 200142,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_04",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200151,
+          "eet": 101,
+          "esp1": "BEAR_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 200152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 200161,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 200171,
+          "eet": 101,
+          "esp1": "DOG_DUMMY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 210,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 210,
+      "evl": [
+        {
+          "eid": 200181,
+          "eet": 101,
+          "esp1": "GORILLA_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 20,
+          "eet": 202,
+          "esp1": "ALLY_THROW",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 220021,
+          "eet": 101,
+          "esp1": "BAT_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 220031,
+          "eet": 101,
+          "esp1": "BAT_VERY_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 220032,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220041,
+          "eet": 101,
+          "esp1": "BAT_HARD_01",
+          "esp2": "",
+          "erpc": 3,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 220051,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220061,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 220071,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 212,
+      "evl": [],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220101,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 0,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220121,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 6,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220131,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_02",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220141,
+          "eet": 101,
+          "esp1": "BEAR_HARD_03",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 220142,
+          "eet": 101,
+          "esp1": "GORILLA_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220151,
+          "eet": 101,
+          "esp1": "BEAR_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 220161,
+          "eet": 101,
+          "esp1": "BIRD_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 220171,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 212,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 212,
+      "evl": [
+        {
+          "eid": 220181,
+          "eet": 101,
+          "esp1": "DOG_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 21,
+          "eet": 202,
+          "esp1": "ALLY_BLADE",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 230021,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 230022,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 230031,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230041,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 230042,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 230051,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 230061,
+          "eet": 101,
+          "esp1": "DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230071,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230091,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 230101,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230111,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230121,
+          "eet": 101,
+          "esp1": "OSPREY_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230131,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 230132,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230141,
+          "eet": 101,
+          "esp1": "GORILLA_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 230151,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 230161,
+          "eet": 101,
+          "esp1": "DOG_DUMMY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 230171,
+          "eet": 101,
+          "esp1": "DOG_DUMMY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 213,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 213,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 230181,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 22,
+          "eet": 202,
+          "esp1": "ALLY_BOW",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        },
+        {
+          "eid": 240031,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 240041,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240051,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 240061,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240071,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240081,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 240091,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240101,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240121,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240131,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 240132,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240141,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 240142,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240151,
+          "eet": 101,
+          "esp1": "GORILLA_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240171,
+          "eet": 101,
+          "esp1": "DOG_DUMMY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 214,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 214,
+      "evl": [
+        {
+          "eid": 240181,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 23,
+          "eet": 202,
+          "esp1": "ALLY_BLUNT",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 250021,
+          "eet": 101,
+          "esp1": "BIRD_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 250031,
+          "eet": 101,
+          "esp1": "BIRD_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 250041,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 250051,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250061,
+          "eet": 101,
+          "esp1": "OSPREY_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250071,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250081,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250091,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250101,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250121,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 250122,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250131,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250141,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 250151,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_02",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 250161,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 250171,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 215,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 215,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 250181,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 24,
+          "eet": 202,
+          "esp1": "ALLY_BOW",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 260021,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 260031,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260041,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 260051,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 260071,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 260081,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260091,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 260101,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 4,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260111,
+          "eet": 101,
+          "esp1": "BEAR_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260121,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260131,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 260132,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260141,
+          "eet": 101,
+          "esp1": "CROW_HARD_03",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 0,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260151,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 260152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 260161,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 216,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 216,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 260181,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 25,
+          "eet": 202,
+          "esp1": "ALLY_ALL",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 270021,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270041,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270061,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 270071,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 270081,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270091,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 270101,
+          "eet": 101,
+          "esp1": "GORILLA_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270121,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270131,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270141,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 270142,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 270151,
+          "eet": 101,
+          "esp1": "CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 270152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_04",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 270161,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 217,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 217,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 270181,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 26,
+          "eet": 202,
+          "esp1": "ALLY_PUNCH",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 280021,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280041,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280051,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 280061,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280071,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280081,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 280091,
+          "eet": 101,
+          "esp1": "CROW_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 280101,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280111,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280121,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280131,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 280132,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280141,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280151,
+          "eet": 101,
+          "esp1": "OSPREY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 280161,
+          "eet": 101,
+          "esp1": "BIRD_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 280171,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 218,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 2,
+      "ftp": 218,
+      "evl": [
+        {
+          "eid": 280181,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 3,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 27,
+          "eet": 202,
+          "esp1": "ALLY_BLADE",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 290021,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290031,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290041,
+          "eet": 101,
+          "esp1": "BEAR_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 290051,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290061,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 290071,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290081,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290091,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290101,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 290111,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290121,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 219,
+      "evl": [],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290141,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 290142,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_04",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290151,
+          "eet": 101,
+          "esp1": "OSPREY_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 290161,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290171,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 219,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 219,
+      "evl": [
+        {
+          "eid": 290181,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 28,
+          "eet": 202,
+          "esp1": "ALLY_STAB",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 300021,
+          "eet": 101,
+          "esp1": "OSPREY_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 300031,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 2,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300041,
+          "eet": 101,
+          "esp1": "BAT_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 300051,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300061,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300071,
+          "eet": 101,
+          "esp1": "BIRD_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 300081,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300091,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 300092,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_EASY_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300101,
+          "eet": 101,
+          "esp1": "DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300121,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300131,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300141,
+          "eet": 101,
+          "esp1": "DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300151,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_03",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 300161,
+          "eet": 101,
+          "esp1": "BEARILLA_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 300171,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 220,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 220,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 300181,
+          "eet": 101,
+          "esp1": "BEARILLA_CHARACTER_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 29,
+          "eet": 202,
+          "esp1": "ALLY_GUN",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 310021,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 310031,
+          "eet": 101,
+          "esp1": "OSPREY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 310041,
+          "eet": 101,
+          "esp1": "BIRD_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 310061,
+          "eet": 101,
+          "esp1": "BIRD_DOG_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310071,
+          "eet": 101,
+          "esp1": "BIRD_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 310081,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310091,
+          "eet": 101,
+          "esp1": "OSPREY_NORMAL_02",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310101,
+          "eet": 101,
+          "esp1": "HUNTING_DOG_NORMAL_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310111,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310121,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310131,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310141,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 310151,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 310152,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_03",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 310161,
+          "eet": 101,
+          "esp1": "BIRD_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 221,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 221,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 20
+        },
+        {
+          "eid": 310181,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 1,
+      "dtp": 4,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 30,
+          "eet": 202,
+          "esp1": "ALLY_PUNCH",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 2,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 320021,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 3,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 320031,
+          "eet": 101,
+          "esp1": "OSPREY_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 4,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320041,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 5,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 1041,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 6,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320061,
+          "eet": 101,
+          "esp1": "OSPREY_HARD_02",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 320062,
+          "eet": 101,
+          "esp1": "CROW_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 7,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 1011,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 8,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320081,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 9,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 320091,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 10,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320101,
+          "eet": 101,
+          "esp1": "BLOOD_HOUND_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 11,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 0,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320111,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 12,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320121,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 320122,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_HARD_03",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 13,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320131,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 14,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320141,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 15,
+      "dtp": 3,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320151,
+          "eet": 101,
+          "esp1": "CHARACTER_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 16,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 1021,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 320161,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 17,
+      "dtp": 3,
+      "mds": 15,
+      "bvb": 4,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 1031,
+          "eet": 201,
+          "esp1": "",
+          "esp2": "1.5",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        },
+        {
+          "eid": 320171,
+          "eet": 101,
+          "esp1": "BIRD_DOG_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 15
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 222,
+      "dtr": 18,
+      "dtp": 3,
+      "mds": 20,
+      "bvb": 6,
+      "ftp": 222,
+      "evl": [
+        {
+          "eid": 320181,
+          "eet": 101,
+          "esp1": "CHARACTER_NORMAL_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 20
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 211,
+      "dtr": 1,
+      "dtp": 3,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 211,
+      "evl": [
+        {
+          "eid": 210011,
+          "eet": 101,
+          "esp1": "",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 250,
+      "dtr": 10001,
+      "dtp": 2,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350011,
+          "eet": 101,
+          "esp1": "WICKELINE_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "51036": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10002,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "51032": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10003,
+      "dtp": 2,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350031,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "25024": 1,
+        "25025": 1,
+        "25101": 1,
+        "25102": 1,
+        "25103": 1,
+        "25104": 1,
+        "25105": 1,
+        "25106": 1,
+        "25107": 1,
+        "25006": 1,
+        "25007": 1,
+        "25008": 1,
+        "25009": 1,
+        "25010": 1,
+        "25012": 1,
+        "25013": 1,
+        "25014": 1,
+        "25015": 1,
+        "25016": 1,
+        "25017": 1,
+        "25018": 1,
+        "25019": 1,
+        "25020": 1,
+        "25021": 1,
+        "25022": 1,
+        "25023": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10004,
+      "dtp": 2,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350041,
+          "eet": 101,
+          "esp1": "MAGE_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "32032": 3,
+        "31058": 3,
+        "51044": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10005,
+      "dtp": 2,
+      "mds": 6,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "31056": 1,
+        "31057": 1,
+        "31058": 1,
+        "31053": 1,
+        "31054": 1,
+        "31055": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10006,
+      "dtp": 2,
+      "mds": 3,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "25025": 1,
+        "22018": 1,
+        "21027": 1,
+        "23107": 1,
+        "23108": 1,
+        "22021": 1,
+        "22027": 1,
+        "24011": 1,
+        "25101": 1,
+        "24014": 1,
+        "24015": 1,
+        "25105": 1,
+        "22034": 1,
+        "22035": 1,
+        "21018": 1,
+        "21019": 1,
+        "25019": 1,
+        "21021": 1,
+        "21022": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10007,
+      "dtp": 2,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "31040": 1,
+        "31041": 1,
+        "31042": 1,
+        "31043": 1,
+        "31044": 1,
+        "31108": 1,
+        "31045": 1,
+        "31109": 1,
+        "31046": 1,
+        "31047": 1,
+        "31048": 1,
+        "31049": 1,
+        "31050": 1,
+        "31051": 1,
+        "31052": 1,
+        "32022": 1,
+        "32023": 1,
+        "32025": 1,
+        "32027": 1,
+        "32028": 1,
+        "32030": 1,
+        "32031": 1,
+        "31035": 1,
+        "31036": 1,
+        "31037": 1,
+        "31038": 1,
+        "31102": 1,
+        "31039": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10008,
+      "dtp": 2,
+      "mds": 3,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "22018": 1,
+        "22019": 1,
+        "22020": 1,
+        "22021": 1,
+        "22022": 1,
+        "22023": 1,
+        "22024": 1,
+        "22025": 1,
+        "22027": 1,
+        "22028": 1,
+        "22029": 1,
+        "22030": 1,
+        "22031": 1,
+        "22032": 1,
+        "22033": 1,
+        "22034": 1,
+        "22035": 1,
+        "22036": 1,
+        "22037": 1,
+        "22038": 1,
+        "22039": 1,
+        "22040": 1,
+        "22041": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10009,
+      "dtp": 2,
+      "mds": 6,
+      "bvb": 4,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350091,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 3,
+          "emnd": 0,
+          "emxd": 6
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "51040": 1,
+        "51041": 1,
+        "51042": 1,
+        "51043": 1,
+        "51017": 1,
+        "51019": 1,
+        "51021": 1,
+        "51023": 1,
+        "51025": 1,
+        "51028": 1,
+        "51029": 1,
+        "51030": 1,
+        "51031": 1,
+        "51033": 1,
+        "51034": 1,
+        "51035": 1,
+        "51039": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10010,
+      "dtp": 2,
+      "mds": 3,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "51024": 1,
+        "51022": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10011,
+      "dtp": 2,
+      "mds": 5,
+      "bvb": 6,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350111,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "17025": 1,
+        "22018": 1,
+        "22019": 1,
+        "22020": 1,
+        "22021": 1,
+        "22022": 1,
+        "22023": 1,
+        "22024": 1,
+        "22025": 1,
+        "22027": 1,
+        "22028": 1,
+        "22029": 1,
+        "22030": 1,
+        "22031": 1,
+        "22032": 1,
+        "22033": 1,
+        "11025": 1,
+        "22034": 1,
+        "22035": 1,
+        "22036": 1,
+        "22037": 1,
+        "22038": 1,
+        "22039": 1,
+        "13015": 1,
+        "22040": 1,
+        "11032": 1,
+        "22041": 1,
+        "12059": 1,
+        "18033": 1,
+        "16052": 1,
+        "15032": 1,
+        "16057": 1,
+        "14015": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10012,
+      "dtp": 2,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350121,
+          "eet": 101,
+          "esp1": "GORILLA_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        },
+        {
+          "eid": 350122,
+          "eet": 101,
+          "esp1": "BEAR_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "31040": 2,
+        "31056": 2,
+        "31041": 2,
+        "31013": 3,
+        "31004": 3,
+        "31054": 2
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10013,
+      "dtp": 2,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350131,
+          "eet": 101,
+          "esp1": "DUMMY_CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 5
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "51008": 1,
+        "51043": 1,
+        "51028": 1,
+        "51029": 1,
+        "51033": 1,
+        "51017": 1,
+        "51035": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10014,
+      "dtp": 2,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350141,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "32004": 10,
+        "24004": 2,
+        "51044": 1,
+        "23002": 2,
+        "25003": 2,
+        "25004": 2,
+        "23004": 2
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10015,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "51036": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10016,
+      "dtp": 2,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "31059": 5
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10017,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "21025": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10018,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "22044": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10019,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "23102": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10020,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "51038": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10021,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "25026": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10022,
+      "dtp": 2,
+      "mds": 5,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "51041": 5
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10023,
+      "dtp": 2,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "31105": 10,
+        "16101": 10
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10024,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "32034": 5
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10025,
+      "dtp": 2,
+      "mds": 10,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350251,
+          "eet": 101,
+          "esp1": "OSPREY_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 10
+        }
+      ],
+      "sfi": false,
+      "fit": {
+        "31104": 10
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10026,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "32033": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10027,
+      "dtp": 2,
+      "mds": 2,
+      "bvb": 2,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "15013": 1
+      }
+    },
+    {
+      "cod": 250,
+      "dtr": 10028,
+      "dtp": 2,
+      "mds": 40,
+      "bvb": 10,
+      "ftp": 250,
+      "evl": [
+        {
+          "eid": 350281,
+          "eet": 101,
+          "esp1": "BIRD_NORMAL_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 40
+        },
+        {
+          "eid": 350282,
+          "eet": 101,
+          "esp1": "DOG_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 40
+        },
+        {
+          "eid": 350283,
+          "eet": 101,
+          "esp1": "BIRD_DOG_VERY_EASY_01",
+          "esp2": "",
+          "erpc": 1,
+          "emnd": 0,
+          "emxd": 40
+        },
+        {
+          "eid": 350284,
+          "eet": 101,
+          "esp1": "CHARACTER_VERY_HARD_01",
+          "esp2": "",
+          "erpc": 2,
+          "emnd": 0,
+          "emxd": 40
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 250,
+      "dtr": 10029,
+      "dtp": 2,
+      "mds": 10,
+      "bvb": 4,
+      "ftp": 250,
+      "evl": [],
+      "sfi": false,
+      "fit": {
+        "11010": 1,
+        "22018": 1,
+        "22019": 1,
+        "22020": 1,
+        "12039": 1,
+        "11016": 1,
+        "24009": 1,
+        "11019": 1,
+        "12043": 1,
+        "24011": 1,
+        "24012": 1,
+        "12047": 1,
+        "13011": 1,
+        "13013": 1,
+        "21015": 1,
+        "21018": 1,
+        "21019": 1,
+        "18014": 1,
+        "23009": 1,
+        "23010": 1,
+        "15011": 1,
+        "18021": 1,
+        "23013": 1,
+        "15014": 1,
+        "16041": 1,
+        "18025": 1,
+        "16043": 1,
+        "16045": 1,
+        "17008": 1,
+        "17010": 1,
+        "25011": 1,
+        "25013": 1,
+        "14008": 1,
+        "17017": 1,
+        "14011": 1,
+        "25019": 1
+      }
+    },
+    {
+      "cod": 261,
+      "dtr": 50001,
+      "dtp": 1,
+      "mds": 0,
+      "bvb": 0,
+      "ftp": 261,
+      "evl": [
+        {
+          "eid": 201,
+          "eet": 1,
+          "esp1": "HARBOR_EXPEDITION",
+          "esp2": "",
+          "erpc": 0,
+          "emnd": 0,
+          "emxd": 0
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    },
+    {
+      "cod": 262,
+      "dtr": 50002,
+      "dtp": 1,
+      "mds": 0,
+      "bvb": 0,
+      "ftp": 262,
+      "evl": [
+        {
+          "eid": 202,
+          "eet": 1,
+          "esp1": "LABORATORY_EXPEDITION",
+          "esp2": "",
+          "erpc": 0,
+          "emnd": 0,
+          "emxd": 0
+        }
+      ],
+      "sfi": true,
+      "fit": {}
+    }
+  ],
+  "expeditionAreaMaxClear": 3,
+  "expeditionGlobalInfo": [
+    {
+      "cod": 1,
+      "iarc": 15,
+      "ialc": 3,
+      "olc": 7,
+      "alc": 3
+    },
+    {
+      "cod": 2,
+      "iarc": 8,
+      "ialc": 2,
+      "olc": 12,
+      "alc": 3
+    },
+    {
+      "cod": 3,
+      "iarc": 6,
+      "ialc": 1,
+      "olc": 17,
+      "alc": 3
+    }
+  ]
+}

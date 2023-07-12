@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackRevival.APIServer", "BlackRevival.APIServer\BlackRevival.APIServer.csproj", "{CA61DB75-4EF6-42E2-89AE-4A6EE4F19E3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{319A34D5-1A11-4A4F-B750-3A58AD37B5DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{D9D420F2-6E00-478A-B217-D54AB6331806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackRevival.GameServer", "BlackRevival.GameServer\BlackRevival.GameServer.csproj", "{05DD8FF1-7487-4FB3-8663-B447BC0209C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackRevival.InstanceManager", "BlackRevival.InstanceManager\BlackRevival.InstanceManager.csproj", "{08926FF6-8430-4FBB-8FEB-E29A2B202C1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{DF23645B-E2DC-450D-B165-ACD66BE5B048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackRevival.Common", "BlackRevival.Common\BlackRevival.Common.csproj", "{7C1D520F-A1FD-4AF8-AA65-24E70A59E8CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA61DB75-4EF6-42E2-89AE-4A6EE4F19E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA61DB75-4EF6-42E2-89AE-4A6EE4F19E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA61DB75-4EF6-42E2-89AE-4A6EE4F19E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA61DB75-4EF6-42E2-89AE-4A6EE4F19E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DD8FF1-7487-4FB3-8663-B447BC0209C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DD8FF1-7487-4FB3-8663-B447BC0209C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DD8FF1-7487-4FB3-8663-B447BC0209C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DD8FF1-7487-4FB3-8663-B447BC0209C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08926FF6-8430-4FBB-8FEB-E29A2B202C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08926FF6-8430-4FBB-8FEB-E29A2B202C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08926FF6-8430-4FBB-8FEB-E29A2B202C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08926FF6-8430-4FBB-8FEB-E29A2B202C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1D520F-A1FD-4AF8-AA65-24E70A59E8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1D520F-A1FD-4AF8-AA65-24E70A59E8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1D520F-A1FD-4AF8-AA65-24E70A59E8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1D520F-A1FD-4AF8-AA65-24E70A59E8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA61DB75-4EF6-42E2-89AE-4A6EE4F19E3C} = {D9D420F2-6E00-478A-B217-D54AB6331806}
+		{05DD8FF1-7487-4FB3-8663-B447BC0209C9} = {D9D420F2-6E00-478A-B217-D54AB6331806}
+		{08926FF6-8430-4FBB-8FEB-E29A2B202C1A} = {D9D420F2-6E00-478A-B217-D54AB6331806}
+		{7C1D520F-A1FD-4AF8-AA65-24E70A59E8CB} = {DF23645B-E2DC-450D-B165-ACD66BE5B048}
+	EndGlobalSection
+EndGlobal

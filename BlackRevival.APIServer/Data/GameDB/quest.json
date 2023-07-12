@@ -1,0 +1,8494 @@
+{
+  "questData": [
+    {
+      "qid": 10,
+      "gid": 10,
+      "t": 201,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 15,
+      "gid": 10,
+      "t": 202,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 20,
+      "gid": 20,
+      "t": 301,
+      "p1": 3,
+      "p2": 100,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30,
+      "gid": 30,
+      "t": 801,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 40,
+      "gid": 40,
+      "t": 804,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 41,
+      "gid": 40,
+      "t": 804,
+      "p1": 3,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 42,
+      "gid": 40,
+      "t": 804,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 43,
+      "gid": 40,
+      "t": 804,
+      "p1": 6,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 44,
+      "gid": 40,
+      "t": 804,
+      "p1": 7,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 45,
+      "gid": 40,
+      "t": 804,
+      "p1": 2,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 46,
+      "gid": 40,
+      "t": 804,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 100,
+      "gid": 100,
+      "t": 501,
+      "p1": 100,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 105,
+      "gid": 105,
+      "t": 501,
+      "p1": 100,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 110,
+      "gid": 110,
+      "t": 802,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 20,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 115,
+      "gid": 115,
+      "t": 802,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 116,
+      "gid": 116,
+      "t": 804,
+      "p1": 8,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 117,
+      "gid": 117,
+      "t": 804,
+      "p1": 8,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 120,
+      "gid": 120,
+      "t": 1701,
+      "p1": 3,
+      "p2": 6,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 121,
+      "gid": 120,
+      "t": 1701,
+      "p1": 4,
+      "p2": 6,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 125,
+      "gid": 125,
+      "t": 1701,
+      "p1": 3,
+      "p2": 6,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 126,
+      "gid": 125,
+      "t": 1701,
+      "p1": 4,
+      "p2": 6,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 130,
+      "gid": 130,
+      "t": 1401,
+      "p1": 3,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 131,
+      "gid": 130,
+      "t": 1401,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 141,
+      "gid": 140,
+      "t": 601,
+      "p1": 106,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 142,
+      "gid": 140,
+      "t": 601,
+      "p1": 206,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 143,
+      "gid": 140,
+      "t": 601,
+      "p1": 306,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 144,
+      "gid": 140,
+      "t": 601,
+      "p1": 406,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 145,
+      "gid": 140,
+      "t": 601,
+      "p1": 506,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 146,
+      "gid": 140,
+      "t": 601,
+      "p1": 706,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 147,
+      "gid": 140,
+      "t": 601,
+      "p1": 606,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 150,
+      "gid": 150,
+      "t": 601,
+      "p1": 108,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 151,
+      "gid": 150,
+      "t": 601,
+      "p1": 208,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 152,
+      "gid": 150,
+      "t": 601,
+      "p1": 308,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 153,
+      "gid": 150,
+      "t": 601,
+      "p1": 408,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 154,
+      "gid": 150,
+      "t": 601,
+      "p1": 508,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 155,
+      "gid": 150,
+      "t": 601,
+      "p1": 708,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 156,
+      "gid": 150,
+      "t": 601,
+      "p1": 608,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 161,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6002,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 162,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6003,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 163,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6004,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 164,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6005,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 167,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6008,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 168,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6001,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 1,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 165,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6006,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 1,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 166,
+      "gid": 160,
+      "t": 1201,
+      "p1": 6007,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 1,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 171,
+      "gid": 171,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 10000,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 172,
+      "gid": 172,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 20000,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 180,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 181,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31036,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 182,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 183,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31038,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 184,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 185,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31040,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 186,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31041,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 187,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31042,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 188,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31043,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 189,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 190,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31045,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 191,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31046,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 192,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 193,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 194,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 195,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31050,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 196,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 197,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 198,
+      "gid": 180,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 199,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31108,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 200,
+      "gid": 180,
+      "t": 1402,
+      "p1": 31109,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 210,
+      "gid": 210,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 211,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32021,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 212,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32022,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 213,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32023,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 214,
+      "gid": 210,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 215,
+      "gid": 210,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 216,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32026,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 217,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32027,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 218,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32028,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 219,
+      "gid": 210,
+      "t": 1402,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 220,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32030,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 221,
+      "gid": 210,
+      "t": 1402,
+      "p1": 32031,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 300,
+      "gid": 300,
+      "t": 1403,
+      "p1": 3,
+      "p2": 3,
+      "cnt": 5,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 320,
+      "gid": 320,
+      "t": 805,
+      "p1": 0,
+      "p2": 3,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1000,
+      "gid": 1000,
+      "t": 12000,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1001,
+      "gid": 1001,
+      "t": 12001,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 20,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1002,
+      "gid": 1002,
+      "t": 12001,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 10,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1003,
+      "gid": 1003,
+      "t": 12001,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 20,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1500,
+      "gid": 1500,
+      "t": 101,
+      "p1": 22,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 4,
+      "rgs": {
+        "c": "8-RANKPOINT",
+        "a": 5,
+        "goodsType": 8,
+        "subType": "RANKPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1501,
+      "gid": 1501,
+      "t": 1402,
+      "p1": 11007,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 4,
+      "rgs": {
+        "c": "7-ACCELATE",
+        "a": 7,
+        "goodsType": 7,
+        "subType": "ACCELATE"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1502,
+      "gid": 1502,
+      "t": 303,
+      "p1": 1,
+      "p2": 12,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 4,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1510,
+      "gid": 1510,
+      "t": 101,
+      "p1": 18,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 5,
+      "rgs": {
+        "c": "8-RANKPOINT",
+        "a": 5,
+        "goodsType": 8,
+        "subType": "RANKPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1511,
+      "gid": 1511,
+      "t": 1404,
+      "p1": 11008,
+      "p2": 31032,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 5,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1513,
+      "gid": 1513,
+      "t": 1402,
+      "p1": 31034,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 5,
+      "rgs": {
+        "c": "10-OFFENSIVE_BOX",
+        "a": 20,
+        "goodsType": 10,
+        "subType": "OFFENSIVE_BOX"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1514,
+      "gid": 1514,
+      "t": 1402,
+      "p1": 22017,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 5,
+      "rgs": {
+        "c": "7-WIDE_HEAL",
+        "a": 7,
+        "goodsType": 7,
+        "subType": "WIDE_HEAL"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1515,
+      "gid": 1515,
+      "t": 202,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 5,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1520,
+      "gid": 1520,
+      "t": 101,
+      "p1": 9,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 6,
+      "rgs": {
+        "c": "8-RANKPOINT",
+        "a": 10,
+        "goodsType": 8,
+        "subType": "RANKPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1521,
+      "gid": 1521,
+      "t": 1402,
+      "p1": 11004,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 6,
+      "rgs": {
+        "c": "10-DEFENSIVE_BOX",
+        "a": 20,
+        "goodsType": 10,
+        "subType": "DEFENSIVE_BOX"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1522,
+      "gid": 1522,
+      "t": 1402,
+      "p1": 22029,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 6,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1523,
+      "gid": 1523,
+      "t": 1402,
+      "p1": 21020,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 6,
+      "rgs": {
+        "c": "12-CHARACTER_EXP_25",
+        "a": 5,
+        "goodsType": 12,
+        "subType": "CHARACTER_EXP_25"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1524,
+      "gid": 1524,
+      "t": 1402,
+      "p1": 32019,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 6,
+      "rgs": {
+        "c": "7-FINDBULLET",
+        "a": 7,
+        "goodsType": 7,
+        "subType": "FINDBULLET"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1525,
+      "gid": 1525,
+      "t": 302,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 6,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1530,
+      "gid": 1530,
+      "t": 1101,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 10,
+      "rt": 3,
+      "qt": 7,
+      "rgs": {
+        "c": "8-RANKPOINT",
+        "a": 10,
+        "goodsType": 8,
+        "subType": "RANKPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1531,
+      "gid": 1531,
+      "t": 1301,
+      "p1": 8,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 7,
+      "rgs": {
+        "c": "7-CHASE",
+        "a": 7,
+        "goodsType": 7,
+        "subType": "CHASE"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1532,
+      "gid": 1532,
+      "t": 1201,
+      "p1": 6008,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 7,
+      "rgs": {
+        "c": "10-ICE_BOX",
+        "a": 20,
+        "goodsType": 10,
+        "subType": "ICE_BOX"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1539,
+      "gid": 1539,
+      "t": 1502,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 7,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1540,
+      "gid": 1540,
+      "t": 1601,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 7,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1541,
+      "gid": 1541,
+      "t": 1301,
+      "p1": 9,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 7,
+      "rgs": {
+        "c": "7-FINDARROW",
+        "a": 7,
+        "goodsType": 7,
+        "subType": "FINDARROW"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1542,
+      "gid": 1542,
+      "t": 302,
+      "p1": 3,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 7,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1550,
+      "gid": 1550,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 500,
+      "rt": 3,
+      "qt": 8,
+      "rgs": {
+        "c": "7-ACCELATE",
+        "a": 7,
+        "goodsType": 7,
+        "subType": "ACCELATE"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1552,
+      "gid": 1552,
+      "t": 1201,
+      "p1": 6005,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 8,
+      "rgs": {
+        "c": "8-RANKPOINT",
+        "a": 10,
+        "goodsType": 8,
+        "subType": "RANKPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1553,
+      "gid": 1553,
+      "t": 1701,
+      "p1": 4,
+      "p2": 3,
+      "cnt": 0,
+      "rt": 3,
+      "qt": 8,
+      "rgs": {
+        "c": "8-GOLD",
+        "a": 7,
+        "goodsType": 8,
+        "subType": "GOLD"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1554,
+      "gid": 1554,
+      "t": 1501,
+      "p1": 16007,
+      "p2": 7,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 8,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1555,
+      "gid": 1555,
+      "t": 804,
+      "p1": 7,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 8,
+      "rgs": {
+        "c": "8-CHARACTER_EXP",
+        "a": 7,
+        "goodsType": 8,
+        "subType": "CHARACTER_EXP"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1556,
+      "gid": 1556,
+      "t": 1801,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 8,
+      "rgs": {
+        "c": "12-CHARACTER_EXP_25",
+        "a": 5,
+        "goodsType": 12,
+        "subType": "CHARACTER_EXP_25"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1557,
+      "gid": 1557,
+      "t": 302,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 8,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1600,
+      "gid": 1600,
+      "t": 1404,
+      "p1": 15031,
+      "p2": 22034,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 9,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1602,
+      "gid": 1602,
+      "t": 1404,
+      "p1": 12059,
+      "p2": 23101,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 9,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1604,
+      "gid": 1604,
+      "t": 1404,
+      "p1": 14016,
+      "p2": 24014,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 9,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1606,
+      "gid": 1606,
+      "t": 1404,
+      "p1": 16054,
+      "p2": 21023,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 9,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1608,
+      "gid": 1608,
+      "t": 1404,
+      "p1": 18029,
+      "p2": 21020,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 9,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1610,
+      "gid": 1610,
+      "t": 1404,
+      "p1": 17021,
+      "p2": 23104,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 9,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 1612,
+      "gid": 1612,
+      "t": 1404,
+      "p1": 11022,
+      "p2": 25023,
+      "cnt": 1,
+      "rt": 3,
+      "qt": 9,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5070,
+      "gid": 5070,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 100,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "8-GOLD",
+        "a": 10,
+        "goodsType": 8,
+        "subType": "GOLD"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5080,
+      "gid": 5080,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-ACCESS_CODE",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "ACCESS_CODE"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5090,
+      "gid": 5090,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 6000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5100,
+      "gid": 5100,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 13000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 700,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5110,
+      "gid": 5110,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "8-BEARPOINT",
+        "a": 50,
+        "goodsType": 8,
+        "subType": "BEARPOINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5120,
+      "gid": 5120,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 250,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-ACCESS_CODE",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "ACCESS_CODE"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5130,
+      "gid": 5130,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 900,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 500,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5200,
+      "gid": 5200,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 100,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5210,
+      "gid": 5210,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 40,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5220,
+      "gid": 5220,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 80,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5230,
+      "gid": 5230,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 250,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-ACCESS_CODE",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "ACCESS_CODE"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5240,
+      "gid": 5240,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 6000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5250,
+      "gid": 5250,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 800,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 500,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5260,
+      "gid": 5260,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 13000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 700,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5270,
+      "gid": 5270,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 100,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5280,
+      "gid": 5280,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 40,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5290,
+      "gid": 5290,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 80,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5300,
+      "gid": 5300,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 250,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-ACCESS_CODE",
+        "a": 30,
+        "goodsType": 1,
+        "subType": "ACCESS_CODE"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5310,
+      "gid": 5310,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 6000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5320,
+      "gid": 5320,
+      "t": 11004,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 800,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 500,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5330,
+      "gid": 5330,
+      "t": 11002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 13000,
+      "rt": 11,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 700,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5340,
+      "gid": 5340,
+      "t": 11017,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 100,
+      "rt": 13,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5350,
+      "gid": 5350,
+      "t": 11017,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 500,
+      "rt": 13,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 250,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5360,
+      "gid": 5360,
+      "t": 11017,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1500,
+      "rt": 13,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 400,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5370,
+      "gid": 5370,
+      "t": 11017,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 3000,
+      "rt": 13,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 1500,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5380,
+      "gid": 5380,
+      "t": 11017,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 7000,
+      "rt": 13,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 700,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 5390,
+      "gid": 5390,
+      "t": 11017,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 15000,
+      "rt": 13,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 1700,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8101,
+      "gid": 8101,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 20,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8102,
+      "gid": 8102,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 200,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8103,
+      "gid": 8103,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 400,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 80,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8104,
+      "gid": 8104,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 750,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8105,
+      "gid": 8105,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1200,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8106,
+      "gid": 8106,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2000,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 400,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8107,
+      "gid": 8107,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 20,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8108,
+      "gid": 8108,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 200,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8109,
+      "gid": 8109,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 400,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 80,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8110,
+      "gid": 8110,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 750,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 150,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8111,
+      "gid": 8111,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1200,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8112,
+      "gid": 8112,
+      "t": 11005,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 2000,
+      "rt": 12,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 400,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8001,
+      "gid": 8001,
+      "t": 8302,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 1,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8002,
+      "gid": 8002,
+      "t": 8305,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 2,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8003,
+      "gid": 8003,
+      "t": 8304,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 1,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8004,
+      "gid": 8004,
+      "t": 1,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 5,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8005,
+      "gid": 8005,
+      "t": 301,
+      "p1": 4,
+      "p2": 100,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8006,
+      "gid": 8006,
+      "t": 601,
+      "p1": 109,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8007,
+      "gid": 8006,
+      "t": 601,
+      "p1": 209,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8008,
+      "gid": 8006,
+      "t": 601,
+      "p1": 309,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8009,
+      "gid": 8006,
+      "t": 601,
+      "p1": 409,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8010,
+      "gid": 8006,
+      "t": 601,
+      "p1": 509,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8011,
+      "gid": 8006,
+      "t": 601,
+      "p1": 709,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 8012,
+      "gid": 8006,
+      "t": 601,
+      "p1": 609,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-VOTE_TICKET",
+        "a": 10,
+        "goodsType": 1,
+        "subType": "VOTE_TICKET"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 9001,
+      "gid": 9001,
+      "t": 9001,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 4,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GOLD",
+        "a": 5000,
+        "goodsType": 1,
+        "subType": "GOLD"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 9002,
+      "gid": 9001,
+      "t": 9002,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 4,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 9003,
+      "gid": 9001,
+      "t": 9003,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 4,
+      "qt": 0,
+      "rgs": {
+        "c": "7-WIDE_HEAL",
+        "a": 10,
+        "goodsType": 7,
+        "subType": "WIDE_HEAL"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 9004,
+      "gid": 9001,
+      "t": 9004,
+      "p1": 1511,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 4,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GOLD",
+        "a": 3000,
+        "goodsType": 1,
+        "subType": "GOLD"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 9005,
+      "gid": 9001,
+      "t": 9005,
+      "p1": 10,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 4,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 9006,
+      "gid": 9001,
+      "t": 1301,
+      "p1": 12,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 4,
+      "qt": 0,
+      "rgs": {
+        "c": "8-GOLD",
+        "a": 10,
+        "goodsType": 8,
+        "subType": "GOLD"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 9007,
+      "gid": 9001,
+      "t": 11003,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 500,
+      "rt": 4,
+      "qt": 0,
+      "rgs": {
+        "c": "8-BEARPOINT",
+        "a": 10,
+        "goodsType": 8,
+        "subType": "BEARPOINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10010,
+      "gid": 10010,
+      "t": 304,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 3,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 100,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10011,
+      "gid": 10011,
+      "t": 204,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 1,
+      "qt": 2,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10020,
+      "gid": 10020,
+      "t": 811,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 1,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10100,
+      "gid": 10100,
+      "t": 811,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 10,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10101,
+      "gid": 10101,
+      "t": 811,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 30,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10120,
+      "gid": 10120,
+      "t": 1102,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 20,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10121,
+      "gid": 10121,
+      "t": 1102,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10130,
+      "gid": 10130,
+      "t": 1211,
+      "p1": 6303,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10131,
+      "gid": 10130,
+      "t": 1211,
+      "p1": 6301,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10132,
+      "gid": 10130,
+      "t": 1211,
+      "p1": 6302,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10133,
+      "gid": 10130,
+      "t": 1211,
+      "p1": 6305,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10134,
+      "gid": 10130,
+      "t": 1211,
+      "p1": 6304,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10200,
+      "gid": 10200,
+      "t": 806,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10201,
+      "gid": 10201,
+      "t": 806,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 60,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10210,
+      "gid": 10210,
+      "t": 1405,
+      "p1": 4,
+      "p2": 2,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10211,
+      "gid": 10211,
+      "t": 1405,
+      "p1": 4,
+      "p2": 2,
+      "cnt": 5,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 50,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10220,
+      "gid": 10220,
+      "t": 813,
+      "p1": 7,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10221,
+      "gid": 10220,
+      "t": 813,
+      "p1": 6,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 10222,
+      "gid": 10220,
+      "t": 813,
+      "p1": 8,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 70,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 4,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 20001,
+      "gid": 20001,
+      "t": 301,
+      "p1": 6,
+      "p2": 20,
+      "cnt": 30,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20002,
+      "gid": 20001,
+      "t": 301,
+      "p1": 6,
+      "p2": 20,
+      "cnt": 35,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20003,
+      "gid": 20001,
+      "t": 301,
+      "p1": 6,
+      "p2": 20,
+      "cnt": 40,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20004,
+      "gid": 20001,
+      "t": 301,
+      "p1": 6,
+      "p2": 20,
+      "cnt": 45,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20101,
+      "gid": 20101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 30000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20102,
+      "gid": 20101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 35000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20103,
+      "gid": 20101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 40000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20104,
+      "gid": 20101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 45000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20105,
+      "gid": 20101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20106,
+      "gid": 20101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 30000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20107,
+      "gid": 20101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 35000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20108,
+      "gid": 20101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 40000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20109,
+      "gid": 20101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 45000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20110,
+      "gid": 20101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50000,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 170,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20201,
+      "gid": 20201,
+      "t": 802,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 40,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20202,
+      "gid": 20201,
+      "t": 802,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 50,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20203,
+      "gid": 20201,
+      "t": 802,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 60,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20204,
+      "gid": 20201,
+      "t": 804,
+      "p1": 7,
+      "p2": 0,
+      "cnt": 8,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20205,
+      "gid": 20201,
+      "t": 804,
+      "p1": 7,
+      "p2": 0,
+      "cnt": 10,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20206,
+      "gid": 20201,
+      "t": 804,
+      "p1": 6,
+      "p2": 0,
+      "cnt": 8,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20207,
+      "gid": 20201,
+      "t": 804,
+      "p1": 6,
+      "p2": 0,
+      "cnt": 10,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20208,
+      "gid": 20201,
+      "t": 804,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 15,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20209,
+      "gid": 20201,
+      "t": 804,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 25,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20210,
+      "gid": 20201,
+      "t": 804,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 15,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20211,
+      "gid": 20201,
+      "t": 804,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 25,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20212,
+      "gid": 20201,
+      "t": 804,
+      "p1": 3,
+      "p2": 0,
+      "cnt": 20,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20213,
+      "gid": 20201,
+      "t": 804,
+      "p1": 3,
+      "p2": 0,
+      "cnt": 30,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20214,
+      "gid": 20201,
+      "t": 804,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 20,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20215,
+      "gid": 20201,
+      "t": 804,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 30,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20216,
+      "gid": 20201,
+      "t": 804,
+      "p1": 2,
+      "p2": 0,
+      "cnt": 20,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20217,
+      "gid": 20201,
+      "t": 804,
+      "p1": 2,
+      "p2": 0,
+      "cnt": 30,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 125,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20301,
+      "gid": 20301,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 280,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20302,
+      "gid": 20301,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 305,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20303,
+      "gid": 20301,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 330,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20304,
+      "gid": 20301,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 355,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20305,
+      "gid": 20301,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 380,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20306,
+      "gid": 20301,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 405,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20307,
+      "gid": 20301,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 430,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 250,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20401,
+      "gid": 20401,
+      "t": 601,
+      "p1": 108,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20402,
+      "gid": 20401,
+      "t": 601,
+      "p1": 208,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20403,
+      "gid": 20401,
+      "t": 601,
+      "p1": 308,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20404,
+      "gid": 20401,
+      "t": 601,
+      "p1": 408,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20405,
+      "gid": 20401,
+      "t": 601,
+      "p1": 508,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20406,
+      "gid": 20401,
+      "t": 601,
+      "p1": 708,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20407,
+      "gid": 20401,
+      "t": 601,
+      "p1": 608,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20408,
+      "gid": 20401,
+      "t": 601,
+      "p1": 109,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20409,
+      "gid": 20401,
+      "t": 601,
+      "p1": 209,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20410,
+      "gid": 20401,
+      "t": 601,
+      "p1": 309,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20411,
+      "gid": 20401,
+      "t": 601,
+      "p1": 409,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20412,
+      "gid": 20401,
+      "t": 601,
+      "p1": 509,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20413,
+      "gid": 20401,
+      "t": 601,
+      "p1": 709,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20414,
+      "gid": 20401,
+      "t": 601,
+      "p1": 609,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20415,
+      "gid": 20401,
+      "t": 601,
+      "p1": 110,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20416,
+      "gid": 20401,
+      "t": 601,
+      "p1": 210,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20417,
+      "gid": 20401,
+      "t": 601,
+      "p1": 310,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20418,
+      "gid": 20401,
+      "t": 601,
+      "p1": 410,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20419,
+      "gid": 20401,
+      "t": 601,
+      "p1": 510,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20420,
+      "gid": 20401,
+      "t": 601,
+      "p1": 710,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20421,
+      "gid": 20401,
+      "t": 601,
+      "p1": 610,
+      "p2": 0,
+      "cnt": 4,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 75,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 6,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20501,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6002,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 7,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20502,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6003,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 7,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20503,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6004,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 7,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20504,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6005,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 7,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20505,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6008,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 7,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20506,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6303,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 4,
+      "qgn": 7,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20507,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6301,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 4,
+      "qgn": 7,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20508,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6302,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 4,
+      "qgn": 7,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20509,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6305,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 4,
+      "qgn": 7,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20510,
+      "gid": 20501,
+      "t": 1201,
+      "p1": 6304,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 50,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 4,
+      "qgn": 7,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 20601,
+      "gid": 20601,
+      "t": 1,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 100,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 1,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 20602,
+      "gid": 20601,
+      "t": 2001,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 100,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 1,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 20603,
+      "gid": 20601,
+      "t": 2102,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 100,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 1,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 20604,
+      "gid": 20601,
+      "t": 2103,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 100,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 1,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 20605,
+      "gid": 20601,
+      "t": 2101,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 100,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 100,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 1,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21001,
+      "gid": 21001,
+      "t": 301,
+      "p1": 6,
+      "p2": 100,
+      "cnt": 3,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 35,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21002,
+      "gid": 21001,
+      "t": 301,
+      "p1": 6,
+      "p2": 100,
+      "cnt": 4,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 35,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21003,
+      "gid": 21001,
+      "t": 301,
+      "p1": 6,
+      "p2": 100,
+      "cnt": 5,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 35,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21004,
+      "gid": 21001,
+      "t": 301,
+      "p1": 6,
+      "p2": 100,
+      "cnt": 6,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 35,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21005,
+      "gid": 21001,
+      "t": 301,
+      "p1": 6,
+      "p2": 100,
+      "cnt": 7,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 35,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 2,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21101,
+      "gid": 21101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 4000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21102,
+      "gid": 21101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 5000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21103,
+      "gid": 21101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 6000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21104,
+      "gid": 21101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 7000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21105,
+      "gid": 21101,
+      "t": 702,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 8000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21106,
+      "gid": 21101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 4000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21107,
+      "gid": 21101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 5000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21108,
+      "gid": 21101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 6000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21109,
+      "gid": 21101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 7000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21110,
+      "gid": 21101,
+      "t": 703,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 8000,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 3,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21201,
+      "gid": 21201,
+      "t": 802,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 5,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21202,
+      "gid": 21201,
+      "t": 802,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 10,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21203,
+      "gid": 21201,
+      "t": 804,
+      "p1": 7,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21204,
+      "gid": 21201,
+      "t": 804,
+      "p1": 6,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21205,
+      "gid": 21201,
+      "t": 804,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21206,
+      "gid": 21201,
+      "t": 804,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 2,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21207,
+      "gid": 21201,
+      "t": 804,
+      "p1": 3,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21208,
+      "gid": 21201,
+      "t": 804,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21209,
+      "gid": 21201,
+      "t": 804,
+      "p1": 2,
+      "p2": 0,
+      "cnt": 3,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 4,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21301,
+      "gid": 21301,
+      "t": 601,
+      "p1": 107,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21302,
+      "gid": 21301,
+      "t": 601,
+      "p1": 207,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21303,
+      "gid": 21301,
+      "t": 601,
+      "p1": 307,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21304,
+      "gid": 21301,
+      "t": 601,
+      "p1": 407,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21305,
+      "gid": 21301,
+      "t": 601,
+      "p1": 507,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21306,
+      "gid": 21301,
+      "t": 601,
+      "p1": 707,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21307,
+      "gid": 21301,
+      "t": 601,
+      "p1": 607,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21308,
+      "gid": 21301,
+      "t": 601,
+      "p1": 108,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21309,
+      "gid": 21301,
+      "t": 601,
+      "p1": 208,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21310,
+      "gid": 21301,
+      "t": 601,
+      "p1": 308,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21311,
+      "gid": 21301,
+      "t": 601,
+      "p1": 408,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21312,
+      "gid": 21301,
+      "t": 601,
+      "p1": 508,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21313,
+      "gid": 21301,
+      "t": 601,
+      "p1": 708,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21314,
+      "gid": 21301,
+      "t": 601,
+      "p1": 608,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21315,
+      "gid": 21301,
+      "t": 601,
+      "p1": 109,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21316,
+      "gid": 21301,
+      "t": 601,
+      "p1": 209,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21317,
+      "gid": 21301,
+      "t": 601,
+      "p1": 309,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21318,
+      "gid": 21301,
+      "t": 601,
+      "p1": 409,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21319,
+      "gid": 21301,
+      "t": 601,
+      "p1": 509,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21320,
+      "gid": 21301,
+      "t": 601,
+      "p1": 709,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21321,
+      "gid": 21301,
+      "t": 601,
+      "p1": 609,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21322,
+      "gid": 21301,
+      "t": 601,
+      "p1": 110,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21323,
+      "gid": 21301,
+      "t": 601,
+      "p1": 210,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21324,
+      "gid": 21301,
+      "t": 601,
+      "p1": 310,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21325,
+      "gid": 21301,
+      "t": 601,
+      "p1": 410,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21326,
+      "gid": 21301,
+      "t": 601,
+      "p1": 510,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21327,
+      "gid": 21301,
+      "t": 601,
+      "p1": 710,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21328,
+      "gid": 21301,
+      "t": 601,
+      "p1": 610,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21329,
+      "gid": 21301,
+      "t": 601,
+      "p1": 111,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21330,
+      "gid": 21301,
+      "t": 601,
+      "p1": 211,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21331,
+      "gid": 21301,
+      "t": 601,
+      "p1": 311,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21332,
+      "gid": 21301,
+      "t": 601,
+      "p1": 411,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21333,
+      "gid": 21301,
+      "t": 601,
+      "p1": 511,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21334,
+      "gid": 21301,
+      "t": 601,
+      "p1": 711,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21335,
+      "gid": 21301,
+      "t": 601,
+      "p1": 611,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 5,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 21401,
+      "gid": 21401,
+      "t": 1,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 101,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 1,
+      "qd": 1,
+      "bgs": null
+    },
+    {
+      "qid": 21402,
+      "gid": 21401,
+      "t": 2001,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 101,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 1,
+      "qd": 2,
+      "bgs": null
+    },
+    {
+      "qid": 21403,
+      "gid": 21401,
+      "t": 2102,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 101,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 1,
+      "qd": 3,
+      "bgs": null
+    },
+    {
+      "qid": 21404,
+      "gid": 21401,
+      "t": 2103,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 101,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 1,
+      "qd": 4,
+      "bgs": null
+    },
+    {
+      "qid": 21405,
+      "gid": 21401,
+      "t": 2101,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 101,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 3,
+      "qgn": 1,
+      "qd": 5,
+      "bgs": null
+    },
+    {
+      "qid": 22001,
+      "gid": 22001,
+      "t": 1,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 30,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22101,
+      "gid": 22101,
+      "t": 207,
+      "p1": 1,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22102,
+      "gid": 22101,
+      "t": 207,
+      "p1": 2,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22103,
+      "gid": 22101,
+      "t": 207,
+      "p1": 3,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22104,
+      "gid": 22101,
+      "t": 207,
+      "p1": 4,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22105,
+      "gid": 22101,
+      "t": 207,
+      "p1": 5,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22106,
+      "gid": 22101,
+      "t": 207,
+      "p1": 6,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22107,
+      "gid": 22101,
+      "t": 207,
+      "p1": 7,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22108,
+      "gid": 22101,
+      "t": 207,
+      "p1": 8,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22109,
+      "gid": 22101,
+      "t": 207,
+      "p1": 9,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22110,
+      "gid": 22101,
+      "t": 207,
+      "p1": 10,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22111,
+      "gid": 22101,
+      "t": 207,
+      "p1": 11,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22112,
+      "gid": 22101,
+      "t": 207,
+      "p1": 12,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22113,
+      "gid": 22101,
+      "t": 207,
+      "p1": 13,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22114,
+      "gid": 22101,
+      "t": 207,
+      "p1": 14,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22115,
+      "gid": 22101,
+      "t": 207,
+      "p1": 15,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22116,
+      "gid": 22101,
+      "t": 207,
+      "p1": 16,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22117,
+      "gid": 22101,
+      "t": 207,
+      "p1": 17,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22118,
+      "gid": 22101,
+      "t": 207,
+      "p1": 18,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22119,
+      "gid": 22101,
+      "t": 207,
+      "p1": 19,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22120,
+      "gid": 22101,
+      "t": 207,
+      "p1": 20,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22121,
+      "gid": 22101,
+      "t": 207,
+      "p1": 21,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22122,
+      "gid": 22101,
+      "t": 207,
+      "p1": 22,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22123,
+      "gid": 22101,
+      "t": 207,
+      "p1": 23,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22124,
+      "gid": 22101,
+      "t": 207,
+      "p1": 24,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22125,
+      "gid": 22101,
+      "t": 207,
+      "p1": 25,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22126,
+      "gid": 22101,
+      "t": 207,
+      "p1": 26,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22127,
+      "gid": 22101,
+      "t": 207,
+      "p1": 27,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22128,
+      "gid": 22101,
+      "t": 207,
+      "p1": 28,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22129,
+      "gid": 22101,
+      "t": 207,
+      "p1": 29,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22130,
+      "gid": 22101,
+      "t": 207,
+      "p1": 30,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22131,
+      "gid": 22101,
+      "t": 207,
+      "p1": 31,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22132,
+      "gid": 22101,
+      "t": 207,
+      "p1": 32,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22133,
+      "gid": 22101,
+      "t": 207,
+      "p1": 33,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22134,
+      "gid": 22101,
+      "t": 207,
+      "p1": 34,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22135,
+      "gid": 22101,
+      "t": 207,
+      "p1": 35,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22136,
+      "gid": 22101,
+      "t": 207,
+      "p1": 36,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22137,
+      "gid": 22101,
+      "t": 207,
+      "p1": 37,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22138,
+      "gid": 22101,
+      "t": 207,
+      "p1": 38,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22139,
+      "gid": 22101,
+      "t": 207,
+      "p1": 39,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22140,
+      "gid": 22101,
+      "t": 207,
+      "p1": 40,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22141,
+      "gid": 22101,
+      "t": 207,
+      "p1": 41,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22142,
+      "gid": 22101,
+      "t": 207,
+      "p1": 42,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22143,
+      "gid": 22101,
+      "t": 207,
+      "p1": 43,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22144,
+      "gid": 22101,
+      "t": 207,
+      "p1": 44,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22145,
+      "gid": 22101,
+      "t": 207,
+      "p1": 45,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22146,
+      "gid": 22101,
+      "t": 207,
+      "p1": 46,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22147,
+      "gid": 22101,
+      "t": 207,
+      "p1": 47,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22148,
+      "gid": 22101,
+      "t": 207,
+      "p1": 48,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 10,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 25,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22201,
+      "gid": 22201,
+      "t": 208,
+      "p1": 10001,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22202,
+      "gid": 22201,
+      "t": 208,
+      "p1": 20001,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22203,
+      "gid": 22201,
+      "t": 208,
+      "p1": 30001,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22204,
+      "gid": 22201,
+      "t": 208,
+      "p1": 40001,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22211,
+      "gid": 22201,
+      "t": 2101,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22212,
+      "gid": 22201,
+      "t": 2102,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22213,
+      "gid": 22201,
+      "t": 2103,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22221,
+      "gid": 22201,
+      "t": 13001,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22231,
+      "gid": 22201,
+      "t": 9007,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22241,
+      "gid": 22201,
+      "t": 11011,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22242,
+      "gid": 22201,
+      "t": 11012,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22243,
+      "gid": 22201,
+      "t": 11013,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 20,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 22301,
+      "gid": 22301,
+      "t": 12003,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 101,
+      "qt": 0,
+      "rgs": {
+        "c": "24-PASS_POINT",
+        "a": 35,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": {
+        "c": "24-PASS_POINT",
+        "a": 5,
+        "goodsType": 24,
+        "subType": "PASS_POINT"
+      }
+    },
+    {
+      "qid": 25001,
+      "gid": 25001,
+      "t": 1,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-TOURNAMENT_TICKET",
+        "a": 1,
+        "goodsType": 1,
+        "subType": "TOURNAMENT_TICKET"
+      },
+      "st": 1,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 25011,
+      "gid": 25011,
+      "t": 206,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 1,
+      "rt": 2,
+      "qt": 0,
+      "rgs": {
+        "c": "1-TOURNAMENT_TICKET",
+        "a": 1,
+        "goodsType": 1,
+        "subType": "TOURNAMENT_TICKET"
+      },
+      "st": 3,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30001,
+      "gid": 30001,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 18000,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30002,
+      "gid": 30002,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 36000,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-EXPERIMENT_MEMORY",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "EXPERIMENT_MEMORY"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30003,
+      "gid": 30003,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 54000,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 500,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30004,
+      "gid": 30004,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 72000,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 500,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30011,
+      "gid": 30011,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 7200,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "20-VOICE_CHIARA_GOODKID",
+        "a": 1,
+        "goodsType": 20,
+        "subType": "VOICE_CHIARA_GOODKID"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30012,
+      "gid": 30012,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 14400,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GOLD",
+        "a": 10000,
+        "goodsType": 1,
+        "subType": "GOLD"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30013,
+      "gid": 30013,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 21600,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-BEARPOINT",
+        "a": 2500,
+        "goodsType": 1,
+        "subType": "BEARPOINT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30014,
+      "gid": 30014,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 28800,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-GEM",
+        "a": 300,
+        "goodsType": 1,
+        "subType": "GEM"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    },
+    {
+      "qid": 30015,
+      "gid": 30015,
+      "t": 250,
+      "p1": 0,
+      "p2": 0,
+      "cnt": 36000,
+      "rt": 102,
+      "qt": 0,
+      "rgs": {
+        "c": "1-CREDIT",
+        "a": 200,
+        "goodsType": 1,
+        "subType": "CREDIT"
+      },
+      "st": 2,
+      "qgn": 0,
+      "qd": 0,
+      "bgs": null
+    }
+  ]
+}

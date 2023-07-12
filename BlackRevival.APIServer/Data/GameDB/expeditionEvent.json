@@ -1,0 +1,2930 @@
+{
+  "expeditionEvent": [
+    {
+      "cod": 0,
+      "eid": 10,
+      "etp": 202,
+      "esp1": "ALLY_GUN",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 11,
+      "etp": 202,
+      "esp1": "ALLY_STAB",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 12,
+      "etp": 202,
+      "esp1": "ALLY_ALL",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 13,
+      "etp": 202,
+      "esp1": "ALLY_ALL",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 14,
+      "etp": 202,
+      "esp1": "ALLY_THROW",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 15,
+      "etp": 202,
+      "esp1": "ALLY_BLUNT",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 16,
+      "etp": 202,
+      "esp1": "ALLY_BLADE",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 17,
+      "etp": 202,
+      "esp1": "ALLY_THROW",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 18,
+      "etp": 202,
+      "esp1": "ALLY_PUNCH",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 19,
+      "etp": 202,
+      "esp1": "ALLY_BLUNT",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 20,
+      "etp": 202,
+      "esp1": "ALLY_THROW",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 21,
+      "etp": 202,
+      "esp1": "ALLY_BLADE",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 22,
+      "etp": 202,
+      "esp1": "ALLY_BOW",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 23,
+      "etp": 202,
+      "esp1": "ALLY_BLUNT",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 24,
+      "etp": 202,
+      "esp1": "ALLY_BOW",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 25,
+      "etp": 202,
+      "esp1": "ALLY_ALL",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 26,
+      "etp": 202,
+      "esp1": "ALLY_PUNCH",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 27,
+      "etp": 202,
+      "esp1": "ALLY_BLADE",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 28,
+      "etp": 202,
+      "esp1": "ALLY_STAB",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 29,
+      "etp": 202,
+      "esp1": "ALLY_GUN",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 30,
+      "etp": 202,
+      "esp1": "ALLY_PUNCH",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 1011,
+      "etp": 201,
+      "esp1": "",
+      "esp2": "1.5"
+    },
+    {
+      "cod": 0,
+      "eid": 1021,
+      "etp": 201,
+      "esp1": "",
+      "esp2": "1.5"
+    },
+    {
+      "cod": 0,
+      "eid": 1031,
+      "etp": 201,
+      "esp1": "",
+      "esp2": "1.5"
+    },
+    {
+      "cod": 0,
+      "eid": 1041,
+      "etp": 201,
+      "esp1": "",
+      "esp2": "1.5"
+    },
+    {
+      "cod": 0,
+      "eid": 202,
+      "etp": 1,
+      "esp1": "LABORATORY_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "HARBOR_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "SLUM_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "VILLAGE_HALL_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "FIRE_STATION_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "POND_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "CHURCH_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "HOTEL_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "ALLEY_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "SCHOOL_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "TUNNEL_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "UPTOWN_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "ARCHER_CENTER_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "TRAIL_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "CEMETERY_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "HOSPITAL_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "FOREST_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "CLEAN_WELL_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "TEMPLE_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "SANDY_BEACH_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 201,
+      "etp": 1,
+      "esp1": "LIGHTHOUSE_EXPEDITION",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110021,
+      "etp": 101,
+      "esp1": "OSPREY_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110031,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110041,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110051,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110061,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110062,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_VERY_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110071,
+      "etp": 101,
+      "esp1": "BIRD_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110081,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110091,
+      "etp": 101,
+      "esp1": "OSPREY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110121,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110131,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110141,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110142,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110151,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_04",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110161,
+      "etp": 101,
+      "esp1": "DOG_DUMMY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110171,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 110181,
+      "etp": 101,
+      "esp1": "BEARILLA_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120021,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120031,
+      "etp": 101,
+      "esp1": "GORILLA_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120041,
+      "etp": 101,
+      "esp1": "BAT_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120051,
+      "etp": 101,
+      "esp1": "CROW_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120061,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120071,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120081,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120121,
+      "etp": 101,
+      "esp1": "BAT_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120131,
+      "etp": 101,
+      "esp1": "GORILLA_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120141,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120142,
+      "etp": 101,
+      "esp1": "BEAR_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120151,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120161,
+      "etp": 101,
+      "esp1": "DOG_DUMMY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120171,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 120181,
+      "etp": 101,
+      "esp1": "BEARILLA_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130021,
+      "etp": 101,
+      "esp1": "BAT_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130031,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130041,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130061,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130071,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130081,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130091,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130101,
+      "etp": 101,
+      "esp1": "BAT_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130121,
+      "etp": 101,
+      "esp1": "GORILLA_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130131,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130141,
+      "etp": 101,
+      "esp1": "CROW_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130151,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_04",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130161,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130171,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 130181,
+      "etp": 101,
+      "esp1": "BEAR_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140021,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140031,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140041,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140051,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140061,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140071,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140081,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140101,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140111,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140121,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140131,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140141,
+      "etp": 101,
+      "esp1": "BEAR_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140151,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_04",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140161,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 140181,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150021,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150031,
+      "etp": 101,
+      "esp1": "GORILLA_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150041,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150061,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150081,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150091,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150101,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150121,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150131,
+      "etp": 101,
+      "esp1": "OSPREY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150141,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150142,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150151,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150161,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150171,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 150181,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160021,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160022,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160031,
+      "etp": 101,
+      "esp1": "OSPREY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160041,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160051,
+      "etp": 101,
+      "esp1": "OSPREY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160071,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160081,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160101,
+      "etp": 101,
+      "esp1": "OSPREY_VERY_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160111,
+      "etp": 101,
+      "esp1": "BEAR_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160121,
+      "etp": 101,
+      "esp1": "GORILLA_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160122,
+      "etp": 101,
+      "esp1": "GORILLA_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160131,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160141,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160151,
+      "etp": 101,
+      "esp1": "OSPREY_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160161,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160171,
+      "etp": 101,
+      "esp1": "BIRD_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 160181,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170021,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170041,
+      "etp": 101,
+      "esp1": "BAT_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170051,
+      "etp": 101,
+      "esp1": "BAT_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170061,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170071,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170081,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170091,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170101,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170121,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170131,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170141,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170142,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170151,
+      "etp": 101,
+      "esp1": "GORILLA_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170161,
+      "etp": 101,
+      "esp1": "DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 170181,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180021,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180031,
+      "etp": 101,
+      "esp1": "BAT_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180041,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180051,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180061,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180091,
+      "etp": 101,
+      "esp1": "BAT_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180121,
+      "etp": 101,
+      "esp1": "BEAR_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180122,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180131,
+      "etp": 101,
+      "esp1": "BAT_HARD_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180141,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180142,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180151,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180161,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 180171,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190031,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190041,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190051,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190061,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190071,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190081,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190091,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190101,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190121,
+      "etp": 101,
+      "esp1": "BEAR_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190131,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190141,
+      "etp": 101,
+      "esp1": "GORILLA_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190142,
+      "etp": 101,
+      "esp1": "GORILLA_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190151,
+      "etp": 101,
+      "esp1": "CROW_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190161,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190171,
+      "etp": 101,
+      "esp1": "DOG_DUMMY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 190181,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200021,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200031,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200041,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200051,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200071,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200081,
+      "etp": 101,
+      "esp1": "BAT_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200101,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200121,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200131,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200141,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200142,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_04",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200151,
+      "etp": 101,
+      "esp1": "BEAR_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200161,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200171,
+      "etp": 101,
+      "esp1": "DOG_DUMMY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 200181,
+      "etp": 101,
+      "esp1": "GORILLA_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220021,
+      "etp": 101,
+      "esp1": "BAT_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220031,
+      "etp": 101,
+      "esp1": "BAT_VERY_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220032,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220041,
+      "etp": 101,
+      "esp1": "BAT_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220051,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220061,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220071,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220101,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220121,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220131,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220141,
+      "etp": 101,
+      "esp1": "BEAR_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220142,
+      "etp": 101,
+      "esp1": "GORILLA_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220151,
+      "etp": 101,
+      "esp1": "BEAR_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220161,
+      "etp": 101,
+      "esp1": "BIRD_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220171,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 220181,
+      "etp": 101,
+      "esp1": "DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230021,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230022,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230031,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230041,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230042,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230051,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230061,
+      "etp": 101,
+      "esp1": "DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230071,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230091,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230101,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230111,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230121,
+      "etp": 101,
+      "esp1": "OSPREY_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230131,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230132,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230141,
+      "etp": 101,
+      "esp1": "GORILLA_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230151,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230161,
+      "etp": 101,
+      "esp1": "DOG_DUMMY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230171,
+      "etp": 101,
+      "esp1": "DOG_DUMMY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 230181,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240031,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240041,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240051,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240061,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240071,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240081,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240091,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240101,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240121,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240131,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240132,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240141,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240142,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240151,
+      "etp": 101,
+      "esp1": "GORILLA_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240171,
+      "etp": 101,
+      "esp1": "DOG_DUMMY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 240181,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250021,
+      "etp": 101,
+      "esp1": "BIRD_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250031,
+      "etp": 101,
+      "esp1": "BIRD_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250041,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250051,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250061,
+      "etp": 101,
+      "esp1": "OSPREY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250071,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250081,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250091,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250101,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250121,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250122,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250131,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250141,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250151,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250161,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250171,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 250181,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260021,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260031,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260041,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260051,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260071,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260081,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260091,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260101,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260111,
+      "etp": 101,
+      "esp1": "BEAR_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260121,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260131,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260132,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260141,
+      "etp": 101,
+      "esp1": "CROW_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260151,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260161,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 260181,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270021,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270041,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270061,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270071,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270081,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270091,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270101,
+      "etp": 101,
+      "esp1": "GORILLA_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270121,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270131,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270141,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270142,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270151,
+      "etp": 101,
+      "esp1": "CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_04",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270161,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 270181,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280021,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280041,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280051,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280061,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280071,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280081,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280091,
+      "etp": 101,
+      "esp1": "CROW_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280101,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280111,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280121,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280131,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280132,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280141,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280151,
+      "etp": 101,
+      "esp1": "OSPREY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280161,
+      "etp": 101,
+      "esp1": "BIRD_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280171,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 280181,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290021,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290031,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290041,
+      "etp": 101,
+      "esp1": "BEAR_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290051,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290061,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290071,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290081,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290091,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290101,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290111,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290121,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290141,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290142,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_04",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290151,
+      "etp": 101,
+      "esp1": "OSPREY_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290161,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290171,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 290181,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300021,
+      "etp": 101,
+      "esp1": "OSPREY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300031,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300041,
+      "etp": 101,
+      "esp1": "BAT_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300051,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300061,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300071,
+      "etp": 101,
+      "esp1": "BIRD_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300081,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300091,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300092,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_EASY_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300101,
+      "etp": 101,
+      "esp1": "DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300121,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300131,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300141,
+      "etp": 101,
+      "esp1": "DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300151,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300161,
+      "etp": 101,
+      "esp1": "BEARILLA_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300171,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 300181,
+      "etp": 101,
+      "esp1": "BEARILLA_CHARACTER_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310021,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310031,
+      "etp": 101,
+      "esp1": "OSPREY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310041,
+      "etp": 101,
+      "esp1": "BIRD_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310061,
+      "etp": 101,
+      "esp1": "BIRD_DOG_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310071,
+      "etp": 101,
+      "esp1": "BIRD_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310081,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310091,
+      "etp": 101,
+      "esp1": "OSPREY_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310101,
+      "etp": 101,
+      "esp1": "HUNTING_DOG_NORMAL_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310111,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310121,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310131,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310141,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310151,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310152,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310161,
+      "etp": 101,
+      "esp1": "BIRD_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 310181,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320021,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320031,
+      "etp": 101,
+      "esp1": "OSPREY_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320041,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320061,
+      "etp": 101,
+      "esp1": "OSPREY_HARD_02",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320062,
+      "etp": 101,
+      "esp1": "CROW_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320081,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320091,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320101,
+      "etp": 101,
+      "esp1": "BLOOD_HOUND_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320111,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320121,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320122,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_HARD_03",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320131,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320141,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320151,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320151,
+      "etp": 101,
+      "esp1": "CHARACTER_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320161,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320171,
+      "etp": 101,
+      "esp1": "BIRD_DOG_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 320181,
+      "etp": 101,
+      "esp1": "CHARACTER_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 210011,
+      "etp": 101,
+      "esp1": "",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350011,
+      "etp": 101,
+      "esp1": "WICKELINE_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350031,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350041,
+      "etp": 101,
+      "esp1": "MAGE_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350091,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350111,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350121,
+      "etp": 101,
+      "esp1": "GORILLA_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350122,
+      "etp": 101,
+      "esp1": "BEAR_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350131,
+      "etp": 101,
+      "esp1": "DUMMY_CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350141,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350251,
+      "etp": 101,
+      "esp1": "OSPREY_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350281,
+      "etp": 101,
+      "esp1": "BIRD_NORMAL_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350282,
+      "etp": 101,
+      "esp1": "DOG_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350283,
+      "etp": 101,
+      "esp1": "BIRD_DOG_VERY_EASY_01",
+      "esp2": ""
+    },
+    {
+      "cod": 0,
+      "eid": 350284,
+      "etp": 101,
+      "esp1": "CHARACTER_VERY_HARD_01",
+      "esp2": ""
+    }
+  ]
+}

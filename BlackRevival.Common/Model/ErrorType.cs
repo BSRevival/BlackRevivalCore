@@ -1,0 +1,376 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BlackRevival.Common.Model
+{
+    public enum ErrorType
+    {
+        // Token: 0x0400558F RID: 21903
+        SUCCESS = 200,
+        // Token: 0x04005590 RID: 21904
+        UNKNOWN_ERROR = 9000,
+        // Token: 0x04005591 RID: 21905
+        NO_ASSET_BUNDLE_INFO,
+        // Token: 0x04005592 RID: 21906
+        NO_VERSION_INFO,
+        // Token: 0x04005593 RID: 21907
+        PARAMETER_TYPE_MISMATCH = 9010,
+        // Token: 0x04005594 RID: 21908
+        PARAMETER_MISSED,
+        // Token: 0x04005595 RID: 21909
+        PARAMETER_VALIDATION_FAILED,
+        // Token: 0x04005596 RID: 21910
+        SESSION_HEADER_REQUIRED,
+        // Token: 0x04005597 RID: 21911
+        MALFORMED_SESSION,
+        // Token: 0x04005598 RID: 21912
+        AUTH_ALREADY_EXIST = 9020,
+        // Token: 0x04005599 RID: 21913
+        AUTH_PROVIDOR_MISMATCHED,
+        // Token: 0x0400559A RID: 21914
+        USER_MACHINE_NUM_NOT_MATCH,
+        // Token: 0x0400559B RID: 21915
+        PAYMENT_RECEIPT_HASH_DUPLICATED = 9030,
+        // Token: 0x0400559C RID: 21916
+        PAYMENT_INVALID_RECEIPT,
+        // Token: 0x0400559D RID: 21917
+        PAYMENT_INVALID_TOKEN,
+        // Token: 0x0400559E RID: 21918
+        PAYMENT_ALREADY_CHARGED,
+        // Token: 0x0400559F RID: 21919
+        PAYMENT_TOKEN_DUPLICATED,
+        // Token: 0x040055A0 RID: 21920
+        PAYMENT_AUTH_PROVIDER_MISMATCH,
+        // Token: 0x040055A1 RID: 21921
+        PAYMENT_UNABLE_TO_PURCHASE,
+        // Token: 0x040055A2 RID: 21922
+        PAYMENT_STEAM_API_SERVER_BUSY,
+        // Token: 0x040055A3 RID: 21923
+        PAYMENT_STEAM_TXN_FAIL,
+        // Token: 0x040055A4 RID: 21924
+        PAYMENT_PURCHASE_CANCELED,
+        // Token: 0x040055A5 RID: 21925
+        PAYMENT_AUTH_PROVIDER_NONE = 9044,
+        // Token: 0x040055A6 RID: 21926
+        PUSH_REGISTER_FAIL = 9050,
+        // Token: 0x040055A7 RID: 21927
+        PUSH_UNREGISTER_FAIL,
+        // Token: 0x040055A8 RID: 21928
+        PUSH_NO_DEVICE_TOKEN,
+        // Token: 0x040055A9 RID: 21929
+        ABNORMAL_ACCESS = 9060,
+        // Token: 0x040055AA RID: 21930
+        SESSION_EXPIRED,
+        // Token: 0x040055AB RID: 21931
+        USER_IDENTIFY_FAILED,
+        // Token: 0x040055AC RID: 21932
+        NO_USER_EXISTS,
+        // Token: 0x040055AD RID: 21933
+        USER_KEY_DECRYPT_FAILED,
+        // Token: 0x040055AE RID: 21934
+        BATTLE_RESTRICTED,
+        // Token: 0x040055AF RID: 21935
+        MOBTECH_SMS_WRONG_NUMBER,
+        // Token: 0x040055B0 RID: 21936
+        WITHDRAWAL_FAIL_NO_NICKNAME = 9070,
+        // Token: 0x040055B1 RID: 21937
+        WITHDRAWAL_FAIL_MISMATCH_NICKNAME,
+        // Token: 0x040055B2 RID: 21938
+        ALREADY_NORMAL_STATUS = 9080,
+        // Token: 0x040055B3 RID: 21939
+        NO_CHARACTER_EXISTS,
+        // Token: 0x040055B4 RID: 21940
+        NO_CHARACTER_SKIN_EXISTS,
+        // Token: 0x040055B5 RID: 21941
+        ALREADY_OWN_CHARACTER,
+        // Token: 0x040055B6 RID: 21942
+        ALREADY_OWN_SKIN,
+        // Token: 0x040055B7 RID: 21943
+        UNABLE_TO_ENHANCE,
+        // Token: 0x040055B8 RID: 21944
+        UNABLE_TO_PURCHASE_SKIN,
+        // Token: 0x040055B9 RID: 21945
+        CHARACTER_STATUS_IS_DEAD,
+        // Token: 0x040055BA RID: 21946
+        ALREADY_LIVE2D_ACTIVATED,
+        // Token: 0x040055BB RID: 21947
+        NICKNAME_ALREADY_SET = 9100,
+        // Token: 0x040055BC RID: 21948
+        UNAVAILABLE_NICKNAME,
+        // Token: 0x040055BD RID: 21949
+        NOT_EXPIRED_QUEST = 9110,
+        // Token: 0x040055BE RID: 21950
+        QUEST_NOT_EXIST,
+        // Token: 0x040055BF RID: 21951
+        QUEST_NOT_CLEARED,
+        // Token: 0x040055C0 RID: 21952
+        QUEST_ALREADY_REWARDED,
+        // Token: 0x040055C1 RID: 21953
+        QUEST_NOT_EXIST_ACTIVE_AGLAIA_PASS,
+        // Token: 0x040055C2 RID: 21954
+        COUPON_CODE_MISSMATCHED = 9120,
+        // Token: 0x040055C3 RID: 21955
+        COUPON_PROVIDE_FAILED,
+        // Token: 0x040055C4 RID: 21956
+        ALREADY_USED_COUPON,
+        // Token: 0x040055C5 RID: 21957
+        EXPIRE_COUPON,
+        // Token: 0x040055C6 RID: 21958
+        ALREADY_USED_COUPON_TYPE,
+        // Token: 0x040055C7 RID: 21959
+        INVALID_COUPON_CHANEL,
+        // Token: 0x040055C8 RID: 21960
+        RACK_OF_CURRENCY = 9130,
+        // Token: 0x040055C9 RID: 21961
+        RACK_OF_GEM,
+        // Token: 0x040055CA RID: 21962
+        RACK_OF_GOLD,
+        // Token: 0x040055CB RID: 21963
+        RACK_OF_BEARPOINT,
+        // Token: 0x040055CC RID: 21964
+        RACK_OF_VOTE,
+        // Token: 0x040055CD RID: 21965
+        RACK_OF_EXPERIMENT_MEMORY,
+        // Token: 0x040055CE RID: 21966
+        RACK_OF_CREDIT,
+        // Token: 0x040055CF RID: 21967
+        RACK_OF_MILEAGE,
+        // Token: 0x040055D0 RID: 21968
+        RACK_OF_ACCESS_CODE,
+        // Token: 0x040055D1 RID: 21969
+        RACK_OF_TOURNAMENT_POINT,
+        // Token: 0x040055D2 RID: 21970
+        RACK_OF_TOURNAMENT_TICKET,
+        // Token: 0x040055D3 RID: 21971
+        RACK_OF_VOTE_TICKET,
+        // Token: 0x040055D4 RID: 21972
+        RACK_OF_VOTE_STAMP,
+        // Token: 0x040055D5 RID: 21973
+        RACK_OF_LABYRINTH_POINT,
+        // Token: 0x040055D6 RID: 21974
+        NO_PRODUCT_ID = 9150,
+        // Token: 0x040055D7 RID: 21975
+        INVALID_PROMOTION,
+        // Token: 0x040055D8 RID: 21976
+        NOT_USABLE_POTENTIAL_SKILL = 9153,
+        // Token: 0x040055D9 RID: 21977
+        NOT_PURCHASABLE_POTENTIAL_SKILL,
+        // Token: 0x040055DA RID: 21978
+        UNABLE_TO_PURCHASE_ROULETTE,
+        // Token: 0x040055DB RID: 21979
+        UNABLE_PURCHASE_BY_CONDITION_JUSTONCE,
+        // Token: 0x040055DC RID: 21980
+        UNABLE_PURCHASE_BY_CONDITION_ONCE_A_DAY,
+        // Token: 0x040055DD RID: 21981
+        UNABLE_PURCHASE_ALREADY_OWN_MEMBERSHIP,
+        // Token: 0x040055DE RID: 21982
+        NO_ORDER_ID,
+        // Token: 0x040055DF RID: 21983
+        PURCHASE_CONDITION_NOT_SATISFIED,
+        // Token: 0x040055E0 RID: 21984
+        EXPIRED_POTENTIAL_SKILL,
+        // Token: 0x040055E1 RID: 21985
+        UNABLE_PURCHASE_BY_ONCE_A_SEASON,
+        // Token: 0x040055E2 RID: 21986
+        DMM_PAYMENT_FAIL,
+        // Token: 0x040055E3 RID: 21987
+        PAYMENT_FAIL,
+        // Token: 0x040055E4 RID: 21988
+        OFFLINE_PRODUCT_NEED_TO_CONTACT = 9199,
+        // Token: 0x040055E5 RID: 21989
+        NO_GOODS_EXIST,
+        // Token: 0x040055E6 RID: 21990
+        NOT_USABLE_GOODS,
+        // Token: 0x040055E7 RID: 21991
+        LACK_OF_GOODS_AMOUNT,
+        // Token: 0x040055E8 RID: 21992
+        ALREADY_OWN_PERSIST_GOODS,
+        // Token: 0x040055E9 RID: 21993
+        NOT_LIVE2D_SKIN,
+        // Token: 0x040055EA RID: 21994
+        NOT_PURCHASABLE_GOODS,
+        // Token: 0x040055EB RID: 21995
+        NOT_ALLOWED_USE_TIME,
+        // Token: 0x040055EC RID: 21996
+        NOT_EXACT_PHASE = 9209,
+        // Token: 0x040055ED RID: 21997
+        NOT_OWN_INVEN_GOODS = 9220,
+        // Token: 0x040055EE RID: 21998
+        INVENGOODS_NOT_EXIST,
+        // Token: 0x040055EF RID: 21999
+        NO_ATTACHMENT_EXISTS = 9240,
+        // Token: 0x040055F0 RID: 22000
+        COUPLING_OS_CODE_NOT_MATCH = 9250,
+        // Token: 0x040055F1 RID: 22001
+        COUPLING_OS_TIMEOUT,
+        // Token: 0x040055F2 RID: 22002
+        COUPLING_OS_AUTH_PROVIDER_NONE,
+        // Token: 0x040055F3 RID: 22003
+        IS_BAN_MODE = 9260,
+        // Token: 0x040055F4 RID: 22004
+        USER_NOT_REGISTERED,
+        // Token: 0x040055F5 RID: 22005
+        BAN_CHARACTER_SELECTED,
+        // Token: 0x040055F6 RID: 22006
+        PRIPARE_MAINTENANCE = 9280,
+        // Token: 0x040055F7 RID: 22007
+        IN_MAINTENANCE,
+        // Token: 0x040055F8 RID: 22008
+        NO_MORE_AVATAR_LAB = 9300,
+        // Token: 0x040055F9 RID: 22009
+        CANNOT_ADD_AVATAR,
+        // Token: 0x040055FA RID: 22010
+        LAB_PRODUCTION_NOT_COMPLETE,
+        // Token: 0x040055FB RID: 22011
+        INVALID_LABTYPE = 9033,
+        // Token: 0x040055FC RID: 22012
+        INVALID_LAB_NUM = 9304,
+        // Token: 0x040055FD RID: 22013
+        NO_EXIST_BROADCAST_ROOM = 9350,
+        // Token: 0x040055FE RID: 22014
+        NOT_CONTAIN_ESSENTIAL_TEXT,
+        // Token: 0x040055FF RID: 22015
+        NO_NEED_PURCHASE = 9400,
+        // Token: 0x04005600 RID: 22016
+        NOT_ENOUGH_GOODS,
+        // Token: 0x04005601 RID: 22017
+        ABNORMAL_DATA,
+        // Token: 0x04005602 RID: 22018
+        CRACKING_DATA,
+        // Token: 0x04005603 RID: 22019
+        NO_LOAD_DATA,
+        // Token: 0x04005604 RID: 22020
+        NOT_EXIST_DAILY_PRODUCT_ID = 9500,
+        // Token: 0x04005605 RID: 22021
+        NOT_EXIST_DAILY_PRODUCT,
+        // Token: 0x04005606 RID: 22022
+        NOT_EXIST_USER_DAILY_PRODUCT,
+        // Token: 0x04005607 RID: 22023
+        CAN_NOT_REROLL_ANYMORE,
+        // Token: 0x04005608 RID: 22024
+        ALREADY_PURCHASE_PRODUCT,
+        // Token: 0x04005609 RID: 22025
+        NOT_EXIST_DNA = 9600,
+        // Token: 0x0400560A RID: 22026
+        NOT_ENOUGH_DNA_COUNT,
+        // Token: 0x0400560B RID: 22027
+        APACHE_ERROR = 9998,
+        // Token: 0x0400560C RID: 22028
+        UPDATE_REQUIRED,
+        // Token: 0x0400560D RID: 22029
+        NO_SUCH_ADMIN,
+        // Token: 0x0400560E RID: 22030
+        BATTLE_SEAT_EXPIRED = 10000,
+        // Token: 0x0400560F RID: 22031
+        BATTLE_SERVER_NOT_AVAILABLE,
+        // Token: 0x04005610 RID: 22032
+        INVALID_BATTLE_ROOM_KEY,
+        // Token: 0x04005611 RID: 22033
+        NO_BATTLE_WAITING_ROOM_EXISTS,
+        // Token: 0x04005612 RID: 22034
+        BATTLE_ROOM_CAPACITY_EXCEEDS,
+        // Token: 0x04005613 RID: 22035
+        HAS_RUNNING_BATTLE,
+        // Token: 0x04005614 RID: 22036
+        NO_RUNNING_BATTLE_EXISTS,
+        // Token: 0x04005615 RID: 22037
+        NO_BATTLE_EXIT_PARAM_EXISTS,
+        // Token: 0x04005616 RID: 22038
+        NOT_AVAILABLE_CHARACTER_FOR_RANK,
+        // Token: 0x04005617 RID: 22039
+        INVALID_BATTLE_ROOM_PASSWORD,
+        // Token: 0x04005618 RID: 22040
+        MINI_LEAGUE_NOT_FINISHED_YET = 10101,
+        // Token: 0x04005619 RID: 22041
+        NOT_TAKE_REWARD_PREVIOUS_MINI_LEAGUE_YET,
+        // Token: 0x0400561A RID: 22042
+        USER_NOT_IN_MINI_LEAGUE = 10100,
+        // Token: 0x0400561B RID: 22043
+        FAILED_FIND_USER = 10151,
+        // Token: 0x0400561C RID: 22044
+        ALREADY_REGISTED_FRIEND,
+        // Token: 0x0400561D RID: 22045
+        ALREADY_ACCEPT_FRIEND,
+        // Token: 0x0400561E RID: 22046
+        ALREADY_CANCELED_REQUE,
+        // Token: 0x0400561F RID: 22047
+        FULL_COUNT_FRIEND,
+        // Token: 0x04005620 RID: 22048
+        NO_MORE_ADD_FRIEND,
+        // Token: 0x04005621 RID: 22049
+        NO_MORE_DELETE_FRIEND,
+        // Token: 0x04005622 RID: 22050
+        REJECT_ADD_FRIEND_STATUS_USER,
+        // Token: 0x04005623 RID: 22051
+        CANNOT_SEND_SAME_REQUEST,
+        // Token: 0x04005624 RID: 22052
+        CANNOT_FIND_GAME_ROOM,
+        // Token: 0x04005625 RID: 22053
+        FULL_GAME_ROOM,
+        // Token: 0x04005626 RID: 22054
+        CANNOT_ADD_MYSELF,
+        // Token: 0x04005627 RID: 22055
+        TEMP_ERROR_10163,
+        // Token: 0x04005628 RID: 22056
+        TEMP_ERROR_10164,
+        // Token: 0x04005629 RID: 22057
+        TEMP_ERROR_10165,
+        // Token: 0x0400562A RID: 22058
+        TEMP_ERROR_10166,
+        // Token: 0x0400562B RID: 22059
+        TEMP_ERROR_10167,
+        // Token: 0x0400562C RID: 22060
+        TOURNAMENT_NOT_IN_PROGRESS = 10350,
+        // Token: 0x0400562D RID: 22061
+        TOURNAMENT_PAST_STAGE,
+        // Token: 0x0400562E RID: 22062
+        TOURNAMENT_INELIGIBLE_NEXT_STAGE,
+        // Token: 0x0400562F RID: 22063
+        TOURNAMENT_INELIGIBLE_LEAGUE,
+        // Token: 0x04005630 RID: 22064
+        TOURNAMENT_RANK_INVALID_RANGE,
+        // Token: 0x04005631 RID: 22065
+        TOURNAMENT_DO_NOT_PARTICIPATE,
+        // Token: 0x04005632 RID: 22066
+        TOURNAMENT_ALREADY_JOIN,
+        // Token: 0x04005633 RID: 22067
+        TOURNAMENT_IN_LAST_BATTLE_TIME,
+        // Token: 0x04005634 RID: 22068
+        REJECT_GAME_STATUS_USER = 10201,
+        // Token: 0x04005635 RID: 22069
+        TUTORIAL_IS_NOT_STARTED = 11000,
+        // Token: 0x04005636 RID: 22070
+        TUTORIAL_NOT_EXIST,
+        // Token: 0x04005637 RID: 22071
+        ESOUL_ALREADY_REGISTERED_USER_NUM = 30001,
+        // Token: 0x04005638 RID: 22072
+        ESOUL_TRANSFER_KEY_NULL,
+        // Token: 0x04005639 RID: 22073
+        ESOUL_INVALID_TRANSFER_KEY,
+        // Token: 0x0400563A RID: 22074
+        ESOUL_ALREADY_REGISTERED_PLAYER_ID,
+        // Token: 0x0400563B RID: 22075
+        ESOUL_ALREADY_TRANSFERED,
+        // Token: 0x0400563C RID: 22076
+        ESOUL_NOT_REGISTERED_PLAYER_ID,
+        // Token: 0x0400563D RID: 22077
+        ESOUL_FAILED_BY_NO_DATA = 30008,
+        // Token: 0x0400563E RID: 22078
+        ESOUL_FAILED_BY_SERVER_ERROR = 30100,
+        // Token: 0x0400563F RID: 22079
+        DMM_SERVER_IS_BUSY = 50001,
+        // Token: 0x04005640 RID: 22080
+        DMM_OAUTH_FAIL,
+        // Token: 0x04005641 RID: 22081
+        DMM_NOT_ENOUGH_POINT = 50050,
+        // Token: 0x04005642 RID: 22082
+        DMM_SESSION_EXPIRE = 50099,
+        // Token: 0x04005643 RID: 22083
+        EVENT_INVALID_STATUS = 60001,
+        // Token: 0x04005644 RID: 22084
+        EVENT_INVALID_REWARD
+    }
+}

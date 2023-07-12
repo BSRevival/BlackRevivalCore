@@ -1,0 +1,247 @@
+{
+  "voteReward": [
+    {
+      "ssn": 10,
+      "phs": 101,
+      "rnk": 300,
+      "gst": 16,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_FURNITURE"
+    },
+    {
+      "ssn": 10,
+      "phs": 101,
+      "rnk": 400,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 300,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 101,
+      "rnk": 500,
+      "gst": 1,
+      "stp": "EXPERIMENT_MEMORY",
+      "amt": 100,
+      "tky": "VOTE_PRIVILEGE_ASSET_EXPERIMENT_MEMORY"
+    },
+    {
+      "ssn": 10,
+      "phs": 102,
+      "rnk": 200,
+      "gst": 21,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_EMOTICON"
+    },
+    {
+      "ssn": 10,
+      "phs": 102,
+      "rnk": 400,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 300,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 102,
+      "rnk": 500,
+      "gst": 1,
+      "stp": "EXPERIMENT_MEMORY",
+      "amt": 100,
+      "tky": "VOTE_PRIVILEGE_ASSET_EXPERIMENT_MEMORY"
+    },
+    {
+      "ssn": 10,
+      "phs": 103,
+      "rnk": 150,
+      "gst": 19,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_LANTERN"
+    },
+    {
+      "ssn": 10,
+      "phs": 103,
+      "rnk": 400,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 300,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 103,
+      "rnk": 500,
+      "gst": 1,
+      "stp": "EXPERIMENT_MEMORY",
+      "amt": 100,
+      "tky": "VOTE_PRIVILEGE_ASSET_EXPERIMENT_MEMORY"
+    },
+    {
+      "ssn": 10,
+      "phs": 104,
+      "rnk": 100,
+      "gst": 20,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_CHARACTER_VOICE"
+    },
+    {
+      "ssn": 10,
+      "phs": 104,
+      "rnk": 150,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 400,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 104,
+      "rnk": 200,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 350,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 104,
+      "rnk": 400,
+      "gst": 1,
+      "stp": "EXPERIMENT_MEMORY",
+      "amt": 130,
+      "tky": "VOTE_PRIVILEGE_ASSET_EXPERIMENT_MEMORY"
+    },
+    {
+      "ssn": 10,
+      "phs": 105,
+      "rnk": 80,
+      "gst": 22,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_AVATAR"
+    },
+    {
+      "ssn": 10,
+      "phs": 105,
+      "rnk": 150,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 400,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 105,
+      "rnk": 200,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 350,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 105,
+      "rnk": 400,
+      "gst": 1,
+      "stp": "EXPERIMENT_MEMORY",
+      "amt": 130,
+      "tky": "VOTE_PRIVILEGE_ASSET_EXPERIMENT_MEMORY"
+    },
+    {
+      "ssn": 10,
+      "phs": 106,
+      "rnk": 30,
+      "gst": 22,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_VARIANT_AVATAR"
+    },
+    {
+      "ssn": 10,
+      "phs": 106,
+      "rnk": 100,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 600,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 106,
+      "rnk": 200,
+      "gst": 1,
+      "stp": "GEM",
+      "amt": 350,
+      "tky": "VOTE_PRIVILEGE_ASSET_GEM"
+    },
+    {
+      "ssn": 10,
+      "phs": 106,
+      "rnk": 400,
+      "gst": 1,
+      "stp": "EXPERIMENT_MEMORY",
+      "amt": 130,
+      "tky": "VOTE_PRIVILEGE_ASSET_EXPERIMENT_MEMORY"
+    },
+    {
+      "ssn": 10,
+      "phs": 200,
+      "rnk": 30,
+      "gst": 16,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_FURNITURE"
+    },
+    {
+      "ssn": 10,
+      "phs": 200,
+      "rnk": 30,
+      "gst": 21,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_EMOTICON"
+    },
+    {
+      "ssn": 10,
+      "phs": 200,
+      "rnk": 30,
+      "gst": 19,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_LANTERN"
+    },
+    {
+      "ssn": 10,
+      "phs": 200,
+      "rnk": 30,
+      "gst": 20,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_CHARACTER_VOICE"
+    },
+    {
+      "ssn": 10,
+      "phs": 200,
+      "rnk": 30,
+      "gst": 22,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_AVATAR"
+    },
+    {
+      "ssn": 10,
+      "phs": 200,
+      "rnk": 30,
+      "gst": 22,
+      "stp": "",
+      "amt": 1,
+      "tky": "VOTE_PRIVILEGE_PHASE_VARIANT_AVATAR"
+    }
+  ]
+}

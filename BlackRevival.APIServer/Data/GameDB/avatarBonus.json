@@ -1,0 +1,1852 @@
+{
+  "avatarBonus": [
+    {
+      "pid": "ABP001",
+      "avt": "SD_ALEX_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP002",
+      "avt": "SD_SISSELA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP003",
+      "avt": "SD_JP_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP004",
+      "avt": "SD_ELEVEN_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP005",
+      "avt": "SD_YUKI_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP006",
+      "avt": "SD_AYA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP007",
+      "avt": "SD_HYUNWOO_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP008",
+      "avt": "SD_SUA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "DAILY_SUPPLY_BONUS": [
+          {
+            "c": "10-ALL_BASIC_BOX",
+            "a": 1,
+            "goodsType": 10,
+            "subType": "ALL_BASIC_BOX"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP009",
+      "avt": "SD_LENOX_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP010",
+      "avt": "SD_LEON_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP011",
+      "avt": "SD_JACKIE_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP012",
+      "avt": "SD_CATHY_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP013",
+      "avt": "SD_ISOL_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP014",
+      "avt": "SD_ROZZI_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP015",
+      "avt": "SD_SISSELA_17M_RFT27",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP016",
+      "avt": "SD_SISSELA_VA_17M_RFT27",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "DAILY_SUPPLY_BONUS": [
+          {
+            "c": "10-ALL_BASIC_BOX",
+            "a": 1,
+            "goodsType": 10,
+            "subType": "ALL_BASIC_BOX"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP017",
+      "avt": "SD_DAILIN_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP018",
+      "avt": "SD_XIUKAI_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP019",
+      "avt": "SD_WILLIAM_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP020",
+      "avt": "SD_HART_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP021",
+      "avt": "SD_FIORA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP022",
+      "avt": "SD_SHOICHI_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP023",
+      "avt": "SD_JENNY_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP024",
+      "avt": "SD_LUKE_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP025",
+      "avt": "SD_ZAHIR_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP026",
+      "avt": "SD_CHIARA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP027",
+      "avt": "SD_ADELA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP028",
+      "avt": "SD_CAMILO_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP029",
+      "avt": "SD_YUKI_17M_RFT31",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP030",
+      "avt": "SD_YUKI_VA_17M_RFT31",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP031",
+      "avt": "SD_JAN_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP032",
+      "avt": "SD_ARDA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP033",
+      "avt": "SD_MAI_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP034",
+      "avt": "SD_SILVIA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP035",
+      "avt": "SD_NATHAPON_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP036",
+      "avt": "SD_ADRIANA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP037",
+      "avt": "SD_NADINE_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP038",
+      "avt": "SD_BERNICE_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP039",
+      "avt": "SD_EMMA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP040",
+      "avt": "SD_JP_PROGAMER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP041",
+      "avt": "SD_HYEJIN_SCHOOL_TRANSFER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP042",
+      "avt": "SD_LEON_INDOOR",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP043",
+      "avt": "SD_MAGNUS_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP044",
+      "avt": "SD_AYA_DETECTIVE",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP045",
+      "avt": "SD_ECHION_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP046",
+      "avt": "SD_ELEVEN_NEW_STREAMER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP047",
+      "avt": "SD_ALEX_14M_RFT13",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP048",
+      "avt": "SD_ALEX_VARIANT_14M_RFT13",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP049",
+      "avt": "SD_BARBARA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP050",
+      "avt": "SD_JACKIE_SCHOOL_TRANSFER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP051",
+      "avt": "SD_ROSALIO_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP052",
+      "avt": "SD_HART_BUSKER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP053",
+      "avt": "SD_RIO_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP054",
+      "avt": "SD_SHOICHI_HITMAN",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP055",
+      "avt": "SD_EVA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP056",
+      "avt": "SD_HYUNWOO_IDOL",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP057",
+      "avt": "SD_NICKY_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP058",
+      "avt": "SD_ISOL_ALTAR_SERVER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP059",
+      "avt": "SD_ZAHIR_IMMORAL",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP060",
+      "avt": "SD_DAILIN_MARTIAL_ARTIST",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP061",
+      "avt": "SD_DANIEL_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP062",
+      "avt": "SD_ADELA_MAID",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP063",
+      "avt": "SD_ALEX_SPECIAL_FORCE",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP064",
+      "avt": "SD_SUA_JACKIE",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP065",
+      "avt": "SD_HYEJIN_14M_RFT12",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP066",
+      "avt": "SD_HYEJIN_VARIANT_14M_RFT12",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP067",
+      "avt": "SD_ROZZI_BLACK_ROSE",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP068",
+      "avt": "SD_NATHAPON_IDOL",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP069",
+      "avt": "SD_SILVIA_WILDFLOWER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP070",
+      "avt": "SD_WILLIAM_TRAINING",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP071",
+      "avt": "SD_ARDA_PROFESSOR",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP072",
+      "avt": "SD_FIORA_GYM_RAT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP073",
+      "avt": "SD_LUKE_HOODLUM",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP074",
+      "avt": "SD_CATHY_HOME_DOCTOR",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP075",
+      "avt": "SD_HYEJIN_HARP",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP076",
+      "avt": "SD_YUKI_GHOST_HUNTER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP075",
+      "avt": "SD_JAN_BACK_ALLEY",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP076",
+      "avt": "SD_NADINE_HUNTER",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP077",
+      "avt": "SD_BIANCA_DEFAULT",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP078",
+      "avt": "SD_BARBARA_SOPHOMORE",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP079",
+      "avt": "SD_SHOICHI_16M_RFT23",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP080",
+      "avt": "SD_SHOICHI_VARIANT_16M_RFT23",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-GOLD_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "GOLD_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP081",
+      "avt": "SD_JENNY_TOP_STAR",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-BEARPOINT_10",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "BEARPOINT_10"
+          }
+        ]
+      }
+    },
+    {
+      "pid": "ABP082",
+      "avt": "SD_XIUKAI_TEEN",
+      "bgl": {
+        "DNA_PRODUCTION": [
+          {
+            "c": "36-DECREASE_TIME_005",
+            "a": 1,
+            "goodsType": 36,
+            "subType": "DECREASE_TIME_005"
+          }
+        ],
+        "BATTLE_ASSET_BONUS": [
+          {
+            "c": "8-CHARACTER_EXP_20",
+            "a": 1,
+            "goodsType": 8,
+            "subType": "CHARACTER_EXP_20"
+          }
+        ]
+      }
+    }
+  ]
+}
