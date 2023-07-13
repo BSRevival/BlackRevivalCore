@@ -11,85 +11,93 @@ namespace BlackRevival.Common.Model
     public class Character
     {
 		[JsonPropertyName("cnm")]
-		public long characterNum;
+		public long characterNum{ get; set; }
 
 		[JsonPropertyName("unm")]
-		public long userNum;
+		public long userNum{ get; set; }
 
 		[JsonPropertyName("cls")]
-		public int characterClass;
+		public int characterClass{ get; set; }
 
 		[JsonPropertyName("crd")]
-		public CharacterGrade characterGrade;
+		public CharacterGrade characterGrade{ get; set; }
 
 		[JsonPropertyName("ast")]
-		public int activeCharacterSkinType;
+		public int activeCharacterSkinType{ get; set; }
 
 		[JsonPropertyName("ehx")]
-		public int enhanceExp;
+		public int enhanceExp{ get; set; }
 
 		[JsonPropertyName("cpt")]
-		public CharacterPurchaseType characterPurchaseType;
+		public CharacterPurchaseType characterPurchaseType{ get; set; }
 
 		[JsonPropertyName("unn")]
-		public string userNickname;
+		public string userNickname{ get; set; }
 
 		[JsonPropertyName("lwd")]
-		public string userLastword;
+		[JsonIgnore]
+		public string userLastword{ get; set; }
 
 		[JsonPropertyName("wwd")]
-		public string userWatchword;
+		[JsonIgnore]
+		public string userWatchword{ get; set; }
 
 		[JsonPropertyName("ddm")]
-		[Newtonsoft.Json.JsonConverter(typeof(MicrosecondEpochConverter))]
-		public DateTime deadTime;
+		[JsonConverter(typeof(MicrosecondEpochConverter))]
+		[JsonIgnore]
+		public DateTime deadTime{ get; set; }
 
 		[JsonPropertyName("ctt")]
-		public CharacterStatus characterStatus;
+		public CharacterStatus characterStatus{ get; set; }
 
 		[JsonPropertyName("leg")]
-		public League league;
+		public League league{ get; set; }
 
 		[JsonPropertyName("nrs")]
-		public long toNormalRemainSeconds;
+		public long toNormalRemainSeconds{ get; set; }
 
 		[JsonPropertyName("rpc")]
-		public int rankPlayCount;
+		public int rankPlayCount{ get; set; }
 
 		[JsonPropertyName("rwc")]
-		public int rankWinCount;
+		public int rankWinCount{ get; set; }
 
 		[JsonPropertyName("npc")]
-		public int normalPlayCount;
+		public int normalPlayCount{ get; set; }
 
 		[JsonPropertyName("nwc")]
-		public int normalWinCount;
+		public int normalWinCount{ get; set; }
 
 		[JsonPropertyName("gbd")]
-		public int leagueBorder;
+		public int leagueBorder{ get; set; }
 
 		[JsonPropertyName("psi")]
-		public int potentialSkillId;
+		public int potentialSkillId{ get; set; }
 
 		[JsonPropertyName("tnm")]
-		public int teamNumber;
+		public int teamNumber{ get; set; }
 
 		[JsonPropertyName("l2d")]
-		public bool activeLive2D;
+		public bool activeLive2D{ get; set; }
 
 		[JsonPropertyName("hst")]
-		public bool host;
+		public bool host{ get; set; }
 
 		[JsonPropertyName("rtc")]
-		public int researcherTitleCode;
+		public int researcherTitleCode{ get; set; }
 
 		[JsonPropertyName("mcc")]
-		public int matchingCardCode;
+		public int matchingCardCode{ get; set; }
+		
+		public int pmn { get; set; }
+		public int pfr { get; set; }
+		public int psd { get; set; }
 
-		[Newtonsoft.Json.JsonIgnore]
+
+		[JsonIgnore]
 		private Dictionary<AcE_WEAPON_TYPE, float> _defaultMasteryDic = new Dictionary<AcE_WEAPON_TYPE, float>();
 
-		[Newtonsoft.Json.JsonIgnore]
+		[JsonIgnore]
 		private float _defaultTopMastery;
 	}
 }
