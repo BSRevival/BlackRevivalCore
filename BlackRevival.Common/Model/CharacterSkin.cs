@@ -30,12 +30,11 @@ public class CharacterSkin
     public SkinEnableType skinEnableType{ get; set; }
 
     [JsonPropertyName("edtm")]
-    [JsonConverter(typeof(MicrosecondEpochConverter))]
+    //[JsonConverter(typeof(MicrosecondEpochConverter))]
     [JsonIgnore]
-    public DateTime enableDtm{ get; set; }
+    public long enableDtm{ get; set; }
 
     [JsonPropertyName("wtgl")]
     [JsonIgnore]
-
     public AcE_WayToGet wayToGet{ get; set; }
 }

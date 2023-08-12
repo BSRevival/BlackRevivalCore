@@ -22,7 +22,7 @@ public class SkinsResult : CommunityRequsetResult
 
     public List<string> productIds{ get; set; }
 
-    [JsonConverter(typeof(MicrosecondEpochConverter))]
-    public DateTime tournamentStartDtm{ get; set; }
+    //[JsonConverter(typeof(MicrosecondEpochConverter))]
+    public long tournamentStartDtm{ get; set; }
 
 }

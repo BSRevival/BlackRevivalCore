@@ -7,4 +7,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BlackRevival.Network\BlackRevival.Network.csproj" />
+    </ItemGroup>
+
 </Project>

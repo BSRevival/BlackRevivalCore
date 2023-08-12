@@ -141,7 +141,7 @@ public class LobbyController : Controller
                 },
                 // Add more LabGoods items as needed
             },
-            isAdmin = false,
+            isAdmin = true,
             isDefaultPerk = true,
             dormantAccount = false,
             dormantAccountDays = 0,

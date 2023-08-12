@@ -1,3 +1,5 @@
+using BlackRevival.APIServer.Classes;
+using BlackRevival.APIServer.Server;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,5 +27,8 @@ app.UseSerilogRequestLogging();
 app.UseAuthorization();
 
 app.MapControllers();
+MasterServer.StartAsync();
+Console.WriteLine("Master Server is running. Press any key to stop.");
 
 app.Run();
+MasterServer.Stop();

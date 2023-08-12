@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.Text.Json;
+using Newtonsoft.Json;
 using BlackRevival.APIServer.Classes;
 using BlackRevival.Common.Apis;
 using BlackRevival.Common.Model;
@@ -16,11 +17,12 @@ public class AuthenticateController : Controller
         _logger = logger;
     }
     [HttpPost("/api/authenticate", Name = "Authenticate")]
-    public IActionResult Authenticate()
+    public IActionResult Authenticate([FromBody] JsonElement loginInfo)
     {
         var queryString = HttpContext.Request.QueryString.Value;
-        _logger.LogInformation("Query string: {QueryString}", queryString);
+        _logger.LogInformation("loginRequest string: {QueryString}", loginInfo);
 
+        bool PlayTutorial = false;
         UserApi.LoginResult loginResult = new UserApi.LoginResult
         {
             userStatus = "NONE",
@@ -31,7 +33,7 @@ public class AuthenticateController : Controller
                     receivePushMsg = true,
                     newPostArrived = true,
                     termsAgree = true,
-                    nickname = "ReplaceNameHere",
+                    //nickname = "ReplaceNameHere",
                     tutorialProgress = 0,
                     bgm = true,
                     soundEffect = true,
@@ -76,7 +78,9 @@ public class AuthenticateController : Controller
             userIdentity = new UserApi.UserIdentity(),
             serverCheck = false
         };
-
+        
+        if (!PlayTutorial)
+            loginResult.user.nickname = "AnyNickname";
         
         loginResult.userIdentity.userNum = 7562069;
         loginResult.userIdentity.authProvider = AuthProvider.STEAM;

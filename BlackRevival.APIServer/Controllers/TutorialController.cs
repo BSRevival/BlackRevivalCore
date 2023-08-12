@@ -30,4 +30,43 @@ public class TutorialController : Controller
             Eac = 0,
         });
     }
+    
+    [HttpGet("/api/tutorial/clear/{tutorialNum}", Name = "ClearTutorial")]
+    public IActionResult ClearTutorial(int tutorialNum)
+    {
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0,
+        });
+    }
+    
+    [HttpPost("/api/tutorial/startBattle/{tutorialNum}", Name = "StartTutorialBattle")]
+    public IActionResult StartTutorialBattle(int tutorialNum)
+    {
+        var resp = new TutorialStartResponse
+        {
+            userTutorial = new UserTutorial
+            {
+                //tutorial = "TUTORIAL_101",
+                userNum = 7562069,
+                tutorialNum = tutorialNum,
+                cleared = false
+            },
+            ingameServerInfo = new IngameServerInfo
+            {
+            }
+        };
+                    
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = resp,
+            Eac = 0,
+        });
+    }
 }

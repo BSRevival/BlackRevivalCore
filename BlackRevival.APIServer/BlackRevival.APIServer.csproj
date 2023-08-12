@@ -14,6 +14,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\BlackRevival.Common\BlackRevival.Common.csproj" />
+      <ProjectReference Include="..\BlackRevival.Network\BlackRevival.Network.csproj" />
     </ItemGroup>
 
     <ItemGroup>

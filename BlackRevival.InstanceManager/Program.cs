@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using BlackRevival.InstanceManager.ServerManagers;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    static async Task Main()
+    {
+        InstanceManagerServer instanceManagerServer = new InstanceManagerServer();
+        
+        await instanceManagerServer.StartAsync();
+
+        // Keep the server running until a key is pressed
+        Console.WriteLine("Instance Manager Server is running. Press any key to stop.");
+        Console.ReadKey();
+
+        await instanceManagerServer.StopAsync();
+    }
+}
