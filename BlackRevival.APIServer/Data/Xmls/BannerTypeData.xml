@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BannerTypeData>
+  <!-- ShopBanner, MiniBanner => Texture Name and Content View-->
+  <!-- UseDimdPopup => Define only when MiniBanner Attribute exists -->
+  
+  <BEGINNERS_PACK Title="StarterPack" ShopBanner="StarterPack" SortOrder="3000"/>
+  <CHARACTER_PACK2 Title="CharacterPack" Worth="가치" ShopBanner="CharacterPack" SortOrder="2190"/>
+  <!-- <CHARACTER_PACK Title="CharacterPack" ShopBanner="NewCharacterPack" SortOrder="10000"/> -->
+  <NEW_CHARACTER_PACK Title="NewCharacterPack" ShopBanner="NewCharacterPack" MiniBanner="NewCharacterPack" UseDimdPopup="true" SortOrder="2180"/>
+
+  <DAILY_PACK_A Title="DailyPack_A" ShopBanner="DailyPack_A" MiniBanner="Promotion_Daily" UseDimdPopup="true" SortOrder="1000"/>
+  <DAILY_PACK_B Title="DailyPack_B" ShopBanner="DailyPack_B" MiniBanner="Promotion_Daily" UseDimdPopup="true" SortOrder="1001"/>
+  <DAILY_PACK_C Title="DailyPack_C" ShopBanner="DailyPack_C" MiniBanner="Promotion_Daily" UseDimdPopup="true" SortOrder="1002"/>
+
+  <YUKI_FIRSTIAP_PACK_01 Title="YuKi_FirstIAP_Pack_01" ShopBanner="FirstIAPPack_01" MiniBanner="Promotion_FirstIAPPack_01" UseDimdPopup="true" SkinCode ="3102"  SortOrder="1010"/>
+  <SUA_FIRSTIAP_PACK_01 Title="Sua_FirstIAP_Pack_01" ShopBanner="FirstIAPPack_01" MiniBanner="Promotion_FirstIAPPack_01" UseDimdPopup="true" SkinCode ="3302"  SortOrder="1011"/>
+  <MAI_FIRSTIAP_PACK_01 Title="Mai_FirstIAP_Pack_01" ShopBanner="FirstIAPPack_01" MiniBanner="Promotion_FirstIAPPack_01" UseDimdPopup="true" SkinCode ="3402"  SortOrder="1012"/>
+
+  <GEM_ACCUMULATE_EVENT Title="GEM_ACCUMULATE_EVENT" MiniBanner="Promotion_GemCharge" UseDimdPopup="true" SortOrder="10001"/>
+
+  <LEAGUE_UP_HORSE Title="HorsePack" Worth="가치" ShopBanner="HorsePack" MiniBanner="PromotionPack_Horse" UseDimdPopup="true" SortOrder="58"/>
+  <LEAGUE_UP_BUFFALO Title="BuffaloPack" Worth="가치" ShopBanner="BuffaloPack" MiniBanner="PromotionPack_Buffalo" UseDimdPopup="true" SortOrder="57"/>
+  <LEAGUE_UP_ELEPHANT Title="ElephantPack" Worth="가치" ShopBanner="ElephantPack" MiniBanner="PromotionPack_Elephant" UseDimdPopup="true" SortOrder="56"/>
+  <LEAGUE_UP_FOX Title="FoxPack" Worth="가치" ShopBanner="FoxPack" MiniBanner="PromotionPack_Fox" UseDimdPopup="true" SortOrder="55"/>
+  <LEAGUE_UP_WOLF Title="WolfPack" Worth="가치" ShopBanner="WolfPack" MiniBanner="PromotionPack_Wolf" UseDimdPopup="true" SortOrder="54"/>
+  <LEAGUE_UP_LION Title="LionPack" Worth="가치" ShopBanner="LionPack" MiniBanner="PromotionPack_Lion" UseDimdPopup="true" SortOrder="53"/>
+  <LEAGUE_UP_BEAR Title="BearPack" Worth="가치" ShopBanner="BearPack" MiniBanner="PromotionPack_Bear" UseDimdPopup="true" SortOrder="52"/>
+  <LEAGUE_UP_DRAGON Title="DragonPack" Worth="가치" ShopBanner="DragonPack" MiniBanner="PromotionPack_Dragon" UseDimdPopup="true" SortOrder="51"/>
+
+  <SkinPack Worth="가치" ShopBanner="Skin_Pack" MiniBanner="Promotion_Skin_Pack" UseDimdPopup="true">
+    <JACKIE_ACTUATION_PACK_01 Title="Jackie_Actuation_01" SkinCode ="104" SortOrder="101"/>
+    <FIORA_ACTUATION_PACK_01 Title="Fiora_Actuation_01" SkinCode ="202" SortOrder="102"/>
+    <ZAHIR_ACTUATION_PACK_01 Title="Zahir_Actuation_01" SkinCode ="302" SortOrder="103"/>
+    <HYUNWOO_ACTUATION_PACK_01 Title="Hyunwoo_Actuation_01" SkinCode ="402" SortOrder="104"/>
+    <JENNY_ACTUATION_PACK_01 Title="Jenny_Actuation_01" SkinCode ="702" SortOrder="105"/>
+    <JP_ACTUATION_PACK_01 Title="JP_Actuation_01" SkinCode ="802" SortOrder="106"/>
+    <NADINE_ACTUATION_PACK_01 Title="Nadine_Actuation_01" SkinCode ="1002" SortOrder="107"/>
+    <AYA_ACTUATION_PACK_01 Title="Aya_Actuation_01" SkinCode ="1103" SortOrder="108"/>
+    <HYEJIN_ACTUATION_PACK_01 Title="Hyejin_Actuation_01" SkinCode ="1203" SortOrder="109"/>
+    <ALEX_ACTUATION_PACK_01 Title="Alex_Actuation_01" SkinCode ="1302" SortOrder="110"/>
+    <CATHY_ACTUATION_PACK_01 Title="Cathy_Actuation_01" SkinCode ="1403" SortOrder="111"/>
+    <BARBARA_ACTUATION_PACK_01 Title="Barbara_Actuation_01" SkinCode ="1502" SortOrder="112"/>
+    <ISOL_ACTUATION_PACK_01 Title="Isol_Actuation_01" SkinCode ="1602" SortOrder="113"/>
+    <SILVIA_ACTUATION_PACK_01 Title="Silvia_Actuation_01" SkinCode ="1902" SortOrder="114"/>
+    <CHIARA_ACTUATION_PACK_01 Title="Chiara_Actuation_01" SkinCode ="2103" SortOrder="115"/>
+    <HART_ACTUATION_PACK_01 Title="Hart_Actuation_01" SkinCode ="2202" SortOrder="116"/>
+    <SHOICHI_ACTUATION_PACK_01 Title="Shoichi_Actuation_01" SkinCode ="2303" SortOrder="117"/>
+    <ARDA_ACTUATION_PACK_01 Title="Arda_Actuation_01" SkinCode ="2402" SortOrder="118"/>
+    <CAMILO_ACTUATION_PACK_01 Title="Camilo_Actuation_01" SkinCode ="2502" SortOrder="119"/>
+    <BERNICE_ACTUATION_PACK_01 Title="Bernice_Actuation_01" SkinCode ="2602" SortOrder="120"/>
+    <SISSELA_ACTUATION_PACK_01 Title="Sissela_Actuation_01" SkinCode ="2702" SortOrder="121"/>
+    <ADELA_ACTUATION_PACK_01 Title="Adela_Actuation_01" SkinCode ="2802" SortOrder="122"/>
+    <ADRIANA_ACTUATION_PACK_01 Title="Adriana_Actuation_01" SkinCode ="2902" SortOrder="123"/>
+    <NATHAPON_ACTUATION_PACK_01 Title="Nathapon_Actuation_01" SkinCode ="3002" SortOrder="124"/>
+    <YUKI_ACTUATION_PACK_01 Title="Yuki_Actuation_01" SkinCode ="3102" SortOrder="125"/>
+    <LENOX_ACTUATION_PACK_01 Title="Lenox_Actuation_01" SkinCode ="3202" SortOrder="126"/>
+    <SUA_ACTUATION_PACK_01 Title="Sua_Actuation_01" SkinCode ="3302" SortOrder="127"/>
+    <MAI_ACTUATION_PACK_01 Title="Mai_Actuation_01" SkinCode ="3402" SortOrder="128"/>
+    <JAN_ACTUATION_PACK_01 Title="Jan_Actuation_01" SkinCode ="3502" SortOrder="129"/>
+    <LUKE_ACTUATION_PACK_01 Title="Luke_Actuation_01" SkinCode ="3602" SortOrder="130"/>
+    <DANIEL_ACTUATION_PACK_01 Title="Daniel_Actuation_01" SkinCode ="4002" SortOrder="131"/>
+    <RIO_ACTUATION_PACK_01 Title="Rio_Actuation_01" SkinCode ="4102" SortOrder="132"/>
+    <EVA_ACTUATION_PACK_01 Title="Eva_Actuation_01" SkinCode ="4202" SortOrder="133"/>
+    <NICKY_ACTUATION_PACK_01 Title="Nicky_Actuation_01" SkinCode ="4302" SortOrder="134"/>
+  </SkinPack>
+
+  <FIRST_IAP Title="FirstIAP" ShopBanner="Banner_event_FirstInapp" MiniBanner="FirstIAP" UseDimdPopup="true" SortOrder="10"/>
+
+  <CONFIRMED_PICK_UP MiniBanner="" UseDimdPopup="true" SortOrder="1"/>
+  <VOTE MiniBanner="Vote" UseDimdPopup="false" SortOrder="1"/>
+</BannerTypeData>

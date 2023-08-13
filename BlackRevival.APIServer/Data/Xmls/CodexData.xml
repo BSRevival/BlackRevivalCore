@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodexData>
+  <Home>
+    <Mail ExistCategory ="false">
+      <Mail>
+        <Mail_1 ExistContentSubText="true" ContentType="Text"/>
+        <Mail_2 ExistContentSubText="true" ContentType="Text"/>
+        <Mail_3 ExistContentSubText="true" ContentType="Text"/>
+        <Mail_4 ExistContentSubText="true" ContentType="Text"/>
+      </Mail>
+    </Mail>
+
+    <Media ExistCategory ="true">
+      <Voice>
+        <Voice_1 ExistContentSubText="false" ContentType="Voice" SoundType="Voice" SoundCode="1"/>
+      </Voice>
+      <Photo>
+        <Photo_1 ExistContentSubText="false" ContentType="Photo" Texture="Codex_Photo_01"/>
+      </Photo>
+    </Media>
+
+    <File ExistCategory ="true">
+      <Report>
+        <Report_1 ExistContentSubText="false" ContentType="Text"/>
+        <Report_2 ExistContentSubText="false" ContentType="TextPhoto" Texture="Codex_PhotoText_01"/>
+        <Report_3 ExistContentSubText="false" ContentType="TextPhoto" Texture="Codex_PhotoText_09"/>
+        <Report_4 ExistContentSubText="false" ContentType="TextPhoto" Texture="Codex_PhotoText_08"/>
+      </Report>
+      <!--<Research ExistContentSubText="false" ContentType="TextPhoto" Count="1"/>-->
+      <!--<Document ExistContentSubText="false" ContentType="TextPhoto" Count="1"/>-->
+    </File>
+
+    <News ExistCategory ="true">
+      <Material_1>
+        <Material_1 ExistContentSubText="false" ContentType="TextPhoto" Texture="Codex_PhotoText_02"/>
+      </Material_1>
+      <Material_2>
+        <Material_1 ExistContentSubText="false" ContentType="TextPhoto" Texture="Codex_PhotoText_03"/>
+      </Material_2>
+      <!--<Social ExistContentSubText="false" ContentType="TextPhoto" Count="1"/>-->
+    </News>
+
+    <PrivateFolder ExistCategory ="true">
+      <Photo>
+        <Photo_1 ExistContentSubText="false" ContentType="Photo" Texture="Codex_Photo_02"/>
+        <Photo_2 ExistContentSubText="false" ContentType="Photo" Texture="Codex_Photo_05"/>
+      </Photo>
+      <Memo>
+        <Memo_1 ExistContentSubText="false" ContentType="Photo" Texture="Codex_Photo_03"/>
+      </Memo>
+      <!--<Etc ExistContentSubText="false" ContentType="TextPhoto" Count="1"/>-->
+    </PrivateFolder>
+  </Home>
+
+  <TimeLine>
+    <Issue_200603 Type="Text"/>
+    <Issue_200811 Type="CutScene" PopupAtlas="LobbyUI" PopupSprite="Codex_Issue_02" PlayCutScene="2"/>
+    <Issue_200812 Type="Photo" Texture="Codex_Photo_04"/>
+    <Issue_201404 Type="CutScene" PopupAtlas="LobbyUI" PopupSprite="Codex_Issue_05" PlayCutScene="3"/>
+    <Issue_201405 Type="Voice" SoundType="TimeLine" SoundCode="1"/>
+    <Issue_AglaiaPass_01 Type="AglaiaPass" Episod="1"/>
+    <Issue_201902 Type="Text"/>
+  </TimeLine>
+
+  <Wiki>
+    <Project>
+      <Category>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_02"/>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_01"/>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_03"/>  
+      </Category>
+      <Category>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_04"/>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_08"/>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_09"/>
+      </Category>
+    </Project>
+    
+    <VF>
+      <Category>
+        <Folder ContentType="Report" Texture="Codex_PhotoText_04"/>
+        <Folder ContentType="Report">
+          <File ContentType="Report" Texture="Codex_PhotoText_05"/>
+          <File ContentType="Report" Texture="Codex_PhotoText_06"/>
+          <File ContentType="Report" Texture="Codex_PhotoText_07"/>
+        </Folder>
+      </Category>
+    </VF>
+    
+    <Organization>
+      <Category>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_05"/>
+      </Category>
+      <Category>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_06"/>
+      </Category>
+      <Category>
+        <Folder ContentType="TextPhoto" Texture="Codex_WikiPhoto_07"/>
+      </Category>
+    </Organization>
+    
+    <People>
+      <Category>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_01"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_02"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_03"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_04"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_05"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_06"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_07"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_08"/>
+        <Folder ContentType="Profile" Texture="Codex_WikiProfile_08"/>
+      </Category>
+      <Category>
+       <Folder ContentType="Profile" Texture="Codex_WikiProfile_08"/>
+       <Folder ContentType="Profile" Texture="Codex_WikiProfile_08"/>
+       <Folder ContentType="Profile" Texture="Codex_WikiProfile_08"/>
+      </Category>
+    </People>
+  </Wiki>
+</CodexData>

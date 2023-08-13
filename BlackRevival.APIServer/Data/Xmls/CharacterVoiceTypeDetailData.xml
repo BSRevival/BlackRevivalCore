@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CharacterVoiceTypeDetailData>
+  <Jackie>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Jackie>
+
+  <Fiora>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Fiora>
+  
+  <Zahir>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Zahir>
+  
+  <Hyunwoo>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Hyunwoo>
+  
+  <William>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </William>
+  
+  <Rosalio>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Rosalio>
+  
+  <Jenny>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Jenny>
+  
+  <JP>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </JP>
+
+  <Xiukai>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Xiukai>
+  
+  <Nadine>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Nadine>
+  
+  <Aya>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Aya>
+  
+  <Hyejin>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Hyejin>
+  
+  <Alex>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Alex>
+  
+  <Cathy>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Cathy>
+  
+  <Barbara>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Barbara>
+  
+  <Isol>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Isol>
+  
+  <Leon>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Leon>
+  
+  <Magnus>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Magnus>
+  
+  <Silvia>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Silvia>
+  
+  <Dailin>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Dailin>
+  
+  <Chiara>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Chiara>
+  
+  <Hart>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Hart>
+  
+  <Shoichi>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Shoichi>
+  
+  <Arda>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Arda>
+  
+  <Camilo>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Camilo>
+  
+  <Bernice>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Bernice>
+  
+  <Sissela>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Sissela>
+  
+  <Adela>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Adela>
+  
+  <Adriana>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Adriana>
+  
+  <Nathapon>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Nathapon>
+  
+  <Yuki>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Yuki>
+  
+  <Lenox>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Lenox>
+  
+  <Sua>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Sua>
+  
+  <Mai>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Mai>
+  
+  <Jan>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Jan>
+  
+  <Luke>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Luke>
+  
+  <Rozzi>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Rozzi>
+  
+  <Emma>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Emma>
+  
+  <Eleven>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Eleven>
+  
+  <Daniel>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Daniel>
+  
+  <Rio>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Rio>
+  
+  <Eva>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Eva>
+  
+  <Nicky>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Nicky>
+  
+  <Echion>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Echion>
+  
+  <Bianca>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Bianca>
+  
+  <Chloe>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Chloe>
+  
+  <Johann>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Johann>
+  
+  <Celine>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Celine>
+  
+  <Laura>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Laura>
+  
+  <Aiden>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Aiden>
+  
+  <Tia>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>  
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Tia>
+
+  <Elena>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Elena>
+
+  <Felix>
+    <SituationType>
+      <Voice SituationType="ABILITY" TrustLevel="0"/>
+      <Voice SituationType="SELECT" TrustLevel="0"/>
+      <Voice SituationType="START" TrustLevel="0"/>
+      <Voice SituationType="MEET" TrustLevel="0"/>
+      <Voice SituationType="WIN" TrustLevel="0"/>
+      <Voice SituationType="LOSE" TrustLevel="0"/>
+    </SituationType>
+    <SignatureType>
+      <Voice SignatureType="TRUST_1" TrustLevel="1"/>
+      <Voice SignatureType="HATE" TrustLevel="2"/>
+      <Voice SignatureType="LOBBY" TrustLevel="3"/>
+      <Voice SignatureType="TRUST_2" TrustLevel="4"/>
+    </SignatureType>
+    <PlayInteraction>
+      <Voice Index="1" TrustLevel="0"/>
+      <Voice Index="2" TrustLevel="0"/>
+      <Voice Index="3" TrustLevel="0"/>
+      <Voice Index="4" TrustLevel="0"/>
+    </PlayInteraction>
+  </Felix>
+
+</CharacterVoiceTypeDetailData>

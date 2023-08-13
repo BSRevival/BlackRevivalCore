@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BgmTypeData>
+  <BgmType_DEFAULT_BGM Type="DEFAULT_BGM" FileName="Lobby_Bgm" />
+  <BgmType_BGM01 Type="BGM01" FileName="Ep1_Sissela_Bgm" />
+  <BgmType_BGM02 Type="BGM02" FileName="Ep2_Chiara_Bgm" />
+  <BgmType_BGM03 Type="BGM03" FileName="Ep3_Daniel_Bgm" />
+  <BgmType_BGM04 Type="BGM04" FileName="Ep4_Hart_Bgm" />
+  <BgmType_BGM05 Type="BGM05" FileName="Ep5_Arda_Bgm" />
+  <BgmType_BGM06 Type="BGM06" FileName="Ep6_Zahir_Bgm" />
+  <BgmType_BGM07 Type="BGM07" FileName="Ep7_Bernice_Bgm" />
+  <BgmType_BGM08 Type="BGM08" FileName="Ep8_Silvia_Bgm" />
+  <BgmType_BGM09 Type="BGM09" FileName="Ep9_Lenox_Bgm" />
+  <BgmType_BGM10 Type="BGM10" FileName="Ep10_Adela_Bgm" />
+  <BgmType_BGM11 Type="BGM11" FileName="Ep11_Camilo_Bgm"/>
+  <BgmType_BGM12 Type="BGM12" FileName="Ep12_Jackie_Bgm"/>
+  <BgmType_BGM13 Type="BGM13" FileName="Ep13_Johann_Bgm"/>
+</BgmTypeData>

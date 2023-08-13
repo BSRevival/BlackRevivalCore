@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResearcherTitleTypeData>
+  <ResearcherTitleType_0 Code="0" Type="NONE" Texture="" />
+  <ResearcherTitleType_101 Code="101" Type="TOURNAMENT_RULER" Texture="TournamentTitle_03" />
+  <ResearcherTitleType_102 Code="102" Type="TOURNAMENT_PIONEER" Texture="TournamentTitle_02" />
+  <ResearcherTitleType_103 Code="103" Type="TOURNAMENT_CHALLENGER" Texture="TournamentTitle_01" />
+  <ResearcherTitleType_104 Code="104" Type="TOURNAMENT_JACKIE" Texture="TournamentTitle_Jackie" />
+  <ResearcherTitleType_105 Code="105" Type="TOURNAMENT_HYUNWOO" Texture="TournamentTitle_HyunWoo" />
+  <ResearcherTitleType_106 Code="106" Type="TOURNAMENT_FIORA" Texture="TournamentTitle_Fiora" />
+  <ResearcherTitleType_107 Code="107" Type="TOURNAMENT_XIUKAI" Texture="TournamentTitle_Xiukai" />
+  <ResearcherTitleType_108 Code="108" Type="TOURNAMENT_SILVIA" Texture="TournamentTitle_Silvia" />
+  <ResearcherTitleType_901 Code="901" Type="EXPERIMENTAL_TESTER" Texture="Experimental_Tester" />
+</ResearcherTitleTypeData>

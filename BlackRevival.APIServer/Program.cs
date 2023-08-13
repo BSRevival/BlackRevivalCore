@@ -25,6 +25,7 @@ app.UseSerilogRequestLogging();
 //app.UseHttpsRedirection();
 
 app.UseAuthorization();
+TableManager.Init();
 
 app.MapControllers();
 MasterServer.StartAsync();

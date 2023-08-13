@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RouletteGoodsGradeData>
+  <RouletteGoodsGrade_None Grade="None" Credit="0" />
+  <RouletteGoodsGrade_D Grade="D" Credit="5" />
+  <RouletteGoodsGrade_C Grade="C" Credit="5" />
+  <RouletteGoodsGrade_B Grade="B" Credit="10" />
+  <RouletteGoodsGrade_A Grade="A" Credit="20" />
+  <RouletteGoodsGrade_S Grade="S" Credit="100" />
+  <RouletteGoodsGrade_SS Grade="SS" Credit="500" />
+</RouletteGoodsGradeData>

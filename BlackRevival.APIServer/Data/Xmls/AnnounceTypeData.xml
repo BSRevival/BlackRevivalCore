@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AnnounceTypeData>
+  <AnnounceType_NONE Type="NONE" Texture="" />
+  <AnnounceType_TOMAS Type="TOMAS" Texture="Tomas" />
+  <AnnounceType_NADJA Type="NADJA" Texture="Nadja" />
+  <AnnounceType_ANNIVERSARY_6TH Type="ANNIVERSARY_6TH" Texture="Anniversary_6th" />
+</AnnounceTypeData>

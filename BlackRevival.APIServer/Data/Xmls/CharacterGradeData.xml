@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CharacterGradeData>
+  <Grade_0 Code="0" MaxExp="0" />
+  <Grade_1 Code="1" MaxExp="20" />
+  <Grade_2 Code="2" MaxExp="100" />
+  <Grade_3 Code="3" MaxExp="300" />
+  <Grade_4 Code="4" MaxExp="600" />
+  <Grade_5 Code="5" MaxExp="0" />
+</CharacterGradeData>

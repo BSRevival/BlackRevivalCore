@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MonologueTypeData>
+  <MonologueType_NONE Type="NONE" Texture="" CharacterClass="None" CharacterSkinType="0"/>
+  <MonologueType_ROZZI_DEFAULT Type="ROZZI_DEFAULT" Texture="Rozzi_Default" CharacterClass="Rozzi" CharacterSkinType="3701"/>
+  <MonologueType_ELEVEN_DEFAULT Type="ELEVEN_DEFAULT" Texture="Eleven_Default" CharacterClass="Eleven" CharacterSkinType="3901"/>
+  <MonologueType_EMMA_DEFAULT Type="EMMA_DEFAULT" Texture="Emma_Default" CharacterClass="Emma" CharacterSkinType="3801"/>
+  <MonologueType_YUKI_DEFAULT Type="YUKI_DEFAULT" Texture="Yuki_Default" CharacterClass="Yuki" CharacterSkinType="3101"/>
+  <MonologueType_ADRIANA_DEFAULT Type="ADRIANA_DEFAULT" Texture="Adriana_Default" CharacterClass="Adriana" CharacterSkinType="2901" />
+  <MonologueType_LUKE_DEFAULT Type="LUKE_DEFAULT" Texture="Luke_Default" CharacterClass="Luke" CharacterSkinType="3601" />
+  <MonologueType_DAILIN_DEFAULT Type="DAILIN_DEFAULT" Texture="Dailin_Default" CharacterClass="Dailin" CharacterSkinType="2001" />
+  <MonologueType_SISSELA_DEFAULT Type="SISSELA_DEFAULT" Texture="Sissela_Default" CharacterClass="Sissela" CharacterSkinType="2701" />
+  <MonologueType_EVA_DEFAULT Type="EVA_DEFAULT" Texture="Eva_Default" CharacterClass="Eva" CharacterSkinType="4201" />
+  <MonologueType_HYEJIN_DEFAULT Type="HYEJIN_DEFAULT" Texture="Hyejin_Default" CharacterClass="Hyejin" CharacterSkinType="1201" />
+  <MonologueType_BIANCA_DEFAULT Type="BIANCA_DEFAULT" Texture="Bianca_Default" CharacterClass="Bianca" CharacterSkinType="4501" />
+  <MonologueType_ADELA_DEFAULT Type="ADELA_DEFAULT" Texture="Adela_Default" CharacterClass="Adela" CharacterSkinType="2801" />
+  <MonologueType_LEON_DEFAULT Type="LEON_DEFAULT" Texture="Leon_Default" CharacterClass="Leon" CharacterSkinType="1701" />
+  <MonologueType_WILLIAM_DEFAULT Type="WILLIAM_DEFAULT" Texture="William_Default" CharacterClass="William" CharacterSkinType="501" />
+  <MonologueType_NICKY_DEFAULT Type="NICKY_DEFAULT" Texture="Nicky_Default" CharacterClass="Nicky" CharacterSkinType="4301" />
+  <MonologueType_CHLOE_DEFAULT Type="CHLOE_DEFAULT" Texture="Chloe_Default" CharacterClass="Chloe" CharacterSkinType="4601" />
+  <MonologueType_JOHANN_DEFAULT Type="JOHANN_DEFAULT" Texture="Johann_Default" CharacterClass="Johann" CharacterSkinType="4701" />
+  <MonologueType_CELINE_DEFAULT Type="CELINE_DEFAULT" Texture="Celine_Default" CharacterClass="Celine" CharacterSkinType="4801" />
+  <MonologueType_ALEX_DEFAULT Type="ALEX_DEFAULT" Texture="Alex_Default" CharacterClass="Alex" CharacterSkinType="1301" />
+  <MonologueType_LAURA_DEFAULT Type="LAURA_DEFAULT" Texture="Laura_Default" CharacterClass="Laura" CharacterSkinType="4901" />
+  <MonologueType_SHOICHI_DEFAULT Type="SHOICHI_DEFAULT" Texture="Shoichi_Default" CharacterClass="Shoichi" CharacterSkinType="2301" />
+  <MonologueType_TIA_DEFAULT Type="TIA_DEFAULT" Texture="Tia_Default" CharacterClass="Tia" CharacterSkinType="5101" />
+  <MonologueType_DANIEL_DEFAULT Type="DANIEL_DEFAULT" Texture="Daniel_Default" CharacterClass="Daniel" CharacterSkinType="4001" />
+  <MonologueType_RIO_DEFAULT Type="RIO_DEFAULT" Texture="Rio_Default" CharacterClass="Rio" CharacterSkinType="4101" />
+  <MonologueType_AYA_DEFAULT Type="AYA_DEFAULT" Texture="Aya_Default" CharacterClass="Aya" CharacterSkinType="1101" />
+  <MonologueType_AIDEN_DEFAULT Type="AIDEN_DEFAULT" Texture="Aiden_Default" CharacterClass="Aiden" CharacterSkinType="5001" />
+  <MonologueType_ELENA_DEFAULT Type="ELENA_DEFAULT" Texture="Elena_Default" CharacterClass="Elena" CharacterSkinType="5201" />
+  <MonologueType_FELIX_DEFAULT Type="FELIX_DEFAULT" Texture="Felix_Default" CharacterClass="Felix" CharacterSkinType="5301" />
+</MonologueTypeData>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProductData>
+  <NONE ProductId="" ResourceType="Texture" Atlas ="" ResourceName="rainbow"/>
+
+  <GOLD_5600 ProductId="GDGM001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GDGM001"/>
+  <GOLD_31500 ProductId="GDGM002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GDGM002"/>
+  <GOLD_70000 ProductId="GDGM003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GDGM003"/>
+  <GOLD_154000 ProductId="GDGM004" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GDGM004"/>
+
+  <GEM_250 ProductId="GMIP001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GMIP001"/>
+  <GEM_500 ProductId="GMIP002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GMIP002"/>
+  <GEM_1200 ProductId="GMIP003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GMIP003"/>
+  <GEM_2500 ProductId="GMIP004" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GMIP004"/>
+  <GEM_6500 ProductId="GMIP005" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GMIP005"/>
+  <GEM_14000 ProductId="GMIP006" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GMIP006"/>
+  <GEM_80 ProductId="GMIP007" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GMIP007"/>
+
+  <BEGINNERS_PACK ProductId="PKIP001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="스타터팩" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/StarterPack"/>
+  <CHARACTER_PACK ProductId="PKIP002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon" Name="캐릭터팩" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/CharacterPack"/>
+  <CHARACTER_PACK2 ProductId="PKIP003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon" Name="캐릭터팩" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/CharacterPack"/>
+  <NEW_CHARACTER_PACK ProductId="PKNC053" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon" Name="캐릭터팩" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/NewCharacterPack"/>
+
+  <DAILY_PACK_A ProductId="PKDL001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="데일리 패키지 A" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/DailyPack_A"/>
+  <DAILY_PACK_B ProductId="PKDL002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="데일리 패키지 B" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/DailyPack_B"/>
+  <DAILY_PACK_C ProductId="PKDL003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="데일리 패키지 C" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/DailyPack_C"/>
+
+  <YUKI_FIRSTIAP_PACK_01 ProductId="PKFI001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon" Name="일도양단 유키 패키지 " PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/YUKI_FIRSTIAP_PACK_01"/>
+  <SUA_FIRSTIAP_PACK_01 ProductId="PKFI002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon" Name="꿈꾸는 수아 패키지 " PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/SUA_FIRSTIAP_PACK_01"/>
+  <MAI_FIRSTIAP_PACK_01 ProductId="PKFI003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon" Name="마이발렌타인 패키지 " PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/MAI_FIRSTIAP_PACK_01"/>
+  
+  <LEAGUE_UP_HORSE ProductId="PLUHR001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="말 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/HorsePack"/>
+  <LEAGUE_UP_BUFFALO ProductId="PLUBF001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="물소 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/BuffaloPack"/>
+  <LEAGUE_UP_ELEPHANT ProductId="PLUEP001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="코끼리 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/ElephantPack"/>
+  <LEAGUE_UP_FOX ProductId="PLUFX001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="여우 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/FoxPack"/>
+  <LEAGUE_UP_WOLF ProductId="PLUW001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Startpack_Icon" Name="늑대 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/WolfPack"/>
+  <LEAGUE_UP_LION ProductId="PLUL001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Leaguetpack_Icon" Name="사자 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/LionPack"/>
+  <LEAGUE_UP_BEAR ProductId="PLUB001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Leaguetpack_Icon" Name="곰 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/BearPack"/>
+  <LEAGUE_UP_DRAGON ProductId="PLUD001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Leaguetpack_Icon" Name="용 승급 패키지" PopupDesc="Lobby_LUI/Shop_Item_PopUp_Desc/DragonPack"/>
+
+  <GOLD_BOOSTER_GAME_10 ProductId="GBGM001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GBGM001"/>
+  <GOLD_BOOSTER_GAME_100 ProductId="GBGM002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GBGM002"/>
+  <GOLD_BOOSTER_TIME_24H ProductId="GBGM003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GBGM001"/>
+  <GOLD_BOOSTER_TIME_240H ProductId="GBGM004" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GBGM002"/>
+
+  <LEAGUE_RANK_BOOSTER_GAME_10 ProductId="EBGM001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_EBGM001"/>
+  <LEAGUE_RANK_BOOSTER_GAME_100 ProductId="EBGM002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_EBGM002"/>
+  <LEAGUE_RANK_BOOSTER_TIME_24H ProductId="EBGM003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_EBGM001"/>
+  <LEAGUE_RANK_BOOSTER_TIME_240H ProductId="EBGM004" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_EBGM002"/>
+
+  <REVIVE_1000 ProductId="RVIP001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_ArsBe"/>
+  <NICKNAME_CHANGE ProductId="NCGM001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_NCGM001"/>
+  <RESEARCH_SUPPORT ProductId="AR001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_RSupport"/>
+  <EXPERT_RESEARCH_SUPPORT ProductId="AR002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_ExpertRSupport" PopupTooltip="Lobby_LUI/Shop_Item_PopUp_Tooltip/AR002"/>
+  <TOURNAMENT_TICKET_SUPPORT ProductId="TTS001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="TournamentMembership"/>
+  <LABYRINTH_MEMBERSHIP ProductId="LBM001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="PvE_Membership"/>
+  <LABYRINTH_BOOSTER ProductId="LBB001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="PvE_Booster"/>
+
+  <POTENTIAL_SKILL_FINDBREAD ProductId="PTSK001" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6001" Name="Skill_Name/6001"/>
+  <POTENTIAL_SKILL_AMBUSH ProductId="PTSK002" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6002" Name="Skill_Name/6002"/>
+  <POTENTIAL_SKILL_DETECT ProductId="PTSK003" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6003" Name="Skill_Name/6003"/>
+  <POTENTIAL_SKILL_COUNTER ProductId="PTSK004" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6004" Name="Skill_Name/6004"/>
+  <POTENTIAL_SKILL_ACCELATE ProductId="PTSK005" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6005" Name="Skill_Name/6005"/>
+  <POTENTIAL_SKILL_FINDBULLET ProductId="PTSK006" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6006" Name="Skill_Name/6006"/>
+  <POTENTIAL_SKILL_FINDARROW ProductId="PTSK007" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6007" Name="Skill_Name/6007"/>
+  <POTENTIAL_SKILL_CHASE ProductId="PTSK008" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6008" Name="Skill_Name/6008"/>
+  <POTENTIAL_SKILL_PROVOKE ProductId="PTSK101" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6301" Name="Skill_Name/6301"/>
+  <POTENTIAL_SKILL_ADAPTATION ProductId="PTSK102" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6302" Name="Skill_Name/6302"/>
+  <POTENTIAL_SKILL_WIDE_HEAL ProductId="PTSK103" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6303" Name="Skill_Name/6303"/>
+  <POTENTIAL_SKILL_POACH ProductId="PTSK104" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6304" Name="Skill_Name/6304"/>
+  <POTENTIAL_SKILL_FEVER ProductId="PTSK105" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6305" Name="Skill_Name/6305"/>
+  <POTENTIAL_SKILL_RESTORATION ProductId="PTSK106" ResourceType="Sprite" Atlas="PotentialIcons" ResourceName="SkillIcon_6009" Name="Skill_Name/6009"/>
+
+  <LIGHT_LUNCH_BOX ProductId="SBGD001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SBGD001"/>
+  <SUPPLY_BOX_OFFENCE ProductId="SBGM001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SBGM001"/>
+  <SUPPLY_BOX_DEFENCE ProductId="SBGM002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SBGM002"/>
+  <ICE_BOX ProductId="SBGM003" ResourceType="Sprite" Atlas="Common" ResourceName="Lobby_Shop_Item_SBGM003"/>
+  <INVENTORY_EXTENDER ProductId="IEGD001" ResourceType="Sprite" Atlas="Common" ResourceName="Lobby_Shop_Item_IEGD001"/>
+  <OBSERVER ProductId="OBSE001"/>
+
+  <DALIY_CHARACTER_EXP ProductId="DCE25" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Icon_Confidencesyringe"/>
+  <DALIY_GOLD_1000 ProductId="DSG1000" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_GDGM001"/>
+  <DALIY_EM_3 ProductId="DEM3" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_Experimental_memory"/>
+  <RANDOM_DNA ProductId="RDNA001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_Experimental_memory"/>
+
+  <DAILY_GEM_FROM_LABYRINTH_POINT_1 ProductId="GFLR001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName=""/>
+  <DAILY_GEM_FROM_LABYRINTH_POINT_2 ProductId="GFLR002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName=""/>
+  <DAILY_GEM_FROM_LABYRINTH_POINT_3 ProductId="GFLR003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName=""/>
+
+  <SEASON_VOTE_BY_GEM_1 ProductId="SVGM001" ResourceType="Sprite" Atlas="Common" ResourceName="Common_VoteToken"/>
+  <SEASON_VOTE_BY_GOLD_1 ProductId="SVGD001" ResourceType="Sprite" Atlas="Common" ResourceName="Common_VoteToken"/>
+  <SEASON_VOTE_BY_BEAR_POINT_1 ProductId="SVBP001" ResourceType="Sprite" Atlas="Common" ResourceName="Common_VoteToken"/>
+  <SEASON_VOTE_BY_GEM_10 ProductId="SVGM002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SV002"/>
+  <SEASON_VOTE_BY_GOLD_10 ProductId="SVGD002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SV002"/>
+  <SEASON_VOTE_BY_BEAR_POINT_10 ProductId="SVBP002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SV002"/>
+  <SEASON_VOTE_BY_GEM_100 ProductId="SVGM003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SV003"/>
+  <SEASON_VOTE_BY_GOLD_100 ProductId="SVGD003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SV003"/>
+  <SEASON_VOTE_BY_BEAR_POINT_100 ProductId="SVBP003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_SV003"/>
+
+  <EXPERIMENT_MEMORY_500 ProductId="EMIP001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_Experimental_memory"/>
+  <EXPERIMENT_MEMORY_2000 ProductId="EMIP002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_Experimental_memory_02"/>
+  <EXPERIMENT_MEMORY_5000 ProductId="EMIP003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Common_Icon_Experimental_memory_03"/>
+
+  <TOURNAMENT_TICKET_1 ProductId="TT001" ResourceType="Sprite" Atlas="Common" ResourceName="Tournament_Ticket"/>
+  <TOURNAMENT_TICKET_10 ProductId="TT010" ResourceType="Sprite" Atlas="Common" ResourceName="Tournament_Ticket_02"/>
+
+  <NICKNAME_CHANGE_TICKET ProductId="NCGM002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Item_NCGM001"/>
+
+  <PVE_CHARGE_TICKET_01 ProductId="PVECT001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName=""/>
+  <PVE_FREE_TICKET_01 ProductId="PVEFT001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName=""/>
+
+  <JACKIE_ACTUATION_PACK_01 ProductId="PKAP001" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <FIORA_ACTUATION_PACK_01 ProductId="PKAP002" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <ZAHIR_ACTUATION_PACK_01 ProductId="PKAP003" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <HYUNWOO_ACTUATION_PACK_01 ProductId="PKAP004" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <JENNY_ACTUATION_PACK_01 ProductId="PKAP005" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <JP_ACTUATION_PACK_01 ProductId="PKAP006" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <NADINE_ACTUATION_PACK_01 ProductId="PKAP007" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <AYA_ACTUATION_PACK_01 ProductId="PKAP008" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <HYEJIN_ACTUATION_PACK_01 ProductId="PKAP009" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <ALEX_ACTUATION_PACK_01 ProductId="PKAP010" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <CATHY_ACTUATION_PACK_01 ProductId="PKAP011" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <BARBARA_ACTUATION_PACK_01 ProductId="PKAP012" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <ISOL_ACTUATION_PACK_01 ProductId="PKAP013" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <SILVIA_ACTUATION_PACK_01 ProductId="PKAP014" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <CHIARA_ACTUATION_PACK_01 ProductId="PKAP015" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <HART_ACTUATION_PACK_01 ProductId="PKAP016" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <SHOICHI_ACTUATION_PACK_01 ProductId="PKAP017" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <ARDA_ACTUATION_PACK_01 ProductId="PKAP018" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <CAMILO_ACTUATION_PACK_01 ProductId="PKAP019" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <BERNICE_ACTUATION_PACK_01 ProductId="PKAP020" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <SISSELA_ACTUATION_PACK_01 ProductId="PKAP021" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <ADELA_ACTUATION_PACK_01 ProductId="PKAP022" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <ADRIANA_ACTUATION_PACK_01 ProductId="PKAP023" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <NATHAPON_ACTUATION_PACK_01 ProductId="PKAP024" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <YUKI_ACTUATION_PACK_01 ProductId="PKAP025" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <LENOX_ACTUATION_PACK_01 ProductId="PKAP026" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <SUA_ACTUATION_PACK_01 ProductId="PKAP027" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <MAI_ACTUATION_PACK_01 ProductId="PKAP028" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <JAN_ACTUATION_PACK_01 ProductId="PKAP029" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <LUKE_ACTUATION_PACK_01 ProductId="PKAP030" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <DANIEL_ACTUATION_PACK_01 ProductId="PKAP031" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <RIO_ACTUATION_PACK_01 ProductId="PKAP032" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <EVA_ACTUATION_PACK_01 ProductId="PKAP033" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+  <NICKY_ACTUATION_PACK_01 ProductId="PKAP034" ResourceType="Sprite" Atlas="LobbyUI_4th" ResourceName="Lobby_Shop_Characterpack_Icon"/>
+</ProductData>

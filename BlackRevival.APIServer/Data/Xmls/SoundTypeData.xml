@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SoundTypeData>
+  <SoundType_Master SoundType="Master"/>
+  <SoundType_Announce SoundType="Announce"/>
+  <SoundType_Fx SoundType="Fx"/>
+  <SoundType_Monster SoundType="Monster"/>
+  <SoundType_SkillEffect SoundType="SkillEffect"/>
+  <SoundType_Labyrinth_Bgm SoundType="Labyrinth_Bgm"/>
+  <SoundType_Story SoundType="Story"/>
+  <SoundType_Codex SoundType="Codex"/>
+  <SoundType_PvE SoundType="PvE"/>
+  <SoundType_Signature SoundType="Signature" Min="1" Max="2"/>
+  <SoundType_Interaction SoundType="Interaction" Min="1" Max="2"/>
+  <SoundType_Character SoundType="Character" Min="1" Max="11"/>
+  <SoundType_Monologue SoundType="Monologue" Min="1" Max="3"/>
+  <SoundType_Aglaia_Bgm SoundType="Aglaia_Bgm" Min="1" Max="3"/>
+  <SoundType_Bgm SoundType="Bgm" Min="1" Max="2"/>
+</SoundTypeData>

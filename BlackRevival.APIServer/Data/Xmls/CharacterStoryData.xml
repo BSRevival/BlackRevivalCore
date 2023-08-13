@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CharacterStoryData>
+  <Jackie>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Jackie>
+  <Fiora>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Fiora>
+  <Zahir>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Zahir>
+  <Hyunwoo>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Hyunwoo>
+  <William>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </William>
+  <Rosalio>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Rosalio>
+  <Jenny>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Jenny>
+  <JP>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </JP>
+  <Xiukai>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Xiukai>
+  <Nadine>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Nadine>
+  <Aya>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Aya>
+  <Hyejin>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Hyejin>
+  <Alex>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Alex>
+  <Cathy>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Cathy>
+  <Barbara>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Barbara>
+  <Isol>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Isol>
+  <Leon>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Leon>
+  <Magnus>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Magnus>
+  <Silvia>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Silvia>
+  <Dailin>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Dailin>
+  <Chiara>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Chiara>
+  <Hart>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Hart>
+  <Shoichi>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Shoichi>
+  <Arda>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Arda>
+  <Camilo>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Camilo>
+  <Bernice>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Bernice>
+  <Sissela>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Sissela>
+  <Adela>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Adela>
+  <Adriana>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Adriana>
+  <Nathapon>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Nathapon>
+  <Yuki>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Yuki>
+  <Lenox>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Lenox>
+  <Sua>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Sua>
+  <Mai>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Mai>
+  <Jan>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Jan>
+  <Luke>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Luke>
+  <Rozzi>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Rozzi>
+  <Emma>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Emma>
+  <Eleven>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Eleven>
+  <Daniel>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Daniel>
+  <Rio>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Rio>
+  <Eva>
+    <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/>
+  </Eva>
+  <Nicky>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Nicky>
+  <Echion>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Echion>
+  <Bianca>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Bianca>
+  <Chloe>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Chloe>
+  <Johann>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Johann>
+  <Celine>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Celine>
+  <Laura>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Laura>
+  <Aiden>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Aiden>
+  <Tia>
+    <!-- <Story Level="1" TrustLevel="1"/>
+    <Story Level="2" TrustLevel="2"/>
+    <Story Level="3" TrustLevel="3"/>
+    <Story Level="4" TrustLevel="4"/> -->
+  </Tia>
+</CharacterStoryData>

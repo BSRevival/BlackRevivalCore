@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EmoticonTypeData>
+  <EmoticonType_DEFAULT Type="DEFAULT" Texture="Emoticon_Default" />
+  <EmoticonType_JACKIE Type="JACKIE" Texture="Emoticon_Jackie" />
+  <EmoticonType_HYUNWOO Type="HYUNWOO" Texture="Emoticon_Hyunwoo" />
+  <EmoticonType_YUKI Type="YUKI" Texture="Emoticon_Yuki" />
+  <EmoticonType_DAILIN Type="DAILIN" Texture="Emoticon_Dailin" />
+  <EmoticonType_ISOL Type="ISOL" Texture="Emoticon_Isol" />
+  <EmoticonType_HART Type="HART" Texture="Emoticon_Hart" />
+  <EmoticonType_ADELA Type="ADELA" Texture="Emoticon_Adela" />
+  <EmoticonType_XIUKAI Type="XIUKAI" Texture="Emoticon_Xiukai" />
+  <EmoticonType_FIORA Type="FIORA" Texture="Emoticon_Fiora" />
+  <EmoticonType_NATHAPON Type="NATHAPON" Texture="Emoticon_Nathapon" />
+  <EmoticonType_CAMILO Type="CAMILO" Texture="Emoticon_Camilo" />
+  <EmoticonType_EMMA Type="EMMA" Texture="Emoticon_Emma" />
+  <EmoticonType_BARBARA Type="BARBARA" Texture="Emoticon_Barbara" />
+  <EmoticonType_ARDA Type="ARDA" Texture="Emoticon_Arda" />
+  <EmoticonType_SISSELA Type="SISSELA" Texture="Emoticon_Sissela" />
+  <EmoticonType_JAN Type="JAN" Texture="Emoticon_Jan" />
+  <EmoticonType_SILVIA Type="SILVIA" Texture="Emoticon_Silvia" />
+  <EmoticonType_MAGNUS Type="MAGNUS" Texture="Emoticon_Magnus" />
+  <EmoticonType_LENOX Type="LENOX" Texture="Emoticon_Lenox" />
+  <EmoticonType_ROZZI Type="ROZZI" Texture="Emoticon_Rozzi" />
+  <EmoticonType_BERNICE Type="BERNICE" Texture="Emoticon_Bernice" />
+  <EmoticonType_JP Type="JP" Texture="Emoticon_JP" />
+  <EmoticonType_MAI Type="MAI" Texture="Emoticon_Mai" />
+  <EmoticonType_SHOICHI Type="SHOICHI" Texture="Emoticon_Shoichi" />
+  <EmoticonType_AYA Type="AYA" Texture="Emoticon_Aya" />
+  <EmoticonType_YUKI_17M_RFT31 Type="YUKI_17M_RFT31" Texture="Emoticon_Yuki_17M_RFT31" />
+  <EmoticonType_ROSALIO Type="ROSALIO" Texture="Emoticon_Rosalio" />
+  <EmoticonType_ADRIANA Type="ADRIANA" Texture="Emoticon_Adriana" />
+  <EmoticonType_CHIARA Type="CHIARA" Texture="Emoticon_Chiara" />
+  <EmoticonType_WILLIAM Type="WILLIAM" Texture="Emoticon_William" />
+  <EmoticonType_LUKE Type="LUKE" Texture="Emoticon_Luke" />
+  <EmoticonType_ELEVEN Type="ELEVEN" Texture="Emoticon_Eleven" />
+  <EmoticonType_ALEX Type="ALEX" Texture="Emoticon_Alex" />
+  <EmoticonType_SUA Type="SUA" Texture="Emoticon_Sua" />
+  <EmoticonType_CATHY Type="CATHY" Texture="Emoticon_Cathy" />
+  <EmoticonType_ZAHIR Type="ZAHIR" Texture="Emoticon_Zahir" /> 
+  <EmoticonType_DANIEL Type="DANIEL" Texture="Emoticon_Daniel" />
+  <EmoticonType_JENNY Type="JENNY" Texture="Emoticon_Jenny" />
+  <EmoticonType_NADINE Type="NADINE" Texture="Emoticon_Nadine" />
+  <EmoticonType_RIO Type="RIO" Texture="Emoticon_Rio" />
+  <EmoticonType_LEON Type="LEON" Texture="Emoticon_Leon" />
+  <EmoticonType_NICKY Type="NICKY" Texture="Emoticon_Nicky" />
+  <EmoticonType_THOMAS Type="THOMAS" Texture="Emoticon_Thomas" />
+  <EmoticonType_EVA_02M_RF42 Type="EVA_02M_RF42" Texture="Emoticon_Eva_02M_RF42" />
+  <EmoticonType_HYEJIN Type="HYEJIN" Texture="Emoticon_Hyejin" />
+  <EmoticonType_BIANCA Type="BIANCA" Texture="Emoticon_Bianca" />
+  <EmoticonType_EVA Type="EVA" Texture="Emoticon_Eva"/>
+  <EmoticonType_ECHION Type="ECHION" Texture="Emoticon_Echion"/>
+  <EmoticonType_CHLOE Type="CHLOE" Texture="Emoticon_Chloe"/>
+  <EmoticonType_JOHANN Type="JOHANN" Texture="Emoticon_Johann"/>
+  <EmoticonType_MAGE Type="MAGE" Texture="Emoticon_Mage"/>
+  <EmoticonType_WICKELINE Type="WICKELINE" Texture="Emoticon_Wickeline"/>
+  <EmoticonType_ANGELIKA Type="ANGELIKA" Texture="Emoticon_Angelika"/>
+  <EmoticonType_ERSHA Type="ERSHA" Texture="Emoticon_Ersha"/>
+  <EmoticonType_MAXIME Type="MAXIME" Texture="Emoticon_Maxime"/>
+  <EmoticonType_NADJA Type="NADJA" Texture="Emoticon_Nadja"/>
+  <EmoticonType_AZUKO Type="AZUKO" Texture="Emoticon_Azuko"/>
+  <EmoticonType_SISSELA_DEFAULT Type="SISSELA_DEFAULT" Texture="Emoticon_Sissela_Default"/>
+  <EmoticonType_CELINE Type="CELINE" Texture="Emoticon_Celine"/>
+  <EmoticonType_LAURA Type="LAURA" Texture="Emoticon_Laura"/>
+  <EmoticonType_NINA Type="NINA" Texture="Emoticon_Nina"/>
+  <EmoticonType_AIDEN Type="AIDEN" Texture="Emoticon_Aiden"/>
+  <EmoticonType_HYEJIN_14M_RFT12 Type="HYEJIN_14M_RFT12" Texture="Emoticon_Hyejin_14M_RFT12"/>
+  <EmoticonType_HART_BUSKER Type="HART_BUSKER" Texture="Emoticon_Hart_Busker"/>
+  <EmoticonType_WILLIAM_TRAINING Type="WILLIAM_TRAINING" Texture="Emoticon_William_Training"/>
+  <EmoticonType_JACKIE_CHILD Type="JACKIE_CHILD" Texture="Emoticon_Jackie_Child"/>
+  <EmoticonType_XIUKAI_CHILD Type="XIUKAI_CHILD" Texture="Emoticon_Xiukai_Child"/>
+  <EmoticonType_TIA Type="TIA" Texture="Emoticon_Tia"/>
+  <EmoticonType_ALEX_SPECIAL_FORCE Type="ALEX_SPECIAL_FORCE" Texture="Emoticon_Alex_Special_Force"/>
+  <EmoticonType_LENOX_YULETIDE_BANQUET Type="LENOX_YULETIDE_BANQUET" Texture="Emoticon_Lenox_Yuletide_Banquet"/>
+  <EmoticonType_LUKE_RUDO Type="LUKE_RUDO" Texture="Emoticon_Luke_Rudo"/>
+  <EmoticonType_CAMILO_PHANTOM Type="CAMILO_PHANTOM" Texture="Emoticon_Camilo_Phantom"/>
+  <EmoticonType_AYA_DETECTIVE Type="AYA_DETECTIVE" Texture="Emoticon_Aya_Detective"/>
+  <EmoticonType_ELENA_DEFAULT Type="ELENA_DEFAULT" Texture="Emoticon_Elena_Default"/>
+  <EmoticonType_ADRIANA_HOODLUM Type="ADRIANA_HOODLUM" Texture="Emoticon_Adriana_Hoodlum"/>
+  <EmoticonType_SILVIA_SCHOOL_TRANSFER Type="SILVIA_SCHOOL_TRANSFER" Texture="Emoticon_Silvia_School_Transfer"/>
+  <EmoticonType_NATHAPON_BUTLER Type="NATHAPON_BUTLER" Texture="Emoticon_Nathapon_Butler"/>
+  <EmoticonType_SHOICHI_16M_RFT23 Type="SHOICHI_16M_RFT23" Texture="Emoticon_Shoichi_16M_RFT23"/>
+  <EmoticonType_HYUNWOO_IDOL Type="HYUNWOO_IDOL" Texture="Emoticon_Hyunwoo_Idol"/>
+  <EmoticonType_EMMA_LEMMA Type="EMMA_LEMMA" Texture="Emoticon_Emma_Lemma"/>
+</EmoticonTypeData>

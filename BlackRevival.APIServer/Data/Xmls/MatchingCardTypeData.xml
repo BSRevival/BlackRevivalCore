@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MatchingCardTypeData>
+    <MatchingCard_BASIC Code="0" Type="BASIC" BackgroundType="BASIC"/> 
+    <MatchingCard_MANSION Code="1" Type="MANSION" BackgroundType="MANSION"/> 
+    <MatchingCard_FOREST Code="2" Type="FOREST" BackgroundType="FOREST"/> 
+    <MatchingCard_HOSPITAL Code="3" Type="HOSPITAL" BackgroundType="HOSPITAL"/> 
+    <MatchingCard_SCHOOL_N Code="4" Type="SCHOOL_N" BackgroundType="SCHOOL_N"/> 
+    <MatchingCard_FACTORY Code="5" Type="FACTORY" BackgroundType="FACTORY"/> 
+    <MatchingCard_STAGE Code="6" Type="STAGE" BackgroundType="STAGE"/> 
+    <MatchingCard_WEDDING Code="7" Type="WEDDING" BackgroundType="WEDDING"/> 
+    <MatchingCard_POND Code="8" Type="POND" BackgroundType="POND"/> 
+    <MatchingCard_SANDY_BEACH Code="9" Type="SANDY_BEACH" BackgroundType="SANDY_BEACH"/> 
+    <MatchingCard_SEASIDE Code="10" Type="SEASIDE" BackgroundType="SEASIDE"/> 
+    <MatchingCard_LIGHTHOUSE_N Code="11" Type="LIGHTHOUSE_N" BackgroundType="LIGHTHOUSE_N"/> 
+    <MatchingCard_FACTORY_N Code="12" Type="FACTORY_N" BackgroundType="FACTORY_N"/> 
+    <MatchingCard_CLASSROOM Code="13" Type="CLASSROOM" BackgroundType="CLASSROOM"/> 
+    <MatchingCard_UPTOWN_N Code="14" Type="UPTOWN_N" BackgroundType="UPTOWN_N"/> 
+    <MatchingCard_ALLEY_N Code="15" Type="ALLEY_N" BackgroundType="ALLEY_N"/> 
+    <MatchingCard_AIRSTRIP Code="16" Type="AIRSTRIP" BackgroundType="AIRSTRIP"/> 
+    <MatchingCard_SCHOOL Code="17" Type="SCHOOL" BackgroundType="SCHOOL"/> 
+    <MatchingCard_CHURCH Code="18" Type="CHURCH" BackgroundType="CHURCH"/> 
+    <MatchingCard_HALLOWEEN_FOREST Code="19" Type="HALLOWEEN_FOREST" BackgroundType="HALLOWEEN_FOREST"/> 
+    <MatchingCard_POND_N Code="20" Type="POND_N" BackgroundType="POND_N"/> 
+    <MatchingCard_SANDY_BEACH_N Code="21" Type="SANDY_BEACH_N" BackgroundType="SANDY_BEACH_N"/> 
+    <MatchingCard_BACK_ALLEY Code="22" Type="BACK_ALLEY" BackgroundType="BACK_ALLEY"/> 
+    <MatchingCard_FOREST_N Code="23" Type="FOREST_N" BackgroundType="FOREST_N"/> 
+    <MatchingCard_ARCHER_CENTER_N Code="24" Type="ARCHER_CENTER_N" BackgroundType="ARCHER_CENTER_N"/> 
+    <MatchingCard_CHRISTMARS_HOMEPARTY Code="25" Type="CHRISTMARS_HOMEPARTY" BackgroundType="CHRISTMARS_HOMEPARTY"/> 
+    <MatchingCard_ALLEY Code="26" Type="ALLEY" BackgroundType="ALLEY"/> 
+    <MatchingCard_LIGHTHOUSE Code="27" Type="LIGHTHOUSE" BackgroundType="LIGHTHOUSE"/> 
+    <MatchingCard_NEWYEAR Code="28" Type="NEWYEAR" BackgroundType="NEWYEAR"/> 
+    <MatchingCard_CHURCH_N Code="29" Type="CHURCH_N" BackgroundType="CHURCH_N"/> 
+    <MatchingCard_HOSPITAL_N Code="30" Type="HOSPITAL_N" BackgroundType="HOSPITAL_N"/> 
+    <MatchingCard_HOTSPRING Code="31" Type="HOTSPRING" BackgroundType="HOTSPRING"/> 
+    <MatchingCard_UPTOWN Code="32" Type="UPTOWN" BackgroundType="UPTOWN"/> 
+    <MatchingCard_WELL Code="33" Type="WELL" BackgroundType="WELL"/> 
+    <MatchingCard_APOCALYPSE Code="34" Type="APOCALYPSE" BackgroundType="APOCALYPSE"/> 
+    <MatchingCard_CEMETERY Code="35" Type="CEMETERY" BackgroundType="CEMETERY"/> 
+    <MatchingCard_SLUM_N Code="36" Type="SLUM_N" BackgroundType="SLUM_N"/> 
+    <MatchingCard_PETERPAN Code="37" Type="PETERPAN" BackgroundType="PETERPAN"/> 
+    <MatchingCard_HARBOR Code="38" Type="HARBOR" BackgroundType="HARBOR"/> 
+    <MatchingCard_VILLAGE_HALL_N Code="39" Type="VILLAGE_HALL_N" BackgroundType="VILLAGE_HALL_N"/> 
+    <MatchingCard_SEOUL_FOREST Code="40" Type="SEOUL_FOREST" BackgroundType="SEOUL_FOREST"/> 
+    <MatchingCard_HOTEL Code="41" Type="HOTEL" BackgroundType="HOTEL"/> 
+    <MatchingCard_TEMPLE_N Code="42" Type="TEMPLE_N" BackgroundType="TEMPLE_N"/> 
+    <MatchingCard_ROSE Code="43" Type="ROSE" BackgroundType="ROSE"/> 
+    <MatchingCard_STATION Code="44" Type="STATION" BackgroundType="STATION"/> 
+    <MatchingCard_COURTYARD Code="45" Type="COURTYARD" BackgroundType="COURTYARD"/> 
+    <MatchingCard_TRAIL_N Code="46" Type="TRAIL_N" BackgroundType="TRAIL_N"/> 
+    <MatchingCard_FIRE_STATION Code="47" Type="FIRE_STATION" BackgroundType="FIRE_STATION"/> 
+    <MatchingCard_CONVENTION_CENTER Code="48" Type="CONVENTION_CENTER" BackgroundType="CONVENTION_CENTER"/> 
+    <MatchingCard_SEASIDEPOOL Code="49" Type="SEASIDEPOOL" BackgroundType="SEASIDEPOOL"/> 
+    <MatchingCard_TUNNEL Code="50" Type="TUNNEL" BackgroundType="TUNNEL"/> 
+    <MatchingCard_HARBOR_N Code="51" Type="HARBOR_N" BackgroundType="HARBOR_N"/> 
+    <MatchingCard_ISLAND Code="52" Type="ISLAND" BackgroundType="ISLAND"/> 
+    <MatchingCard_SEASIDEROAD Code="53" Type="SEASIDEROAD" BackgroundType="SEASIDEROAD"/> 
+    <MatchingCard_TRAIL Code="54" Type="TRAIL" BackgroundType="TRAIL"/> 
+    <MatchingCard_CEMETERY_N Code="55" Type="CEMETERY_N" BackgroundType="CEMETERY_N"/> 
+    <MatchingCard_MOUNTAIN Code="56" Type="MOUNTAIN" BackgroundType="MOUNTAIN"/> 
+    <MatchingCard_THREEKINGDOMS Code="57" Type="THREEKINGDOMS" BackgroundType="THREEKINGDOMS"/> 
+    <MatchingCard_CLEAN_WELL_N Code="58" Type="CLEAN_WELL_N" BackgroundType="CLEAN_WELL_N"/> 
+    <MatchingCard_TEMPLE Code="59" Type="TEMPLE" BackgroundType="TEMPLE"/> 
+    <MatchingCard_MILITARY_BASE Code="60" Type="MILITARY_BASE" BackgroundType="MILITARY_BASE"/> 
+    <MatchingCard_HALLOWEENNIGHT Code="61" Type="HALLOWEENNIGHT" BackgroundType="HALLOWEENNIGHT"/> 
+    <MatchingCard_HOTEL_N Code="62" Type="HOTEL_N" BackgroundType="HOTEL_N"/> 
+    <MatchingCard_ARCHER_CENTER Code="63" Type="ARCHER_CENTER" BackgroundType="ARCHER_CENTER"/> 
+    <MatchingCard_BRIDGE Code="64" Type="BRIDGE" BackgroundType="BRIDGE"/> 
+    <MatchingCard_ORCHESTRA Code="65" Type="ORCHESTRA" BackgroundType="ORCHESTRA"/> 
+    <MatchingCard_SLUM Code="66" Type="SLUM" BackgroundType="SLUM"/> 
+    <MatchingCard_FIRE_STATION_N Code="67" Type="FIRE_STATION_N"  BackgroundType="FIRE_STATION_N"/> 
+    <MatchingCard_BOULEVARD Code="68" Type="BOULEVARD" BackgroundType="BOULEVARD"/> 
+    <MatchingCard_CRISTMASMARKET Code="69" Type="CRISTMASMARKET" BackgroundType="CRISTMASMARKET"/> 
+    <MatchingCard_TUNNEL_N Code="70" Type="TUNNEL_N" BackgroundType="TUNNEL_N"/> 
+    <MatchingCard_VILLAGE_HALL Code="71" Type="VILLAGE_HALL" BackgroundType="VILLAGE_HALL"/> 
+    <MatchingCard_LAKE Code="72" Type="LAKE" BackgroundType="LAKE"/> 
+    <MatchingCard_NEWSPRING Code="73" Type="NEWSPRING" BackgroundType="NEWSPRING"/> 
+    <MatchingCard_POWCAMP Code="74" Type="POWCAMP" BackgroundType="POWCAMP"/> 
+    <MatchingCard_LABORATORY Code="75" Type="LABORATORY" BackgroundType="LABORATORY"/> 
+    <MatchingCard_SPORTS_COMPLEX Code="76" Type="SPORTS_COMPLEX" BackgroundType="SPORTS_COMPLEX"/> 
+    <MatchingCard_DEMONLORDSCASTLE Code="77" Type="DEMONLORDSCASTLE" BackgroundType="DEMONLORDSCASTLE"/> 
+    <MatchingCard_ROCKINFEVER Code="78" Type="ROCKINFEVER" BackgroundType="ROCKINFEVER"/> 
+    <MatchingCard_AVENUE Code="79" Type="AVENUE" BackgroundType="AVENUE"/> 
+    <MatchingCard_APRILFIRST Code="80" Type="APRILFIRST" BackgroundType="APRILFIRST"/> 
+    <MatchingCard_POST_OFFICE Code="81" Type="POST_OFFICE" BackgroundType="POST_OFFICE"/> 
+    <MatchingCard_SPRINGWEDDING Code="82" Type="SPRINGWEDDING" BackgroundType="SPRINGWEDDING"/> 
+    <MatchingCard_CASEBOOK Code="83" Type="CASEBOOK" BackgroundType="CASEBOOK"/> 
+    <MatchingCard_VIRTUEANDVICE Code="84" Type="VIRTUEANDVICE" BackgroundType="VIRTUEANDVICE"/> 
+    <MatchingCard_OCEANBREEZE Code="85" Type="OCEANBREEZE"  BackgroundType="OCEANBREEZE"/> 
+    <MatchingCard_SUMMERDIVE Code="86" Type="SUMMERDIVE" BackgroundType="SUMMERDIVE"/> 
+    <MatchingCard_BORNTOBEBAD Code="87" Type="BORNTOBEBAD" BackgroundType="BORNTOBEBAD"/> 
+    <MatchingCard_HALLOWEENNIGHTMARE Code="88" Type="HALLOWEENNIGHTMARE" BackgroundType="HALLOWEENNIGHTMARE"/> 
+    <MatchingCard_TIMETRAVEL Code="89" Type="TIMETRAVEL" BackgroundType="TIMETRAVEL"/> 
+    <MatchingCard_CHRISTMASVISITOR Code="90" Type="CHRISTMASVISITOR" BackgroundType="CHRISTMASVISITOR"/> 
+    <MatchingCard_NEWBEGINNINGS Code="91" Type="NEWBEGINNINGS" BackgroundType="NEWBEGINNINGS"/> 
+    <MatchingCard_NEWRESOLUTION Code="92" Type="NEWRESOLUTION" BackgroundType="NEWRESOLUTION"/>
+    <MatchingCard_APRILFIRST2 Code="93" Type="APRILFIRST2" BackgroundType="APRILFIRST2"/>
+    <MatchingCard_GOTHICBANQUET Code="94" Type="GOTHICBANQUET" BackgroundType="GOTHICBANQUET"/>
+    <MatchingCard_EVERAFTER Code="95" Type="EVERAFTER" BackgroundType="EVERAFTER" />
+    <MatchingCard_APOCALYPSEMOON Code="96" Type="APOCALYPSEMOON" BackgroundType="APOCALYPSEMOON" />
+    <MatchingCard_SUMMERESCAPE Code="97" Type="SUMMERESCAPE" BackgroundType="SUMMERESCAPE" />
+    <MatchingCard_DREAMONSTAGE Code="98" Type="DREAMONSTAGE" BackgroundType="DREAMONSTAGE" />
+    <MatchingCard_ASYOUWISH Code="99" Type="ASYOUWISH" BackgroundType="ASYOUWISH" />
+    <MatchingCard_TRICKSANDTREATS Code="100" Type="TRICKSANDTREATS" BackgroundType="TRICKSANDTREATS" />
+    <MatchingCard_FADEDMEMORIES Code="101" Type="FADEDMEMORIES" BackgroundType="FADEDMEMORIES" />
+    <MatchingCard_ALLCHRISTMAS Code="102" Type="ALLCHRISTMAS" BackgroundType="ALLCHRISTMAS" />
+    <MatchingCard_HAPPYHOLIDAYS Code="103" Type="HAPPYHOLIDAYS" BackgroundType="HAPPYHOLIDAYS" />
+    <MatchingCard_ADVENTURE Code="104" Type="ADVENTURE" BackgroundType="ADVENTURE" />
+    <MatchingCard_APRILFIRST3 Code="105" Type="APRILFIRST3" BackgroundType="APRILFIRST3" />
+    <MatchingCard_LUMIAGALA Code="106" Type="LUMIAGALA" BackgroundType="LUMIAGALA" />
+</MatchingCardTypeData>
