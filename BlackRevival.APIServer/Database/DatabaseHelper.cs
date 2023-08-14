@@ -17,15 +17,7 @@ public class DatabaseHelper
         await _context.SaveChangesAsync();
         return user;
     }
-    
-    //Set user active character
-public async Task SetUserActiveCharacter(long num, long characterNum)
-    {
-        var user = await _context.Users.FirstOrDefaultAsync(u => u.UserNum == num);
-        user.ActiveCharacterNum = characterNum;
-        await _context.SaveChangesAsync();
-    }
-    
+
     //Create New UserAsset
     public async Task<UserAsset> CreateUserAsset(UserAsset userAsset)
     {
@@ -42,14 +34,37 @@ public async Task SetUserActiveCharacter(long num, long characterNum)
         return character;
     }
     
+    //Set Active Character
+    public async Task SetActiveCharacter(long num, long characterNum)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.UserNum == num);
+        user.ActiveCharacterNum = characterNum;
+        await _context.SaveChangesAsync();
+    }
+    
+    //Get Active Character
+    public async Task<Character> GetActiveCharacter(long num)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.UserNum == num);
+        return await _context.Characters.FirstOrDefaultAsync(c => c.CharacterNum == user.ActiveCharacterNum);
+    }
+    
     //Update nickname for Usernum
     public async Task UpdateNickname(long num, string nickname)
     {
         var user = await _context.Users.FirstOrDefaultAsync(u => u.UserNum == num);
         user.Nickname = nickname;
+        
+        //Update all characters owned by this user their UserNickname
+        var characters = await _context.Characters.Where(c => c.UserNum == num).ToListAsync();
+        foreach (var character in characters)
+        {
+            character.UserNickname = nickname;
+        }
+        
         await _context.SaveChangesAsync();
     }
-
+    
     public async Task<User> GetUserByNickname(string nickname)
     {
         return await _context.Users.FirstOrDefaultAsync(u => u.Nickname == nickname);
@@ -84,5 +99,37 @@ public async Task SetUserActiveCharacter(long num, long characterNum)
         return await _context.UserAssets.FirstOrDefaultAsync(u => u.UserNum == num);
     }
   
+    //Get owned skin by usernum
+    public async Task<List<OwnedSkin>> GetOwnedSkins(long num)
+    {
+        return await _context.OwnedSkins.Where(o => o.UserNum == num).ToListAsync();
+    }
+    
+    //Get owned skin by usernum and character class
+    public async Task<List<OwnedSkin>> GetOwnedSkinsByCharacterClass(long num, int characterClass)
+    {
+        return await _context.OwnedSkins.Where(o => o.UserNum == num && o.CharacterClass == characterClass).ToListAsync();
+    }
+    
+    //create owned skin
+    public async Task<OwnedSkin> CreateOwnedSkin(OwnedSkin ownedSkin)
+    {
+        await _context.OwnedSkins.AddAsync(ownedSkin);
+        await _context.SaveChangesAsync();
+        return ownedSkin;
+    }
+    
+    //update owned skin
+    public async Task UpdateOwnedSkin(OwnedSkin ownedSkin)
+    {
+        _context.OwnedSkins.Update(ownedSkin);
+        await _context.SaveChangesAsync();
+    }
+    
+    //Get all owned characters
+    public async Task<List<Character>> GetOwnedCharacters(long num)
+    {
+        return await _context.Characters.Where(c => c.UserNum == num).ToListAsync();
+    }
     
 }

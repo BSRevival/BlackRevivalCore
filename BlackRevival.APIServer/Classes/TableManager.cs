@@ -17,6 +17,14 @@ public static class TableManager
         //Serailize json to SignatureDB
         Log.Information("Loading signature.json...");
         signatureDb = new SignatureDB(JsonSerializer.Deserialize<SignatureDB.Model>(json));
+        
+        json = System.IO.File.ReadAllText("Data/GameDB/skins.json");
+        //Serailize json to SkinsDB
+        Log.Information("Loading skins.json...");
+        skinsDb = new SkinsDB(JsonSerializer.Deserialize<SkinsDB.Model>(json));
+
+        
+        Log.Information("TableManager initialized.");
 
     }
     
@@ -24,6 +32,7 @@ public static class TableManager
 
     public static CharacterDB characterDb;
     public static SignatureDB signatureDb;
+    public static SkinsDB skinsDb;
 
 
 }

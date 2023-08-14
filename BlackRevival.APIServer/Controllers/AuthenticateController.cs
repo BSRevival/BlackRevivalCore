@@ -27,7 +27,6 @@ public class AuthenticateController : Controller
     {
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("loginRequest string: {QueryString}", loginInfo);
-        
         var loginRequest = JsonSerializer.Deserialize<AuthRequest>(loginInfo.ToString());
 
         //Eventually do some checking for banned accounts here. 
@@ -63,7 +62,19 @@ public class AuthenticateController : Controller
             await _helper.CreateCharacter(newChar);
             _logger.LogInformation("Default char {0} created.", newChar.CharacterNum);
             //now set the activate character number
-            await _helper.SetUserActiveCharacter(user.UserNum, newChar.CharacterNum);
+            await _helper.SetActiveCharacter(user.UserNum, newChar.CharacterNum);
+            
+            //Create the owned skin for the user
+            var newSkin = new OwnedSkin
+            {
+                UserNum = user.UserNum,
+                CharacterClass = 4,
+                CharacterSkinType = 401,
+                Owned = true,
+                ActiveLive2D = false,
+                SkinEnableType = SkinEnableType.PURCHASE
+            };
+            await _helper.CreateOwnedSkin(newSkin);
         }
         
         //Encode the usernum to base64
@@ -71,7 +82,10 @@ public class AuthenticateController : Controller
 
 
         //bool PlayTutorial = true;
+        var apiSession = (APISession)HttpContext.Items["Session"];
+        apiSession.Session = Common.Model.Session.Create(user.UserNum, 12, apiSession.SessionKey);
         
+
         UserApi.LoginResult loginResult = new UserApi.LoginResult
         {
             userStatus = "NONE",
@@ -123,7 +137,7 @@ public class AuthenticateController : Controller
                     labyrinthPoint = userAsset.LabyrinthPoint,
                     agliaScore = userAsset.AgliaScore
             },
-            session = Common.Model.Session.Create(user.UserNum, 12, "20d0df97c1eaef557930b3c44e3d54afc30ec3c4"),
+            session = apiSession.Session,
             userIdentity = new UserApi.UserIdentity(),
             serverCheck = false
         };

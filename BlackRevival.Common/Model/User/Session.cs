@@ -99,6 +99,16 @@ namespace BlackRevival.Common.Model
 				market = Market.XSOLLA;
 			}
 		}
+		
+		public long GetUserId()
+		{
+			return userNum;
+		}
+		
+		public string GetSessionKey()
+		{
+			return sessionKey;
+		}
 	}
 
 }

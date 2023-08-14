@@ -8,6 +8,8 @@ public class AppDbContext : DbContext
     public DbSet<UserAsset> UserAssets { get; set; }
     public DbSet<Character> Characters { get; set; }
     
+    public DbSet<OwnedSkin> OwnedSkins { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         var connectionString = "Server=localhost;Database=blackrevival;Uid=root;Pwd=johnsond;";

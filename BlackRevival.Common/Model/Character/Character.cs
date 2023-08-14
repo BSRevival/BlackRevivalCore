@@ -43,9 +43,8 @@ namespace BlackRevival.Common.Model
 		public string userWatchword{ get; set; }
 
 		[JsonPropertyName("ddm")]
-		[JsonConverter(typeof(MicrosecondEpochConverter))]
 		[JsonIgnore]
-		public DateTime deadTime{ get; set; }
+		public long deadTime{ get; set; }
 
 		[JsonPropertyName("ctt")]
 		public CharacterStatus characterStatus{ get; set; }
