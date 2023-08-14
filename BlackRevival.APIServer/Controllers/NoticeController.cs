@@ -16,9 +16,6 @@ public class NoticeController : Controller
     [HttpGet("/api/notices/PROMOTION/locale/English/{id}", Name = "GetPromotion")]
     public IActionResult GetPromotion(string id)
     {
-        var queryString = HttpContext.Request.QueryString.Value;
-        _logger.LogInformation("Query string: {QueryString}", queryString);
-
         string json = System.IO.File.ReadAllText("Data/Config/notices.json");
 
         NoticeResult notices = JsonSerializer.Deserialize<NoticeResult>(json);

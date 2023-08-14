@@ -53,7 +53,7 @@ public class CharactersController : Controller
         foreach (var data in ccd)
         {
             var id = data.characterNum;
-
+            
 
             var character = new Character()
             {
@@ -86,7 +86,8 @@ public class CharactersController : Controller
                 character.characterPurchaseType = (CharacterPurchaseType)2;
 
             }
-            skinRes.ownCharacters.Add(character);
+            if(id != 0)
+                skinRes.ownCharacters.Add(character);
 
         }
         return Json(new WebResponseHeader

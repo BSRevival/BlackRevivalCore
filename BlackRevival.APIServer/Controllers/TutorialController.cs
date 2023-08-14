@@ -1,4 +1,5 @@
-﻿using BlackRevival.APIServer.Classes;
+﻿using System.Text.Json;
+using BlackRevival.APIServer.Classes;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +8,14 @@ namespace BlackRevival.APIServer.Controllers;
 
 public class TutorialController : Controller
 {
+    private readonly ILogger<TutorialController> _logger;
+
+    public TutorialController(ILogger<TutorialController> logger)
+    {
+        _logger = logger;
+    }
+
+    
     [HttpGet("/api/tutorial/list", Name = "GetTutorialList")]
     public IActionResult GetTutorialList()
     {        
@@ -45,8 +54,10 @@ public class TutorialController : Controller
     }
     
     [HttpPost("/api/tutorial/startBattle/{tutorialNum}", Name = "StartTutorialBattle")]
-    public IActionResult StartTutorialBattle(int tutorialNum)
+    public IActionResult StartTutorialBattle([FromBody] JsonElement json,int tutorialNum)
     {
+        _logger.LogInformation(json.ToString());
+
         var resp = new TutorialStartResponse
         {
             userTutorial = new UserTutorial

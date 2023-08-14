@@ -1,4 +1,6 @@
-﻿using BlackRevival.APIServer.Classes;
+﻿using System.Text.Json;
+using BlackRevival.APIServer.Classes;
+using BlackRevival.APIServer.Database;
 using BlackRevival.Common.Apis;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
@@ -9,10 +11,13 @@ namespace BlackRevival.APIServer.Controllers;
 public class UserController : Controller
 {
     private readonly ILogger<UserController> _logger;
-
-    public UserController(ILogger<UserController> logger)
+    private readonly AppDbContext _context;
+    private readonly DatabaseHelper _helper;
+    public UserController(ILogger<UserController> logger, AppDbContext context)
     {
         _logger = logger;
+        _context = context;
+        _helper = new DatabaseHelper(_context);
     }
 
     [HttpGet("/api/users/{userNum}/potentialSkillList", Name = "GetPotentialSkillList")]
@@ -37,10 +42,43 @@ public class UserController : Controller
             Eac = 0
         });
     }
+    [HttpPost("/api/users/{userNum}/nickname/duplicationcheck", Name = "NickDuplicationCheck")]
+    public IActionResult NickDuplicationCheck([FromBody] string json, int userNum)
+    {
+        _logger.LogInformation(json);
+        bool isDuplicate = _helper.IsNicknameExists(json).Result;
+        
+        var result = new UserApi.ExistNickNameResult { purchaseResult = isDuplicate };
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = result,
+            Eac = 0
+        });
+    }
+    [HttpPost("/api/users/{userNum}/initNickname", Name = "InitNickname")]
+    public async Task<IActionResult> InitNickname([FromBody] string nickname, long userNum)
+    {
+        _logger.LogInformation(nickname);
+        bool isDuplicate = _helper.IsNicknameExists(nickname).Result;
+        if(!isDuplicate)
+            await _helper.UpdateNickname(userNum, nickname);
+        
+        var result = new UserApi.NicknameModifyResult { nickname =  nickname};
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = result,
+            Eac = 0
+        });
+    }
     
     [HttpPost("/api/users/{userNum}", Name = "GetUser")]
-    public IActionResult GetUser(int userNum)
+    public IActionResult GetUser([FromBody] JsonElement json, int userNum)
     {
+        _logger.LogInformation(json.ToString());
         var user = new Common.Model.User
         {
             userNum = 7562069,
@@ -123,8 +161,10 @@ public class UserController : Controller
     }
     
     [HttpPost("/api/users/postLatency", Name = "PostLatency")]
-    public IActionResult PostLatency()
+    public IActionResult PostLatency([FromBody] JsonElement json)
     {
+        _logger.LogInformation(json.ToString());
+
         return Json(new WebResponseHeader
         {
             Cod = 200,

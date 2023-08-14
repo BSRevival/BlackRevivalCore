@@ -50,6 +50,14 @@ namespace BlackRevival.Common.Apis
 
 			public UserIdentity userIdentity;
 		}
+		public class ExistNickNameResult
+		{
+			public bool purchaseResult { get; set; }
+		}
+		public class NicknameModifyResult
+		{
+			public string nickname { get; set; }
+		}
 
 		public class LoginResult
 		{

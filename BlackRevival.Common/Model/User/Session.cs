@@ -27,7 +27,7 @@ namespace BlackRevival.Common.Model
 	public class Session
 	{
 		[JsonPropertyName("unm")]
-		public int userNum{ get; set; }
+		public long userNum{ get; set; }
 		
 		[JsonPropertyName("snm")]
 		public int shardNum{ get; set; }
@@ -77,7 +77,7 @@ namespace BlackRevival.Common.Model
 		[JsonIgnore]
 		private string deviceLocationCode{ get; set; }
 
-		public static Session Create(int userid, int shardNum = 0, string sessionKey = null)
+		public static Session Create(long userid, int shardNum = 0, string sessionKey = null)
 		{
 			
 			Session session = new Session();
@@ -86,18 +86,8 @@ namespace BlackRevival.Common.Model
 			session.sessionKey = sessionKey;
 			session.buildPlatform = "NIMBLE_NEURON";
 			
-			//session.appVersion = "11.2.00";
-			//session.appLanguageCode = LocalizationDB.language.FromAppLanguage();
-			//session.deviceLocationCode = ApiConstants.locationCode;
-			//AcLogger.DebugHighlight("[Session] Create : deviceLocationCode = {0}", session.deviceLocationCode);
 			session.guest = false;
-			//session.osVersion = "1.0.0";
-			//session.buildPlatform = AcBuildPlatformExtension.GetBuildPlatform();
-			//session.market = Market.NONE;
-			//session.attribution = "DISCORD";
 			session.osType = OsType.WINDOWS64;//OsTypeHelper.GetOsType();
-			//session.osVersion = "Windows11";//SystemInfo.operatingSystem;
-			//session.deviceLanguageCode = "EN";//LanguageHelper.Get2LetterISOCodeFromSystemLanguage();
 			return session;
 		}
 
