@@ -1,51 +1,47 @@
 ﻿using BlackRevival.APIServer.Classes;
+using BlackRevival.APIServer.Database;
 using BlackRevival.Common.Apis;
 using BlackRevival.Common.Enums;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Character = BlackRevival.Common.Model.Character;
+using QuestProgress = BlackRevival.Common.Model.QuestProgress;
 
 namespace BlackRevival.APIServer.Controllers;
 
 public class LobbyController : Controller
 {
     private readonly ILogger<LobbyController> _logger;
-
-    public LobbyController(ILogger<LobbyController> logger)
+    private readonly AppDbContext _context;
+    private readonly DatabaseHelper _helper;
+    public LobbyController(ILogger<LobbyController> logger, AppDbContext context )
     {
         _logger = logger;
+        _context = context;
+        _helper = new DatabaseHelper(_context);
     }
     [HttpGet("/api/lobby", Name = "GetLobby")]
-    public IActionResult GetLobby()
+    public async Task<IActionResult> GetLobby()
     {
+        var session = (APISession)HttpContext.Items["Session"];
+        if (session == null)
+        {
+            return Json(new WebResponseHeader
+            {
+                Cod = 401,
+                Msg = "Session Does not exist",
+                Rst = null,
+                Eac = 0
+            });
+        }
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.UserNum == session.Session.userNum);
         var lobbyInitResult = new LobbyInitResult
         {
             activatedPotentialSkillId = 6001,
             expiredPotentialSkillId = 0,
-            activeCharacter = new Character
-            {
-                characterNum = 10136633,
-                userNum = 7562069,
-                userNickname = "",
-                characterClass = 4,
-                characterGrade = (CharacterGrade)1,
-                activeCharacterSkinType = 401,
-                activeLive2D = false,
-                enhanceExp = 0,
-                characterPurchaseType = (CharacterPurchaseType)2,
-                rankPlayCount = 0,
-                rankWinCount = 0,
-                normalPlayCount = 0,
-                normalWinCount = 0,
-                teamNumber = 0,
-                potentialSkillId = 0,
-                pmn = 0,
-                pfr = 0,
-                psd = 0,
-                host = false,
-                characterStatus = (CharacterStatus)1,
-                toNormalRemainSeconds = 0
-            },
+            activeCharacter = _helper.GetActiveCharacterGameModel(session.Session.userNum).Result,
             carnivorousTenPlay = 0,
             herivCount = 0,
             newDiaryCheck = false,
@@ -69,7 +65,7 @@ public class LobbyController : Controller
             dailyEventQuestClear = false,
             aPassQuestClear = false,
             existBanCharacter = false,
-            existBanMode = false,
+            existBanMode = true,
             activeAglaiaPass = null,
             todaysPurchaseHistory = new List<PurchaseHistory>(),
             attendanceEventRecords = new List<AttendanceEventRecord>
@@ -110,19 +106,7 @@ public class LobbyController : Controller
                 },
                 // Add more QuestProgress items as needed
             },
-            ownSkins = new List<CharacterSkin>
-            {
-                new CharacterSkin
-                {
-                    userNum = 7562069,
-                    characterClass = 1,
-                    characterSkinType = 101,
-                    owned = true,
-                    activeLive2D = false,
-                    skinEnableType = (SkinEnableType)1
-                },
-                // Add more CharacterSkin items as needed
-            },
+            ownSkins = new List<CharacterSkin>(),
             isExistExpiredReward = false,
             userPromotions = new List<Promotion>(),
             bonusRewardEvents = new List<BonusRewardEvent>(),
@@ -141,7 +125,7 @@ public class LobbyController : Controller
                 },
                 // Add more LabGoods items as needed
             },
-            isAdmin = true,
+            isAdmin = user.IsAdmin,
             isDefaultPerk = true,
             dormantAccount = false,
             dormantAccountDays = 0,
@@ -151,9 +135,16 @@ public class LobbyController : Controller
             userPickUpEvents = new List<PickUpApi.UserPickUpEvent>(),
             questMaxProgress = 0,
             questProgress = 0,
-            isSpecialQuest = false,
+            isSpecialQuest = true,
             iapDisable = true
         };
+        
+        var ownedSkins = _helper.GetOwnedCharSkins(session.Session.userNum).Result;
+        foreach (var ownSkin in ownedSkins)
+        {
+            lobbyInitResult.ownSkins.Add(ownSkin);
+        }
+
 
         return Json(new WebResponseHeader
         {

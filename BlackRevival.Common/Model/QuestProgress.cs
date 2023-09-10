@@ -25,6 +25,5 @@ public class QuestProgress
     public QuestRenewalType renewalType{ get; set; }
 
     [JsonPropertyName("ed")]
-    //[JsonConverter(typeof(MicrosecondEpochConverter))]
     public long expireDtm{ get; set; }
 }

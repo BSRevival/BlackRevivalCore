@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BlackRevival.Common.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlackRevival.APIServer.Database;
 
@@ -100,9 +101,28 @@ public class DatabaseHelper
     }
   
     //Get owned skin by usernum
-    public async Task<List<OwnedSkin>> GetOwnedSkins(long num)
+    public async Task<List<CharacterSkin>> GetOwnedCharSkins(long num)
     {
-        return await _context.OwnedSkins.Where(o => o.UserNum == num).ToListAsync();
+        var SkinList = new List<CharacterSkin>();
+        var list = await _context.OwnedSkins.Where(o => o.UserNum == num).ToListAsync();
+        foreach(var skin in list)
+        {
+            var skinData = new CharacterSkin
+            {
+                userNum = skin.UserNum,
+                characterClass = skin.CharacterClass,
+                characterSkinType = skin.CharacterSkinType,
+                owned = skin.Owned,
+                activeLive2D = skin.ActiveLive2D,
+                skinEnableType = skin.SkinEnableType,
+            };
+
+            SkinList.Add(skinData);
+        }
+
+        return SkinList;
+
+
     }
     
     //Get owned skin by usernum and character class
@@ -130,6 +150,40 @@ public class DatabaseHelper
     public async Task<List<Character>> GetOwnedCharacters(long num)
     {
         return await _context.Characters.Where(c => c.UserNum == num).ToListAsync();
+    }
+    
+    //Get active character
+    public async Task<Common.Model.Character> GetActiveCharacterGameModel(long num)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.UserNum == num);
+        var activeCharacter = await _context.Characters.FirstOrDefaultAsync(c => c.CharacterNum == user.ActiveCharacterNum);
+
+        var activeChar = new Common.Model.Character
+        {
+            characterNum = activeCharacter.CharacterNum,
+            userNum = activeCharacter.UserNum ?? default(long),
+            userNickname = activeCharacter.UserNickname,
+            characterClass = activeCharacter.CharacterClass,
+            characterGrade = activeCharacter.CharacterGrade,
+            activeCharacterSkinType = activeCharacter.ActiveCharacterSkinType,
+            activeLive2D = activeCharacter.ActiveLive2D,
+            enhanceExp = activeCharacter.EnhanceExp,
+            characterPurchaseType = activeCharacter.CharacterPurchaseType,
+            rankPlayCount = activeCharacter.RankPlayCount,
+            rankWinCount = activeCharacter.RankWinCount,
+            normalPlayCount = activeCharacter.NormalPlayCount,
+            normalWinCount = activeCharacter.NormalWinCount,
+            teamNumber = activeCharacter.TeamNumber,
+            potentialSkillId = activeCharacter.PotentialSkillId,
+            pmn = activeCharacter.Pmn,
+            pfr = activeCharacter.Pfr,
+            psd = activeCharacter.Psd,
+            host = activeCharacter.Host,
+            characterStatus = activeCharacter.CharacterStatus,
+            toNormalRemainSeconds = activeCharacter.ToNormalRemainSeconds
+
+        };
+        return activeChar;
     }
     
 }

@@ -50,18 +50,10 @@ public class CharactersController : Controller
 
         var userNum = apiSession.Session.userNum;
         
-        var ownedSkins = _helper.GetOwnedSkins(userNum).Result;
+        var ownedSkins = _helper.GetOwnedCharSkins(userNum).Result;
         foreach (var ownSkin in ownedSkins)
         {
-            skinRes.ownSkins.Add(new()
-            {
-                userNum = ownSkin.UserNum,
-                characterClass = ownSkin.CharacterClass,
-                characterSkinType = ownSkin.CharacterSkinType,
-                owned = ownSkin.Owned,
-                activeLive2D = ownSkin.ActiveLive2D,
-                skinEnableType = ownSkin.SkinEnableType,
-            });
+            skinRes.ownSkins.Add(ownSkin);
         }
 
         var ownedCharacters = _helper.GetOwnedCharacters(userNum).Result;
@@ -172,37 +164,10 @@ public class CharactersController : Controller
     public async Task<IActionResult> GetActiveCharacter()
     {
         var session = (APISession)HttpContext.Items["Session"];
-        
-        //Get active character from db
-        var activeCharacter = _helper.GetActiveCharacter(session.Session.GetUserId()).Result;
-        
 
         var characterRes = new ActiveCharacterResult
         {
-            activeCharacter = new Character
-            {
-                characterNum = activeCharacter.CharacterNum,
-                userNum = activeCharacter.UserNum ?? default(long),
-                userNickname = activeCharacter.UserNickname,
-                characterClass = activeCharacter.CharacterClass,
-                characterGrade= activeCharacter.CharacterGrade,
-                activeCharacterSkinType = activeCharacter.ActiveCharacterSkinType,
-                activeLive2D = activeCharacter.ActiveLive2D,
-                enhanceExp = activeCharacter.EnhanceExp,
-                characterPurchaseType = activeCharacter.CharacterPurchaseType,
-                rankPlayCount = activeCharacter.RankPlayCount,
-                rankWinCount = activeCharacter.RankWinCount,
-                normalPlayCount = activeCharacter.NormalPlayCount,
-                normalWinCount = activeCharacter.NormalWinCount,
-                teamNumber = activeCharacter.TeamNumber,
-                potentialSkillId = activeCharacter.PotentialSkillId,
-                pmn = activeCharacter.Pmn,
-                pfr = activeCharacter.Pfr,
-                psd = activeCharacter.Psd,
-                host = activeCharacter.Host,
-                characterStatus = activeCharacter.CharacterStatus,
-                toNormalRemainSeconds = activeCharacter.ToNormalRemainSeconds
-            },
+            activeCharacter = _helper.GetActiveCharacterGameModel(session.Session.GetUserId()).Result,
             newRequestArrived = false,
             tournamentStartDtm = 1665745200000
 
@@ -297,5 +262,34 @@ public class CharactersController : Controller
            Eac = 0,
        });
 
+    }
+    
+    //Get character banlist
+    [HttpGet("/api/characters/banlist", Name = "GetCharacterBanlist")]
+    public IActionResult GetCharacterBanlist()
+    {
+        var banlistRes = new CharacterBanListResult()
+        {
+            characterBanList = new List<CharacterBan>(),
+            gameStatusBanList = new List<GameModeStatus>()
+            
+        };
+        // var ban =new CharacterBan
+        // {
+        //     battleModeList = new List<int>(),
+        //     characterClass = 17,
+        //     beginDtm = 0,
+        //     endDtm = 999999999,
+        // };
+        // ban.battleModeList.Add((int)PlayMode.RANK);
+        // banlistRes.characterBanList.Add(ban);
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = banlistRes,
+            Eac = 0,
+        });
     }
 }

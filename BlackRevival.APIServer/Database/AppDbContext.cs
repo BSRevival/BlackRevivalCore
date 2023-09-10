@@ -9,6 +9,10 @@ public class AppDbContext : DbContext
     public DbSet<Character> Characters { get; set; }
     
     public DbSet<OwnedSkin> OwnedSkins { get; set; }
+    
+    public DbSet<QuestProgress> QuestProgresses { get; set; }
+    
+    public DbSet<InventoryGoods> InventoryGoods { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

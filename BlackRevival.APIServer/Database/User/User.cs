@@ -38,6 +38,8 @@ public class User
     public string Rtn { get; set; } = "NONE";
     public int Aps { get; set; } = 6001;
     public League League { get; set; } = League.MOUSE5; // Assuming League is a string; you can change it to an enum if needed
+    
+    public bool IsAdmin { get; set; } = false;
 
     public virtual UserAsset UserAsset { get; set; }
 }
