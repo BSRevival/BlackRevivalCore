@@ -34,7 +34,7 @@ Simply press Download ZIP
 2. You'll want to download [Visual Studio Community](https://visualstudio.microsoft.com/) and install it
 3. When asked what components to install, you'll want to install the .NET desktop development tool.
 ![this](https://arrcival.s-ul.eu/aoqrQWuU)
-4. Once the server files downloaded and Visual Studio installed, extract the folder to <Repo>\BlackRevivalServer\LIVE\11.2.00\Windows64 where bundlelist.txt resides
+4. Once the server files downloaded and Visual Studio installed, extract the folder to <Repo>\BlackRevival.APIServer\Data\PatchData where bundlelist.txt resides
 Repo being the zip you downloaded earlier to get the patched files for the client.
 5. Open visual studio.
 6. Open the .sln files from the same folder from before; this is actually the server source code and what's visible from Github
