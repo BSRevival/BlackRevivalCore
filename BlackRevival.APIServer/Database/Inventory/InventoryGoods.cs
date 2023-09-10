@@ -1,9 +1,18 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace BlackRevival.APIServer.Database;
 
 public class InventoryGoods
 {
+    
+    [JsonPropertyName("id")]
+    [JsonIgnore]
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    public long id { get; set; }
+
     [JsonPropertyName("c")]
     public string Text { get; set; }
 
@@ -12,7 +21,8 @@ public class InventoryGoods
 
     [JsonPropertyName("n")]
     public long Num { get; set; }
-
+    
+    [ForeignKey("User")]
     [JsonPropertyName("un")]
     public long UserNum { get; set; }
 

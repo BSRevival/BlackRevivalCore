@@ -1,4 +1,6 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using BlackRevival.Common.Enums;
 
 namespace BlackRevival.APIServer.Database;
@@ -6,7 +8,14 @@ namespace BlackRevival.APIServer.Database;
 public class QuestProgress
 {
     [JsonPropertyName("qpid")]
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public long QuestProgressId { get; set; }
+    
+    [ForeignKey("User")]
+    [JsonPropertyName("unm")]
+    [JsonIgnore]
+    public long UserNum { get; set; }
 
     [JsonPropertyName("qd")]
     public int QuestId { get; set; }
@@ -25,6 +34,8 @@ public class QuestProgress
 
     [JsonPropertyName("ed")]
     public long ExpireDtm { get; set; }
+    
+    
 
     // Navigational properties
     public virtual User User { get; set; }

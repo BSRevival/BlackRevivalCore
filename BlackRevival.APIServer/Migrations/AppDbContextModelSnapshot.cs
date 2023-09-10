@@ -93,6 +93,48 @@ namespace BlackRevival.APIServer.Migrations
                     b.ToTable("Characters");
                 });
 
+            modelBuilder.Entity("BlackRevival.APIServer.Database.InventoryGoods", b =>
+                {
+                    b.Property<long>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Relational:JsonPropertyName", "id");
+
+                    b.Property<bool>("Activated")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<long>("ExpireDtm")
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Relational:JsonPropertyName", "ed");
+
+                    b.Property<bool>("IsActivated")
+                        .HasColumnType("tinyint(1)")
+                        .HasAnnotation("Relational:JsonPropertyName", "ia");
+
+                    b.Property<long>("Num")
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Relational:JsonPropertyName", "n");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasAnnotation("Relational:JsonPropertyName", "c");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int")
+                        .HasAnnotation("Relational:JsonPropertyName", "a");
+
+                    b.Property<long>("UserNum")
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Relational:JsonPropertyName", "un");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("UserNum");
+
+                    b.ToTable("InventoryGoods");
+                });
+
             modelBuilder.Entity("BlackRevival.APIServer.Database.OwnedSkin", b =>
                 {
                     b.Property<long>("OwnedSkinId")
@@ -128,6 +170,47 @@ namespace BlackRevival.APIServer.Migrations
                     b.HasIndex("UserNum");
 
                     b.ToTable("OwnedSkins");
+                });
+
+            modelBuilder.Entity("BlackRevival.APIServer.Database.QuestProgress", b =>
+                {
+                    b.Property<long>("QuestProgressId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Relational:JsonPropertyName", "qpid");
+
+                    b.Property<bool>("Cleared")
+                        .HasColumnType("tinyint(1)")
+                        .HasAnnotation("Relational:JsonPropertyName", "c");
+
+                    b.Property<long>("ExpireDtm")
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Relational:JsonPropertyName", "ed");
+
+                    b.Property<int>("Progress")
+                        .HasColumnType("int")
+                        .HasAnnotation("Relational:JsonPropertyName", "pg");
+
+                    b.Property<int>("QuestId")
+                        .HasColumnType("int")
+                        .HasAnnotation("Relational:JsonPropertyName", "qd");
+
+                    b.Property<int>("RenewalType")
+                        .HasColumnType("int")
+                        .HasAnnotation("Relational:JsonPropertyName", "rt");
+
+                    b.Property<bool>("Rewarded")
+                        .HasColumnType("tinyint(1)")
+                        .HasAnnotation("Relational:JsonPropertyName", "r");
+
+                    b.Property<long>("UserNum")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("QuestProgressId");
+
+                    b.HasIndex("UserNum");
+
+                    b.ToTable("QuestProgresses");
                 });
 
             modelBuilder.Entity("BlackRevival.APIServer.Database.User", b =>
@@ -291,7 +374,29 @@ namespace BlackRevival.APIServer.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("BlackRevival.APIServer.Database.InventoryGoods", b =>
+                {
+                    b.HasOne("BlackRevival.APIServer.Database.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserNum")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("BlackRevival.APIServer.Database.OwnedSkin", b =>
+                {
+                    b.HasOne("BlackRevival.APIServer.Database.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserNum")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("BlackRevival.APIServer.Database.QuestProgress", b =>
                 {
                     b.HasOne("BlackRevival.APIServer.Database.User", "User")
                         .WithMany()
