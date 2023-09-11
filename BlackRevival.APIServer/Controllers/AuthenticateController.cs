@@ -53,7 +53,7 @@ public class AuthenticateController : Controller
             await _helper.CreateUser(user);
             await _helper.CreateUserAsset(userAsset);
             _logger.LogInformation("User {0} created.", user.UserNum);
-            
+
             //Create the new character for the user
             var newChar = new Database.Character
             {
@@ -63,7 +63,7 @@ public class AuthenticateController : Controller
             _logger.LogInformation("Default char {0} created.", newChar.CharacterNum);
             //now set the activate character number
             await _helper.SetActiveCharacter(user.UserNum, newChar.CharacterNum);
-            
+
             //Create the owned skin for the user
             var newSkin = new OwnedSkin
             {
@@ -75,8 +75,19 @@ public class AuthenticateController : Controller
                 SkinEnableType = SkinEnableType.PURCHASE
             };
             await _helper.CreateOwnedSkin(newSkin);
+
+            //Create new invengoods and add to database
+            var newInv = new InvenGoods
+            {
+                c = "12-LABYRINTH_TICKET",
+                a = 3,
+                userNum = user.UserNum,
+                isActivated = false,
+                activated = false,
+            };
+            await _helper.AddInventoryGoods(newInv);
         }
-        
+
         //Encode the usernum to base64
         var encryptedUserNum = Convert.ToBase64String(BitConverter.GetBytes(user.UserNum));
 

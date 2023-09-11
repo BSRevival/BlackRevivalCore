@@ -49,15 +49,6 @@ public class LobbyController : Controller
             newPostArrived = true,
             invenGoodsList = new List<InvenGoods>
             {
-                new InvenGoods
-                {
-                    c = "12-LABYRINTH_TICKET",
-                    a = 3,
-                    num = 3517694,
-                    userNum = 7562069,
-                    isActivated = false,
-                    activated = false
-                }
             },
             weeklyQuestClear = true,
             dailyQuestClear = false,
@@ -86,7 +77,7 @@ public class LobbyController : Controller
                 new NavPresetGroup
                 {
                     groupId = 270170,
-                    userNum = 7562069,
+                    userNum = user.UserNum,
                     groupNum = 0,
                     groupName = "",
                     presets = new List<NavPreset>()
@@ -115,7 +106,7 @@ public class LobbyController : Controller
             {
                 new LabGoods
                 {
-                    userNum = 7562069,
+                    userNum = user.UserNum,
                     labNum = 6803285,
                     labType = (LabType)1,
                     bgSubType = "BASIC",
@@ -143,6 +134,20 @@ public class LobbyController : Controller
         foreach (var ownSkin in ownedSkins)
         {
             lobbyInitResult.ownSkins.Add(ownSkin);
+        }
+        
+        var invenGoods = _helper.GetInventoryGoods(session.Session.userNum).Result;
+        foreach (var goods in invenGoods)
+        {
+            lobbyInitResult.invenGoodsList.Add(new InvenGoods
+            {
+                c = goods.Text,
+                a = goods.Type,
+                num = goods.Num,
+                userNum = goods.UserNum,
+                isActivated = goods.IsActivated,
+                activated = goods.Activated
+            });
         }
 
 

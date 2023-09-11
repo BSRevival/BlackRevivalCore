@@ -95,10 +95,10 @@ namespace BlackRevival.APIServer.Migrations
 
             modelBuilder.Entity("BlackRevival.APIServer.Database.InventoryGoods", b =>
                 {
-                    b.Property<long>("id")
+                    b.Property<long>("Num")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasAnnotation("Relational:JsonPropertyName", "id");
+                        .HasAnnotation("Relational:JsonPropertyName", "n");
 
                     b.Property<bool>("Activated")
                         .HasColumnType("tinyint(1)");
@@ -110,10 +110,6 @@ namespace BlackRevival.APIServer.Migrations
                     b.Property<bool>("IsActivated")
                         .HasColumnType("tinyint(1)")
                         .HasAnnotation("Relational:JsonPropertyName", "ia");
-
-                    b.Property<long>("Num")
-                        .HasColumnType("bigint")
-                        .HasAnnotation("Relational:JsonPropertyName", "n");
 
                     b.Property<string>("Text")
                         .IsRequired()
@@ -128,7 +124,7 @@ namespace BlackRevival.APIServer.Migrations
                         .HasColumnType("bigint")
                         .HasAnnotation("Relational:JsonPropertyName", "un");
 
-                    b.HasKey("id");
+                    b.HasKey("Num");
 
                     b.HasIndex("UserNum");
 
@@ -204,7 +200,8 @@ namespace BlackRevival.APIServer.Migrations
                         .HasAnnotation("Relational:JsonPropertyName", "r");
 
                     b.Property<long>("UserNum")
-                        .HasColumnType("bigint");
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Relational:JsonPropertyName", "unm");
 
                     b.HasKey("QuestProgressId");
 

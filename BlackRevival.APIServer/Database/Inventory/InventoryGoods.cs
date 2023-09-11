@@ -6,13 +6,6 @@ namespace BlackRevival.APIServer.Database;
 
 public class InventoryGoods
 {
-    
-    [JsonPropertyName("id")]
-    [JsonIgnore]
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public long id { get; set; }
-
     [JsonPropertyName("c")]
     public string Text { get; set; }
 
@@ -20,6 +13,8 @@ public class InventoryGoods
     public int Type { get; set; }
 
     [JsonPropertyName("n")]
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public long Num { get; set; }
     
     [ForeignKey("User")]

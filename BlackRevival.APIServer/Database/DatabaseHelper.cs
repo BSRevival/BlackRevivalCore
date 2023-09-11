@@ -186,4 +186,28 @@ public class DatabaseHelper
         return activeChar;
     }
     
+    //Get all inventory goods
+    public async Task<List<InventoryGoods>> GetInventoryGoods(long num)
+    {
+        return await _context.InventoryGoods.Where(i => i.UserNum == num).ToListAsync();
+    }
+    
+    //Add new inventory goods
+    public async Task AddInventoryGoods(InvenGoods inventoryGoods)
+    {
+        var goods = new InventoryGoods
+        {
+            Text = inventoryGoods.c,
+            Type = inventoryGoods.a,
+            UserNum = inventoryGoods.userNum,
+            IsActivated = inventoryGoods.isActivated,
+            Activated = inventoryGoods.activated,
+            ExpireDtm = inventoryGoods.expireDtm
+        };
+        
+        await _context.InventoryGoods.AddAsync(goods);
+        await _context.SaveChangesAsync();
+    }
+    
+    
 }

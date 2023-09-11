@@ -5,9 +5,16 @@
       <map>
         <entry key="Common:buildConfiguration" value="Debug" />
         <entry key="Common:ca61db75-4ef6-42e2-89ae-4a6ee4f19e3c:dbContext" value="BlackRevival.APIServer.Database.AppDbContext" />
+        <entry key="Common:dbContextFolder" value="Context" />
+        <entry key="Common:dbContextName" value="MyDbContext" />
+        <entry key="Common:generateOnConfiguring" value="true" />
         <entry key="Common:noBuild" value="false" />
         <entry key="Common:outputFolder" value="Migrations" />
+        <entry key="Common:provider" value="Pomelo.EntityFrameworkCore.MySql" />
+        <entry key="Common:useAttributes" value="false" />
+        <entry key="Common:useDatabaseNames" value="false" />
         <entry key="Common:useDefaultConnection" value="true" />
+        <entry key="Common:usePluralizer" value="true" />
       </map>
     </option>
   </component>

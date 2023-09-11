@@ -13,8 +13,8 @@ public class NoticeController : Controller
     {
         _logger = logger;
     }
-    [HttpGet("/api/notices/PROMOTION/locale/English/{id}", Name = "GetPromotion")]
-    public IActionResult GetPromotion(string id)
+    [HttpGet("/api/notices/PROMOTION/locale/{lang}/{id}", Name = "GetPromotion")]
+    public IActionResult GetPromotion(string id, string lang)
     {
         string json = System.IO.File.ReadAllText("Data/Config/notices.json");
 
@@ -29,8 +29,8 @@ public class NoticeController : Controller
         });
     }
     
-    [HttpGet("/api/notices/GACHA/locale/English/{id}", Name = "GetGacha")]
-    public IActionResult GetGacha()
+    [HttpGet("/api/notices/GACHA/locale/{lang}/{id}", Name = "GetGacha")]
+    public IActionResult GetGacha(string id, string lang)
     {
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
