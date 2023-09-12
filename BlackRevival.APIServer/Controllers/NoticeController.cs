@@ -15,8 +15,12 @@ public class NoticeController : Controller
     }
     [HttpGet("/api/notices/PROMOTION/locale/{lang}/{id}", Name = "GetPromotion")]
     public IActionResult GetPromotion(string id, string lang)
-    {
-        string json = System.IO.File.ReadAllText("Data/Config/notices.json");
+	{
+		if (!System.IO.File.Exists("Data/Config/notices.json"))
+		{
+			return NotFound();
+		}
+		string json = System.IO.File.ReadAllText("Data/Config/notices.json");
 
         NoticeResult notices = JsonSerializer.Deserialize<NoticeResult>(json);
 
@@ -35,7 +39,11 @@ public class NoticeController : Controller
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
 
-        string json = System.IO.File.ReadAllText("Data/Config/GachaNotices.json");
+		if (!System.IO.File.Exists("Data/Config/GachaNotices.json"))
+		{
+			return NotFound();
+		}
+		string json = System.IO.File.ReadAllText("Data/Config/GachaNotices.json");
 
         NoticeResult notices = JsonSerializer.Deserialize<NoticeResult>(json);
 

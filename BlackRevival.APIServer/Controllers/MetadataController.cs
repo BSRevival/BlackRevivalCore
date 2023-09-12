@@ -71,7 +71,11 @@ public class MetadataController : Controller
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
 
-        var file = System.IO.File.ReadAllText($"data/GameDB/{metaData}.json");
+		if (!System.IO.File.Exists($"data/GameDB/{metaData}.json"))
+		{
+			return NotFound();
+		}
+		var file = System.IO.File.ReadAllText($"data/GameDB/{metaData}.json");
         var jsonObj = JsonNode.Parse(file).AsObject();
         
         return Json(new WebResponseHeader
