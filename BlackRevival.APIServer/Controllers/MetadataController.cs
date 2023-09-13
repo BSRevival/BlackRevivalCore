@@ -6,8 +6,9 @@ namespace BlackRevival.APIServer.Controllers;
 
 public class MetadataController : Controller
 {
-    private readonly ILogger<MetadataController> _logger;
+    const string metaDataPathTemplate = "data/GameDB/{1}.json";
 
+    private readonly ILogger<MetadataController> _logger;
     public MetadataController(ILogger<MetadataController> logger)
     {
         _logger = logger;
@@ -71,7 +72,7 @@ public class MetadataController : Controller
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
 
-        string metaDataPath = $"data/GameDB/{metaData}.json";
+        string metaDataPath = string.Format(metaDataPathTemplate, metaData);
         if (!System.IO.File.Exists(metaDataPath))
         {
             return NotFound();
