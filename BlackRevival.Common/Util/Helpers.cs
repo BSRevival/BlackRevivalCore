@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -29,11 +29,7 @@ namespace BlackRevival.Common.Util
             }
             return hex.ToString();
         }
-        public static string format_json(string json)
-        {
-            dynamic parsedJson = JsonConvert.DeserializeObject(json);
-            return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
-        }
+
 
 
     }

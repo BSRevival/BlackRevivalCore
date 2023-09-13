@@ -16,25 +16,25 @@ public class WebSocketMessage
 
     // Token: 0x04001305 RID: 4869
     [JsonPropertyName("mtd")]
-    public string method;
+    public string method {get; set;}
 
     // Token: 0x04001306 RID: 4870
     [JsonPropertyName("rid")]
-    public long id;
+    public long id {get; set;}
 
     // Token: 0x04001307 RID: 4871
     [JsonPropertyName("tme")]
-    public long time;
+    public long time {get; set;}
 
     // Token: 0x04001308 RID: 4872
     [JsonPropertyName("cod")]
-    public int code;
+    public int code {get; set;}
 
     // Token: 0x04001309 RID: 4873
     [JsonPropertyName("msg")]
-    public string msg;
+    public string msg {get; set;}
 
     // Token: 0x0400130A RID: 4874
-    [Newtonsoft.Json.JsonIgnore]
+    [JsonIgnore]
     public string json = "";
 }

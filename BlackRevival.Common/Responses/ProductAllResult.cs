@@ -1,6 +1,7 @@
-﻿using BlackRevival.Common.Model;
+﻿using System.Text.Json.Serialization;
+using BlackRevival.Common.Model;
 using BlackRevival.Common.Util;
-using Newtonsoft.Json;
+
 
 namespace BlackRevival.Common.Responses;
 

@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,7 +40,7 @@ namespace BlackRevival.Common.Apis
 
 			public long userNum;
 
-			[JsonConverter(typeof(MicrosecondEpochConverter))]
+			//[JsonConverter(typeof(MicrosecondEpochConverter))]
 			public DateTime lastLogin;
 		}
 

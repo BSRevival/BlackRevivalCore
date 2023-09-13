@@ -32,7 +32,7 @@ namespace BlackRevival.Common.Model
 		public long playTimeSeconds;
 
 		[JsonPropertyName("bdt")]
-		[Newtonsoft.Json.JsonConverter(typeof(MicrosecondEpochConverter))]
+		//[(typeof(MicrosecondEpochConverter))]
 		public DateTime battleDtm;
 
 		[JsonPropertyName("cht")]
@@ -139,7 +139,7 @@ namespace BlackRevival.Common.Model
 		[JsonPropertyName("ts")]
 		public int tournamentStage;
 
-		[Newtonsoft.Json.JsonIgnore]
+		[JsonIgnore]
 		public bool isWin
 		{
 			get

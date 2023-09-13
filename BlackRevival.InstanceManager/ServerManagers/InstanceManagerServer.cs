@@ -207,7 +207,7 @@ public class InstanceManagerServer
         switch (gameMode)
         {
             case "mode1":
-                return "arg1 arg2";
+                return "127.0.0.1 27900";
 
             case "mode2":
                 return "arg3 arg4";

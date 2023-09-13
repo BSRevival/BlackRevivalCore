@@ -1412,6 +1412,432 @@
       <None Update="Promotion\English\Gacha_AprilFirst3.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="Data\PatchData\StandaloneWindows64_aglaiastory.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_background_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_background_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_4.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_5.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_other.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_overlay.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_pieces.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_character_scenario.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_cutscene.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_gamedata.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_gametext.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_goods_avatar.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_goods_background_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_goods_background_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_goods_emoticon.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_goods_furniture.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_goods_lantern.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_goods_other.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_itemicon.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_lantern.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_4.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_5.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_6.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_7.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_8.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_9.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_10.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_live2dcharacter_other.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_monster.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_record.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sdcharacter_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sdcharacter_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sdcharacter_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sdcharacter_other.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_skincollection.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_aglaia_bgm_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_aglaia_bgm_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_aglaia_bgm_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_announce.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_bgm_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_bgm_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_4.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_5.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_6.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_7.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_8.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_9.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_10.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_character_11.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_codex.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_fx.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_interaction_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_interaction_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_labyrinth_bgm.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_monologue_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_monologue_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_monologue_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_monster.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_pve.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_signature_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_signature_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_skilleffect.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_english_story.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_aglaia_bgm_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_aglaia_bgm_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_announce.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_bgm_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_bgm_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_4.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_5.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_6.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_7.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_8.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_9.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_10.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_character_11.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_codex.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_fx.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_interaction_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_interaction_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_labyrinth_bgm.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_monologue_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_monologue_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_monologue_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_monster.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_pve.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_signature_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_signature_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_skilleffect.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_japanese_story.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_aglaia_bgm_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_aglaia_bgm_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_aglaia_bgm_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_announce.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_bgm_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_bgm_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_4.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_5.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_6.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_7.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_8.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_9.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_10.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_character_11.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_codex.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_fx.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_interaction_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_interaction_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_labyrinth_bgm.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_monologue_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_monologue_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_monologue_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_monster.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_pve.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_signature_1.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_signature_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_skilleffect.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_korean_story.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_sound_strings.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_storyscript.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_tutorial.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_ui_2.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_ui_3.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_ui_4.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_ui_5.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\PatchData\StandaloneWindows64_ui_6.unity3d">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>

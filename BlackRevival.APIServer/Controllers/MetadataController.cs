@@ -6,7 +6,7 @@ namespace BlackRevival.APIServer.Controllers;
 
 public class MetadataController : Controller
 {
-    const string metaDataPathTemplate = "data/GameDB/{1}.json";
+    private const string MetaDataPathTemplate = "data/GameDB/{0}.json";
 
     private readonly ILogger<MetadataController> _logger;
     public MetadataController(ILogger<MetadataController> logger)
@@ -17,6 +17,7 @@ public class MetadataController : Controller
     [HttpGet("/api/metaData/hash", Name = "GetMetaDataChecksum")]
     public IActionResult GetMetaDataChecksum()
     {
+        //Replace this  with realtime hash generation
         var data = new Dictionary<string, long>
         {
             { "expeditionArea", 2497034735 },
@@ -72,7 +73,7 @@ public class MetadataController : Controller
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
 
-        string metaDataPath = string.Format(metaDataPathTemplate, metaData);
+        string metaDataPath = string.Format(MetaDataPathTemplate, metaData);
         if (!System.IO.File.Exists(metaDataPath))
         {
             return NotFound();

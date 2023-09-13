@@ -8,8 +8,8 @@ namespace BlackRevival.APIServer.Controllers;
 
 public class NoticeController : Controller
 {
-    const string noticesJsonFilePath = "Data/Config/notices.json";
-    const string gachaNoticesJsonFilePath = "Data/Config/GachaNotices.json";
+    private const string NoticesJsonFilePath = "Data/Config/notices.json";
+    private const string GachaNoticesJsonFilePath = "Data/Config/GachaNotices.json";
 
     private readonly ILogger<NoticeController> _logger;
     public NoticeController(ILogger<NoticeController> logger)
@@ -19,11 +19,11 @@ public class NoticeController : Controller
     [HttpGet("/api/notices/PROMOTION/locale/{lang}/{id}", Name = "GetPromotion")]
     public IActionResult GetPromotion(string id, string lang)
     {
-        if (!System.IO.File.Exists(noticesJsonFilePath))
+        if (!System.IO.File.Exists(NoticesJsonFilePath))
         {
             return NotFound();
         }
-        string json = System.IO.File.ReadAllText(noticesJsonFilePath);
+        string json = System.IO.File.ReadAllText(NoticesJsonFilePath);
 
         NoticeResult notices = JsonSerializer.Deserialize<NoticeResult>(json);
 
@@ -42,11 +42,11 @@ public class NoticeController : Controller
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
 
-        if (!System.IO.File.Exists(gachaNoticesJsonFilePath))
+        if (!System.IO.File.Exists(GachaNoticesJsonFilePath))
         {
             return NotFound();
         }
-        string json = System.IO.File.ReadAllText(gachaNoticesJsonFilePath);
+        string json = System.IO.File.ReadAllText(GachaNoticesJsonFilePath);
 
         NoticeResult notices = JsonSerializer.Deserialize<NoticeResult>(json);
 

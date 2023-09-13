@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Text.Json.Serialization;
 using BlackRevival.Common.Util;
-using Newtonsoft.Json;
+
 
 namespace BlackRevival.Common.Networking;
 
@@ -27,17 +27,17 @@ public class WebSocketRequest
 
     // Token: 0x0400130D RID: 4877
     [JsonPropertyName("mtd")]
-    public string method;
+    public string method {get; set;}
 
     // Token: 0x0400130E RID: 4878
     [JsonPropertyName("rid")]
-    public long id;
+    public long id {get; set;}
 
     // Token: 0x0400130F RID: 4879
     [JsonPropertyName("tme")]
-    public long time;
+    public long time {get; set;}
 
     // Token: 0x04001310 RID: 4880
     [JsonPropertyName("prm")]
-    public Hashtable param;
+    public Hashtable param {get; set;}
 }

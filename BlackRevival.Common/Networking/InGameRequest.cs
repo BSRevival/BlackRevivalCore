@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-using Newtonsoft.Json;
+using System.Text.Json;
 using Serilog;
 
 namespace BlackRevival.Common.Networking
@@ -124,7 +124,7 @@ namespace BlackRevival.Common.Networking
 			T result;
 			try
 			{
-				result = JsonConvert.DeserializeObject<WebSocketResult<T>>(this.Response.json).result;
+				result = JsonSerializer.Deserialize<WebSocketResult<T>>(this.Response.json).result;
 				Log.Debug(this.Response.json);
 			}
 			catch (Exception ex)

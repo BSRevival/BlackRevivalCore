@@ -1,3 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace BlackRevival.GameServer;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    private const string InstanceManagerAddress = ""; // Replace with your Instance Manager IP address
+    private const int InstanceManagerPort = 42069;
+    
+    static async Task Main(string[] args)
+    {
+        Server gameServer = new Server();
+        
+        await gameServer.StartAsync(args[0], args[1]);
+        
+        // Keep the server running until a key is pressed
+        Console.WriteLine("Game Server is running. Press any key to stop.");
+        Console.ReadKey();
+    }
+
+}

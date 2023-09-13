@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +12,6 @@ namespace BlackRevival.Common.Networking
 	{
 		// Token: 0x0400130C RID: 4876
 		[JsonPropertyName("rst")]
-		public T result;
+		public T result {get; set;}
 	}
 }
