@@ -15,12 +15,12 @@ public class NoticeController : Controller
     }
     [HttpGet("/api/notices/PROMOTION/locale/{lang}/{id}", Name = "GetPromotion")]
     public IActionResult GetPromotion(string id, string lang)
-	{
-		if (!System.IO.File.Exists("Data/Config/notices.json"))
-		{
-			return NotFound();
-		}
-		string json = System.IO.File.ReadAllText("Data/Config/notices.json");
+    {
+        if (!System.IO.File.Exists("Data/Config/notices.json"))
+        {
+            return NotFound();
+        }
+        string json = System.IO.File.ReadAllText("Data/Config/notices.json");
 
         NoticeResult notices = JsonSerializer.Deserialize<NoticeResult>(json);
 
@@ -32,18 +32,19 @@ public class NoticeController : Controller
             Eac = 0
         });
     }
-    
+
     [HttpGet("/api/notices/GACHA/locale/{lang}/{id}", Name = "GetGacha")]
     public IActionResult GetGacha(string id, string lang)
     {
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
 
-		if (!System.IO.File.Exists("Data/Config/GachaNotices.json"))
-		{
-			return NotFound();
-		}
-		string json = System.IO.File.ReadAllText("Data/Config/GachaNotices.json");
+        string filePath = "Data/Config/GachaNotices.json";
+        if (!System.IO.File.Exists(filePath))
+        {
+            return NotFound();
+        }
+        string json = System.IO.File.ReadAllText(filePath);
 
         NoticeResult notices = JsonSerializer.Deserialize<NoticeResult>(json);
 
@@ -55,5 +56,5 @@ public class NoticeController : Controller
             Eac = 0
         });
     }
-    
+
 }
