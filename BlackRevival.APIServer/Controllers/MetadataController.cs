@@ -6,13 +6,14 @@ namespace BlackRevival.APIServer.Controllers;
 
 public class MetadataController : Controller
 {
-    private readonly ILogger<MetadataController> _logger;
+    const string metaDataPathTemplate = "data/GameDB/{1}.json";
 
+    private readonly ILogger<MetadataController> _logger;
     public MetadataController(ILogger<MetadataController> logger)
     {
         _logger = logger;
     }
-    
+
     [HttpGet("/api/metaData/hash", Name = "GetMetaDataChecksum")]
     public IActionResult GetMetaDataChecksum()
     {
@@ -71,9 +72,14 @@ public class MetadataController : Controller
         var queryString = HttpContext.Request.QueryString.Value;
         _logger.LogInformation("Query string: {QueryString}", queryString);
 
-        var file = System.IO.File.ReadAllText($"data/GameDB/{metaData}.json");
+        string metaDataPath = string.Format(metaDataPathTemplate, metaData);
+        if (!System.IO.File.Exists(metaDataPath))
+        {
+            return NotFound();
+        }
+        var file = System.IO.File.ReadAllText(metaDataPath);
         var jsonObj = JsonNode.Parse(file).AsObject();
-        
+
         return Json(new WebResponseHeader
         {
             Cod = 200,
