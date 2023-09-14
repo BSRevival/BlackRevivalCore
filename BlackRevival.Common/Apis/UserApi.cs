@@ -191,7 +191,7 @@ namespace BlackRevival.Common.Apis
 
 			public class ChangePotentialSkillResult
 			{
-				public int activatedPotentialSkillId;
+				public int activatedPotentialSkillId { get; set; }
 			}
 
 			//public class PotentialSkillListResult

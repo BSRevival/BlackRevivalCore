@@ -11,10 +11,10 @@ namespace BlackRevival.Common.Model
 	public class StartWaitngTime
 	{
 		// Token: 0x04005E48 RID: 24136
-		public bool startInstant;
+		public bool startInstant { get; set; }
 
 		// Token: 0x04005E49 RID: 24137
 		//[JsonConverter(typeof(MicrosecondEpochConverter))]
-		public DateTime startAfterWaiting;
+		public long startAfterWaiting { get; set; }
 	}
 }

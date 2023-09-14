@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 using BlackRevival.APIServer.Classes;
 using BlackRevival.APIServer.Database;
 using BlackRevival.Common.Apis;
@@ -173,4 +174,38 @@ public class UserController : Controller
             Eac = 0
         });
     }
+
+    [HttpGet("/api/users/{userNum}/changePotentialSkill/{skillId}", Name = "ChangePotentialSkill")]
+    public async Task<IActionResult> ChangePotentialSkill(string userNum, long skillId)
+    {
+        
+        var result = new UserApi.LoginResult.ChangePotentialSkillResult();
+
+        result.activatedPotentialSkillId = (int)skillId;
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = result,
+            Eac = 0
+        });
+    }
+    
+    [HttpPost("/api/user/latency", Name = "Latency")]
+    public async Task<IActionResult> Latency([FromBody] JsonElement json)
+    {
+        _logger.LogInformation(json.ToString());
+
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+
+    
+
 }

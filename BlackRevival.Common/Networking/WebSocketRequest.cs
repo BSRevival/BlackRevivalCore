@@ -15,6 +15,12 @@ public class WebSocketRequest
         this.time = time;
         this.param = param;
     }
+    public WebSocketRequest(string method, long time, Hashtable param)
+    {
+        this.method = method;
+        this.time = time;
+        this.param = param;
+    }
 
     // Token: 0x06001B55 RID: 6997 RVA: 0x00014C34 File Offset: 0x00012E34
     public WebSocketRequest(string method, long id, long time, params object[] param)

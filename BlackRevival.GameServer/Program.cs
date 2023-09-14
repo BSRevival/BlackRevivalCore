@@ -1,4 +1,6 @@
-﻿namespace BlackRevival.GameServer;
+﻿using Serilog;
+
+namespace BlackRevival.GameServer;
 
 class Program
 {
@@ -7,6 +9,12 @@ class Program
     
     static async Task Main(string[] args)
     {
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Verbose()
+            .WriteTo.Console()
+            .Enrich.FromLogContext()
+            .CreateLogger();
+
         Server gameServer = new Server();
         
         await gameServer.StartAsync(args[0], args[1]);

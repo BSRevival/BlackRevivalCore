@@ -4,6 +4,7 @@ class Program
 {
     static async Task Main()
     {
+        
         InstanceManagerServer instanceManagerServer = new InstanceManagerServer();
         
         await instanceManagerServer.StartAsync();

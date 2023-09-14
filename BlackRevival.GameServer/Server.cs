@@ -85,6 +85,7 @@ public class Server
             Log.Debug($"Client {sClient.clientId} disconnected: " + args.Client.IpPort);         
         }
 
+        private static bool firstMessage = true;
         static void MessageReceived(object sender, MessageReceivedEventArgs args)
         {
             string msg = "(null)";
@@ -149,27 +150,21 @@ public class Server
             }
             if (JsonObject.method == "ready2Move")
             {
-
-
+                
                 string resp = "{\"rid\":"+ JsonObject.id + ",\"cod\":200,\"tme\":"+ unixTimeMilliseconds + ",\"rst\":{\"wasStarted\":true}}";
-                _Server.SendAsync(args.Client.Guid, resp).Wait();
+                _Server.SendAsync(args.Client.Guid, resp);
 
-
-                var StartAt = now.AddSeconds(10);
+                
                 StartWaitngTime startReq = new StartWaitngTime();
-                startReq.startAfterWaiting = StartAt.UtcDateTime;
-                startReq.startInstant = true;
+                startReq.startAfterWaiting = unixTimeMilliseconds;
+                startReq.startInstant = false;
                 KeyValueList kvp = new KeyValueList(startReq);
                 
+                WebSocketRequest wsm = new WebSocketRequest("readyGame", unixTimeMilliseconds, kvp.ToHashtable());
 
-                WebSocketRequest wsm = new WebSocketRequest("readyGame", JsonObject.id, unixTimeMilliseconds, kvp.ToHashtable());
-                
                 string msgData = JsonSerializer.Serialize(wsm);
-                //var bytes = Encoding.UTF8.GetBytes(msgData);
-                //Log.Debug(Helpers.format_json(msgData));
-                _Server.SendAsync(args.Client.Guid, msgData).Wait();
-
-                Task.Delay(2000);
+                _Server.SendAsync(args.Client.Guid, msgData);
+                
 
 
                 SupplyInfo supplies = new SupplyInfo();
@@ -193,11 +188,15 @@ public class Server
 
                 supplies.itemList.Add(nullitem);
                 KeyValueList kvl2 = new KeyValueList(supplies);
-                WebSocketRequest wsm2 = new WebSocketRequest("inGameSupplies", JsonObject.id, StartAt.ToUnixTimeMilliseconds(), kvl2.ToHashtable());
+                WebSocketRequest wsm2 = new WebSocketRequest("inGameSupplies", unixTimeMilliseconds +  2000, kvl2.ToHashtable());
 
-                string msgData2 = JsonSerializer.Serialize(wsm);
-                _Server.SendAsync(args.Client.Guid, msgData2).Wait();
-
+                string msgData2 = JsonSerializer.Serialize(wsm2);
+                _Server.SendAsync(args.Client.Guid, msgData2);
+                
+                string msgData3 = "{\"mtd\":\"restrictField\",\"tme\":"+ unixTimeMilliseconds +  2000 + ",\"prm\":{\"restrictedFieldTypes\":[11],\"fieldRestrictRemainSec\":180,\"isNight\":false,\"restrictionFieldStep\":1,\"wicklineField\":0,\"willRestrictFieldTypes\":[14,17,21,20,23],\"remainRestrictionCounts\":{\"1\":0,\"2\":0,\"3\":0,\"4\":0,\"5\":0,\"6\":0,\"7\":0,\"8\":0,\"9\":0,\"10\":0,\"11\":0,\"12\":0,\"13\":0,\"14\":2,\"15\":0,\"16\":0,\"17\":2,\"18\":0,\"19\":0,\"20\":3,\"21\":2,\"22\":0,\"23\":1}},\"gmd\":0,\"unn\":0}";
+                _Server.SendAsync(args.Client.Guid, msgData3);
+                
+                
                 return;
             }
             if (JsonObject.method == "chat")
@@ -207,6 +206,14 @@ public class Server
                 //Send to all clients that a chat has been sent
                 //foreach(string client in _Server.ListClients())
                 _Server.SendAsync(args.Client.Guid, resp).Wait();
+                
+                
+                //This is terrible and only here temporarily
+                if (firstMessage)
+                {
+                    firstMessage = false;
+                 
+                }
                 return;
             }
             if (JsonObject.method == "restInfo")
