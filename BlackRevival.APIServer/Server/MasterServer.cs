@@ -222,7 +222,7 @@ public static class MasterServer
         gameServers.Add(server);
     }
     
-    public static async Task SendPacketToInstanceServer(Packet packet)
+    public static async Task SendPacketToInstanceServer<T>(T packet) where T : Packet
     {
         if (instanceServerStream == null)
         {
