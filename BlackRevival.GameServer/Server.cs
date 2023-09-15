@@ -152,19 +152,24 @@ public class Server
             {
                 
                 string resp = "{\"rid\":"+ JsonObject.id + ",\"cod\":200,\"tme\":"+ unixTimeMilliseconds + ",\"rst\":{\"wasStarted\":true}}";
-                _Server.SendAsync(args.Client.Guid, resp);
+                Console.WriteLine(resp);
+                _Server.SendAsync(args.Client.Guid, resp).Wait();
 
-                
-                StartWaitngTime startReq = new StartWaitngTime();
-                startReq.startAfterWaiting = unixTimeMilliseconds;
-                startReq.startInstant = false;
-                KeyValueList kvp = new KeyValueList(startReq);
-                
-                WebSocketRequest wsm = new WebSocketRequest("readyGame", unixTimeMilliseconds, kvp.ToHashtable());
+                KeyValueList kvl = new KeyValueList();
+                kvl.Add("startInstant", false);
+                kvl.Add("startAfterWaiting", unixTimeMilliseconds + 10000);
+
+                // StartWaitngTime startReq = new StartWaitngTime();
+                // startReq.startAfterWaiting = unixTimeMilliseconds;
+                // startReq.startInstant = false;
+                // KeyValueList kvp = new KeyValueList(startReq);
+                //
+                WebSocketRequest wsm = new WebSocketRequest("readyGame", unixTimeMilliseconds, kvl.ToHashtable());
 
                 string msgData = JsonSerializer.Serialize(wsm);
+                Console.WriteLine(msgData);
                 _Server.SendAsync(args.Client.Guid, msgData);
-                
+
 
 
                 SupplyInfo supplies = new SupplyInfo();
@@ -188,13 +193,12 @@ public class Server
 
                 supplies.itemList.Add(nullitem);
                 KeyValueList kvl2 = new KeyValueList(supplies);
-                WebSocketRequest wsm2 = new WebSocketRequest("inGameSupplies", unixTimeMilliseconds +  2000, kvl2.ToHashtable());
+                WebSocketRequest wsm2 = new WebSocketRequest("inGameSupplies", unixTimeMilliseconds, kvl2.ToHashtable());
 
                 string msgData2 = JsonSerializer.Serialize(wsm2);
+                Console.WriteLine(msgData2);
                 _Server.SendAsync(args.Client.Guid, msgData2);
                 
-                string msgData3 = "{\"mtd\":\"restrictField\",\"tme\":"+ unixTimeMilliseconds +  2000 + ",\"prm\":{\"restrictedFieldTypes\":[11],\"fieldRestrictRemainSec\":180,\"isNight\":false,\"restrictionFieldStep\":1,\"wicklineField\":0,\"willRestrictFieldTypes\":[14,17,21,20,23],\"remainRestrictionCounts\":{\"1\":0,\"2\":0,\"3\":0,\"4\":0,\"5\":0,\"6\":0,\"7\":0,\"8\":0,\"9\":0,\"10\":0,\"11\":0,\"12\":0,\"13\":0,\"14\":2,\"15\":0,\"16\":0,\"17\":2,\"18\":0,\"19\":0,\"20\":3,\"21\":2,\"22\":0,\"23\":1}},\"gmd\":0,\"unn\":0}";
-                _Server.SendAsync(args.Client.Guid, msgData3);
                 
                 
                 return;
@@ -202,7 +206,7 @@ public class Server
             if (JsonObject.method == "chat")
             {
                 //This is hard coded atm
-                string resp = "{\"rid\":" + JsonObject.id + ",\"cod\":200,\"tme\":" + unixTimeMilliseconds + "}";
+                string resp = "{\"mtd\":\"userChat\",\"tme\":"+ unixTimeMilliseconds + ",\"prm\":{\"userNick\":\"Lailtban\",\"message\":\"PREPARE YOURSELF\",\"chatsubType\":0,\"chatType\":3},\"gmd\":0,\"unn\":7562069}";
                 //Send to all clients that a chat has been sent
                 //foreach(string client in _Server.ListClients())
                 _Server.SendAsync(args.Client.Guid, resp).Wait();
@@ -212,7 +216,9 @@ public class Server
                 if (firstMessage)
                 {
                     firstMessage = false;
-                 
+                    string msgData3 = "{\"mtd\":\"restrictField\",\"tme\":"+ unixTimeMilliseconds + ",\"prm\":{\"restrictedFieldTypes\":[11],\"fieldRestrictRemainSec\":180,\"isNight\":false,\"restrictionFieldStep\":1,\"wicklineField\":0,\"willRestrictFieldTypes\":[14,17,21,20,23],\"remainRestrictionCounts\":{\"1\":0,\"2\":0,\"3\":0,\"4\":0,\"5\":0,\"6\":0,\"7\":0,\"8\":0,\"9\":0,\"10\":0,\"11\":0,\"12\":0,\"13\":0,\"14\":2,\"15\":0,\"16\":0,\"17\":2,\"18\":0,\"19\":0,\"20\":3,\"21\":2,\"22\":0,\"23\":1}},\"gmd\":0,\"unn\":0}";
+                    _Server.SendAsync(args.Client.Guid, msgData3);
+
                 }
                 return;
             }
