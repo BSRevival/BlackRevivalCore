@@ -17,7 +17,7 @@ public class MetadataController : Controller
     [HttpGet("/api/metaData/hash", Name = "GetMetaDataChecksum")]
     public IActionResult GetMetaDataChecksum()
     {
-        //Replace this  with realtime hash generation
+        //Replace this  with realtime hash generation we can steal the implementation from Unity client
         var data = new Dictionary<string, long>
         {
             { "expeditionArea", 2497034735 },
