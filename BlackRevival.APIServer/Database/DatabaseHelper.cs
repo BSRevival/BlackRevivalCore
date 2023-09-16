@@ -209,5 +209,50 @@ public class DatabaseHelper
         await _context.SaveChangesAsync();
     }
     
+    //Get all mail entries and convert to mail model
+    public async Task<List<Mail>> GetMailEntries(long num)
+    {
+        var mailList = new List<Mail>();
+        var list = await _context.MailEntries.Where(m => m.UserNum == num).ToListAsync();
+        foreach(var mail in list)
+        {
+            var mailData = new Mail
+            {
+                mailNum = mail.mailNum,
+                type = mail.type,
+                title = mail.title,
+                content = mail.content,
+                status = mail.status,
+                senderNum = mail.senderNum,
+                senderNickname = mail.senderNickname,
+                eventNum = mail.eventNum,
+                createDtm = mail.createDtm,
+                readDtm = mail.readDtm,
+                expireDtm = mail.expireDtm,
+                publishId = mail.publishId,
+                subTitle = mail.subTitle,
+                webLink = mail.webLink,
+                attachment = new MailAttachment
+                {
+                    goods = mail.attachment.goods,
+                    mailAttachmentNum = mail.attachment.mailAttachmentNum,
+                    mailNum = mail.attachment.mailNum
+                }
+            };
+
+            mailList.Add(mailData);
+        }
+
+        return mailList;
+    }
     
+    //Delete mail entry by mail num
+    public async Task DeleteMailEntry(long num, long mailNum)
+    {
+        var mail = await _context.MailEntries.FirstOrDefaultAsync(m => m.UserNum == num && m.mailNum == mailNum);
+        _context.MailEntries.Remove(mail);
+        await _context.SaveChangesAsync();
+    }
+
+
 }

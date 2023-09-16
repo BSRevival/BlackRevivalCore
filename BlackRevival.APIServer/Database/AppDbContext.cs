@@ -13,7 +13,9 @@ public class AppDbContext : DbContext
     public DbSet<QuestProgress> QuestProgresses { get; set; }
     
     public DbSet<InventoryGoods> InventoryGoods { get; set; }
-
+    
+    public DbSet<MailEntry> MailEntries { get; set; }
+    public DbSet<MailEntryAttachment> MailEntryAttachments { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         var connectionString = "Server=localhost;Database=blackrevival;Uid=root;Pwd=johnsond;";
