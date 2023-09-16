@@ -286,4 +286,10 @@ public class DatabaseHelper
     }
 
 
+    public async Task UpdateUserAsset(long num, UserAsset asset)
+    {
+        //Update user asset
+        _context.UserAssets.Update(asset);
+        await _context.SaveChangesAsync();
+    }
 }

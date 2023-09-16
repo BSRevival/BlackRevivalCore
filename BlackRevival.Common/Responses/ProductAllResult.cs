@@ -21,7 +21,7 @@ public class ProductAllResult
 
     public List<string> productIds { get; set; }
 
-    //[JsonConverter(typeof(MicrosecondEpochConverter))]
+    [JsonConverter(typeof(MicrosecondEpochConverter))]
     [JsonIgnore]
     public long tournamentStartDtm { get; set; }
 }

@@ -77,61 +77,70 @@ public class UserController : Controller
     }
     
     [HttpPost("/api/users/{userNum}", Name = "GetUser")]
-    public IActionResult GetUser([FromBody] JsonElement json, int userNum)
+    public IActionResult GetUser([FromBody] JsonElement json, long userNum)
     {
         _logger.LogInformation(json.ToString());
-        var user = new Common.Model.User
+
+        //Get a user from the database and convert it to a common.model.user
+        var user = _helper.GetUserByNum(userNum).Result;
+        var userAsset = _helper.GetUserAssetByUserNum(userNum).Result;
+        
+        var newUser = new Common.Model.User
         {
-            userNum = 7562069,
-            receivePushMsg = true,
-            newPostArrived = true,
-            termsAgree = true,
-            nickname = "ReplaceNameHere",
-            tutorialProgress = 0,
-            bgm = true,
-            soundEffect = true,
-            lastword = "How can I die here...",
-            watchword = "Come at me",
-            activeCharacterNum = 10136633,
-            appLanguageCode = "en",
-            leaguePoint = 0,
-            adViewCount = 10,
-            maxAdViewCount = 10,
-            activatedPotentialSkillId = 0,
-            researcherExp = 0,
-            researcherTitleCode = 0,
-            matchingCardCode = 0,
-            lto = false,
-            ltt = false,
-            lte = false,
-            ltf = false,
-            ltv = false,
-            ltr = false,
-            sigc = 0,
-            sigg = 0,
-            rtn = "NONE",
-            aps = 6001,
-            league = League.MOUSE5,
+            userNum = user.UserNum, //This Is server usernumber
+            receivePushMsg = user.ReceivePushMsg,
+            newPostArrived = user.NewPostArrived,
+            termsAgree = user.TermsAgree,
+            nickname = user.Nickname,
+            tutorialProgress = user.TutorialProgress,
+            bgm = user.Bgm,
+            soundEffect = user.SoundEffect,
+            lastword = user.Lastword,
+            watchword = user.Watchword,
+            activeCharacterNum = user.ActiveCharacterNum,
+            appLanguageCode = user.AppLanguageCode,
+            leaguePoint = user.LeaguePoint,
+            adViewCount = user.AdViewCount,
+            maxAdViewCount = user.MaxAdViewCount,
+            activatedPotentialSkillId = user.ActivatedPotentialSkillId,
+            researcherExp = user.ResearcherExp,
+            researcherTitleCode = user.ResearcherTitleCode,
+            matchingCardCode = user.MatchingCardCode,
+            lto = user.Lto,
+            ltt = user.Ltt,
+            lte = user.Lte,
+            ltf = user.Ltf,
+            ltv = user.Ltv,
+            ltr = user.Ltr,
+            sigc = user.Sigc,
+            sigg= user.Sigg,
+            rtn = user.Rtn,
+            aps = user.Aps,
+            league = user.League,
             // initialize other properties as needed
             // initialize UserAsset properties
-            gold = 10000000,
-            gem = 10000000,
-            bearPoint = 1000000,
-            credit = 0,
-            mileage = 1000000,
-            experimentMemory = 0,
-            tournamentPoint = 0,
-            tournamentTicket = 0,
-            voteTicket = 0,
-            voteStamp = 0,
-            labyrinthPoint = 0,
-            agliaScore = 0
+            gold = userAsset.Gold,
+            gem = userAsset.Gem,
+            bearPoint = userAsset.BearPoint,
+            credit = userAsset.Credit,
+            mileage = userAsset.Mileage,
+            experimentMemory = userAsset.ExperimentMemory,
+            tournamentPoint = userAsset.TournamentPoint,
+            tournamentTicket = userAsset.TournamentTicket,
+            voteTicket = userAsset.VoteTicket,
+            voteStamp = userAsset.VoteStamp,
+            labyrinthPoint = userAsset.LabyrinthPoint,
+            agliaScore = userAsset.AgliaScore
         };
+        
+        
+        
+       
         return Json(new WebResponseHeader
         {
             Cod = 200,
             Msg = "SUCCESS",
-            Rst = user,
+            Rst = newUser,
             Eac = 0
         });
     }

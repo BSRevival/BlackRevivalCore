@@ -7,6 +7,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace BlackRevival.Common.Model
 {
@@ -14,21 +15,21 @@ namespace BlackRevival.Common.Model
 	[NotMapped]
     public class Goods
     {
-		private GoodsType _goodsType;
+	    public GoodsType _goodsType { get; set; }
 
-		private string _subType;
+		public string _subType { get; set; }
 
 		[JsonPropertyName("c")]
-		private string goodsCode;
+		public string goodsCode { get; set; }
 
 		[JsonPropertyName("a")]
-		public int amount;
+		public int amount { get; set; }
 
 		public GoodsType goodsType
 		{
 			get
 			{
-				if (_goodsType == GoodsType.NONE)
+				if (_goodsType == GoodsType.NONE )
 				{
 					extractFromCode();
 				}
@@ -88,6 +89,21 @@ namespace BlackRevival.Common.Model
 
 		private void Init()
 		{
+		}
+		
+		public int GetIntSubType()
+		{
+			int result;
+			try
+			{
+				result = Convert.ToInt32(this.subType);
+			}
+			catch (FormatException arg)
+			{
+				Log.Error(string.Format("Error || {0} || {1}", arg, this.subType));
+				result = 0;
+			}
+			return result;
 		}
 
 		//public string GetDetailName()

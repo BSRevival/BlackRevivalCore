@@ -2,7 +2,7 @@
 
 namespace BlackRevival.Common.Model;
 
-public class RouletteGoods
+public class RouletteGoods : Goods
 {
     [JsonPropertyName("rgg")]
     public RouletteGoodsGradeData rouletteGoodsGrade { get; set; }

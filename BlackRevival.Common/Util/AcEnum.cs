@@ -16,7 +16,7 @@ public class AcEnum
 
 	public static bool IsDefinedAllCase<T>(string type)
 	{
-		return AcEnum.IsDefined<T>(type) || AcEnum.IsDefined<T>(type.ToUpper()) || AcEnum.IsDefined<T>(type.ToLower()) || AcEnum.IsDefined<T>(StringUtil.GetTitleCase(type.ToLower()));
+		return AcEnum.IsDefined<T>(type) || AcEnum.IsDefined<T>(type.ToUpper()) || AcEnum.IsDefined<T>(type.ToLower()) || AcEnum.IsDefined<T>(StringUtils.GetTitleCase(type.ToLower()));
 	}
 
 	public static bool IsDefinedInt<T>(int num)
@@ -94,7 +94,7 @@ public class AcEnum
 			}
 			else
 			{
-				type = StringUtil.GetTitleCase(type.ToLower());
+				type = StringUtils.GetTitleCase(type.ToLower());
 				if (AcEnum.IsDefined<T>(type))
 				{
 					result = AcEnum.Convert<T>(type);
@@ -179,7 +179,7 @@ public class AcEnum
 			outType = AcEnum.Convert<T>(type);
 			return true;
 		}
-		type = StringUtil.GetTitleCase(type.ToLower());
+		type = StringUtils.GetTitleCase(type.ToLower());
 		if (AcEnum.IsDefined<T>(type))
 		{
 			outType = AcEnum.Convert<T>(type);
