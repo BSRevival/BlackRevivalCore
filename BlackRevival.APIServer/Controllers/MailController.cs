@@ -52,5 +52,48 @@ public class MailController : Controller
             Eac = 0
         });
     }
+    
+    //Read Mail
+    [HttpPut("/api/mails/{mailNum}/read", Name = "ReadMail")]
+    public async Task<IActionResult> ReadMail(string mailNum)
+    {
+        //TODO: Implement Read mail
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    //Receive Attachment
+    [HttpPut("/api/mails/{mailNum}/received", Name = "ReceiveAttachment")]
+    public async Task<IActionResult> ReceiveAttachment(string mailNum)
+    {
+        //TODO: Implement attachment receiving
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+
+    
+    [HttpDelete("/api/mails/{mailNum}", Name = "DeleteMail")]
+    public async Task<IActionResult> DeleteMail(string mailNum)
+    {
+        //TODO: Implement mail deletion
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
 
 }
