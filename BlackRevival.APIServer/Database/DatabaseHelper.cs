@@ -253,6 +253,37 @@ public class DatabaseHelper
         _context.MailEntries.Remove(mail);
         await _context.SaveChangesAsync();
     }
+    
+    //Get single mail entry by mail num and convert to mail model
+    public async Task<Mail> GetMailByMailID(long num, long mailNum)
+    {
+        var mail = await _context.MailEntries.FirstOrDefaultAsync(m => m.UserNum == num && m.mailNum == mailNum);
+        var mailData = new Mail
+        {
+            mailNum = mail.mailNum,
+            type = mail.type,
+            title = mail.title,
+            content = mail.content,
+            status = mail.status,
+            senderNum = mail.senderNum,
+            senderNickname = mail.senderNickname,
+            eventNum = mail.eventNum,
+            createDtm = mail.createDtm,
+            readDtm = mail.readDtm,
+            expireDtm = mail.expireDtm,
+            publishId = mail.publishId,
+            subTitle = mail.subTitle,
+            webLink = mail.webLink,
+            attachment = new MailAttachment
+            {
+                goods = mail.attachment.goods,
+                mailAttachmentNum = mail.attachment.mailAttachmentNum,
+                mailNum = mail.attachment.mailNum
+            }
+        };
+
+        return mailData;
+    }
 
 
 }

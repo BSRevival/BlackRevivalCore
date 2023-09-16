@@ -22,27 +22,23 @@ public class MailController : Controller
     [HttpGet("/api/mails", Name = "RequestMailData")]
     public async Task<IActionResult> RequestMailData()
     {
-        /*
-        var mail = await _helper.GetMailByNum(userNum, mailNum);
-        var mailAttachment = await _helper.GetMailAttachmentByMailNum(userNum, mailNum);
-        var mailAttachmentList = new List<MailAttachment>();
-        if (mailAttachment != null)
+        var session = (APISession)HttpContext.Items["Session"];
+        if (session == null)
         {
-            mailAttachmentList.Add(mailAttachment);
+            return Json(new WebResponseHeader
+            {
+                Cod = 401,
+                Msg = "Session Does not exist",
+                Rst = null,
+                Eac = 0
+            });
         }
-        var mailList = new List<Mail>();
-        if (mail != null)
-        {
-            mailList.Add(mail);
-        }
+        var userNum = session.Session.userNum;
+        var mail = await _helper.GetMailEntries(userNum);
         
-        */
-        
-        //TODO: Implement mail system
-        //Send empty mail list for now
         var mailResult = new MailsResult
         {
-            mails = new List<Mail>(),
+            mails = mail,
         };
         return Json(new WebResponseHeader
         {
@@ -55,14 +51,34 @@ public class MailController : Controller
     
     //Read Mail
     [HttpPut("/api/mails/{mailNum}/read", Name = "ReadMail")]
-    public async Task<IActionResult> ReadMail(string mailNum)
+    public async Task<IActionResult> ReadMail(long mailNum)
     {
-        //TODO: Implement Read mail
+        var session = (APISession)HttpContext.Items["Session"];
+        if (session == null)
+        {
+            return Json(new WebResponseHeader
+            {
+                Cod = 401,
+                Msg = "Session Does not exist",
+                Rst = null,
+                Eac = 0
+            });
+        }
+        var userNum = session.Session.userNum;
+        var mail = await _helper.GetMailByMailID(userNum, mailNum);
+
+        var mailList = new List<Mail>();
+        mailList.Add(mail);
+        
+        var mailResult = new MailsResult
+        {
+            mails = mailList
+        };
         return Json(new WebResponseHeader
         {
             Cod = 200,
             Msg = "SUCCESS",
-            Rst = new {},
+            Rst = mailResult,
             Eac = 0
         });
     }
@@ -83,16 +99,36 @@ public class MailController : Controller
 
     
     [HttpDelete("/api/mails/{mailNum}", Name = "DeleteMail")]
-    public async Task<IActionResult> DeleteMail(string mailNum)
+    public async Task<IActionResult> DeleteMail(long mailNum)
     {
-        //TODO: Implement mail deletion
+        var session = (APISession)HttpContext.Items["Session"];
+        if (session == null)
+        {
+            return Json(new WebResponseHeader
+            {
+                Cod = 401,
+                Msg = "Session Does not exist",
+                Rst = null,
+                Eac = 0
+            });
+        }
+        var userNum = session.Session.userNum;
+        await _helper.DeleteMailEntry(userNum, mailNum);
+
+        var mail = await _helper.GetMailEntries(userNum);
+        
+        var mailResult = new MailsResult
+        {
+            mails = mail,
+        };
         return Json(new WebResponseHeader
         {
             Cod = 200,
             Msg = "SUCCESS",
-            Rst = new {},
+            Rst = mailResult,
             Eac = 0
         });
+
     }
     
 
