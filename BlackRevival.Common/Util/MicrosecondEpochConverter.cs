@@ -20,14 +20,13 @@ namespace BlackRevival.Common.Util
 			}
 
 			long microseconds = reader.GetInt64();
-			return Epoch.AddTicks(microseconds * 10);
+			return MicrosecondEpochConverter.Epoch.AddMilliseconds(microseconds).ToLocalTime();
 		}
 
 		public override void Write(Utf8JsonWriter writer, DateTime value, JsonSerializerOptions options)
 		{
-			TimeSpan timeSpan = value.ToUniversalTime() - Epoch;
-			long microseconds = (long)timeSpan.TotalMilliseconds * 1000;
-			writer.WriteNumberValue(microseconds);
+			var millisecondsSinceEpoch = (long)(value.ToUniversalTime() - Epoch).TotalMilliseconds;
+			writer.WriteNumberValue(millisecondsSinceEpoch);
 		}
 	}
 }
