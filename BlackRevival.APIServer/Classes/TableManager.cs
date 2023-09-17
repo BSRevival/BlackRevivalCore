@@ -26,6 +26,7 @@ public static class TableManager
     public static ItemDB itemDb;
     public static LeagueDB leagueDb;
     public static AglaiaPassDB aglaiaPassDb;
+    public static ConstantsDB constantsDb;
 
     public static void Init()
     {
@@ -131,6 +132,14 @@ public static class TableManager
         //Serialize json to AglaiaPassDB
         Log.Information("Loading aglaiaPass.json...");
         aglaiaPassDb = new AglaiaPassDB(JsonSerializer.Deserialize<AglaiaPassDB.Model>(json));
+        
+        //ConstantsDB
+        json = System.IO.File.ReadAllText("Data/GameDB/constants.json");
+        //Serialize json to ConstantsDB
+        Log.Information("Loading constants.json...");
+        constantsDb = new ConstantsDB(JsonSerializer.Deserialize<ConstantsDB>(json));
+        
+        
         
         
         Log.Information("TableManager initialized.");
