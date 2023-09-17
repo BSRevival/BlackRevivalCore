@@ -1,4 +1,5 @@
 ﻿using BlackRevival.Common.Apis;
+using BlackRevival.Common.GameDB.Skills;
 using BlackRevival.Common.Model;
 
 namespace BlackRevival.Common.Responses;

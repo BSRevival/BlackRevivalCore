@@ -1,4 +1,6 @@
 ﻿using System.Text.Json.Serialization;
+using BlackRevival.Common.GameDB.Item;
+using BlackRevival.Common.PVE.Enums;
 
 namespace BlackRevival.Common.Model.Labyrinth;
 
@@ -341,7 +343,7 @@ public class AcPvEGameData
 			}
 			return null;
 		}
-
+*/
 		[JsonPropertyName("scc")]
 		public int startCharacterClass;
 
@@ -413,9 +415,9 @@ public class AcPvEGameData
 			}
 
 			[JsonPropertyName("oa")]
-			public int offenceAdd;
+			public int offenceAdd { get; set; }
 
 			[JsonPropertyName("cd")]
-			public float cumulativeDamage;
-		}*/
+			public float cumulativeDamage { get; set; }
+		}
 	}

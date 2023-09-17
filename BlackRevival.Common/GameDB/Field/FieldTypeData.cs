@@ -1,4 +1,5 @@
 ﻿using System.Text.Json.Serialization;
+using BlackRevival.Common.GameDB.Item;
 using BlackRevival.Common.Model;
 
 namespace BlackRevival.Common.GameDB.Field;
@@ -263,7 +264,7 @@ public class FieldTypeData
 		}
 	}
 
-	/*public Dictionary<ItemData, int> getCanFoundItemList(int fieldType, Dictionary<ItemData, int> needItems)
+	public Dictionary<ItemData, int> getCanFoundItemList(int fieldType, Dictionary<ItemData, int> needItems)
 	{
 		Dictionary<ItemData, int> dictionary = new Dictionary<ItemData, int>();
 		foreach (ItemData itemData in needItems.Keys)
@@ -291,10 +292,11 @@ public class FieldTypeData
 		foreach (ItemData itemData in needItems.Keys)
 		{
 			bool flag = true;
-			if (Ingame.inst.game.GetMapType.Equals(MapType.SEOUL) && Ingame.inst.game.GetRestrictionFieldStep < 3 && (itemData.itemGrade == ItemGrade.EPIC || itemData.itemGrade == ItemGrade.LEGEND))
+			//TODO: Come back to this when we are working on ingame stuff
+			/*if (Ingame.inst.game.GetMapType.Equals(MapType.SEOUL) && Ingame.inst.game.GetRestrictionFieldStep < 3 && (itemData.itemGrade == ItemGrade.EPIC || itemData.itemGrade == ItemGrade.LEGEND))
 			{
 				flag = false;
-			}
+			}*/
 			if (flag && this.fixedItems.ContainsKey(itemData.code))
 			{
 				int num = this.fixedItems[itemData.code];
@@ -314,7 +316,7 @@ public class FieldTypeData
 			}
 		}
 		return dictionary;
-	}*/
+	}
 
 	[JsonPropertyName("cod")]
 	public int code { get; set; }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BlackRevival.Common.Model
+﻿namespace BlackRevival.Common.GameDB.Skills
 {
     public enum Skill
     {

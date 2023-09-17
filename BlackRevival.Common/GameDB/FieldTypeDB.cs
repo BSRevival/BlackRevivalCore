@@ -1,5 +1,7 @@
 ﻿using BlackRevival.Common.Enums;
 using BlackRevival.Common.GameDB.Field;
+using BlackRevival.Common.GameDB.Item;
+using Serilog;
 
 namespace BlackRevival.Common.GameDB;
 
@@ -50,7 +52,7 @@ public class FieldTypeDB
 		return list;
 	}
 
-	/*public int GetNextReducedTime(PlayMode playMode, int currentStep)
+	public int GetNextReducedTime(PlayMode playMode, int currentStep)
 	{
 		RestrictFieldTime restrictFieldTime = this.restrictFieldTimes.Find((RestrictFieldTime x) => x.step == currentStep);
 		if (restrictFieldTime == null)
@@ -71,10 +73,10 @@ public class FieldTypeDB
 
 	public int GetRestrcitFieldDuration(PlayMode playMode, int step)
 	{
-		RestrictFieldTime restrictFieldTime = this.restrictFieldTimes.Find((RestrictFieldTime x) => x.step == step);
+		RestrictFieldTime restrictFieldTime = restrictFieldTimes.Find((RestrictFieldTime x) => x.step == step);
 		if (restrictFieldTime == null)
 		{
-			AcLogger.LogError("[FieldTypeDB.GetRestrcitFieldDuration] not found step");
+			Log.Error("[FieldTypeDB.GetRestrcitFieldDuration] not found step");
 			return 120;
 		}
 		if (playMode.IsTeamMode())
@@ -83,47 +85,39 @@ public class FieldTypeDB
 		}
 		return restrictFieldTime.lumiaDuration;
 	}
-
 	public bool TryFindPlacedItemData(MapType mapType, int itemCode, out PlacedItemData placedItemData)
 	{
-		placedItemData = this.FindPlacedItemData(mapType, itemCode);
+		placedItemData = FindPlacedItemData(mapType, itemCode);
 		return placedItemData != null;
-	}*/
+	}
 
 	public PlacedItemData FindPlacedItemData(MapType mapType, int itemCode)
 	{
-		if (this.placedItemDataCache.ContainsKey(itemCode) && this.cachedItemMapType[itemCode] == mapType)
+		if (placedItemDataCache.ContainsKey(itemCode) && cachedItemMapType[itemCode] == mapType)
 		{
-			return this.placedItemDataCache[itemCode];
+			return placedItemDataCache[itemCode];
 		}
 		PlacedItemData placedItemData = new PlacedItemData();
-		List<FieldTypeData> list = this.fields;
-		/*Predicate<FieldTypeData> <>9__0;
-		Predicate<FieldTypeData> match;
-		if ((match = <>9__0) == null)
+		foreach (FieldTypeData item in fields.FindAll((FieldTypeData x) => x.mapType == mapType))
 		{
-			match = (<>9__0 = (FieldTypeData x) => x.mapType == mapType);
-		}
-		foreach (FieldTypeData fieldTypeData in list.FindAll(match))
-		{
-			if (fieldTypeData.fixedItems.ContainsKey(itemCode))
+			if (item.fixedItems.ContainsKey(itemCode))
 			{
-				placedItemData.Add(fieldTypeData, fieldTypeData.fixedItems[itemCode]);
+				placedItemData.Add(item, item.fixedItems[itemCode]);
 			}
-		}*/
-		this.placedItemDataCache[itemCode] = placedItemData;
-		this.cachedItemMapType[itemCode] = mapType;
+		}
+		placedItemDataCache[itemCode] = placedItemData;
+		cachedItemMapType[itemCode] = mapType;
 		return placedItemData;
 	}
 
 	public PlacedItemData FindPlacedItemDataExceptList(int itemCode, List<int> restrictedFields)
 	{
 		PlacedItemData placedItemData = new PlacedItemData();
-		foreach (FieldTypeData fieldTypeData in this.fields)
+		foreach (FieldTypeData field in fields)
 		{
-			if ((restrictedFields == null || !restrictedFields.Contains(fieldTypeData.code)) && fieldTypeData.fixedItems.ContainsKey(itemCode))
+			if ((restrictedFields == null || !restrictedFields.Contains(field.code)) && field.fixedItems.ContainsKey(itemCode))
 			{
-				placedItemData.Add(fieldTypeData, fieldTypeData.fixedItems[itemCode]);
+				placedItemData.Add(field, field.fixedItems[itemCode]);
 			}
 		}
 		return placedItemData;
@@ -177,7 +171,7 @@ public class FieldTypeDB
 		return fieldTypeData != null && fieldTypeData.HaveMinimap;
 	}
 
-	/*public Dictionary<ItemData, int> getCanFoundItemList(int fieldType, Dictionary<ItemData, int> needItems)
+	public Dictionary<ItemData, int> getCanFoundItemList(int fieldType, Dictionary<ItemData, int> needItems)
 	{
 		foreach (FieldTypeData fieldTypeData in this.fields)
 		{
@@ -233,7 +227,7 @@ public class FieldTypeDB
 			}
 		}
 		return list;
-	}*/
+	}
 
 	private List<FieldTypeData> fields { get; set; } 
 

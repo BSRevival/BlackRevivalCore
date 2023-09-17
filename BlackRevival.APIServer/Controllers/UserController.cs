@@ -3,6 +3,7 @@ using System.Text.Json.Serialization;
 using BlackRevival.APIServer.Classes;
 using BlackRevival.APIServer.Database;
 using BlackRevival.Common.Apis;
+using BlackRevival.Common.GameDB.Skills;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
 using Microsoft.AspNetCore.Mvc;
