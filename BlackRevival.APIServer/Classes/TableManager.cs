@@ -24,6 +24,7 @@ public static class TableManager
     public static AttendanceEventDB attendanceEventDb;
     public static SkillDB skillDb;
     public static ItemDB itemDb;
+    public static AglaiaPassDB aglaiaPassDb;
 
     public static void Init()
     {
@@ -120,6 +121,13 @@ public static class TableManager
         Log.Information("Loading Item.json...");
         itemDb = new ItemDB(JsonSerializer.Deserialize<ItemDB.Model>(json));
 
+        //aglaiaPassDb
+        json = System.IO.File.ReadAllText("Data/GameDB/aglaiaPass.json");
+        
+        //Serialize json to AglaiaPassDB
+        Log.Information("Loading aglaiaPass.json...");
+        aglaiaPassDb = new AglaiaPassDB(JsonSerializer.Deserialize<AglaiaPassDB.Model>(json));
+        
         
         Log.Information("TableManager initialized.");
 
