@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BlackRevival.APIServer.Database.MiniLeague;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlackRevival.APIServer.Database;
 
@@ -16,9 +17,15 @@ public class AppDbContext : DbContext
     
     public DbSet<MailEntry> MailEntries { get; set; }
     public DbSet<MailEntryAttachment> MailEntryAttachments { get; set; }
+
+    public DbSet<MiniLeague.MiniLeague> MiniLeagues { get; set; }
+    public DbSet<MiniLeagueGroup> MiniLeagueGroups { get; set; }
+    public DbSet<MiniLeagueStatus> MiniLeagueStatuses { get; set; }
+    public DbSet<MiniLeagueUser> MiniLeagueUsers { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var connectionString = "Server=localhost;Database=blackrevival;Uid=root;Pwd=johnsond;";
+        var connectionString = "Server=localhost;Database=blackrevival;Uid=root;";
         ServerVersion version = ServerVersion.AutoDetect(connectionString);
         optionsBuilder.UseMySql(connectionString, version);
     }
