@@ -24,6 +24,7 @@ public static class TableManager
     public static AttendanceEventDB attendanceEventDb;
     public static SkillDB skillDb;
     public static ItemDB itemDb;
+    public static LeagueDB leagueDb;
     public static AglaiaPassDB aglaiaPassDb;
 
     public static void Init()
@@ -102,24 +103,27 @@ public static class TableManager
         
         //TutorialDB
         json = System.IO.File.ReadAllText("Data/GameDB/tutorial.json");
-
         //Serialize json to TutorialDB
         Log.Information("Loading tutorial.json...");
         tutorialDb = new TutorialDB(JsonSerializer.Deserialize<TutorialDB.Model>(json));
 
         //SkillDB
         json = System.IO.File.ReadAllText("Data/GameDB/skill.json");
-        
         //Serialize json to SkillDB
         Log.Information("Loading skill.json...");
         skillDb = new SkillDB(JsonSerializer.Deserialize<SkillDB.Model>(json));
         
         //ItemDb
         json = System.IO.File.ReadAllText("Data/GameDB/item.json");
-        
         //Serialize json to ItemDB
         Log.Information("Loading Item.json...");
         itemDb = new ItemDB(JsonSerializer.Deserialize<ItemDB.Model>(json));
+
+        //LeagueDB
+        json = System.IO.File.ReadAllText("Data/GameDB/league.json");
+        //Serialize json to LeagueDB
+        Log.Information("Loading league.json...");
+        leagueDb = new LeagueDB(JsonSerializer.Deserialize<LeagueDB.Model>(json));
 
         //aglaiaPassDb
         json = System.IO.File.ReadAllText("Data/GameDB/aglaiaPass.json");
