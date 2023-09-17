@@ -9,6 +9,11 @@ namespace BlackRevival.APIServer.Database.MiniLeague;
 
 public class MiniLeagueGroup
 {
+    [JsonIgnore]
+    [Key]
+    [JsonPropertyName("gi")]
+    public int groupid { get; set; }
+
     [JsonPropertyName("c")]
     public int memberCount { get; set; }
 

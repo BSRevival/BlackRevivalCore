@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using BlackRevival.Common.GameDB;
+using BlackRevival.Common.GameDB.Attendance;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
 using Serilog;
@@ -19,6 +20,7 @@ public static class TableManager
     public static LocalizationDB localizationDb;
     public static MonsterDB monsterDb;
     public static FieldTypeDB fieldTypeDb;
+    public static AttendanceEventDB attendanceEventDb;
 
     public static void Init()
     {
@@ -88,7 +90,13 @@ public static class TableManager
         Log.Information("Loading field.json...");
         fieldTypeDb = new FieldTypeDB(JsonSerializer.Deserialize<FieldTypeDB.Model>(json));
         
-
+        //attendanceEventDb
+        json = System.IO.File.ReadAllText("Data/GameDB/attendanceEvent.json");
+        //Serailize json to AttendanceEventDB
+        Log.Information("Loading attendanceEvent.json...");
+        attendanceEventDb = new AttendanceEventDB(JsonSerializer.Deserialize<AttendanceEventDB.Model>(json));
+        
+        
         Log.Information("TableManager initialized.");
 
     }
