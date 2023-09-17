@@ -7,11 +7,11 @@ namespace BlackRevival.Common.GameDB.Tutorial;
 public class TutorialTransmit
 {
 	[JsonPropertyName("cod")]
-	public int code;
+	public int code { get; set; }
 
 	[JsonPropertyName("ttn")]
-	public int tutorialNum;
+	public int tutorialNum { get; set; }
 
 	[JsonPropertyName("gds")]
-	public Goods[] goods;
+	public Goods[] goods { get; set; }
 }

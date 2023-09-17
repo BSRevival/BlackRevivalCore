@@ -1,6 +1,7 @@
 ﻿using BlackRevival.Common.Model;
 using BlackRevival.Common.GameDB.Tutorial;
 using Serilog;
+using BlackRevival.Common.Enums;
 
 namespace BlackRevival.Common.GameDB;
 
@@ -44,9 +45,9 @@ public class TutorialDB
 		return lstReward.Find((TutorialTransmit item) => item.tutorialNum.Equals(tutorialNum));
 	}
 
-	public bool IsClearTutorial(TutorialCode type)
+	public bool IsClearTutorial(AcE_TutorialCode type)
 	{
-		if (type == TutorialCode.None)
+		if (type == AcE_TutorialCode.None)
 		{
 			return false;
 		}
@@ -62,7 +63,7 @@ public class TutorialDB
 		{
 		}
 
-		public List<UserTutorial> userTutorialList;
+		public List<UserTutorial> userTutorialList { get; set; }
 	}
 
 	public class Model
