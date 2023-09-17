@@ -1838,6 +1838,7 @@
       <None Update="Data\PatchData\StandaloneWindows64_ui_6.unity3d">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Remove="Data\PatchData\Assembly-CSharp.dll" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PvESkillDetailData>
+  <!-- Jackie -->
+  <CardID_1001>
+    <Level_0>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_13524"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_13523" EffectID = "132"/>
+      <Skill SortOrder = "3" SkillIcon = "SkillIcon_1001" EffectID = "131"/>
+    </Level_0>
+  </CardID_1001>
+  <CardID_2006>
+    <Level_1>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2006"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2006"/>
+    </Level_1>
+    <Level_2>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2006"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2006"/>
+    </Level_2>
+    <Level_3>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2006"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2006"/>
+    </Level_3>
+  </CardID_2006>
+  <!-- Cathy -->
+  <CardID_1007>
+    <Level_0>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_1007"/>
+    </Level_0>
+  </CardID_1007>
+  <CardID_3010>
+    <Level_1>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_3010"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_3010" EffectID = "50204"/>
+    </Level_1>
+    <Level_2>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_3010"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_3010" EffectID = "50205"/>
+    </Level_2>
+    <Level_3>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_3010"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_3010" EffectID = "50206"/>
+    </Level_3>
+  </CardID_3010>
+  <!-- Sissela -->
+  <CardID_1023>
+    <Level_0>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_1023" EffectID = "50300"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_1023" EffectID = "352"/>
+      <Skill SortOrder = "3" SkillIcon = "SkillIcon_1023"/>
+    </Level_0>
+  </CardID_1023>
+  <CardID_2016>
+    <Level_1>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2016"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2016"/>
+      <Skill SortOrder = "3" SkillIcon = "SkillIcon_2016" EffectID = "301"/>
+    </Level_1>
+    <Level_2>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2016"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2016"/>
+      <Skill SortOrder = "3" SkillIcon = "SkillIcon_2016" EffectID = "302"/>
+    </Level_2>
+    <Level_3>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2016"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2016"/>
+      <Skill SortOrder = "3" SkillIcon = "SkillIcon_2016" EffectID = "303"/>
+    </Level_3>
+  </CardID_2016>
+<!-- Hyunwoo -->
+<CardID_1003>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1003"/>
+  </Level_0>
+</CardID_1003>
+<CardID_3014>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3014"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3014"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3014"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3014"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3014"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3014"/>
+  </Level_3>
+</CardID_3014>
+<!-- Adela -->
+<CardID_2017>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2017" EffectID = "503"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2017" EffectID = "504"/>
+  </Level_0>
+</CardID_2017>
+<CardID_3017>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3017"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3017"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3017"/>
+  </Level_3>
+</CardID_3017>
+<!-- Xiukai -->
+<CardID_1012>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1012" EffectID = "602"/>
+  </Level_0>
+</CardID_1012>
+<CardID_2008>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2008"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2008"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2008"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2008"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2008"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2008"/>
+  </Level_3>
+</CardID_2008>
+<!-- Rosalio -->
+<CardID_1004>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1004" EffectID = "702"/>
+  </Level_0>
+</CardID_1004>
+<CardID_3013>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3013"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3013"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3013"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3013"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3013"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3013"/>
+  </Level_3>
+</CardID_3013>
+<!-- Yuki -->
+<CardID_1025>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1025"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1025" EffectID = "802"/>
+  </Level_0>
+</CardID_1025>
+<CardID_3019>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "4" SkillIcon = "SkillIcon_12506" EffectID = "831"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "4" SkillIcon = "SkillIcon_12506" EffectID = "832"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3019"/>
+    <Skill SortOrder = "4" SkillIcon = "SkillIcon_12506" EffectID = "833"/>
+  </Level_3>
+</CardID_3019>
+<!-- Magnus -->
+<CardID_1019>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1019"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1019" EffectID = "902"/>
+  </Level_0>
+</CardID_1019>
+<CardID_3007>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3007"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3007"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3007"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3007"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3007"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3007"/>
+  </Level_3>
+</CardID_3007>
+<!-- Bernice -->
+<CardID_2015>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2015"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2015" EffectID = "1002"/>
+  </Level_0>
+</CardID_2015>
+<CardID_3016>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_11503" EffectID = "1031"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_11503" EffectID = "1032"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_11503" EffectID = "1033"/>
+  </Level_3>
+</CardID_3016>
+<!-- Jan -->
+<CardID_2023>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2023"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2023" EffectID = "1102"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13002" EffectID = "1104"/>
+  </Level_0>
+</CardID_2023>
+<CardID_3022>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3022"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3022"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3022"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3022"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3022"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3022"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13003" EffectID = "1121"/>
+  </Level_3>
+</CardID_3022>
+<!-- Chiara -->
+<CardID_1009>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1009" EffectID = "1202"/>
+  </Level_0>
+</CardID_1009>
+<CardID_3006>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3006"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3006"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "4" SkillIcon = "SkillIcon_3006" EffectID = "1242"/>
+  </Level_3>
+</CardID_3006>
+<!-- Nicky -->
+<CardID_2029>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13520" EffectID = "1302"/>
+  </Level_0>
+</CardID_2029>
+<CardID_3029>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13521" EffectID = "1322"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13521" EffectID = "1322"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13521" EffectID = "1322"/>
+  </Level_3>
+</CardID_3029>
+<!-- Zahir -->
+<CardID_1021>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1021"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1021" EffectID = "1412"/>
+  </Level_0>
+</CardID_1021>
+<CardID_2003>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2003"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2003"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2003"/>
+  </Level_3>
+</CardID_2003>
+<!-- Rozzi -->
+<CardID_2025>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2025"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_12602"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_12602" EffectID = "1502"/>
+    <Skill SortOrder = "4" SkillIcon = "SkillIcon_12601" EffectID = "1514"/>
+    <Skill SortOrder = "5" SkillIcon = "SkillIcon_12602"/>
+  </Level_0>
+</CardID_2025>
+<CardID_3024>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3024"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3024"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3024"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3024"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3024"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3024"/>
+  </Level_3>
+</CardID_3024>
+<!-- Camilo -->
+<CardID_2014>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2014"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_12011" EffectID = "1602"/>
+  </Level_0>
+</CardID_2014>
+<CardID_3015>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3015"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_12505" EffectID = "1631"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_12505" EffectID = "1661"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3015"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_12505" EffectID = "1632"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_12505" EffectID = "1662"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3015"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_12505" EffectID = "1633"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_12505" EffectID = "1663"/>
+  </Level_3>
+</CardID_3015>
+<!-- Emma -->
+<CardID_3025>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3025"/>
+  </Level_0>
+</CardID_3025>
+<CardID_2026>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2026"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2026"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2026"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2026"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2026"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2026"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2026"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2026"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2026"/>
+  </Level_3>
+</CardID_2026>
+<!-- Jenny -->
+<CardID_1017>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1017" EffectID = "1803"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1017"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_1017"/>
+  </Level_0>
+</CardID_1017>
+<CardID_3003>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3003" EffectID = "1813"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3003" EffectID = "1813"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3003" EffectID = "1813"/>
+  </Level_3>
+</CardID_3003>
+<!-- Chloe -->
+<CardID_2032>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2032"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13532" EffectID = "2002"/>
+  </Level_0>
+</CardID_2032>
+<CardID_3032>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3032"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3032"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13531" EffectID = "2031"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3032"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3032"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13531" EffectID = "2032"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3032"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3032"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13531" EffectID = "2033"/>
+  </Level_3>
+</CardID_3032>
+<!-- Adriana -->
+<CardID_2018>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2018"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13503" EffectID = "1924"/>
+  </Level_0>
+  <Level_1>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13503" EffectID = "1924"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13503" EffectID = "1925"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13503" EffectID = "1926"/>
+  </Level_3>
+</CardID_2018>
+<CardID_3018>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3018"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_5027" EffectID = "1917"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3018"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3018"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_5027" EffectID = "1918"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3018"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3018"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_5027" EffectID = "1919"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3018"/>
+  </Level_3>
+</CardID_3018>
+
+<!-- Nadine -->
+<CardID_2004>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2004"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2004" EffectID = "2102"/>
+  </Level_0>
+</CardID_2004>
+<CardID_1020>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1020"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1020"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1020"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1020"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1020"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1020"/>
+  </Level_3>
+</CardID_1020>
+
+<!-- Shoichi -->
+<CardID_1015>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1015" EffectID = "2202"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1015" EffectID = "2203"/>
+  </Level_0>
+</CardID_1015>
+<CardID_3005>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3005"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3005"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3005" EffectID = "2222"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3005"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3005"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3005" EffectID = "2222"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3005"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3005"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3005" EffectID = "2222"/>
+  </Level_3>
+</CardID_3005>
+
+<!-- Rio -->
+<CardID_1029>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1029" EffectID = "2302"/>
+  </Level_0>
+</CardID_1029>
+<CardID_3028>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3028"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3028"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3028"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3028"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3028"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3028"/>
+  </Level_3>
+</CardID_3028> 
+
+<!-- FIORA -->
+<CardID_1002>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1002"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1002" EffectID = "2402"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13522" EffectID = "2412"/>
+  </Level_0>
+</CardID_1002>
+<CardID_2010>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2010"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2010"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2010" EffectID = "2441"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2010"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2010"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2010" EffectID = "2442"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2010"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2010"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2010" EffectID = "2443"/>
+  </Level_3>
+</CardID_2010>
+
+<!-- HART -->
+<CardID_2001>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2001"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2001"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2001" EffectID = "2512"/>
+  </Level_0>
+</CardID_2001>
+<CardID_3004>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3004"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3004"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3004" EffectID = "2541"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3004"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3004"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3004" EffectID = "2542"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3004"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3004"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3004" EffectID = "2543"/>
+  </Level_3>
+</CardID_3004>
+
+<!-- ELEVEN -->
+<CardID_2027>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3526"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13510" EffectID = "2603"/>
+  </Level_0>
+</CardID_2027>
+<CardID_3026>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3026"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3026" EffectID = "2603"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3026"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3026" EffectID = "2603"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3026"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3026"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2027" EffectID = "2632"/>
+  </Level_3>
+</CardID_3026>
+
+<!-- AYA -->
+<CardID_1013>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1013"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1013" EffectID = "2703"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_1013"/>
+  </Level_0>
+</CardID_1013>
+<CardID_3012>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3012"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3012"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_1013"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3012"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3012"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_1013"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3012"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3012"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_1013"/>
+  </Level_3>
+</CardID_3012>
+
+<!-- ARDA -->
+<CardID_1022>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1022"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1022" EffectID = "2802"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_1022"/>
+    <Skill SortOrder = "4" SkillIcon = "SkillIcon_1022" EffectID = "2812"/>
+  </Level_0>
+</CardID_1022>
+<CardID_2002>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2002"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2002"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2002" EffectID = "2841"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2002"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2002"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2002" EffectID = "2842"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2002"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2002"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2002" EffectID = "2843"/>
+  </Level_3>
+</CardID_2002>
+
+<!-- JOHANN -->
+<CardID_2033>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2033"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2033" EffectID = "2902"/>
+  </Level_0>
+</CardID_2033>
+<CardID_3033>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3033"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3033"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3033"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3033"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3033"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3033"/>
+  </Level_3>
+</CardID_3033>
+
+<!-- BIANCA -->
+<CardID_2031>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2031"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2031" EffectID = "3002"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13529"/>
+  </Level_0>
+</CardID_2031>
+<CardID_3031>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3031"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13530"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3031"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13530"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3031"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13530"/>
+  </Level_3>
+</CardID_3031>
+<!-- DAILIN -->
+<CardID_1018>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2011"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2011" EffectID = "3103"/>
+  </Level_0>
+</CardID_1018>
+<CardID_2011>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1018"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1018"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1018"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1018"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1018"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1018"/>
+  </Level_3>
+</CardID_2011>
+
+<!-- Boss Zahir -->
+<CardID_11021>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1021"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1021" EffectID = "1412"/>
+  </Level_0>
+</CardID_11021>
+<CardID_12003>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2003"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2003"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2003"/>
+  </Level_3>
+</CardID_12003>
+<!-- Boss Chiara -->
+<CardID_11009>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1009" EffectID = "1202"/>
+  </Level_0>
+</CardID_11009>
+<CardID_13006>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3006"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3006"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3006"/>
+    <Skill SortOrder = "4" SkillIcon = "SkillIcon_3006" EffectID = "1242"/>
+  </Level_3>
+</CardID_13006>
+<!-- Boss_Bernice -->
+<CardID_12015>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2015"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2015" EffectID = "11002"/>
+  </Level_0>
+</CardID_12015>
+<CardID_13016>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_11503" EffectID = "11031"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_11503" EffectID = "11032"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3016"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_11503" EffectID = "11033"/>
+  </Level_3>
+</CardID_13016>
+<!-- Boss_Jackie -->
+  <CardID_11001>
+    <Level_0>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_13524"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_13523" EffectID = "10132"/>
+      <Skill SortOrder = "3" SkillIcon = "SkillIcon_1001" EffectID = "10131"/>
+    </Level_0>
+  </CardID_11001>
+  <CardID_12006>
+    <Level_1>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2006"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2006"/>
+    </Level_1>
+    <Level_2>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2006"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2006"/>
+    </Level_2>
+    <Level_3>
+      <Skill SortOrder = "1" SkillIcon = "SkillIcon_2006"/>
+      <Skill SortOrder = "2" SkillIcon = "SkillIcon_2006"/>
+    </Level_3>
+  </CardID_12006>
+<!-- Boss_Nicky -->
+<CardID_12029>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_13520" EffectID = "11302"/>
+  </Level_0>
+</CardID_12029>
+<CardID_13029>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13521" EffectID = "11322"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13521" EffectID = "11322"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3029"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_13521" EffectID = "11322"/>
+  </Level_3>
+</CardID_13029>
+<!-- Boss_Adela -->
+<CardID_12017>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_2017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_2017" EffectID = "10503"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_2017" EffectID = "10504"/>
+  </Level_0>
+</CardID_12017>
+<CardID_13017>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3017"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3017"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3017"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3017"/>
+  </Level_3>
+</CardID_13017>
+<!-- Boss Hyunwoo -->
+<CardID_11003>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1003"/>
+  </Level_0>
+</CardID_11003>
+<CardID_13014>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3014"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3014"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3014"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3014"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3014"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3014"/>
+  </Level_3>
+</CardID_13014>
+<!-- Boss Jenny -->
+<CardID_11017>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_1017" EffectID = "11803"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_1017"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_1017"/>
+  </Level_0>
+</CardID_11017>
+<CardID_13003>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3003" EffectID = "11813"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3003" EffectID = "11813"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_3003"/>
+    <Skill SortOrder = "3" SkillIcon = "SkillIcon_3003" EffectID = "11813"/>
+  </Level_3>
+</CardID_13003>
+
+<!-- Dummy Character_Dealer -->
+<CardID_20001>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20001" EffectID = "20002"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20001" EffectID = "20002"/>
+  </Level_0>
+</CardID_20001>
+<CardID_20002>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20002"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20002"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20002"/>
+  </Level_3>
+</CardID_20002>
+
+<!-- Dummy Character_Supporter -->
+<CardID_20101>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20101" EffectID = "20102"/>
+  </Level_0>
+</CardID_20101>
+<CardID_20102>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20102"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20102"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20102"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20102"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20102"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20102"/>
+  </Level_3>
+</CardID_20102>
+
+<!-- Dummy Character_Debuffer -->
+<CardID_20201>
+  <Level_0>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20201"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20201" EffectID = "20202"/>
+  </Level_0>
+</CardID_20201>
+<CardID_20202>
+  <Level_1>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20202"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20201"/>
+  </Level_1>
+  <Level_2>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20202"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20201"/>
+  </Level_2>
+  <Level_3>
+    <Skill SortOrder = "1" SkillIcon = "SkillIcon_20202"/>
+    <Skill SortOrder = "2" SkillIcon = "SkillIcon_20201"/>
+  </Level_3>
+</CardID_20202>
+
+</PvESkillDetailData>

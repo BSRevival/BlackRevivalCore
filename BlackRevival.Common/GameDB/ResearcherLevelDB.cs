@@ -65,6 +65,6 @@ public class ResearcherLevelDB
 
     public class Model
     {
-        public List<ResearcherLevelData> researcherLevels;
+        public List<ResearcherLevelData> researcherLevels { get; set; }
     }
 }

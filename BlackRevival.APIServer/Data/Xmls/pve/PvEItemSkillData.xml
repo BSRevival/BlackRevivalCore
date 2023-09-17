@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+IsPermanentEffect : 영구 효과
+ConditionValue : 조건 값
+Value : 값
+MaxValue : 값 최대치
+UpdateUIType : 스킬 발동시 UI 갱신 타입 지정 ( None, All, Main, Sub )
+--> 
+<PvEItemSkillData>
+  <!-- EOD부츠 ( 착용자의 최대 체력 50% 이상의 피해를 입은 경우 피해감소 30% 적용 )-->
+  <EXPLOSION_PROOF Id="5011" ConditionValue="0.5" Value="0.3"/>
+  <!-- 본크러셔 -->
+  <TROPHY Id="5021"/>
+  <!-- 유성의 건틀릿 -->
+  <STARLIGHT Id="5025" IsPermanentEffect="true" ConditionValue="7" Value="1" MaxValue="10" UpdateUIType="Main"/>
+  <!-- 부메랑 / 강화 부메랑 -->
+  <RETURN_THROW Id="5026" ConditionValue="0.95" Value="1"/>
+  <!-- 샤자한의검집 ( 3레벨 카드 사용 시 추가 피해 ) -->
+  <SHAH_JAHANS_SOUL Id="5035" ConditionValue="3" Value="0.15"/>
+  <!-- 고폭수류탄 / 비격진천뢰 / 벽력귀투 ( 카드 사용시 일정 횟수마다 추가 데미지 + 캐릭터 레벨 ) -->
+  <BOOM Id="5040" ConditionValue="2" Value="10"/>
+  <!-- 마탄의 사수 -->
+  <DEVILS_SHOT Id="5041" ConditionValue="1" Value="0.2"/>
+  <!-- EOD수트 ( 착용자의 최대 체력 이상의 피해를 입을 경우 피해감소 50% 적용 )-->
+  <BOOMBOOMPHEW Id="5046" Value="0.5"/>
+  <!-- 전술OPS헬멧 ( 원거리 공격 시 크리티컬 확률 증가 ) -->
+  <HOLOVISOR Id="5049" Value="0.1"/>
+  <!-- 방천극 -->
+  <AMONG_MEN_LUBU Id="5050" ConditionValue="0.5" Value="0.1"/>
+  <!-- 플라즈마 라이프 / 폴라리스 -->
+  <DEW Id="5060"/>
+  <!-- 하르페 ( 중독 디버프를 남김(도트 피해) ) -->
+  <!--<GRUDGE Id="5061"/>-->
+  <!-- 롱기누스의창 ( 적 사살 시 체력 회복 ) -->  
+  <SANGUINE_MIRACLE Id="5062" Value="0.1" UpdateUIType="Main"/>
+  <!-- 다인슬라이프 -->
+  <HUNGRY_BLADE Id="5063" IsPermanentEffect="true" Value="1" UpdateUIType="Main"/>
+  <!-- 블러디챠크람 ( 흡혈 % 증가 ) -->  
+  <CRIMSON_CIRCLE Id="5064" Value="0.1"/>
+  <!-- 드라우프니르 ( 해당 캐릭터는 음식 사용 시 코스트 제한이 없음 ) --> 
+  <BAKERS_DOZEN Id="5066"/>
+  <!-- 파초선 -->
+  <STORMWIND Id="5068" ConditionValue ="5" Value="0.2"/>
+  <!-- 빨간머플러 -->
+  <HEARTDRINKER Id="5069" IsPermanentEffect="true" ConditionValue="1000" Value="1" UpdateUIType="Main"/>
+  <!-- 락커의 자켓 -->
+  <MENACING_SPIKES Id="5074" Value="2"/>
+  <!-- 슈뢰딩거의상자 ( 적 처치 경험치 곱연산 ) -->
+  <SCHRODINGERS_BOX Id="5503" Value="2"/>
+  <!-- 무한의 화살통 ( 화살이 소모되지 않음 ) -->
+  <ENDLESSARROW Id="5522"/>
+  <!-- 스파이의 우산 (Lv1~13 : 공격시 추가 피해 +30 / Lv14~ : 공격시 추가 피해 +25) -->
+  <UMBRELLA_MAKETH_MAN Id="5070" ConditionValue="13" Value="30" ConditionValue2="18" Value2="25"/>
+</PvEItemSkillData>

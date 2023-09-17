@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PvEGlobalData>
+  <ConstantData>
+    <!-- 탐사 완료 경험치(생존일 증가) -->
+    <SEARCH_COMPLETE_EXP VALUE = "70"/>
+    <!-- 1개 지역 탐사도 Max -->
+    <FIELD_COMPLETE_EXP VALUE = "50"/>
+    <!-- 캐릭터 레벨 상승 -->
+    <CHARACTER_LV_UP_EXP VALUE = "10"/>
+    <!-- 적 "실험체"(야생동물, 연구원 등 실험체가 아닌 적 제외) 처치 -->
+    <KILL_ENEMY_EXP VALUE = "30"/>
+    <!-- 아군 팀원 사망 -->
+    <DEAD_CHARACTER_EXP VALUE = "0"/>
+
+    <!-- 난이도 별 경험치 배율 -->
+    <EASY_EXP_RATE VALUE = "0.5"/>
+    <NORMAL_EXP_RATE VALUE = "1.5"/>
+    <HARD_EXP_RATE VALUE = "3"/>
+
+    <!-- 이동 대기 시간(실험체, 보스, 위클라인, 메이지) -->
+    <MOVE_DELAY_UNIT VALUE = "5.0"/>
+    <!-- 이동 대기 시간(야생 동물) -->
+    <MOVE_DELAY_WILD_ANIMAL VALUE = "3.0"/>
+
+    <!-- 이동 판단 확률 -->
+    <MOVE_PROB_LV1 VALUE = "0.5"/>
+    <MOVE_PROB_LV2 VALUE = "0.6"/>
+    <MOVE_PROB_LV3 VALUE = "0.7"/>
+    <MOVE_PROB_LV4 VALUE = "0.8"/>
+
+    <!-- 유저 방향 이동 확률 -->
+    <MOVE_DIR_PROB_LV1 VALUE = "0.45"/>
+    <MOVE_DIR_PROB_LV2 VALUE = "0.50"/>
+    <MOVE_DIR_PROB_LV3 VALUE = "0.55"/>
+    <MOVE_DIR_PROB_LV4 VALUE = "0.70"/>
+
+    <!-- 이동 거리 -->
+    <MOVE_DISTANCE_MIN VALUE = "1.0"/>
+    <MOVE_DISTANCE_MAX VALUE = "3.0"/>
+
+    <!-- 이동 후 대기 상태로 전환 딜레이 -->
+    <WAIT_DELAY VALUE = "1.0"/>
+
+    <!-- 환경 노티 발생 확률 -->
+    <ALERT_UNIT_NOISE VALUE = "0.5"/>
+    <ALERT_WILD_ANIMAL_NOISE VALUE = "0.3"/>
+    <ALERT_GUN_SHOT VALUE = "0.1"/>
+
+    <!-- 적 추가 생성 개체 수 제한 -->
+    <MAX_WILD_ANIMAL VALUE = "2"/>
+    <MAX_SUBJECT VALUE = "1"/>
+
+    <!-- 소음 수치 -->
+    <NOISE_VALUE_NORMAL VALUE = "1"/>
+    <NOISE_VALUE_FAST VALUE = "4"/>
+
+    <ADD_NOISE_VALUE_NORMAL_LV1 VALUE = "0"/>
+    <ADD_NOISE_VALUE_NORMAL_LV2 VALUE = "0"/>
+    <ADD_NOISE_VALUE_NORMAL_LV3 VALUE = "-2"/>
+    <ADD_NOISE_VALUE_NORMAL_LV4 VALUE = "-4"/>
+
+    <ADD_NOISE_VALUE_FAST_LV1 VALUE = "8"/>
+    <ADD_NOISE_VALUE_FAST_LV2 VALUE = "4"/>
+    <ADD_NOISE_VALUE_FAST_LV3 VALUE = "0"/>
+    <ADD_NOISE_VALUE_FAST_LV4 VALUE = "0"/>
+
+    <RESTING_NOISE_VALUE_LV1 VALUE = "-0.5"/>
+    <RESTING_NOISE_VALUE_LV2 VALUE = "-1.0"/>
+    <RESTING_NOISE_VALUE_LV3 VALUE = "-1.5"/>
+    <RESTING_NOISE_VALUE_LV4 VALUE = "-2.0"/>
+
+    <!-- 적 추가 생성 소음 레벨 -->
+    <ADD_WILD_ANIMAL_LV VALUE = "3"/>
+    <ADD_SUBJECT_LV VALUE = "4"/>
+
+    <!-- 아생 동물 추가 생성 타이머(초) -->
+    <ADD_WILD_ANIMAL_TIME VALUE = "20"/>
+
+    <!-- 전투 준비 시간 -->
+    <PREPARATION_TIME_DEFAULT VALUE = "60"/>
+    <PREPARATION_TIME_GLOBAL_LV_RATE VALUE = "0.5"/>
+    <PREPARATION_NORMAL_TIME VALUE = "20"/>
+    <PREPARATION_HARD_TIME VALUE = "-10"/>
+    <PREPARATION_TIME_MIN VALUE = "10"/>
+
+    <!-- 객체(적, 동료, 보스) 생성 레벨 -->
+    <CREATE_ENEMY_LV_MIN VALUE = "-5"/>
+    <CREATE_ENEMY_LV_MAX VALUE = "2"/>
+
+    <CREATE_ALLY_LV_MIN VALUE = "-5"/>
+    <CREATE_ALLY_LV_MAX VALUE = "2"/>
+
+    <CREATE_BOSS_LV_EASY_MIN VALUE = "-5"/>
+    <CREATE_BOSS_LV_EASY_MAX VALUE = "2"/>
+    <CREATE_BOSS_LV_NORMAL_MIN VALUE = "-5"/>
+    <CREATE_BOSS_LV_NORMAL_MAX VALUE = "2"/>
+    <CREATE_BOSS_LV_HARD_MIN VALUE = "-5"/>
+    <CREATE_BOSS_LV_HARD_MAX VALUE = "2"/>
+
+    <CREATE_NOISE_LV4_SUBJECT_ADD_LV VALUE = "10"/>
+
+    <!-- 카드 합성 확률 -->
+    <AI_CARD_SYNTHESIS_LV2 VALUE = "0.5"/>
+    <AI_CARD_SYNTHESIS_LV3 VALUE = "0.5"/>
+
+    <!-- 인벤토리 슬롯 -->
+    <INVENTORY_BAG_CAPACITY VALUE = "10"/>
+    <INVENTORY_WAREHOUSE_CAPACITY VALUE = "20"/>
+
+    <!-- 난이도 별 장비 인덱스 배수 -->
+    <EQUIP_IDX_EASY VALUE = "2"/>
+    <EQUIP_IDX_NORMAL VALUE = "2"/>
+    <EQUIP_IDX_HARD VALUE = "2"/>
+
+    <!-- 난이도 별 시작 장비 인덱스 -->
+    <EQUIP_IDX_EASY_START VALUE = "3"/>
+    <EQUIP_IDX_NORMAL_START VALUE = "0"/>
+    <EQUIP_IDX_HARD_START VALUE = "0"/>
+  </ConstantData>
+
+  <GlobalLvData>
+    <Level Level = "1" StartExp = "0" EndExp = "100"/>
+    <Level Level = "2" StartExp = "101" EndExp = "200"/>
+    <Level Level = "3" StartExp = "201" EndExp = "300"/>
+    <Level Level = "4" StartExp = "301" EndExp = "400"/>
+    <Level Level = "5" StartExp = "401" EndExp = "500"/>
+    <Level Level = "6" StartExp = "501" EndExp = "600"/>
+    <Level Level = "7" StartExp = "601" EndExp = "700"/>
+    <Level Level = "8" StartExp = "701" EndExp = "800"/>
+    <Level Level = "9" StartExp = "801" EndExp = "900"/>
+    <Level Level = "10" StartExp = "901" EndExp = "1000"/>
+    <Level Level = "11" StartExp = "1001" EndExp = "1100"/>
+    <Level Level = "12" StartExp = "1101" EndExp = "1200"/>
+    <Level Level = "13" StartExp = "1201" EndExp = "1300"/>
+    <Level Level = "14" StartExp = "1301" EndExp = "1400"/>
+    <Level Level = "15" StartExp = "1401" EndExp = "1500"/>
+    <Level Level = "16" StartExp = "1501" EndExp = "1600"/>
+    <Level Level = "17" StartExp = "1601" EndExp = "1700"/>
+    <Level Level = "18" StartExp = "1701" EndExp = "1800"/>
+    <Level Level = "19" StartExp = "1801" EndExp = "1900"/>
+    <Level Level = "20" StartExp = "1901" EndExp = "2000"/>
+    <Level Level = "21" StartExp = "2001" EndExp = "2100"/>
+    <Level Level = "22" StartExp = "2101" EndExp = "2200"/>
+    <Level Level = "23" StartExp = "2201" EndExp = "2300"/>
+    <Level Level = "24" StartExp = "2301" EndExp = "2400"/>
+    <Level Level = "25" StartExp = "2401" EndExp = "2500"/>
+    <Level Level = "26" StartExp = "2501" EndExp = "2600"/>
+    <Level Level = "27" StartExp = "2601" EndExp = "2700"/>
+    <Level Level = "28" StartExp = "2701" EndExp = "2800"/>
+    <Level Level = "29" StartExp = "2801" EndExp = "2900"/>
+    <Level Level = "30" StartExp = "2901" EndExp = "3000"/>
+    <Level Level = "31" StartExp = "3001" EndExp = "3100"/>
+    <Level Level = "32" StartExp = "3101" EndExp = "3200"/>
+    <Level Level = "33" StartExp = "3201" EndExp = "3300"/>
+    <Level Level = "34" StartExp = "3301" EndExp = "3400"/>
+    <Level Level = "35" StartExp = "3401" EndExp = "3500"/>
+    <Level Level = "36" StartExp = "3501" EndExp = "3600"/>
+    <Level Level = "37" StartExp = "3601" EndExp = "3700"/>
+    <Level Level = "38" StartExp = "3701" EndExp = "3800"/>
+    <Level Level = "39" StartExp = "3801" EndExp = "3900"/>
+    <Level Level = "40" StartExp = "3901" EndExp = "4000"/>
+    <Level Level = "41" StartExp = "4001" EndExp = "4100"/>
+    <Level Level = "42" StartExp = "4101" EndExp = "4200"/>
+    <Level Level = "43" StartExp = "4201" EndExp = "4300"/>
+    <Level Level = "44" StartExp = "4301" EndExp = "4400"/>
+    <Level Level = "45" StartExp = "4401" EndExp = "4500"/>
+    <Level Level = "46" StartExp = "4501" EndExp = "4600"/>
+    <Level Level = "47" StartExp = "4601" EndExp = "4700"/>
+    <Level Level = "48" StartExp = "4701" EndExp = "4800"/>
+    <Level Level = "49" StartExp = "4801" EndExp = "4900"/>
+    <Level Level = "50" StartExp = "4901" EndExp = "5000"/>
+    <Level Level = "51" StartExp = "5001" EndExp = "5100"/>
+    <Level Level = "52" StartExp = "5101" EndExp = "5200"/>
+    <Level Level = "53" StartExp = "5201" EndExp = "5300"/>
+    <Level Level = "54" StartExp = "5301" EndExp = "5400"/>
+    <Level Level = "55" StartExp = "5401" EndExp = "5500"/>
+    <Level Level = "56" StartExp = "5501" EndExp = "5600"/>
+    <Level Level = "57" StartExp = "5601" EndExp = "5700"/>
+    <Level Level = "58" StartExp = "5701" EndExp = "5800"/>
+    <Level Level = "59" StartExp = "5801" EndExp = "5900"/>
+    <Level Level = "60" StartExp = "5901" EndExp = "6000"/>
+    <Level Level = "61" StartExp = "6001" EndExp = "6100"/>
+    <Level Level = "62" StartExp = "6101" EndExp = "6200"/>
+    <Level Level = "63" StartExp = "6201" EndExp = "6300"/>
+    <Level Level = "64" StartExp = "6301" EndExp = "6400"/>
+    <Level Level = "65" StartExp = "6401" EndExp = "6500"/>
+    <Level Level = "66" StartExp = "6501" EndExp = "6600"/>
+    <Level Level = "67" StartExp = "6601" EndExp = "6700"/>
+    <Level Level = "68" StartExp = "6701" EndExp = "6800"/>
+    <Level Level = "69" StartExp = "6801" EndExp = "6900"/>
+    <Level Level = "70" StartExp = "6901" EndExp = "7000"/>
+    <Level Level = "71" StartExp = "7001" EndExp = "7100"/>
+    <Level Level = "72" StartExp = "7101" EndExp = "7200"/>
+    <Level Level = "73" StartExp = "7201" EndExp = "7300"/>
+    <Level Level = "74" StartExp = "7301" EndExp = "7400"/>
+    <Level Level = "75" StartExp = "7401" EndExp = "7500"/>
+    <Level Level = "76" StartExp = "7501" EndExp = "7600"/>
+    <Level Level = "77" StartExp = "7601" EndExp = "7700"/>
+    <Level Level = "78" StartExp = "7701" EndExp = "7800"/>
+    <Level Level = "79" StartExp = "7801" EndExp = "7900"/>
+    <Level Level = "80" StartExp = "7901" EndExp = "8000"/>
+    <Level Level = "81" StartExp = "8001" EndExp = "8100"/>
+    <Level Level = "82" StartExp = "8101" EndExp = "8200"/>
+    <Level Level = "83" StartExp = "8201" EndExp = "8300"/>
+    <Level Level = "84" StartExp = "8301" EndExp = "8400"/>
+    <Level Level = "85" StartExp = "8401" EndExp = "8500"/>
+    <Level Level = "86" StartExp = "8501" EndExp = "8600"/>
+    <Level Level = "87" StartExp = "8601" EndExp = "8700"/>
+    <Level Level = "88" StartExp = "8701" EndExp = "8800"/>
+    <Level Level = "89" StartExp = "8801" EndExp = "8900"/>
+    <Level Level = "90" StartExp = "8901" EndExp = "9000"/>
+    <Level Level = "91" StartExp = "9001" EndExp = "9100"/>
+    <Level Level = "92" StartExp = "9101" EndExp = "9200"/>
+    <Level Level = "93" StartExp = "9201" EndExp = "9300"/>
+    <Level Level = "94" StartExp = "9301" EndExp = "9400"/>
+    <Level Level = "95" StartExp = "9401" EndExp = "9500"/>
+    <Level Level = "96" StartExp = "9501" EndExp = "9600"/>
+    <Level Level = "97" StartExp = "9601" EndExp = "9700"/>
+    <Level Level = "98" StartExp = "9701" EndExp = "9800"/>
+    <Level Level = "99" StartExp = "9801" EndExp = "9900"/>
+  </GlobalLvData>
+</PvEGlobalData>

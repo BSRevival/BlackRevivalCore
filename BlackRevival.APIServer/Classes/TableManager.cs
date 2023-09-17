@@ -30,9 +30,11 @@ public static class TableManager
     public static BattleDB battleDb;
     public static CollectionDB collectionDb;
     public static VoteDB voteDb;
-    
     public static ResearcherLevelDB researcherLevelDb;
-
+    public static SnsDB snsDb;
+    public static EnemyGroupDB enemyGroupDb;
+    public static LevelExpTableDB levelExpTableDb;
+    
     public static void Init()
     {
         string json = System.IO.File.ReadAllText("Data/GameDB/character.json");
@@ -167,8 +169,28 @@ public static class TableManager
         //Serialize json to ResearcherLevelDB
         Log.Information("Loading researcherLevel.json...");
         researcherLevelDb = new ResearcherLevelDB(JsonSerializer.Deserialize<ResearcherLevelDB.Model>(json));
-
         
+        //LevelExpTableDB
+        json = System.IO.File.ReadAllText("Data/GameDB/expTable.json");
+        //Serialize json to LevelExpTableDB
+        Log.Information("Loading expTable.json...");
+        levelExpTableDb = new LevelExpTableDB(JsonSerializer.Deserialize<LevelExpTableDB.Model>(json));
+        
+        //snsdb
+        json = System.IO.File.ReadAllText("Data/GameDB/sns.json");
+        //Serialize json to SNSDB
+        Log.Information("Loading sns.json...");
+        snsDb = new SnsDB(JsonSerializer.Deserialize<SnsDB.Model>(json));
+
+        //EnemyGroupDB
+        json = System.IO.File.ReadAllText("Data/GameDB/expeditionEnemyGroup.json");
+        //Serialize json to EnemyGroupDB
+        Log.Information("Loading enemyGroup.json...");
+        enemyGroupDb = new EnemyGroupDB(JsonSerializer.Deserialize<EnemyGroupDB.Model>(json));
+        
+
+
+
         Log.Information("TableManager initialized.");
 
     }
