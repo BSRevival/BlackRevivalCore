@@ -15,6 +15,7 @@ public static class TableManager
     public static QuestDB questDb;
     public static RadarChartDB radarChartDb;
     public static MiniLeagueDB miniLeagueDb;
+    public static PerkDB perkDb;
 
     public static void Init()
     {
@@ -59,6 +60,13 @@ public static class TableManager
         //Serailize json to RadarChartDB
         Log.Information("Loading radarMinMax.json...");
         radarChartDb = new RadarChartDB(JsonSerializer.Deserialize<RadarChartDB.Model>(json));
+        
+        //PerkDB
+        json = System.IO.File.ReadAllText("Data/GameDB/perk.json");
+        //Serailize json to PerkDB
+        Log.Information("Loading perk.json...");
+        perkDb = new PerkDB(JsonSerializer.Deserialize<PerkDB.Model>(json));
+        
         
         Log.Information("TableManager initialized.");
 
