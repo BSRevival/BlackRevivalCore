@@ -17,6 +17,8 @@ public static class TableManager
     public static MiniLeagueDB miniLeagueDb;
     public static PerkDB perkDb;
     public static LocalizationDB localizationDb;
+    public static MonsterDB monsterDb;
+    public static FieldTypeDB fieldTypeDb;
 
     public static void Init()
     {
@@ -74,8 +76,19 @@ public static class TableManager
         Log.Information("Loading localization.json...");
         localizationDb = new LocalizationDB(SupportLanguage.English,JsonSerializer.Deserialize<LocalizationDB.Model>(json));
         
+        //monsterdb
+        json = System.IO.File.ReadAllText("Data/GameDB/monster.json");
+        //Serailize json to MonsterDB
+        Log.Information("Loading monster.json...");
+        monsterDb = new MonsterDB(JsonSerializer.Deserialize<MonsterDB.Model>(json));
         
+        //fieldtypedb
+        json = System.IO.File.ReadAllText("Data/GameDB/field.json");
+        //Serailize json to FieldTypeDB
+        Log.Information("Loading field.json...");
+        fieldTypeDb = new FieldTypeDB(JsonSerializer.Deserialize<FieldTypeDB.Model>(json));
         
+
         Log.Information("TableManager initialized.");
 
     }
