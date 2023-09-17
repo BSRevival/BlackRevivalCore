@@ -350,24 +350,24 @@ public class ItemDB
 		return itemID != 0 && materialItemID != 0 && (itemID == materialItemID || this.IsMaterial(this.Find(itemID).GetMaterial1(MapType.LUMIA), materialItemID) || this.IsMaterial(this.Find(itemID).GetMaterial2(MapType.LUMIA), materialItemID));
 	}
 
-	private readonly List<ItemData> items;
+	private List<ItemData> items { get; set; }
 
-	private readonly List<ItemCombinationData> itemCombinations;
+	private List<ItemCombinationData> itemCombinations { get; set; }
 
-	private readonly List<ItemOptionData> itemOptionDatas;
+	private List<ItemOptionData> itemOptionDatas { get; set; }
 
-	private readonly List<StartingItemData> startingItems;
+	private List<StartingItemData> startingItems { get; set; }
 
-	private readonly Dictionary<int, ItemData> _itemDic = new Dictionary<int, ItemData>();
+	private Dictionary<int, ItemData> _itemDic = new Dictionary<int, ItemData>();
 
 	public class Model
 	{
-		public List<ItemData> items;
+		public List<ItemData> items { get; set; }
 
-		public List<ItemCombinationData> itemCombination;
+		public List<ItemCombinationData> itemCombination { get; set; }
 
-		public List<ItemOptionData> itemOptionColor;
+		public List<ItemOptionData> itemOptionColor { get; set; }
 
-		public List<StartingItemData> startingItems;
+		public List<StartingItemData> startingItems { get; set; }
 	}
 }

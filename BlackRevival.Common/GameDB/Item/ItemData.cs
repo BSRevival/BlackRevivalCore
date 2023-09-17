@@ -778,77 +778,77 @@ public class ItemData
 	public const int Item_None = 0;
 
 	[JsonPropertyName("cod")]
-	public readonly int code;
+	public int code { get; set; }
 
 	[JsonPropertyName("mtl")]
-	public readonly List<MapType> mapTypeList;
+	public List<MapType> mapTypeList { get; set; }
 
 	[JsonPropertyName("itp")]
-	public readonly int itemTypeCode;
+	public int itemTypeCode { get; set; }
 
 	[JsonPropertyName("isu")]
-	public readonly int itemSubTypeCode;
+	public int itemSubTypeCode { get; set; }
 
 	[JsonPropertyName("nam")]
-	public readonly string name;
+	public string name { get; set; }
 
-	public readonly float cooldown;
+	public float cooldown { get; set; }
 
-	public readonly float globalCooldown;
+	public float globalCooldown { get; set; }
 
 	[JsonPropertyName("rqt")]
-	public readonly int randomQuantity;
+	public int randomQuantity { get; set; }
 
 	[JsonPropertyName("wpt")]
-	public readonly AcE_WEAPON_TYPE weaponType;
+	public AcE_WEAPON_TYPE weaponType { get; set; }
 
 	[JsonPropertyName("lcc")]
-	public readonly int loadingCapacity;
+	public int loadingCapacity { get; set; }
 
 	[JsonPropertyName("igd")]
-	public readonly ItemGrade itemGrade;
+	public ItemGrade itemGrade { get; set; }
 
 	[JsonPropertyName("bof")]
-	public readonly float baseOffence;
+	public float baseOffence { get; set; }
 
 	[JsonPropertyName("def")]
-	public readonly int defence;
+	public int defence { get; set; }
 
 	[JsonPropertyName("hcb")]
-	public readonly int healthContribution;
+	public int healthContribution { get; set; }
 
 	[JsonPropertyName("scb")]
-	public readonly int staminaContribution;
+	public int staminaContribution { get; set; }
 
 	[JsonPropertyName("ski")]
-	public readonly int skillId;
+	public int skillId { get; set; }
 
 	[JsonPropertyName("mio")]
-	public readonly int maxInventorOverlapQty;
+	public int maxInventorOverlapQty { get; set; }
 
 	[JsonPropertyName("ibq")]
-	public readonly int initialBundleQty;
+	public int initialBundleQty { get; set; }
 
 	[JsonPropertyName("lat")]
-	public readonly LoadableType loadableType;
+	public LoadableType loadableType { get; set; }
 
 	[JsonPropertyName("sfc")]
-	private readonly int staminaFoodCategory;
+	private int staminaFoodCategory { get; set; }
 
 	[JsonPropertyName("dbl")]
-	public readonly int durability;
+	public int durability { get; set; }
 
 	[JsonPropertyName("itv")]
-	public readonly int valueScore;
+	public int valueScore { get; set; }
 
 	[JsonPropertyName("prop")]
-	public readonly List<ItemBaseStat> properties;
+	public List<ItemBaseStat> properties { get; set; }
 
 	[JsonPropertyName("cil")]
-	public readonly List<int> childItemList;
+	public List<int> childItemList { get; set; }
 
 	[JsonPropertyName("ag")]
-	public readonly float apGrowing;
+	public float apGrowing { get; set; }
 
 	[JsonIgnore]
 	public const float BROKEN_WEAPON = 20f;

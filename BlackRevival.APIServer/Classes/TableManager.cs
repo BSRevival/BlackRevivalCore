@@ -22,6 +22,8 @@ public static class TableManager
     public static MonsterDB monsterDb;
     public static FieldTypeDB fieldTypeDb;
     public static AttendanceEventDB attendanceEventDb;
+    public static SkillDB skillDb;
+    public static ItemDB itemDb;
 
     public static void Init()
     {
@@ -103,6 +105,20 @@ public static class TableManager
         //Serialize json to TutorialDB
         Log.Information("Loading tutorial.json...");
         tutorialDb = new TutorialDB(JsonSerializer.Deserialize<TutorialDB.Model>(json));
+
+        //SkillDB
+        json = System.IO.File.ReadAllText("Data/GameDB/skill.json");
+        
+        //Serialize json to SkillDB
+        Log.Information("Loading skill.json...");
+        skillDb = new SkillDB(JsonSerializer.Deserialize<SkillDB.Model>(json));
+        
+        //ItemDb
+        json = System.IO.File.ReadAllText("Data/GameDB/item.json");
+        
+        //Serialize json to ItemDB
+        Log.Information("Loading Item.json...");
+        itemDb = new ItemDB(JsonSerializer.Deserialize<ItemDB.Model>(json));
 
         
         Log.Information("TableManager initialized.");
