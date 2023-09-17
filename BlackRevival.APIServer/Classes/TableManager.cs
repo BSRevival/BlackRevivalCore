@@ -16,6 +16,7 @@ public static class TableManager
     public static RadarChartDB radarChartDb;
     public static MiniLeagueDB miniLeagueDb;
     public static PerkDB perkDb;
+    public static LocalizationDB localizationDb;
 
     public static void Init()
     {
@@ -66,6 +67,13 @@ public static class TableManager
         //Serailize json to PerkDB
         Log.Information("Loading perk.json...");
         perkDb = new PerkDB(JsonSerializer.Deserialize<PerkDB.Model>(json));
+        
+        //localizationDb
+        json = System.IO.File.ReadAllText("Data/GameDB/localization.json");
+        //Serailize json to LocalizationDB
+        Log.Information("Loading localization.json...");
+        localizationDb = new LocalizationDB(SupportLanguage.English,JsonSerializer.Deserialize<LocalizationDB.Model>(json));
+        
         
         
         Log.Information("TableManager initialized.");

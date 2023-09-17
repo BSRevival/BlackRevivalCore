@@ -15,7 +15,11 @@ public class LocalizationDB
         this.localData = new Dictionary<string, string>();
         this.Language = language;
         this.voiceLanguage = language;
-        this.LoadDB(this.Language, data.rawData);
+        this.LoadDB(this.Language, data.localization);
+        
+        //Dont forget to set the instance
+        Instance = this;
+
     }
     
     public void LoadDB(SupportLanguage language, List<LocalizationDataRawData> data)
@@ -510,6 +514,6 @@ public class LocalizationDB
     
     public class Model
     {
-        public List<LocalizationDataRawData> rawData { get; set; }
+        public List<LocalizationDataRawData> localization { get; set; }
     }
 }
