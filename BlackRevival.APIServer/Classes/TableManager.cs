@@ -8,6 +8,14 @@ namespace BlackRevival.APIServer.Classes;
 
 public static class TableManager
 {
+    public static CharacterDB characterDb;
+    public static SignatureDB signatureDb;
+    public static SkinsDB skinsDb;
+    public static ProductDB productsDb;
+    public static QuestDB questDb;
+    public static RadarChartDB radarChartDb;
+    public static MiniLeagueDB miniLeagueDb;
+
     public static void Init()
     {
         string json = System.IO.File.ReadAllText("Data/GameDB/character.json");
@@ -41,19 +49,20 @@ public static class TableManager
         //Set the ProductManager
         ProductManager.UpdateAllProduct(res.newProduct, res.promotions, res.userPromotions, res.purchaseHistories, res.ownCharacters, res.ownSkins, res.productIds);
 
+        json = System.IO.File.ReadAllText("Data/GameDB/quest.json");
+        //Serailize json to QuestDB
+        Log.Information("Loading quest.json...");
+        questDb = new QuestDB(JsonSerializer.Deserialize<QuestDB.Model>(json));
+
+        //RadarChart
+        json = System.IO.File.ReadAllText("Data/GameDB/radarMinMax.json");
+        //Serailize json to RadarChartDB
+        Log.Information("Loading radarMinMax.json...");
+        radarChartDb = new RadarChartDB(JsonSerializer.Deserialize<RadarChartDB.Model>(json));
         
         Log.Information("TableManager initialized.");
 
     }
     
-    
-
-    public static CharacterDB characterDb;
-    public static SignatureDB signatureDb;
-    public static SkinsDB skinsDb;
-    public static ProductDB productsDb;
-    public static MiniLeagueDB miniLeagueDb;
-
-
 }
 
