@@ -31,6 +31,7 @@ public static class TableManager
     public static CollectionDB collectionDb;
     public static VoteDB voteDb;
     
+    public static ResearcherLevelDB researcherLevelDb;
 
     public static void Init()
     {
@@ -160,9 +161,13 @@ public static class TableManager
         //Serialize json to VoteDB
         Log.Information("Loading vote.json...");
         voteDb = new VoteDB(JsonSerializer.Deserialize<VoteDB.Model>(json));
-        
-        
-        
+
+        //ResearcherLevelDB
+        json = System.IO.File.ReadAllText("Data/GameDB/researcherLevel.json");
+        //Serialize json to ResearcherLevelDB
+        Log.Information("Loading researcherLevel.json...");
+        researcherLevelDb = new ResearcherLevelDB(JsonSerializer.Deserialize<ResearcherLevelDB.Model>(json));
+
         
         Log.Information("TableManager initialized.");
 
