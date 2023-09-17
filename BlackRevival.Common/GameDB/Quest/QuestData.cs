@@ -7,6 +7,12 @@ namespace BlackRevival.Common.GameDB.Quest;
 
 public class QuestData
 {
+	
+
+	public string getQuestTypeTitle()
+	{
+		return LocalizationDB.Instance.StringFormat(string.Format("QuestTitle_{0}", (int)this.type), new object[] { this.param1 });
+	}
 	[JsonPropertyName("qid")]
 	public int questId { get; set; }
 
