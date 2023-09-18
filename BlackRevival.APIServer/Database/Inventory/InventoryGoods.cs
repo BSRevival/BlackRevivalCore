@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
+using BlackRevival.Common.Util;
 
 namespace BlackRevival.APIServer.Database;
 
@@ -10,7 +11,7 @@ public class InventoryGoods
     public string Text { get; set; }
 
     [JsonPropertyName("a")]
-    public int Type { get; set; }
+    public int Amount { get; set; }
 
     [JsonPropertyName("n")]
     [Key]
@@ -28,7 +29,8 @@ public class InventoryGoods
 
     [JsonPropertyName("ed")]
     [JsonIgnore]
-    public long ExpireDtm { get; set; }
+    [JsonConverter(typeof(MicrosecondEpochConverter))]
+    public DateTime ExpireDtm { get; set; }
 
     // Navigational properties
     public virtual User User { get; set; }

@@ -50,6 +50,14 @@ public class AuthenticateController : Controller
             {
                 UserNum = long.Parse(loginRequest.userId),
             };
+            //If we are in debug mode lets set the nickname to debug
+            if (true)
+            {
+                user.Nickname = "Debug";
+                newUser = false;
+
+            }
+
             await _helper.CreateUser(user);
             await _helper.CreateUserAsset(userAsset);
             _logger.LogInformation("User {0} created.", user.UserNum);
@@ -77,15 +85,27 @@ public class AuthenticateController : Controller
             await _helper.CreateOwnedSkin(newSkin);
 
             //Create new invengoods and add to database
+            var newItem = TableManager.productsDb.Find("PVEFT001").goods;
             var newInv = new InvenGoods
             {
-                c = "12-LABYRINTH_TICKET",
+                c = newItem.goodsCode,
                 a = 3,
                 userNum = user.UserNum,
                 isActivated = false,
                 activated = false,
+
             };
-            await _helper.AddInventoryGoods(newInv);
+            
+            await _helper.AddInventoryItem(newInv, user.UserNum, newItem);
+
+            var labItem = TableManager.productsDb.Find("MCC00").goods;
+            
+            var labGood = new LabGoods();
+
+            await _helper.AddInventoryItem(labGood, user.UserNum, labItem, true);
+
+            
+            
         }
 
         //Encode the usernum to base64
@@ -95,7 +115,6 @@ public class AuthenticateController : Controller
         //bool PlayTutorial = true;
         var apiSession = (APISession)HttpContext.Items["Session"];
         apiSession.Session = Common.Model.Session.Create(user.UserNum, 12, apiSession.SessionKey);
-        
 
         UserApi.LoginResult loginResult = new UserApi.LoginResult
         {

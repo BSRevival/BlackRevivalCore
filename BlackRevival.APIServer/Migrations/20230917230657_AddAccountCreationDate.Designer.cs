@@ -3,6 +3,7 @@ using System;
 using BlackRevival.APIServer.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlackRevival.APIServer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230917230657_AddAccountCreationDate")]
+    partial class AddAccountCreationDate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,16 +106,9 @@ namespace BlackRevival.APIServer.Migrations
                     b.Property<bool>("Activated")
                         .HasColumnType("tinyint(1)");
 
-                    b.Property<int>("Amount")
-                        .HasColumnType("int")
-                        .HasAnnotation("Relational:JsonPropertyName", "a");
-
-                    b.Property<DateTime>("ExpireDtm")
-                        .HasColumnType("datetime(6)")
+                    b.Property<long>("ExpireDtm")
+                        .HasColumnType("bigint")
                         .HasAnnotation("Relational:JsonPropertyName", "ed");
-
-                    b.Property<long?>("InventoryGoods")
-                        .HasColumnType("bigint");
 
                     b.Property<bool>("IsActivated")
                         .HasColumnType("tinyint(1)")
@@ -123,53 +119,19 @@ namespace BlackRevival.APIServer.Migrations
                         .HasColumnType("longtext")
                         .HasAnnotation("Relational:JsonPropertyName", "c");
 
+                    b.Property<int>("Type")
+                        .HasColumnType("int")
+                        .HasAnnotation("Relational:JsonPropertyName", "a");
+
                     b.Property<long>("UserNum")
                         .HasColumnType("bigint")
                         .HasAnnotation("Relational:JsonPropertyName", "un");
 
                     b.HasKey("Num");
 
-                    b.HasIndex("InventoryGoods");
-
                     b.HasIndex("UserNum");
 
                     b.ToTable("InventoryGoods");
-
-                    b.HasAnnotation("Relational:JsonPropertyName", "igl");
-                });
-
-            modelBuilder.Entity("BlackRevival.APIServer.Database.LabGoodsEntry", b =>
-                {
-                    b.Property<long>("labNum")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
-                        .HasAnnotation("Relational:JsonPropertyName", "lnm");
-
-                    b.Property<string>("bgSubType")
-                        .IsRequired()
-                        .HasColumnType("longtext")
-                        .HasAnnotation("Relational:JsonPropertyName", "sbt");
-
-                    b.Property<string>("components")
-                        .IsRequired()
-                        .HasColumnType("longtext")
-                        .HasAnnotation("Relational:JsonPropertyName", "cps");
-
-                    b.Property<bool>("isActivated")
-                        .HasColumnType("tinyint(1)")
-                        .HasAnnotation("Relational:JsonPropertyName", "acti");
-
-                    b.Property<int>("labType")
-                        .HasColumnType("int")
-                        .HasAnnotation("Relational:JsonPropertyName", "ltp");
-
-                    b.Property<long>("userNum")
-                        .HasColumnType("bigint")
-                        .HasAnnotation("Relational:JsonPropertyName", "unm");
-
-                    b.HasKey("labNum");
-
-                    b.ToTable("LabGoodsEntries");
                 });
 
             modelBuilder.Entity("BlackRevival.APIServer.Database.MailEntry", b =>
@@ -516,10 +478,6 @@ namespace BlackRevival.APIServer.Migrations
 
             modelBuilder.Entity("BlackRevival.APIServer.Database.InventoryGoods", b =>
                 {
-                    b.HasOne("BlackRevival.APIServer.Database.LabGoodsEntry", null)
-                        .WithMany("invenGoodsList")
-                        .HasForeignKey("InventoryGoods");
-
                     b.HasOne("BlackRevival.APIServer.Database.User", "User")
                         .WithMany()
                         .HasForeignKey("UserNum")
@@ -579,11 +537,6 @@ namespace BlackRevival.APIServer.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("BlackRevival.APIServer.Database.LabGoodsEntry", b =>
-                {
-                    b.Navigation("invenGoodsList");
                 });
 
             modelBuilder.Entity("BlackRevival.APIServer.Database.User", b =>

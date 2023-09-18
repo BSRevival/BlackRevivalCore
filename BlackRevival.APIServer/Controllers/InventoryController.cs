@@ -27,7 +27,7 @@ public class InventoryController : Controller
         {
             invenGoodsList = new List<InvenGoods>(),
             newRequestArrived = false,
-            tournamentStartDtm = 1665745200000
+            tournamentStartDtm = DateTime.Now
 
         };
         var session = (APISession)HttpContext.Items["Session"]!;
@@ -37,7 +37,7 @@ public class InventoryController : Controller
             invenRes.invenGoodsList.Add(new InvenGoods
             {
                 c = goods.Text,
-                a = goods.Type,
+                a = goods.Amount,
                 num = goods.Num,
                 userNum = goods.UserNum,
                 isActivated = goods.IsActivated,
@@ -53,4 +53,54 @@ public class InventoryController : Controller
             Eac = 0,
         });
     }
+    
+    [HttpGet("/api/lab/get/{labnumber}", Name = "GetLabChange")]
+    public async Task<IActionResult> GetLabChange(int labnumber)
+    {
+        var session = (APISession)HttpContext.Items["Session"]!;
+        
+        
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0,
+        });
+    }
+    
+    [HttpGet("/api/lab/all/{usernum}", Name = "GetAllLabByUser")]
+    public async Task<IActionResult> GetAllLabByUser(long usernum)
+    {
+        var session = (APISession)HttpContext.Items["Session"]!;
+        
+        
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0,
+        });
+    }
+    
+    [HttpGet("/api/lab/set/{labnumber}", Name = "SetLab")]
+    public async Task<IActionResult> SetLab(int labnumber)
+    {
+        var session = (APISession)HttpContext.Items["Session"]!;
+        
+        
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0,
+        });
+    }
+    
+    
 }

@@ -3,6 +3,7 @@ using System;
 using BlackRevival.APIServer.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlackRevival.APIServer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230918001726_LabGoodsEntries")]
+    partial class LabGoodsEntries
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,10 +106,6 @@ namespace BlackRevival.APIServer.Migrations
                     b.Property<bool>("Activated")
                         .HasColumnType("tinyint(1)");
 
-                    b.Property<int>("Amount")
-                        .HasColumnType("int")
-                        .HasAnnotation("Relational:JsonPropertyName", "a");
-
                     b.Property<DateTime>("ExpireDtm")
                         .HasColumnType("datetime(6)")
                         .HasAnnotation("Relational:JsonPropertyName", "ed");
@@ -122,6 +121,10 @@ namespace BlackRevival.APIServer.Migrations
                         .IsRequired()
                         .HasColumnType("longtext")
                         .HasAnnotation("Relational:JsonPropertyName", "c");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int")
+                        .HasAnnotation("Relational:JsonPropertyName", "a");
 
                     b.Property<long>("UserNum")
                         .HasColumnType("bigint")

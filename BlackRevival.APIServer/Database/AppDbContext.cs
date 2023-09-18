@@ -1,4 +1,5 @@
 ﻿using BlackRevival.APIServer.Database.MiniLeague;
+using BlackRevival.Common.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlackRevival.APIServer.Database;
@@ -23,6 +24,8 @@ public class AppDbContext : DbContext
     public DbSet<MiniLeagueStatus> MiniLeagueStatuses { get; set; }
     public DbSet<MiniLeagueUser> MiniLeagueUsers { get; set; }
     */
+    
+    public DbSet<LabGoodsEntry> LabGoodsEntries { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         var connectionString = "Server=localhost;Database=blackrevival;Uid=root;";

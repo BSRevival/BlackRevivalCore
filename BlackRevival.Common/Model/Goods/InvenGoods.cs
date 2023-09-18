@@ -6,6 +6,8 @@ namespace BlackRevival.Common.Model;
 public class InvenGoods
 {
     public string c { get; set; }
+
+    public string subType { get; set; }
     
     public int a { get; set; }
     [JsonPropertyName("n")]
@@ -20,7 +22,7 @@ public class InvenGoods
     public bool activated{ get; set; }
 
     [JsonPropertyName("ed")]
-    //[JsonConverter(typeof(MicrosecondEpochConverter))]
+    [JsonConverter(typeof(MicrosecondEpochConverter))]
     [JsonIgnore]
-    public  long expireDtm{ get; set; }
+    public DateTime expireDtm{ get; set; }
 }
