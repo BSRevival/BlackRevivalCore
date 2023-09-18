@@ -40,6 +40,7 @@ public static class TableManager
     public static ExpeditionEventDB expeditionEventDb;
     public static ExpeditionAreaDB expeditionAreaDb;
     public static ExpeditionMasteryDB expeditionMasteryDb;
+    public static AvatarBonusDB avatarBonusDb;
 
     public static void Init()
     {
@@ -229,6 +230,11 @@ public static class TableManager
         Log.Information("Loading expeditionMastery.json...");
         expeditionMasteryDb = new ExpeditionMasteryDB(JsonSerializer.Deserialize<ExpeditionMasteryDB.Model>(json));
 
+        //AvatarBonusDB
+        json = System.IO.File.ReadAllText("Data/GameDB/avatarBonus.json");
+        //Serialize json to AvatarBonusDB
+        Log.Information("Loading avatarBonus.json...");
+        avatarBonusDb = new AvatarBonusDB(JsonSerializer.Deserialize<AvatarBonusDB.Model>(json));
 
 
         Log.Information("TableManager initialized.");
