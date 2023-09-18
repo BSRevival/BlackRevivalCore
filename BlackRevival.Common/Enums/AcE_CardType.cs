@@ -1,0 +1,11 @@
+﻿namespace BlackRevival.Common.Enums;
+
+public enum AcE_CARD_TYPE
+{
+	NONE,
+	NORMAL,
+	SKILL_PASSIVE = 11,
+	SKILL_COMBAT,
+	SKILL_FIELD,
+	SKILL_SPECIAL_HAVE_EFFECT
+}

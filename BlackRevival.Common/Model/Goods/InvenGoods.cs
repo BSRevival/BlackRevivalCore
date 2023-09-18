@@ -6,6 +6,8 @@ namespace BlackRevival.Common.Model;
 public class InvenGoods
 {
     public string c { get; set; }
+
+    public string subType { get; set; }
     
     public int a { get; set; }
     [JsonPropertyName("n")]
