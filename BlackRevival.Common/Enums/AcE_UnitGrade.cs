@@ -1,0 +1,16 @@
+﻿namespace BlackRevival.Common.Enums;
+
+public enum AcE_UNIT_GRADE
+{
+	NONE,
+	STAR_1 = 101,
+	STAR_2,
+	STAR_3,
+	STAR_4,
+	STAR_5,
+	GRADE_COMMON = 201,
+	GRADE_UNCOMMON,
+	GRADE_RARE,
+	GRADE_EPIC,
+	GRADE_LEGEND
+}

@@ -36,6 +36,7 @@ public static class TableManager
     public static LevelExpTableDB levelExpTableDb;
     public static ExpeditionSkillDB expeditionSkillDb;
     public static ExpeditionCardDB expeditionCardDb;
+    public static ExpeditionUnitDB expeditionUnitDb;
 
     public static void Init()
     {
@@ -200,6 +201,12 @@ public static class TableManager
         //Serialize json to ExpeditionCardDB
         Log.Information("Loading expeditionCard.json...");
         expeditionCardDb = new ExpeditionCardDB(JsonSerializer.Deserialize<ExpeditionCardDB.Model>(json));
+
+        //ExpeditionUnitDB
+        json = System.IO.File.ReadAllText("Data/GameDB/expeditionUnit.json");
+        //Serialize json to ExpeditionUnitDB
+        Log.Information("Loading expeditionUnit.json...");
+        expeditionUnitDb = new ExpeditionUnitDB(JsonSerializer.Deserialize<ExpeditionUnitDB.Model>(json));
 
 
 
