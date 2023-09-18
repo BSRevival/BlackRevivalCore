@@ -37,6 +37,7 @@ public static class TableManager
     public static ExpeditionSkillDB expeditionSkillDb;
     public static ExpeditionCardDB expeditionCardDb;
     public static ExpeditionUnitDB expeditionUnitDb;
+    public static ExpeditionEventDB expeditionEventDb;
 
     public static void Init()
     {
@@ -207,6 +208,12 @@ public static class TableManager
         //Serialize json to ExpeditionUnitDB
         Log.Information("Loading expeditionUnit.json...");
         expeditionUnitDb = new ExpeditionUnitDB(JsonSerializer.Deserialize<ExpeditionUnitDB.Model>(json));
+
+        //ExpeditionEventDB
+        json = System.IO.File.ReadAllText("Data/GameDB/expeditionEvent.json");
+        //Serialize json to ExpeditionUnitDB
+        Log.Information("Loading expeditionEvent.json...");
+        expeditionEventDb = new ExpeditionEventDB(JsonSerializer.Deserialize<ExpeditionEventDB.Model>(json));
 
 
 
