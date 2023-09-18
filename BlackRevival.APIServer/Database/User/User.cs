@@ -40,6 +40,8 @@ public class User
     public League League { get; set; } = League.MOUSE5; // Assuming League is a string; you can change it to an enum if needed
     
     public bool IsAdmin { get; set; } = false;
+    
+    public DateTime CreateDtm { get; set; } = DateTime.UtcNow;
 
     public virtual UserAsset UserAsset { get; set; }
 }

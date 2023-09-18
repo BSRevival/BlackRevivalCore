@@ -104,16 +104,6 @@ public class LobbyController : Controller
             voteNow = false,
             labList = new List<LabGoods>
             {
-                new LabGoods
-                {
-                    userNum = user.UserNum,
-                    labNum = 6803285,
-                    labType = (LabType)1,
-                    bgSubType = "BASIC",
-                    isActivated = true,
-                    components = "",
-                    invenGoodsList = new List<long>()
-                },
                 // Add more LabGoods items as needed
             },
             isAdmin = user.IsAdmin,
@@ -142,12 +132,31 @@ public class LobbyController : Controller
             lobbyInitResult.invenGoodsList.Add(new InvenGoods
             {
                 c = goods.Text,
-                a = goods.Type,
+                a = goods.Amount,
                 num = goods.Num,
                 userNum = goods.UserNum,
                 isActivated = goods.IsActivated,
                 activated = goods.Activated
             });
+        }
+        
+        var labGoods = _helper.GetLabGoods(session.Session.userNum).Result;
+        foreach (var goods in labGoods)
+        {
+            lobbyInitResult.labList.Add(new LabGoods
+            {
+                userNum = goods.userNum,
+                labNum = goods.labNum,
+                labType = goods.labType,
+                bgSubType = goods.bgSubType,
+                isActivated = goods.isActivated,
+                components = goods.components,
+                invenGoodsList = new List<long>()
+            });
+            foreach(var invenGoodsNum in goods.invenGoodsList)
+            {
+                lobbyInitResult.labList[lobbyInitResult.labList.Count - 1].invenGoodsList.Add(invenGoodsNum.Num);
+            }
         }
 
 

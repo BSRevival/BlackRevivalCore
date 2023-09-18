@@ -20,7 +20,7 @@ public class InvenGoods
     public bool activated{ get; set; }
 
     [JsonPropertyName("ed")]
-    //[JsonConverter(typeof(MicrosecondEpochConverter))]
+    [JsonConverter(typeof(MicrosecondEpochConverter))]
     [JsonIgnore]
-    public  long expireDtm{ get; set; }
+    public DateTime expireDtm{ get; set; }
 }

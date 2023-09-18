@@ -1,14 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
+using BlackRevival.Common.Model;
 
-namespace BlackRevival.Common.Model;
+namespace BlackRevival.APIServer.Database;
 
-public class LabGoods
-{   
+public class LabGoodsEntry
+{
+    [ForeignKey("User")]
     [JsonPropertyName("unm")]
     public long userNum{ get; set; }
 
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [JsonPropertyName("lnm")]
     public long labNum{ get; set; }
 
@@ -24,6 +28,7 @@ public class LabGoods
     [JsonPropertyName("cps")]
     public string components{ get; set; }
 
+    [ForeignKey("InventoryGoods")]
     [JsonPropertyName("igl")]
-    public List<long> invenGoodsList{ get; set; }
+    public ICollection<InventoryGoods> invenGoodsList{ get; set; }
 }

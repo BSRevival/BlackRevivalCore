@@ -1,4 +1,5 @@
-﻿using BlackRevival.Common.Model;
+﻿using BlackRevival.APIServer.Classes;
+using BlackRevival.Common.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlackRevival.APIServer.Database;
@@ -198,7 +199,7 @@ public class DatabaseHelper
         var goods = new InventoryGoods
         {
             Text = inventoryGoods.c,
-            Type = inventoryGoods.a,
+            Amount = inventoryGoods.a,
             UserNum = inventoryGoods.userNum,
             IsActivated = inventoryGoods.isActivated,
             Activated = inventoryGoods.activated,
@@ -292,4 +293,72 @@ public class DatabaseHelper
         _context.UserAssets.Update(asset);
         await _context.SaveChangesAsync();
     }
+    
+    
+    public async Task AddInventoryItem<T>(T TheItem, long userNum, Goods invenGoods,bool activated = false)
+    {
+
+        switch (invenGoods._goodsType)
+        {
+            case GoodsType.CHARACTER:
+                break;
+            case GoodsType.LAB_PRODUCT:
+            case GoodsType.MATCHING_CARD:
+            {
+                var goods = new InventoryGoods
+                {
+                    Text = invenGoods.goodsCode,
+                    Amount = invenGoods.amount,
+                    UserNum = userNum,
+                    IsActivated = activated,
+                    Activated = activated,
+                    ExpireDtm = DateTime.Now
+                };
+        
+                await _context.InventoryGoods.AddAsync(goods);
+                await _context.SaveChangesAsync();
+                //Now create the labGoodsEntry
+                
+                var labGoods = new LabGoodsEntry
+                {
+                    userNum = userNum,
+                    labType = LabType.NORMAL,
+                    bgSubType = invenGoods.subType,
+                    isActivated = activated,
+                    components = "",
+                    invenGoodsList = new List<InventoryGoods>()
+                };
+                labGoods.invenGoodsList.Add(goods);
+                await _context.LabGoodsEntries.AddAsync(labGoods);
+                await _context.SaveChangesAsync();
+            }
+                break;
+            case GoodsType.TICKET:
+            {
+                var goods = new InventoryGoods
+                {
+                    Text = invenGoods.goodsCode,
+                    Amount = invenGoods.amount,
+                    UserNum = userNum,
+                    IsActivated = false,
+                    Activated = false,
+                    ExpireDtm = DateTime.Now
+                };
+        
+                await _context.InventoryGoods.AddAsync(goods);
+                await _context.SaveChangesAsync();
+
+            }
+                break;
+        }
+        
+    }
+
+    
+    public async Task<List<LabGoodsEntry>> GetLabGoods(long userNum)
+    {
+        return await _context.LabGoodsEntries.Where(l => l.userNum == userNum).ToListAsync();
+    }
+    
+    
 }
