@@ -13,10 +13,7 @@ public class AcTryParse
         float result = 0f;
         if (!float.TryParse(param, out result))
         {
-            Log.Warning("Could not parse float. [{0}]", new object[]
-            {
-                param
-            });
+            Log.Warning($"Could not parse float. [{param}]");
         }
         return result;
     }
@@ -26,10 +23,7 @@ public class AcTryParse
         int result = 0;
         if (!int.TryParse(param, out result))
         {
-            Log.Warning("Could not parse int. [{0}]", new object[]
-            {
-                param
-            });
+            Log.Warning($"Could not parse int. [{param}]");
         }
         return result;
     }
@@ -39,10 +33,7 @@ public class AcTryParse
         double result = 0.0;
         if (!double.TryParse(param, out result))
         {
-            Log.Warning("Could not parse double. [{0}]", new object[]
-            {
-                param
-            });
+            Log.Warning($"Could not parse double. [{param}]");
         }
         return result;
     }
@@ -52,10 +43,7 @@ public class AcTryParse
         bool result = false;
         if (!bool.TryParse(param, out result))
         {
-            Log.Warning("Could not parse bool. [{0}]", new object[]
-            {
-                param
-            });
+            Log.Warning($"Could not parse bool. [{param}]");
         }
         return result;
     }
@@ -65,10 +53,7 @@ public class AcTryParse
         T result = default(T);
         if (!Enum.TryParse<T>(param, out result))
         {
-            Log.Warning("Could not parse Enum. [{0}]", new object[]
-            {
-                param
-            });
+            Log.Warning($"Could not parse Enum. [{param}]");
         }
         return result;
     }

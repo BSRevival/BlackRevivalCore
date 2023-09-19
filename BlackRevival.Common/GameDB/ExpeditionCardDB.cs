@@ -29,11 +29,7 @@ public class ExpeditionCardDB
         List<int> list = null;
         if (!expeditionCardData.skillForCardLevel.TryGetValue(level, out list))
         {
-            Log.Warning("Could not found Skills. cardID[{0}], level[{1}]", new object[]
-            {
-                cardId,
-                level
-            });
+            Log.Warning($"Could not found Skills. cardID[{cardId}], level[{level}]");
         }
         if (list == null)
         {

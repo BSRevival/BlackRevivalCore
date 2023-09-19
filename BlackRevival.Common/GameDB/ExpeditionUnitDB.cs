@@ -110,10 +110,7 @@ public class ExpeditionUnitDB
                     ExpeditionUnitClass expeditionUnitClass = this.FindClass(unitClass);
                     if (expeditionUnitClass == null)
                     {
-                        Log.Error("ExpeditionUnitClass[{0}] is null.", new object[]
-                        {
-                    unitClass
-                        });
+                        Log.Error($"ExpeditionUnitClass[{unitClass}] is null.");
                         return AcE_WEAPON_TYPE.PUNCH;
                     }
                     return (AcE_WEAPON_TYPE)expeditionUnitClass.weaponTypes[0];
@@ -130,10 +127,7 @@ public class ExpeditionUnitDB
         ExpeditionUnitClass expeditionUnitClass = this.FindClass(unitClass);
         if (expeditionUnitClass == null)
         {
-            Log.Error("ExpeditionUnitClass[{0}] is null.", new object[]
-            {
-                unitClass
-            });
+            Log.Error($"ExpeditionUnitClass[{unitClass}] is null.");
             return AcE_WEAPON_TYPE.PUNCH;
         }
         return (AcE_WEAPON_TYPE)expeditionUnitClass.weaponTypes[0];

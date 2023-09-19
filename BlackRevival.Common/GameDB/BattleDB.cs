@@ -24,7 +24,7 @@ public class BattleDB
 		CharacterStanceData characterStanceData = this.battleData.stances.Find((CharacterStanceData x) => x.stanceType == stanceType);
 		if (characterStanceData == null)
 		{
-			Log.Error("[BattleDB.GetStanceData] Failed to find CharacterStanceData: {0}", new object[] { stanceType });
+			Log.Error($"[BattleDB.GetStanceData] Failed to find CharacterStanceData: {stanceType}");
 			return new CharacterStanceData();
 		}
 		return characterStanceData;
@@ -35,7 +35,7 @@ public class BattleDB
 		CharacterMasteryRankData characterMasteryRankData = this.battleData.masteryRanks.Find((CharacterMasteryRankData x) => x.masteryId == masteryId);
 		if (characterMasteryRankData == null)
 		{
-			Log.Error("[BattleDB.GetMasteryRankData] Fail to find CharactertMasteryRankData: {0}", new object[] { masteryId });
+			Log.Error($"[BattleDB.GetMasteryRankData] Fail to find CharactertMasteryRankData: {masteryId}");
 			return new CharacterMasteryRankData();
 		}
 		return characterMasteryRankData;
@@ -46,7 +46,7 @@ public class BattleDB
 		CharacterMasteryRankData characterMasteryRankData = this.battleData.masteryRanks.Find((CharacterMasteryRankData x) => x.weaponType == weaponType && x.grade == grade);
 		if (characterMasteryRankData == null)
 		{
-			Log.Error("[BattleDB.GetMasteryRankDataByWeaponType] Fail to find VeteranGrade: {0}", new object[] { (int)grade });
+			Log.Error($"[BattleDB.GetMasteryRankDataByWeaponType] Fail to find VeteranGrade: {(int)grade}");
 			return new CharacterMasteryRankData();
 		}
 		return characterMasteryRankData;
@@ -64,7 +64,7 @@ public class BattleDB
 		}
 		if (characterMasteryRankData == null)
 		{
-			Log.Error("[BattleDB.GetMasteryRankDataByWeaponType] Fail to find familiarity: {0}, {1}", new object[] { weaponType, familiarity });
+			Log.Error($"[BattleDB.GetMasteryRankDataByWeaponType] Fail to find familiarity: {weaponType}, {familiarity}");
 			return new CharacterMasteryRankData();
 		}
 		return characterMasteryRankData;
@@ -88,7 +88,7 @@ public class BattleDB
 		}
 		if (characterMasteryRankData == null)
 		{
-			Log.Error("[BattleDB.GetMasteryRankDataByWeaponType] Fail to find familiarity: {0}, {1}", new object[] { weaponType, familiarity });
+			Log.Error($"[BattleDB.GetMasteryRankDataByWeaponType] Fail to find familiarity: {weaponType}, {familiarity}");
 			return new CharacterMasteryRankData();
 		}
 		return characterMasteryRankData;

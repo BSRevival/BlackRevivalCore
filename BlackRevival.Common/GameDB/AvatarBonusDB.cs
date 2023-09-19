@@ -50,13 +50,13 @@ public class AvatarBonusDB
         AvatarType avatarType = ProductDB.Instance.FindAvatar(invenGoods.subType);
         if (avatarType == null)
         {
-            Log.Error("AvatarType[" + invenGoods.subType + "] is null.");
+            Log.Error($"AvatarType[{invenGoods.subType}] is null.");
             return null;
         }
         AvatarBonusData avatarBonusData = this.FindByAvatarType(avatarType.p_type);
         if (avatarBonusData == null)
         {
-            Log.Error("AvatarBonusData[" + avatarType.p_type + "] is null.");
+            Log.Error($"AvatarBonusData[{avatarType.p_type}] is null.");
             return null;
         }
         return avatarBonusData;
