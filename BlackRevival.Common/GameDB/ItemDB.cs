@@ -70,7 +70,7 @@ public class ItemDB
 		ItemOptionData itemOptionData = this.itemOptionDatas.Find((ItemOptionData data) => data.itemBaseAbility == property);
 		if (itemOptionData == null)
 		{
-			Log.Error("[ItemDB.FindOption] Failed to find ItemBaseAbility: {0}", new object[] { property });
+			Log.Error($"[ItemDB.FindOption] Failed to find ItemBaseAbility: {property}");
 			return null;
 		}
 		return itemOptionData;

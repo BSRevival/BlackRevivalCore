@@ -34,7 +34,7 @@ public class LocalizationDB
                 {
                     if (localData.ContainsKey(data[i].key))
                     {
-                        Log.Error("[LocalizationDB] ERROR - It has the same name key = {0}", new object[] { data[i].key });
+                        Log.Error($"[LocalizationDB] ERROR - It has the same name key = {data[i].key}");
                     }
                     else
                     {
@@ -44,7 +44,7 @@ public class LocalizationDB
             }
             catch (Exception ex)
             {
-                Log.Error("[LocalizationDB] ERROR key = {0}", new object[] { data[i].key });
+                Log.Error($"[LocalizationDB] ERROR key = {data[i].key}");
                 Log.Error(ex.Message);
             }
         }

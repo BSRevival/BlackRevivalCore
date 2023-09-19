@@ -11,7 +11,7 @@ This server software to revive a now defunct game, that was taken offline due to
 
 We are striving to bring back this game for those people who loved it. 
 
-This is a rewrite in asp.net core and .net 7 using modern programming techniques and fixing the bad programming of the original project.
+This is a rewrite in ASP.NET Core and .NET 7 using modern programming techniques and fixing the bad programming of the original project.
 
 # Setup Instructions #
 
@@ -19,34 +19,43 @@ If you're not familiar with github, you'll want to download every files listed i
 Simply press Download ZIP
 ![there](https://arrcival.s-ul.eu/13oBzVUQ)
 
-## Client side ##
+### Install Guide with JetBrains
+1. Download and Install GitHub Desktop and Clone the [repo](https://github.com/BSRevival/BlackRevivalCore) (code drop down -> open with GitHub Desktop)
+2. [Download](https://www.jetbrains.com/rider/) JetBrains Rider
+3. [Download](https://mariadb.org/download/) and Install MariaDB
+4. Open BlackRevivalV2.sln with Rider
+5. Install https://plugins.jetbrains.com/plugin/18147-entity-framework-core-ui to Rider
+6. Adjust config files (appSettings.development.json, appSettings.json), BlackRevival.APIServer/Context/MyDbContext.cs, BlackRevival.APIServer/DataBase/AppDbContext.cs to match your MariaDB set up.
+7. Make sure MariaDB is running, in Rider right click BlackRevival.APIServer -> Tools -> Entity Framework Core -> Update Database
+8. Download the Patch files from [here](https://mega.nz/file/kNZUmY6Y#x_tq2oACNSyL_uArldZ74SWd4gGPq5hh8hXlFBcZxck)
+9. Move the patch files to BlackRevivalCore/BlackRevival.APIServer/Data/PatchData
+10. Download the game through Steam
+11. Move the files from BlackRevivalCore/ClientFiles to your games root directory, overwriting anything if it asks.
+12. Return to Rider and at the top of the screen click the green play putton next to BlackRevival.APIServer
+13. Start BlackSurvival.exe and authorize the Discord bot
 
-1. Download the game through Steam
-2. Locate where the game is installed. It's usually in the Steam folder, then you can find the game in \steamapps\common\Black Survival
-3. Go to the ClientFiles Folder in the repo.
-4. Copy the files and folders to your \steamapps\common\Black Survival folder overwriting anything if it asks
-5. Run the game.
-
-
-## Server side ##
-
-1. Download the Patch server files from [this link](https://mega.nz/file/kNZUmY6Y#x_tq2oACNSyL_uArldZ74SWd4gGPq5hh8hXlFBcZxck)
-2. You'll want to download [Visual Studio Community](https://visualstudio.microsoft.com/) and install it
+### Install Guide with Visual Studio Community
+1. Download and Install GitHub Desktop and Clone the [repo](https://github.com/BSRevival/BlackRevivalCore) (code drop down -> open with GitHub Desktop)
+2. [Download](https://visualstudio.microsoft.com/) Visual Studio Community
 3. When asked what components to install, you'll want to install the .NET desktop development tool.
 ![this](https://arrcival.s-ul.eu/aoqrQWuU)
-4. Once the server files downloaded and Visual Studio installed, extract the folder to "Repo"\BlackRevival.APIServer\Data\PatchData where bundlelist.txt resides
-Repo being the zip you downloaded earlier to get the patched files for the client.
-5. Open visual studio.
-6. Open the .sln files from the same folder from before; this is actually the server source code and what's visible from Github
-7. Build the server then run from visual studio. You should only have to press "BlackRevivalServer" with the green triangle.
+4. [Download](https://mariadb.org/download/) and Install MariaDB
+5. Open BlackRevivalV2.sln with Visual Studio
+6. Adjust config files (appSettings.development.json, appSettings.json), BlackRevival.APIServer/Context/MyDbContext.cs, BlackRevival.APIServer/DataBase/AppDbContext.cs to match your MariaDB set up.
+7. Make sure MariaDB is running, in VS click on "Tools -> CommandLine -> Developer Powershell" and paste the following code in the Powershell console: "dotnet ef database update"
+8. Download the Patch files from [here](https://mega.nz/file/kNZUmY6Y#x_tq2oACNSyL_uArldZ74SWd4gGPq5hh8hXlFBcZxck)
+9. Move the patch files to BlackRevivalCore/BlackRevival.APIServer/Data/PatchData
+10. Download the game through Steam
+11. Move the files from BlackRevivalCore/ClientFiles to your games root directory, overwriting anything if it asks.
+12. Choose the "http" option in the dropdown and then press the green triangle. Press "BlackRevivalServer" with the green triangle if you have an old version of Visual Studio.
 ![this](https://arrcival.s-ul.eu/wfQpWZOc)
-8. Then run the game.
-
+13. Start BlackSurvival.exe and authorize the Discord bot
 It should automatically connect to your server. 
+
 
 # Current Progress #
 
-The current progress of the server is farily incomplete in its implementation. 
+The current progress of the server is farly incomplete in its implementation. 
 
 It needs quite a bit of work to get to a playable state, Currently all WebAPI data is statically served. 
 

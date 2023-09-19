@@ -47,10 +47,7 @@ public class ExpeditionAreaDB
         List<ExpeditionAreaData> result = null;
         if (!this.dicExpeditionArea.TryGetValue(code, out result))
         {
-            Log.Error("ArgumentException. fieldType[{0}]", new object[]
-            {
-                code
-            });
+            Log.Error($"ArgumentException. fieldType[{code}]");
         }
         return result;
     }
@@ -111,11 +108,7 @@ public class ExpeditionAreaDB
         ExpeditionAreaData expeditionAreaData = this.FindAreaData(code, district);
         if (expeditionAreaData == null)
         {
-            Log.Error("Failed to find ExpeditionAreaData[{0} - {1}].", new object[]
-            {
-                code,
-                district
-            });
+            Log.Error($"Failed to find ExpeditionAreaData[{code} - {district}].");
             return null;
         }
         if (expeditionAreaData.districtType == 1)
@@ -135,10 +128,7 @@ public class ExpeditionAreaDB
         FieldTypeData fieldTypeData = FieldTypeDB.Instance.Find(fieldType);
         if (fieldTypeData == null || fieldTypeData.IsPowCamp)
         {
-            Log.Error("Invalid FieldType Code. [{0}]", new object[]
-            {
-                fieldType
-            });
+            Log.Error($"Invalid FieldType Code. [{fieldType}]");
             return null;
         }
         additionalRate = new Dictionary<AcE_PROBABILITY_CATEGORY, float>();
