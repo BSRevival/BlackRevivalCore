@@ -28,7 +28,7 @@ public class AppDbContext : DbContext
     public DbSet<LabGoodsEntry> LabGoodsEntries { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var connectionString = "Server=localhost;Database=blackrevival;Uid=root;";
+        var connectionString = "Server=localhost;Database=blackrevival;Uid=root;ConvertZeroDateTime=True;";
         ServerVersion version = ServerVersion.AutoDetect(connectionString);
         optionsBuilder.UseMySql(connectionString, version);
     }

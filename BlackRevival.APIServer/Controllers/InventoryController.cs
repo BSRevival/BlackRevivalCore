@@ -19,7 +19,7 @@ public class InventoryController : Controller
         _helper = new DatabaseHelper(_context);
     }
 
-
+    //We have api/inven/{0} in the missing end points list, I presume this is just the same thing
     [HttpGet("/api/inven", Name = "GetInventory")]
     public IActionResult GetInventory()
     {
@@ -53,6 +53,22 @@ public class InventoryController : Controller
             Eac = 0,
         });
     }
+
+    [HttpPost("/api/inven/updateActive")]
+
+    public async Task<IActionResult> updateActiveItems()
+    {
+        var session = (APISession)HttpContext.Items["Session"]!;
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 400,
+            Msg = "Not yet implemented",
+            Eac = 0,
+        });
+    }
+    
+    
     
     [HttpGet("/api/lab/get/{labnumber}", Name = "GetLabChange")]
     public async Task<IActionResult> GetLabChange(int labnumber)
@@ -87,12 +103,19 @@ public class InventoryController : Controller
     }
     
     [HttpGet("/api/lab/set/{labnumber}", Name = "SetLab")]
-    public async Task<IActionResult> SetLab(int labnumber)
+    public async Task<IActionResult> SetLab(long labnumber, LabGoods lab)
     {
         var session = (APISession)HttpContext.Items["Session"]!;
         
-        
-        
+        //[inventorygoods]Fetch Items we are equipping from the DB and set them to isActivated 1 | active 1
+        //[inventorygoods]Fetch the Items we unequipped from the DB and set them to isActivated 0 | active 0
+        //[labgoodsentries]Set list of items the user posted if bgSubType = BASIC 
+        //[labgoodsentries]Fetch the background we are setting and set bgSubType to the name of the background based on look up from product table 
+        /*return Json(new LabGoodsEntry
+        {   
+            labNum = labnumber
+        });
+        */
         return Json(new WebResponseHeader
         {
             Cod = 200,
@@ -102,5 +125,75 @@ public class InventoryController : Controller
         });
     }
     
+    [HttpGet("/inven/use/{0}/{1}")]
+    public IActionResult getInventoryUse()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
     
+    [HttpGet("/inven/sell/{0}/{1}")]
+    public IActionResult getInventorySell()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/lab/main/{0}")]
+    public IActionResult getMainLab()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/lab/new/{0}/{1}")]
+    public IActionResult getNewLab()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/lab/production/start/{0}")]
+    public IActionResult getStartProduction()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/lab/production/acquire/{0}")]
+    public IActionResult getProductionAcquire()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }
