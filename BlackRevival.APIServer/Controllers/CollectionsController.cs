@@ -60,4 +60,16 @@ public class CollectionsController : Controller
             Eac = 0,
         });
     }
+    
+    [HttpGet("/api/collections/reward/{0}/{1}")]
+    public IActionResult getCollectionsReward()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

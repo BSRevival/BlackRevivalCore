@@ -50,6 +50,7 @@ public class AuthenticateController : Controller
             {
                 UserNum = long.Parse(loginRequest.userId),
             };
+            /*
             //If we are in debug mode lets set the nickname to debug
             if (true)
             {
@@ -57,7 +58,7 @@ public class AuthenticateController : Controller
                 newUser = false;
 
             }
-
+            */
             await _helper.CreateUser(user);
             await _helper.CreateUserAsset(userAsset);
             _logger.LogInformation("User {0} created.", user.UserNum);

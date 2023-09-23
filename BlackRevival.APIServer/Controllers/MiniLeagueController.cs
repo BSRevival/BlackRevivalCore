@@ -52,4 +52,28 @@ public class MiniLeagueController : Controller
             Eac = 0,
         });
     }
+    
+    [HttpGet("/api/miniLeague/join")]
+    public IActionResult getJoinMiniLeague()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/miniLeague/reward")]
+    public IActionResult getMiniLeagueReward()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

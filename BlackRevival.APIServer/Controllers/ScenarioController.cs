@@ -117,4 +117,52 @@ public class ScenarioController : Controller
             Eac = 0
         });
     }
+    
+    [HttpGet("/api/scenario/lobbyTutorial/clear/{0}")]
+    public IActionResult getStatus()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/scenario/{0}/rewardAndClearedCount")]
+    public IActionResult getRewardAndClearedCount()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/scenario/{0}/start")]
+    public IActionResult getStartScenario()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/scenario/{0}/clear")]
+    public IActionResult getClearScenario()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

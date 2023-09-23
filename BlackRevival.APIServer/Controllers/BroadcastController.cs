@@ -31,4 +31,40 @@ public class BroadcastController : Controller
             Eac = 0,
         });
     }
+    
+    [HttpPost("/api/broadcast/addRoomInfo/{0}")]
+    public IActionResult postAddRoomInfo()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/broadcast/removeRoomInfo/{0}")]
+    public IActionResult getRemoveRoomInfo()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/broadcast/openRoomList")]
+    public IActionResult getOpenRoomList()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

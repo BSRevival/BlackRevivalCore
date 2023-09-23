@@ -71,4 +71,28 @@ public class InitController : Controller
         });
 
     }
+    
+    [HttpGet("/api/status")]
+    public IActionResult getStatus()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/serverCheck")]
+    public IActionResult getServerCheck()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

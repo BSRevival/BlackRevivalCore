@@ -2,7 +2,6 @@
 using BlackRevival.APIServer.Classes;
 using BlackRevival.Common.Responses;
 using Microsoft.AspNetCore.Mvc;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BlackRevival.APIServer.Controllers;
 
@@ -16,6 +15,7 @@ public class NoticeController : Controller
     {
         _logger = logger;
     }
+    //There is a version of promotions api/notices/{0}/{lang]/{id} | Think it was most likely placeholder
     [HttpGet("/api/notices/PROMOTION/locale/{lang}/{id}", Name = "GetPromotion")]
     public IActionResult GetPromotion(string id, string lang)
     {

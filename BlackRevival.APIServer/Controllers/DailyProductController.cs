@@ -143,4 +143,16 @@ public class DailyProductController : Controller
             Eac = 0,
         });
     }
+    
+    [HttpGet("api/dailyProduct/reroll/{0}/{1}")]
+    public async Task<IActionResult> getDailyProductReroll()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

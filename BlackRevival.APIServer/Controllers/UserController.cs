@@ -215,7 +215,339 @@ public class UserController : Controller
             Eac = 0
         });
     }
-
     
+    [HttpGet("/api/users/playCount")]
+    public async Task<IActionResult> GetPlayCount()
+    {
 
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+
+    [HttpGet ("/api/users/{UserNum}/histories")]
+    public IActionResult getMatchHistory()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        //Buying a new new research result slot
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    } 
+    
+    [HttpPost ("/api/isGuest")]
+    public IActionResult postIsGuest()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        //Tell the server if we're logging in as a guest. Shouldn't be possible for us
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpPost ("/api/login")]
+    public IActionResult postLogin()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpDelete ("/api/users/{0}/delete")]
+    public IActionResult deleteAssets()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{1}/edit")]
+    public IActionResult getEdit()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/edit/cancelUpgradeLeave")]
+    public IActionResult getCancelUpgradeLeague()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+
+    [HttpGet ("/api/users/{0}/edit/sendValidationCode")]
+    public IActionResult getSendValidationCode()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/edit/receiveValidationCode/{1}")]
+    public IActionResult getReceiveValidationCode()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/edit/selectDairyCharacter/{1}")]
+    public IActionResult getSelectDairyCharacter()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/deadCharacter")]
+    public IActionResult getDeadCharacter()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpPost ("/api/users/{0}/changePerk")]
+    public IActionResult postChangePerk()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpPost ("/api/users/{0}/authProvicer/token")]
+    public IActionResult postAuthProvicerToken()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpPost ("/api/users/{0}/leave")]
+    public IActionResult postLeave()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpPut ("/api/users/{0}/usehack")]
+    public IActionResult putRecord()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/firstInAppEvent/{0}")]
+    public IActionResult getFirstInAppEvent()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/playCount")]
+    public IActionResult getPlayCount()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/record/{1}")]
+    public IActionResult getUsersRecord()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/checkUserNum")]
+    public IActionResult getCheckUserNum()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/freeRevival/{1}")]
+    public IActionResult getFreeRevival()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/updateAdCount")]
+    public IActionResult getUpdateAdCount()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/histories")]
+    public IActionResult getHistory()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/search")]
+    public IActionResult getUserSearch()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet ("/api/users/{0}/changePotentialSkill{1}")]
+    public IActionResult getChangePotentialSkill()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

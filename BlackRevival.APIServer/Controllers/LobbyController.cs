@@ -168,4 +168,18 @@ public class LobbyController : Controller
             Eac = 0
         });
     }
+    
+    [HttpGet ("/api/checkRunningBattle")]
+    public IActionResult getCheckRunningBattle()
+    {
+        var session = (APISession)HttpContext.Items["Session"];
+        //Buying a new new research result slot
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }

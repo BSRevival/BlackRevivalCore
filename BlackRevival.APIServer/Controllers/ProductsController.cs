@@ -6,6 +6,7 @@ using BlackRevival.Common.GameDB.Roulette;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
 using Microsoft.AspNetCore.Mvc;
+using UserAsset = BlackRevival.Common.Model.UserAsset;
 
 namespace BlackRevival.APIServer.Controllers;
 
@@ -84,7 +85,6 @@ public class ProductsController : Controller
 
         var result = new PurchaseResult();
         result.provideResult = new ProvideResult();
-        
         //Now set it as the provides result
         result.provideResult.isDuplication = false;
         result.provideResult.creditBonusRate = 1.0f;
@@ -141,7 +141,6 @@ public class ProductsController : Controller
         //update userasset
         userAsset.Gem -= (int)Prod.price;
         await _helper.UpdateUserAsset(session.Session.userNum, userAsset);
-        
 
         var count = Prod.goods.amount;
         var outlist = new List<RoulettePmf>();
@@ -161,7 +160,7 @@ public class ProductsController : Controller
         var random = new Random();
         var randomNumber = random.NextDouble();
         
-        //Pool the list of items based on their ratio so you only pull one item out of the lisst
+        //Pool the list of items based on their ratio so you only pull one item out of the list
         var pool = new List<RoulettePmf>();
         foreach (var item in outlist)
         {
@@ -201,6 +200,52 @@ public class ProductsController : Controller
             Eac = 0,
         });
     }
-
-
+    
+    [HttpGet("/api/products/purchase/daily/{0}")]
+    public IActionResult getDailyProductPurchase()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpPost("/api/products/purchase/promotion/{0}/{1}/{2}")]
+    public IActionResult postPurchasePromotionPack()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/products/new")]
+    public IActionResult getProductsNew()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
+    
+    [HttpGet("/api/products/purchase/history")]
+    public IActionResult getPurchaseHistory()
+    {
+        return Json(new WebResponseHeader
+        {
+            Cod = 200,
+            Msg = "Not yet Implemented",
+            Rst = new {},
+            Eac = 0
+        });
+    }
 }
