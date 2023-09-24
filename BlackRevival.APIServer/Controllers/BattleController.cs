@@ -34,61 +34,62 @@ public class BattleController: Controller
 
         var recordDetailList = new Common.Model.User
         {
-            /*unm = user.UserNum,
-            bmd = 0,
-            chc = 0,
-            cst = 0,
-            sea	= 10,
-            grp	= 0,
-            pdtm = 907,
-            pcnt = 1,
-            wcnt = 0,
-            lvl = 12,
-            mrs = 128,
-            phdam = 1103,
-            mhdam = 795,
-            pkcnt = 1,
-            mkcnt = 5,
-            ascnt = 0,
-            dcnt = 0,
+            /*
+            unm = user.UserNum,
+            bmd = 0, battleMode
+            chc = 0, characterClass
+            cst = 0, characterSkinType
+            sea	= 10, season
+            grp	= 0, gainRankPoint
+            pdtm = 907, playTime
+            pcnt = 1, playCount
+            wcnt = 0, winCount
+            lvl = 12, level
+            mrs = 128, masteryResult
+            phdam = 1103, playerHitDamage
+            mhdam = 795, monsterHitDamage
+            pkcnt = 1, playerKillCount
+            mkcnt = 5, monsterKillCount
+            ascnt = 0, assistCount
+            dcnt = 0, deadCount
             umc = 0,
             upc = 0,
-            scnt = 270,
-            sfcnt = 69,
-            fecnt = 39,
-            fmcnt = 7,
-            aecnt = 30,
-            amcnt = 12,
+            scnt = 270, searchCount
+            sfcnt = 69, shiftFieldCount
+            fecnt = 39, findEnemyCount
+            fmcnt = 7, findMonsterCount
+            aecnt = 30, attackEnemyCount
+            amcnt = 12, attackMonsterCount
             mec = 10,
             mfc = 9,
             metc = 8,
             ewc = 0,
             ewv = 0,
-            asp = 18,
-            asc = 0,
-            asf = 3,
-            tphdam = 1103,
-            tmhdam = 795,
-            tpkcnt = 1,
-            tmkcnt = 5,
-            tdcnt = 0,
-            tascnt = 0,
-            tscnt = 270,
-            tsfcnt = 69,
-            tfecnt = 39,
-            tfmcnt = 7,
-            taecnt = 30,
-            tamcnt = 12,
+            asp = 18, activeSkillPassive
+            asc = 0, activeSkillCombat
+            asf = 3, activeSkillField
+            tphdam = 1103, topPlayerHitDamage
+            tmhdam = 795, topMonsterHitDamage
+            tpkcnt = 1, topPlayerKillCount
+            tmkcnt = 5, topMonsterKillCount
+            tdcnt = 0, topDeathCount
+            tascnt = 0, topAssistCount
+            tscnt = 270, topSearchCount
+            tsfcnt = 69, topShiftFieldCount
+            tfecnt = 39, topFindEnemyCount
+            tfmcnt = 7, topFindMonsterCount
+            taecnt = 30, topAttackEnemyCount
+            tamcnt = 12, topAttackMonsterCount
             tmec = 10,
             tmfc = 9,
             tmetc = 8,
             tewc = 0,
             tewv = 0,
-            tasp = 18,
-            tasc = 0,
-            tasf = 3,
+            tasp = 18, topActiveSkillPassive
+            tasc = 0, topActiveSkillCombat
+            tasf = 3, topActiveSkillField
             wrt = 0,
-            grd = "A"*/
+            grd = "A" getMasteryRank*/
         };
             
         return Json(new WebResponseHeader
@@ -159,7 +160,7 @@ public class BattleController: Controller
             Eac = 0
         });
     }
-    
+
     [HttpGet("/api/battle/decisionStartGame")]
     public async Task<IActionResult> getDecisionStartGame()
     {
@@ -167,23 +168,11 @@ public class BattleController: Controller
         {
             Cod = 200,
             Msg = "Not yet Implemented",
-            Rst = new {},
+            Rst = new { },
             Eac = 0
         });
     }
-    
-    [HttpGet("api/pingServerList")]
-    public async Task<IActionResult> getPingServerList()
-    {
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "Not yet Implemented",
-            Rst = new {},
-            Eac = 0
-        });
-    }
-    
+
     [HttpGet("api/battle/record/all/{0}/{1}/{2}")]
     public async Task<IActionResult> getAllBattleRecord()
     {
