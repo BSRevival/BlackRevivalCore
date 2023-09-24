@@ -44,6 +44,7 @@ public class DatabaseHelper
         await _context.SaveChangesAsync();
     }
     
+
     //Get Active Character
     public async Task<Character> GetActiveCharacter(long num)
     {

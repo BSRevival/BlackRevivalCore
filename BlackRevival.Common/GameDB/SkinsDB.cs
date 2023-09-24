@@ -21,6 +21,21 @@ public class SkinsDB
         return this.characterSkins;
     }
     
+    public List<CharacterSkin> GetSkinsByClass(AcE_CharacterClass characterClass)
+    {
+        return this.characterSkins.FindAll(x => x.characterClass == (int)characterClass);
+    }
+
+    public CharacterSkin GetDefaultSkinByClass(AcE_CharacterClass characterClass)
+    {
+        var skinType = GetFirstSkinId((int)characterClass);
+        return this.characterSkins.Find(x => x.characterSkinType == skinType);
+    }
+    
+    public int GetFirstSkinId(int classId)
+    {
+        return classId < 10 ? (classId * 100) + 1 : (classId * 100) + 1;
+    }
     
     private  List<CharacterSkin> characterSkins = new List<CharacterSkin>();
 

@@ -102,20 +102,13 @@ public class ProductsController : Controller
             });
         }
 
-        var theProduct = TableManager.productsDb.Find(productId);
-        switch (theProduct.goods.goodsType)
-        {
-            case GoodsType.ROULETTE:
-                return await GetRoulette(session, theProduct);
-            //This has to sorted into different endpoints in the meantime we will just return true
-            default:
-                break;
-        }
         
         var product = TableManager.productsDb.Find(productId);
         
         //Check if the user has enough gems
         var userAsset = _helper.GetUserAssetByUserNum(session.Session.userNum).Result;
+        var user = _helper.GetUserByNum(session.Session.userNum).Result;
+
         if (userAsset.Gem < product.price)
         {
             return Json(new WebResponseHeader
@@ -128,6 +121,54 @@ public class ProductsController : Controller
         }
         userAsset.Gem -= (int)product.price;
         await _helper.UpdateUserAsset(session.Session.userNum, userAsset);
+
+        var theProduct = TableManager.productsDb.Find(productId);
+        switch (theProduct.goods.goodsType)
+        {
+            case GoodsType.ROULETTE:
+                return await GetRoulette(session, theProduct);
+            //This has to sorted into different endpoints in the meantime we will just return true
+            case GoodsType.CHARACTER:
+                //Get character data from the product
+                var charData = TableManager.characterDb.Find((AcE_CharacterClass)int.Parse(theProduct.goods.subType));
+                var skinData = TableManager.skinsDb.GetAllSkins();
+                //Get the lowest skin id for that characterclass
+                var skin = TableManager.skinsDb.GetFirstSkinId(int.Parse(theProduct.goods.subType));
+                
+
+                //Create the new character for the user
+                var newChar = new Database.Character
+                {
+                    UserNum = session.Session.userNum,
+                    UserNickname = user.Nickname,
+                    CharacterClass = (int)charData.CharacterClassType,
+                    CharacterGrade = CharacterGrade.FIVE_STAR,
+                    CharacterPurchaseType = CharacterPurchaseType.PURCHASED,
+                    CharacterStatus = CharacterStatus.NORMAL,
+                    ActiveCharacterSkinType = skin,
+                    ActiveLive2D = false,
+                };
+                await _helper.CreateCharacter(newChar);
+                _logger.LogInformation("Inserted new character {0}.", newChar.CharacterNum);
+                //now set the activate character number
+                //Also add the new skin for the character
+                var newSkin = new OwnedSkin
+                {
+                    UserNum = session.Session.userNum,
+                    CharacterClass = (int)charData.CharacterClassType,
+                    CharacterSkinType = skin,
+                    Owned = true,
+                    ActiveLive2D = false,
+                    SkinEnableType = SkinEnableType.PURCHASE
+                };
+                await _helper.CreateOwnedSkin(newSkin);
+
+                await _helper.SetActiveCharacter(session.Session.userNum, newChar.CharacterNum);
+                _logger.LogInformation("Set active character to {0}.", newChar.CharacterNum);
+                break;
+            default:
+                break;
+        }
 
         var result = new PurchaseResult();
         result.provideResult = new ProvideResult();
