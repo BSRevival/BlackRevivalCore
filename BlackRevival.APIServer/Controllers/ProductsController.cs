@@ -222,7 +222,8 @@ public class ProductsController : Controller
                 };
                 
             } break;
-            case GoodsType.CHARACTER_SKIN:
+            case GoodsType.CHARACTER_SKIN: 
+            case GoodsType.LIVE2D_SKIN:
             {
                 var skinData = TableManager.skinsDb.GetAllSkins();
                 //Get the lowest skin id for that characterclass
@@ -337,7 +338,6 @@ public class ProductsController : Controller
         for (int i = 0; i < count; i++)
         {
             var randomItem = pool[random.Next(pool.Count)];
-
             var gachaResult = new ProvideResult();
             gachaResult.rouletteGoods = randomItem.goods;
             gachaResult.invenGoods = new InvenGoods
@@ -348,7 +348,48 @@ public class ProductsController : Controller
             gachaResult.isDuplication = false;
             gachaResult.creditBonusRate = 1.0f;
             gachaResult.goods = randomItem.goods;
+
+            switch (randomItem.goods.goodsType)
+            {
+                case GoodsType.CHARACTER_SKIN: 
+                case GoodsType.LIVE2D_SKIN:
+                {
+                    var skin = TableManager.skinsDb.GetSkinById(int.Parse(randomItem.goods.subType));
+
+                    var newSkin = new OwnedSkin
+                    {
+                        UserNum = session.Session.userNum,
+                        CharacterClass = skin.characterClass,
+                        CharacterSkinType = skin.characterSkinType,
+                        Owned = true,
+                        ActiveLive2D = true,
+                        SkinEnableType = SkinEnableType.PURCHASE
+                    };
+                    await _helper.CreateOwnedSkin(newSkin);
+                    gachaResult.characterSkin = new()
+                    {
+                        userNum = session.Session.userNum,
+                        characterClass = (int)skin.characterClass,
+                        characterSkinType = skin.characterSkinType,
+                        owned = true,
+                        activeLive2D = true,
+                        skinEnableType = SkinEnableType.PURCHASE
+                    };
+                    result.provideResult.characterSkin = new()
+                    {
+                        userNum = session.Session.userNum,
+                        characterClass = (int)skin.characterClass,
+                        characterSkinType = skin.characterSkinType,
+                        owned = true,
+                        activeLive2D = true,
+                        skinEnableType = SkinEnableType.PURCHASE
+                    };
+
+                }
+                    break;
+            }
             result.provideResult.results.Add(gachaResult);
+
         }
         
         return Json(new WebResponseHeader
