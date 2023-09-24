@@ -37,6 +37,11 @@ public class SkinsDB
         return classId < 10 ? (classId * 100) + 1 : (classId * 100) + 1;
     }
     
+    public CharacterSkin GetSkinById(int skinId)
+    {
+        return this.characterSkins.Find(x => x.characterSkinType == skinId);
+    }
+    
     private  List<CharacterSkin> characterSkins = new List<CharacterSkin>();
 
     public class Model

@@ -129,12 +129,13 @@ public class ProductsController : Controller
                 return await GetRoulette(session, theProduct);
             //This has to sorted into different endpoints in the meantime we will just return true
             case GoodsType.CHARACTER:
+            {
                 //Get character data from the product
                 var charData = TableManager.characterDb.Find((AcE_CharacterClass)int.Parse(theProduct.goods.subType));
                 var skinData = TableManager.skinsDb.GetAllSkins();
                 //Get the lowest skin id for that characterclass
                 var skin = TableManager.skinsDb.GetFirstSkinId(int.Parse(theProduct.goods.subType));
-                
+
 
                 //Create the new character for the user
                 var newChar = new Database.Character
@@ -165,6 +166,25 @@ public class ProductsController : Controller
 
                 await _helper.SetActiveCharacter(session.Session.userNum, newChar.CharacterNum);
                 _logger.LogInformation("Set active character to {0}.", newChar.CharacterNum);
+            } break;
+            case GoodsType.CHARACTER_SKIN:
+            {
+                var skinData = TableManager.skinsDb.GetAllSkins();
+                //Get the lowest skin id for that characterclass
+                var skin = TableManager.skinsDb.GetSkinById(int.Parse(theProduct.goods.subType));
+
+                var newSkin = new OwnedSkin
+                {
+                    UserNum = session.Session.userNum,
+                    CharacterClass = skin.characterClass,
+                    CharacterSkinType = skin.characterSkinType,
+                    Owned = true,
+                    ActiveLive2D = skin.activeLive2D,
+                    SkinEnableType = SkinEnableType.PURCHASE
+                };
+                await _helper.CreateOwnedSkin(newSkin);
+
+            }
                 break;
             default:
                 break;
