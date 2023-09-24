@@ -84,15 +84,4 @@ public class InitController : Controller
         });
     }
     
-    [HttpGet("/api/serverCheck")]
-    public IActionResult getServerCheck()
-    {
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "Not yet Implemented",
-            Rst = new {},
-            Eac = 0
-        });
-    }
 }
