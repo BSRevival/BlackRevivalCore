@@ -172,18 +172,7 @@ public class BattleController: Controller
             Eac = 0
         });
     }
-
-    [HttpGet("api/battle/record/all/{0}/{1}/{2}")]
-    public async Task<IActionResult> getAllBattleRecord()
-    {
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "Not yet Implemented",
-            Rst = new {},
-            Eac = 0
-        });
-    }
+    
     
     [HttpGet("api/battle/waitingReward/{0}/{1}")]
     public async Task<IActionResult> getBattleWaitingReward()

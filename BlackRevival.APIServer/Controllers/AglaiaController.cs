@@ -50,18 +50,7 @@ public class AglaiaController : Controller
         });
     }
     
-    [HttpGet("/api/aglaia/pass/progress/paid/progress/{0}")]
-    public IActionResult getAglaiaPassProgressPaidProgress()
-    {
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "Not yet Implemented",
-            Rst = new {},
-            Eac = 0
-        });
-    }
-    
+   
     [HttpGet("/api/aglaia/pass/progress/paid/progress/{0}")]
     public IActionResult getAglaiaPassPaidProgress()
     {

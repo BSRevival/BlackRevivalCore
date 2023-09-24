@@ -215,19 +215,6 @@ public class UserController : Controller
             Eac = 0
         });
     }
-    
-    [HttpGet("/api/users/playCount")]
-    public async Task<IActionResult> GetPlayCount()
-    {
-
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "SUCCESS",
-            Rst = new {},
-            Eac = 0
-        });
-    }
 
     [HttpGet ("/api/users/{UserNum}/histories")]
     public IActionResult getMatchHistory()

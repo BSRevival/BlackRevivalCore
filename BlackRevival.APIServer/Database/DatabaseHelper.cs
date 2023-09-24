@@ -126,10 +126,29 @@ public class DatabaseHelper
 
     }
     
+    
     //Get owned skin by usernum and character class
-    public async Task<List<OwnedSkin>> GetOwnedSkinsByCharacterClass(long num, int characterClass)
+    public async Task<List<CharacterSkin>> GetOwnedSkinsByCharacterClass(long num, int characterClass)
     {
-        return await _context.OwnedSkins.Where(o => o.UserNum == num && o.CharacterClass == characterClass).ToListAsync();
+        var SkinList = new List<CharacterSkin>();
+        var list = await _context.OwnedSkins.Where(o => o.UserNum == num && o.CharacterClass == characterClass).ToListAsync();
+
+        foreach(var skin in list)
+        {
+            var skinData = new CharacterSkin
+            {
+                userNum = skin.UserNum,
+                characterClass = skin.CharacterClass,
+                characterSkinType = skin.CharacterSkinType,
+                owned = skin.Owned,
+                activeLive2D = skin.ActiveLive2D,
+                skinEnableType = skin.SkinEnableType,
+            };
+
+            SkinList.Add(skinData);
+        }
+
+        return SkinList ;
     }
     
     //create owned skin
@@ -151,6 +170,28 @@ public class DatabaseHelper
     public async Task<List<Character>> GetOwnedCharacters(long num)
     {
         return await _context.Characters.Where(c => c.UserNum == num).ToListAsync();
+    }
+    //Get Character by usernum and Characternum
+    public async Task<Character> GetCharacterByUserNumAndCharacterNum(long num, long characterNum)
+    {
+        return await _context.Characters.FirstOrDefaultAsync(c => c.UserNum == num && c.CharacterClass == characterNum);
+    }
+    
+    //Set Active SKin
+    public async Task SetActiveSkin(long num, int skinType)
+    {
+        var user = _context.Users.FirstOrDefaultAsync(u => u.UserNum == num).Result;
+        
+        var activeCharacter = _context.Characters.FirstOrDefaultAsync(c => c.CharacterNum == user.ActiveCharacterNum).Result;
+       //Check if the active character is null
+        if (activeCharacter == null)
+        {
+            return;
+        }
+        
+        activeCharacter.ActiveCharacterSkinType = skinType;
+        //Update the active character now
+        await _context.SaveChangesAsync();
     }
     
     //Get active character

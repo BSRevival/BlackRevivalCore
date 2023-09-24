@@ -59,20 +59,7 @@ public class LabyrinthController: Controller
             Eac = 0
         });
     }
-    
-    [HttpGet ("/api/labryinth/info/{0}")]
-    public IActionResult getLabyrinthInfo()
-    {
-        var session = (APISession)HttpContext.Items["Session"];
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "Not yet Implemented",
-            Rst = new {},
-            Eac = 0
-        });
-    }
-    
+
     [HttpGet ("/api/labryinth/autoStart/{0}/{1}/{2}")]
     public IActionResult getLabyrinthAutoStart()
     {
