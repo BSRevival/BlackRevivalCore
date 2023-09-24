@@ -50,24 +50,26 @@ public class AuthenticateController : Controller
             {
                 UserNum = long.Parse(loginRequest.userId),
             };
-            /*
+            var newChar = new Database.Character
+            {
+                UserNum = user.UserNum,
+            };
+
+           
             //If we are in debug mode lets set the nickname to debug
             if (true)
             {
                 user.Nickname = "Debug";
                 newUser = false;
+                newChar.UserNickname = "Debug";
 
             }
-            */
+            
             await _helper.CreateUser(user);
             await _helper.CreateUserAsset(userAsset);
             _logger.LogInformation("User {0} created.", user.UserNum);
 
             //Create the new character for the user
-            var newChar = new Database.Character
-            {
-                UserNum = user.UserNum,
-            };
             await _helper.CreateCharacter(newChar);
             _logger.LogInformation("Default char {0} created.", newChar.CharacterNum);
             //now set the activate character number

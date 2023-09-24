@@ -121,12 +121,43 @@ public class ProductsController : Controller
         }
         userAsset.Gem -= (int)product.price;
         await _helper.UpdateUserAsset(session.Session.userNum, userAsset);
+        
+        var result = new PurchaseResult();
+        result.provideResult = new ProvideResult();
+        result.provideResult.isDuplication = false;
+        result.provideResult.creditBonusRate = 1.0f;
+        result.provideResult.results = new List<ProvideResult>();
+        /*var provideResult = new ProvideResult();
+        provideResult.isDuplication = false;
+        provideResult.goods = product.goods;*/
+        result.provideResult.isDuplication = false;
+        //Add the Database.UserAsset to the result Model.UserAsset
+        result.userAsset = new()
+        {
+            bearPoint = userAsset.BearPoint,
+            agliaScore = userAsset.AgliaScore,
+            gold = userAsset.Gold,
+            gem = userAsset.Gem,
+            credit = userAsset.Credit,
+            mileage = userAsset.Mileage,
+            experimentMemory = userAsset.ExperimentMemory,
+            tournamentPoint = userAsset.TournamentPoint,
+            tournamentTicket = userAsset.TournamentTicket,
+            voteTicket = userAsset.VoteTicket,
+            voteStamp = userAsset.VoteStamp,
+            labyrinthPoint = userAsset.LabyrinthPoint
+        };
+
+        result.attendanceEventRecord = new AttendanceEventRecord()
+        {
+        };
 
         var theProduct = TableManager.productsDb.Find(productId);
         switch (theProduct.goods.goodsType)
         {
             case GoodsType.ROULETTE:
                 return await GetRoulette(session, theProduct);
+            
             //This has to sorted into different endpoints in the meantime we will just return true
             case GoodsType.CHARACTER:
             {
@@ -164,8 +195,32 @@ public class ProductsController : Controller
                 };
                 await _helper.CreateOwnedSkin(newSkin);
 
-                await _helper.SetActiveCharacter(session.Session.userNum, newChar.CharacterNum);
+                 await _helper.SetActiveCharacter(session.Session.userNum, newChar.CharacterNum);
+
+                 await Task.Delay(100);
                 _logger.LogInformation("Set active character to {0}.", newChar.CharacterNum);
+
+                /*provideResult.character = _helper.GetActiveCharacterGameModel(user.UserNum).Result;
+                provideResult.characterSkin = new ()
+                {
+                    userNum = session.Session.userNum,
+                    characterClass = (int)charData.CharacterClassType,
+                    characterSkinType = skin,
+                    owned = true,
+                    activeLive2D = false,
+                    skinEnableType = SkinEnableType.PURCHASE
+                };*/
+                result.provideResult.character = _helper.GetActiveCharacterGameModel(user.UserNum).Result;
+                result.provideResult.characterSkin= new ()
+                {
+                    userNum = session.Session.userNum,
+                    characterClass = (int)charData.CharacterClassType,
+                    characterSkinType = skin,
+                    owned = true,
+                    activeLive2D = false,
+                    skinEnableType = SkinEnableType.PURCHASE
+                };
+                
             } break;
             case GoodsType.CHARACTER_SKIN:
             {
@@ -183,30 +238,27 @@ public class ProductsController : Controller
                     SkinEnableType = SkinEnableType.PURCHASE
                 };
                 await _helper.CreateOwnedSkin(newSkin);
+                result.provideResult.characterSkin = new ()
+                {
+                    userNum = session.Session.userNum,
+                    characterClass = (int)skin.characterClass,
+                    characterSkinType = skin.characterSkinType,
+                    owned = true,
+                    activeLive2D = skin.activeLive2D,
+                    skinEnableType = SkinEnableType.PURCHASE
+                };
 
             }
                 break;
+            
             default:
                 break;
         }
 
-        var result = new PurchaseResult();
-        result.provideResult = new ProvideResult();
         //Now set it as the provides result
-        result.provideResult.isDuplication = false;
-        result.provideResult.creditBonusRate = 1.0f;
-        result.provideResult.results = new List<ProvideResult>();
-        var gachaResult = new ProvideResult();
-        gachaResult.invenGoods = new InvenGoods
-        {
-            a = 1, activated = false, isActivated = false, c = product.goods.goodsCode, num = 1,
-            userNum = session.Session.userNum
-        };
-        gachaResult.isDuplication = false;
-        gachaResult.goods = product.goods;
-        result.provideResult.results.Add(gachaResult);
 
 
+        //result.provideResult.results.Add(provideResult);
 
 
 

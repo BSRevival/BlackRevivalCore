@@ -182,15 +182,16 @@ public class DatabaseHelper
     public async Task SetActiveSkin(long num, int skinType)
     {
         var user = _context.Users.FirstOrDefaultAsync(u => u.UserNum == num).Result;
+        //Get character by skinType CharacterSkinType
+        var skin = TableManager.skinsDb.GetSkinById(skinType);
         
-        var activeCharacter = _context.Characters.FirstOrDefaultAsync(c => c.CharacterNum == user.ActiveCharacterNum).Result;
-       //Check if the active character is null
-        if (activeCharacter == null)
-        {
-            return;
-        }
+        
+        var activeCharacter = _context.Characters.FirstOrDefaultAsync(c => c.CharacterClass == skin.characterClass && c.UserNum == user.UserNum).Result;
+       
         
         activeCharacter.ActiveCharacterSkinType = skinType;
+        
+        user.ActiveCharacterNum = activeCharacter.CharacterNum;
         //Update the active character now
         await _context.SaveChangesAsync();
     }

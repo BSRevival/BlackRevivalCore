@@ -117,7 +117,7 @@ public class CharactersController : Controller
         var skinRes = JsonSerializer.Deserialize<SkinsResult>(jsonString);
        
         var ccd = TableManager.characterDb.GetCharacterClassDataList();
-       
+
         skinRes.ownSkins.Clear();
         skinRes.ownCharacters.Clear();
         var ownedSkins = _helper.GetOwnedCharSkins(userNum).Result;
@@ -192,6 +192,9 @@ public class CharactersController : Controller
                 skinRes.ownCharacters.Add(character);
 
         }
+        ProductManager.UpdateAllProduct(skinRes.newProduct, skinRes.promotions, skinRes.userPromotions,
+            skinRes.purchaseHistories, skinRes.ownCharacters, skinRes.ownSkins, skinRes.productIds);
+
         return Json(new WebResponseHeader
         {
             Cod = 200,
