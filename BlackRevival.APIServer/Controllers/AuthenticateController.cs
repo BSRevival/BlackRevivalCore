@@ -82,7 +82,7 @@ public class AuthenticateController : Controller
                 CharacterClass = 4,
                 CharacterSkinType = 401,
                 Owned = true,
-                ActiveLive2D = false,
+                ActiveLive2D = true,
                 SkinEnableType = SkinEnableType.PURCHASE
             };
             await _helper.CreateOwnedSkin(newSkin);

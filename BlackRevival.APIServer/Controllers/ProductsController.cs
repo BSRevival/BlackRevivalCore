@@ -55,7 +55,7 @@ public class ProductsController : Controller
                 characterClass = chars.CharacterClass,
                 characterGrade = chars.CharacterGrade,
                 activeCharacterSkinType = chars.ActiveCharacterSkinType,
-                activeLive2D = chars.ActiveLive2D,
+                activeLive2D = true,
                 enhanceExp = chars.EnhanceExp,
                 characterPurchaseType = chars.CharacterPurchaseType,
                 rankPlayCount = chars.RankPlayCount,
@@ -178,7 +178,7 @@ public class ProductsController : Controller
                     CharacterPurchaseType = CharacterPurchaseType.PURCHASED,
                     CharacterStatus = CharacterStatus.NORMAL,
                     ActiveCharacterSkinType = skin,
-                    ActiveLive2D = false,
+                    ActiveLive2D = true,
                 };
                 await _helper.CreateCharacter(newChar);
                 _logger.LogInformation("Inserted new character {0}.", newChar.CharacterNum);
@@ -190,7 +190,7 @@ public class ProductsController : Controller
                     CharacterClass = (int)charData.CharacterClassType,
                     CharacterSkinType = skin,
                     Owned = true,
-                    ActiveLive2D = false,
+                    ActiveLive2D = true,
                     SkinEnableType = SkinEnableType.PURCHASE
                 };
                 await _helper.CreateOwnedSkin(newSkin);
@@ -217,7 +217,7 @@ public class ProductsController : Controller
                     characterClass = (int)charData.CharacterClassType,
                     characterSkinType = skin,
                     owned = true,
-                    activeLive2D = false,
+                    activeLive2D = true,
                     skinEnableType = SkinEnableType.PURCHASE
                 };
                 
@@ -234,7 +234,7 @@ public class ProductsController : Controller
                     CharacterClass = skin.characterClass,
                     CharacterSkinType = skin.characterSkinType,
                     Owned = true,
-                    ActiveLive2D = skin.activeLive2D,
+                    ActiveLive2D = true,
                     SkinEnableType = SkinEnableType.PURCHASE
                 };
                 await _helper.CreateOwnedSkin(newSkin);
@@ -244,7 +244,7 @@ public class ProductsController : Controller
                     characterClass = (int)skin.characterClass,
                     characterSkinType = skin.characterSkinType,
                     owned = true,
-                    activeLive2D = skin.activeLive2D,
+                    activeLive2D = true,
                     skinEnableType = SkinEnableType.PURCHASE
                 };
 

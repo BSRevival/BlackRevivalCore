@@ -115,7 +115,7 @@ public class DatabaseHelper
                 characterClass = skin.CharacterClass,
                 characterSkinType = skin.CharacterSkinType,
                 owned = skin.Owned,
-                activeLive2D = skin.ActiveLive2D,
+                activeLive2D = true,
                 skinEnableType = skin.SkinEnableType,
             };
 
@@ -142,7 +142,7 @@ public class DatabaseHelper
                 characterClass = skin.CharacterClass,
                 characterSkinType = skin.CharacterSkinType,
                 owned = skin.Owned,
-                activeLive2D = skin.ActiveLive2D,
+                activeLive2D = true,
                 skinEnableType = skin.SkinEnableType,
             };
 
@@ -210,7 +210,7 @@ public class DatabaseHelper
             characterClass = activeCharacter.CharacterClass,
             characterGrade = activeCharacter.CharacterGrade,
             activeCharacterSkinType = activeCharacter.ActiveCharacterSkinType,
-            activeLive2D = activeCharacter.ActiveLive2D,
+            activeLive2D = true,
             enhanceExp = activeCharacter.EnhanceExp,
             characterPurchaseType = activeCharacter.CharacterPurchaseType,
             rankPlayCount = activeCharacter.RankPlayCount,
