@@ -87,20 +87,6 @@ public class IngameController : Controller
         });
     }
     
-    [HttpPost ("/api/ingame/create/{0}")]
-    public IActionResult postMatchCreate()
-    {
-        var session = (APISession)HttpContext.Items["Session"];
-        
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "Not yet Implemented",
-            Rst = new {},
-            Eac = 0
-        });
-    }
-    
     [HttpPost ("/api/ingame/join/{0}/{1}")]
     public IActionResult postMatchJoin()
     {

@@ -523,18 +523,4 @@ public class UserController : Controller
             Eac = 0
         });
     }
-    
-    [HttpGet ("/api/users/{0}/changePotentialSkill{1}")]
-    public IActionResult getChangePotentialSkill()
-    {
-        var session = (APISession)HttpContext.Items["Session"];
-        
-        return Json(new WebResponseHeader
-        {
-            Cod = 200,
-            Msg = "Not yet Implemented",
-            Rst = new {},
-            Eac = 0
-        });
-    }
 }
