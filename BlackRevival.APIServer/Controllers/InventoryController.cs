@@ -1,8 +1,10 @@
-﻿using BlackRevival.APIServer.Classes;
+﻿using System.Text.Json;
+using BlackRevival.APIServer.Classes;
 using BlackRevival.APIServer.Database;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace BlackRevival.APIServer.Controllers;
 
@@ -56,14 +58,47 @@ public class InventoryController : Controller
 
     [HttpPost("/api/inven/updateActive")]
 
-    public async Task<IActionResult> updateActiveItems()
+    public async Task<IActionResult> updateActiveItems([FromBody] JsonElement updateItems)
     {
         var session = (APISession)HttpContext.Items["Session"]!;
         
+        //Get all the items first and then update them
+        //We need to get the result from the body and then parse them into a list of InvenGoods
+        _logger.LogInformation("updateActiveItems string: {QueryString}", updateItems);
+        List<InvenGoods> goodsList = JsonSerializer.Deserialize<List<InvenGoods>>(updateItems.ToString());
+        
+        //Now we need to update the items in the database
+        goodsList.ForEach(goods =>
+        {
+            _helper.ChangeItemActivation(goods.num, goods.isActivated).Wait();
+        });
+        
+        var invenRes = new InvenResult()
+        {
+            invenGoodsList = new List<InvenGoods>(),
+            newRequestArrived = false,
+            tournamentStartDtm = DateTime.Now
+
+        };
+
+        _helper.GetInventoryGoods(session.Session.userNum).Result.ForEach(goods =>
+        {
+            invenRes.invenGoodsList.Add(new InvenGoods
+            {
+                c = goods.Text,
+                a = goods.Amount,
+                num = goods.Num,
+                userNum = goods.UserNum,
+                isActivated = goods.IsActivated,
+                activated = goods.Activated
+            });
+        });
+        
         return Json(new WebResponseHeader
         {
-            Cod = 400,
-            Msg = "Not yet implemented",
+            Cod = 200,
+            Msg = "SUCCESS",
+            Rst = invenRes,
             Eac = 0,
         });
     }

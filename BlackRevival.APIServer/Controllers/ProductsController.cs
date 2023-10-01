@@ -341,12 +341,19 @@ public class ProductsController : Controller
         {
             var randomItem = pool[random.Next(pool.Count)];
             var gachaResult = new ProvideResult();
+            
             gachaResult.rouletteGoods = randomItem.goods;
-            gachaResult.invenGoods = new InvenGoods
+            
+            gachaResult.invenGoods = new()
             {
-                a = 1, activated = false, isActivated = false, c = randomItem.goods.goodsCode, num = 1,
-                userNum = session.Session.userNum
+                a = randomItem.goods.amount,
+                userNum = session.Session.userNum,
+                c = randomItem.goods.goodsCode,
+                isActivated = false,
+                activated = false,
+                expireDtm = DateTime.Now,
             };
+            
             gachaResult.isDuplication = false;
             gachaResult.creditBonusRate = 1.0f;
             gachaResult.goods = randomItem.goods;
@@ -367,7 +374,6 @@ public class ProductsController : Controller
                         ActiveLive2D = true,
                         SkinEnableType = SkinEnableType.PURCHASE
                     };
-                    await _helper.CreateOwnedSkin(newSkin);
                     gachaResult.characterSkin = new()
                     {
                         userNum = session.Session.userNum,
@@ -386,49 +392,44 @@ public class ProductsController : Controller
                         activeLive2D = true,
                         skinEnableType = SkinEnableType.PURCHASE
                     };
+                    //Add skin to the database. 
+                    await _helper.CreateOwnedSkin(newSkin);
+
                     
-                }
-                    break;
+                } break;
                 
-                /*case GoodsType.BACKGROUND:
+                case GoodsType.BACKGROUND:
                 {
-                    var background = TableManager.productsDb.FindBackground(string.Format(randomItem.goods.subType));
+                    //Add Matching Card InvenGoods based off the background
+                    var matchingCard = new InvenGoods
+                    {
+                        a = 1,
+                        userNum = session.Session.userNum,
+                        c = "34-" + randomItem.goods.subType,
+                        isActivated = false,
+                        activated = false,
+                        expireDtm = DateTime.Now,
+                    };
 
-                    var newBackground = new OwnedBackground
-                    {
-                        OwnedBackground.Text = background.Text,
-                        Amount = background.Amount,
-                        userNum = session.Session.userNum,
-                        IsActivated = background.isActivated,
-                        Activated = background.activated,
-                        ExpireDtm = background.expireDtm
 
-                    };
-                    gachaResult.invenGoods = new()
-                    {
-                        Text = InventoryGoods.Text,
-                        Amount = InventoryGoods.Amount,
-                        userNum = session.Session.userNum,
-                        IsActivated = 0,
-                        Activated = 0,
-                        ExpireDtm = "2023-09-19 17:11:15.362169",
-                    };
-                    result.provideResult.invenGoods = new()
-                    {
-                        userNum = session.Session.userNum,
-                    };
-                }
-                    break;*/
-                //case GoodsType.Lantern:
-                //var lantern = TableManager.productsDb.FindLantern(randomItem.goods.subType);
+                    await _helper.AddInventoryGoods(gachaResult.invenGoods);
+                    await _helper.AddInventoryGoods(matchingCard);
+                } break;
                 
-                //case GoodsType.Furniture:
-                //var furniture = TableManager.productsDb.FindFurniture(randomItem.goods.subType);
+                case GoodsType.LANTERN:
+                case GoodsType.FURNITURE:
+                {
+                    //Add these items to the db
+                    await _helper.AddInventoryGoods(gachaResult.invenGoods);
+
+                } break;
+                
             }
             result.provideResult.results.Add(gachaResult);
-
+            
         }
         
+        //Add the new invengoods to the user
         return Json(new WebResponseHeader
         {
             Cod = 200,

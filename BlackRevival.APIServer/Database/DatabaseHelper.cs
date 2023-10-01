@@ -337,6 +337,15 @@ public class DatabaseHelper
         await _context.SaveChangesAsync();
     }
     
+    //Change Item Activation
+    public async Task ChangeItemActivation(long itemNum, bool activated)
+    {
+        var item = await _context.InventoryGoods.FirstOrDefaultAsync(i => i.Num == itemNum);
+        item.IsActivated = activated;
+        item.Activated = activated;
+        await _context.SaveChangesAsync();
+    }
+    
     
     public async Task AddInventoryItem<T>(T TheItem, long userNum, Goods invenGoods,bool activated = false)
     {
