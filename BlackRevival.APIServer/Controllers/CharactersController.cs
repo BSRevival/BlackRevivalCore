@@ -345,6 +345,20 @@ public class CharactersController : Controller
            };
            characterRes.characterSignatureList.Add(newSignature); 
         }
+        //Add the response to unlock all characters for now
+        characterRes.characterDocument = new CharacterDocument
+        {
+            userNum = userNum,
+            characterClass = characterNum,
+            characterLike = 0,
+            characterLikeReward = true,
+            interview = 0,
+            interviewReward = true,
+            pattern = 0,
+            patternReward = true,
+            weakness = 0,
+            weaknessReward = true
+        };
         
         return Json(new WebResponseHeader
         {
