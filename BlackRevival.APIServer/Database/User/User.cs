@@ -41,6 +41,8 @@ public class User
     
     public bool IsAdmin { get; set; } = false;
     
+    public string countryCode { get; set; }
+    
     public DateTime CreateDtm { get; set; } = DateTime.UtcNow;
 
     public virtual UserAsset UserAsset { get; set; }

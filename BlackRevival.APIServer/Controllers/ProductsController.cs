@@ -390,20 +390,20 @@ public class ProductsController : Controller
                 }
                     break;
                 
-                case GoodsType.BACKGROUND:
+                /*case GoodsType.BACKGROUND:
                 {
                     var background = TableManager.productsDb.FindBackground(string.Format(randomItem.goods.subType));
-                    
-                    var newBackground = OwnedBackground
+
+                    var newBackground = new OwnedBackground
                     {
-                        OwnedBackground.Text = background.InventoryGoods.Text,
+                        OwnedBackground.Text = background.Text,
                         Amount = background.Amount,
                         userNum = session.Session.userNum,
                         IsActivated = background.isActivated,
                         Activated = background.activated,
                         ExpireDtm = background.expireDtm
 
-                    }
+                    };
                     gachaResult.invenGoods = new()
                     {
                         Text = InventoryGoods.Text,
@@ -418,7 +418,7 @@ public class ProductsController : Controller
                         userNum = session.Session.userNum,
                     };
                 }
-                    break;
+                    break;*/
                 //case GoodsType.Lantern:
                 //var lantern = TableManager.productsDb.FindLantern(randomItem.goods.subType);
                 

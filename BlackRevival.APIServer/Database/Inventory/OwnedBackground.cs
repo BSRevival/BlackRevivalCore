@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 using BlackRevival.Common.Util;
+using BlackRevival.Common.Model;
 
 namespace BlackRevival.APIServer.Database;
 
