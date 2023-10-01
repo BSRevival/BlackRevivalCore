@@ -2,6 +2,8 @@
 using BlackRevival.APIServer.Classes;
 using BlackRevival.APIServer.Database;
 using BlackRevival.Common.Enums;
+using BlackRevival.Common.GameDB;
+using BlackRevival.Common.GameDB.ProductRelated;
 using BlackRevival.Common.GameDB.Roulette;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
@@ -384,9 +386,44 @@ public class ProductsController : Controller
                         activeLive2D = true,
                         skinEnableType = SkinEnableType.PURCHASE
                     };
-
+                    
                 }
                     break;
+                
+                /*case GoodsType.BACKGROUND:
+                {
+                    var background = TableManager.productsDb.FindBackground(string.Format(randomItem.goods.subType));
+
+                    var newBackground = new OwnedBackground
+                    {
+                        OwnedBackground.Text = background.Text,
+                        Amount = background.Amount,
+                        userNum = session.Session.userNum,
+                        IsActivated = background.isActivated,
+                        Activated = background.activated,
+                        ExpireDtm = background.expireDtm
+
+                    };
+                    gachaResult.invenGoods = new()
+                    {
+                        Text = InventoryGoods.Text,
+                        Amount = InventoryGoods.Amount,
+                        userNum = session.Session.userNum,
+                        IsActivated = 0,
+                        Activated = 0,
+                        ExpireDtm = "2023-09-19 17:11:15.362169",
+                    };
+                    result.provideResult.invenGoods = new()
+                    {
+                        userNum = session.Session.userNum,
+                    };
+                }
+                    break;*/
+                //case GoodsType.Lantern:
+                //var lantern = TableManager.productsDb.FindLantern(randomItem.goods.subType);
+                
+                //case GoodsType.Furniture:
+                //var furniture = TableManager.productsDb.FindFurniture(randomItem.goods.subType);
             }
             result.provideResult.results.Add(gachaResult);
 

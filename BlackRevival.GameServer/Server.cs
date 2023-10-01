@@ -8,6 +8,7 @@ using System.Text.Json;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Networking;
 using BlackRevival.Common.Util;
+using BlackRevival.Common.GameDB.Item;
 
 namespace BlackRevival.GameServer;
 
@@ -261,6 +262,18 @@ public class Server
             }
             if (JsonObject.method == "takeFieldItem")
             {
+                //WE SHOULD MOVE THIS TO WHEN WE GENERATE ITEMS INTO THE FIELDS
+                //When items are created they should be done so with a hash attached
+                //Eg 51024-EGOiFRisEpXe ItemID-HASH (12chars) can contain upper case, lower case and numbers
+                //var hashableCharacters = "ABCEDFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+                //var hashLength = new char[12];
+                //var random = new Random();
+                //for (int i = 0; i < hashLength.Length; i++)
+                //{
+                //     hashLength[i] = hashableCharacters[random.Next(hashableCharacters.Length)];
+                //}
+                //var itemHash = new String(hashLength);
+                //fieldItemCode + "-" + itemHash;
                 string resp = "{\"rid\":" + JsonObject.id + ",\"cod\":200,\"tme\":" + unixTimeMilliseconds + ",\"rst\":{\"me\":{\"slayer\":false,\"cnm\":10155226,\"unm\":7562069,\"unn\":\"ReplaceNameHere\",\"lwd\":\"How can I die here...\",\"wwd\":\"Come at me\",\"cls\":44,\"crd\":5,\"ast\":4401,\"l2d\":false,\"ehx\":0,\"ddm\":1665995236000,\"cpt\":3,\"rpc\":0,\"rwc\":0,\"npc\":0,\"nwc\":0,\"leg\":2,\"gbd\":0,\"tnm\":0,\"psi\":6001,\"pmn\":0,\"pfr\":0,\"psd\":0,\"hst\":false,\"mtp\":\"LUMIA\",\"cft\":5,\"cha\":{\"hea\":125.0,\"sta\":112.0,\"mht\":120.0,\"msm\":120.0,\"off\":8.0,\"def\":16.0,\"lvl\":1,\"tms\":120.0,\"cht\":1,\"tmh\":125.0,\"exp\":0.0},\"sga\":{\"currentDrainRatio\":0.0,\"currentHealth\":0.0,\"currentStamina\":0.0,\"currentOffence\":0.0,\"currentDefence\":0.0,\"currentAddedDmg\":0.0,\"currentReducedCooltime\":0.0,\"lpmh\":{},\"lpms\":{},\"lpo\":{},\"lpd\":{},\"lpad\":{},\"lprc\":{},\"lpdd\":{}},\"wvg\":[{\"wtp\":5,\"bfy\":56.0,\"afy\":0.0,\"mrk\":701},{\"wtp\":2,\"bfy\":56.0,\"afy\":0.0,\"mrk\":601},{\"wtp\":8,\"bfy\":56.0,\"afy\":0.0,\"mrk\":501},{\"wtp\":7,\"bfy\":55.0,\"afy\":0.0,\"mrk\":101},{\"wtp\":4,\"bfy\":56.0,\"afy\":0.0,\"mrk\":201},{\"wtp\":1,\"bfy\":76.0,\"afy\":0.0,\"mrk\":305},{\"wtp\":6,\"bfy\":56.0,\"afy\":0.0,\"mrk\":401}],\"wtp\":1,\"ivn\":{\"cpc\":6,\"fos\":[{\"fin\":\"31007-KeA4tkM6Zlqw\",\"lqt\":0,\"bqt\":2,\"aiids\":[],\"spc\":0,\"dft\":0.0,\"alb\":false,\"sil\":false,\"ofe\":0.0,\"ofc\":0.0,\"dfc\":0.0,\"dfe\":0.0,\"ofr\":0.0,\"itm\":31007},{\"fin\":\"32004-yWFI2wREIsmE\",\"lqt\":0,\"bqt\":3,\"aiids\":[],\"spc\":0,\"dft\":0.0,\"alb\":false,\"sil\":false,\"ofe\":0.0,\"ofc\":0.0,\"dfc\":0.0,\"dfe\":0.0,\"ofr\":0.0,\"itm\":32004},{\"fin\":\"31006-vKPT001w5LLn\",\"lqt\":0,\"bqt\":2,\"aiids\":[],\"spc\":0,\"dft\":0.0,\"alb\":false,\"sil\":false,\"ofe\":0.0,\"ofc\":0.0,\"dfc\":0.0,\"dfe\":0.0,\"ofr\":0.0,\"itm\":31006}]},\"eqp\":{\"eqp\":{\"8\":{\"fin\":\"13021-VhwErQUTIgA4\",\"lqt\":0,\"bqt\":1,\"aiids\":[],\"spc\":5077,\"dft\":0.0,\"alb\":false,\"sil\":false,\"ofe\":0.0,\"ofc\":8.0,\"dfc\":0.0,\"dfe\":0.0,\"ofr\":8.0,\"itm\":13021},\"2\":{\"fin\":\"22007-L17N3yBi56w7\",\"lqt\":0,\"bqt\":1,\"aiids\":[],\"spc\":0,\"dft\":8.0,\"alb\":false,\"sil\":false,\"ofe\":0.0,\"ofc\":0.0,\"dfc\":8.0,\"dfe\":0.0,\"ofr\":0.0,\"itm\":22007}},\"esp\":[5077]},\"wdt\":[],\"spo\":[],\"sil\":[],\"ckc\":0,\"asc\":0,\"ddc\":0,\"mkc\":0,\"isl\":false,\"chs\":1,\"res\":false,\"pkl\":[10001,10101,10201],\"att\":\"\",\"ant\":\"TOMAS\",\"aot\":\"\",\"ltt\":\"DEFAULT_LANTERN\",\"cvt\":\"\",\"emj\":\"default\",\"rtc\":0,\"mcc\":0,\"dtc\":0,\"rcc\":2,\"tis\":[],\"cht\":1,\"ai\":false,\"mfi\":[],\"sbl\":[{\"usl\":[],\"usm\":{},\"msm\":{},\"ski\":2030,\"stt\":0,\"stc\":-1,\"stm\":-1,\"drt\":0,\"idr\":0.0,\"ict\":0.0,\"lta\":\"\",\"rdu\":0.0,\"rco\":0.0},{\"usl\":[],\"usm\":{},\"msm\":{},\"ski\":3030,\"stt\":0,\"stc\":-1,\"stm\":-1,\"drt\":0,\"idr\":0.0,\"ict\":70.0,\"lta\":\"\",\"rdu\":0.0,\"rco\":0.0},{\"usl\":[],\"usm\":{},\"msm\":{},\"ski\":6001,\"stt\":0,\"stc\":-1,\"stm\":-1,\"drt\":0,\"idr\":0.0,\"ict\":180.0,\"lta\":\"\",\"rdu\":0.0,\"rco\":0.0},{\"usl\":[],\"usm\":{},\"msm\":{},\"ski\":7011,\"stt\":0,\"stc\":-1,\"stm\":-1,\"drt\":0,\"idr\":0.0,\"ict\":0.0,\"lta\":\"\",\"rdu\":0.0,\"rco\":0.0},{\"usl\":[],\"usm\":{},\"msm\":{},\"ski\":7012,\"stt\":0,\"stc\":-1,\"stm\":-1,\"drt\":0,\"idr\":0.0,\"ict\":0.0,\"lta\":\"\",\"rdu\":0.0,\"rco\":0.0},{\"usl\":[],\"usm\":{},\"msm\":{},\"ski\":7014,\"stt\":0,\"stc\":-1,\"stm\":-1,\"drt\":0,\"idr\":0.0,\"ict\":0.0,\"lta\":\"\",\"rdu\":0.0,\"rco\":0.0},{\"usl\":[],\"usm\":{},\"msm\":{},\"ski\":5077,\"stt\":0,\"stc\":-1,\"stm\":-1,\"drt\":2,\"idr\":30.0,\"ict\":30.0,\"lta\":\"\",\"rdu\":0.0,\"rco\":0.0}],\"aep\":[{\"bst\":101,\"val\":10.0},{\"bst\":103,\"val\":8.0}],\"ded\":false,\"cto\":16.199999,\"ctd\":24.0,\"nrs\":0,\"ctt\":1},\"inventoryAddResult\":2}}";
                 _Server.SendAsync(args.Client.Guid, resp).Wait();
             }
