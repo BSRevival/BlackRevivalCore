@@ -355,7 +355,6 @@ public class DatabaseHelper
             case GoodsType.CHARACTER:
                 break;
             case GoodsType.LAB_PRODUCT:
-            case GoodsType.MATCHING_CARD:
             {
                 var goods = new InventoryGoods
                 {
@@ -378,9 +377,7 @@ public class DatabaseHelper
                     bgSubType = invenGoods.subType,
                     isActivated = activated,
                     components = "",
-                    invenGoodsList = new List<InventoryGoods>()
                 };
-                labGoods.invenGoodsList.Add(goods);
                 await _context.LabGoodsEntries.AddAsync(labGoods);
                 await _context.SaveChangesAsync();
             }
@@ -406,11 +403,25 @@ public class DatabaseHelper
         
     }
 
-    
-    public async Task<List<LabGoodsEntry>> GetLabGoods(long userNum)
+    public async Task<LabGoodsEntry> GetLab(long labNumber)
     {
-        return await _context.LabGoodsEntries.Where(l => l.userNum == userNum).ToListAsync();
+        return await _context.LabGoodsEntries.FirstOrDefaultAsync(l => l.labNum == labNumber);
     }
     
-    
+    public async Task<LabGoodsEntry> GetLabByUser(long userNum)
+    {
+        return await _context.LabGoodsEntries.FirstOrDefaultAsync(l => l.userNum == userNum);
+    }
+
+
+    public async Task UpdateLab(long labNumber, LabGoods goods)
+    {
+        var lab = await _context.LabGoodsEntries.FirstOrDefaultAsync(l => l.labNum == labNumber);
+        lab.components = goods.components;
+        lab.bgSubType = goods.bgSubType;
+        lab.labType = goods.labType;
+        lab.isActivated = goods.isActivated;
+        await _context.SaveChangesAsync();
+
+    }
 }

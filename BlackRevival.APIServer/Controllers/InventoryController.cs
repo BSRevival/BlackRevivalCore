@@ -136,26 +136,78 @@ public class InventoryController : Controller
             Eac = 0,
         });
     }
-    
-    [HttpGet("/api/lab/set/{labnumber}", Name = "SetLab")]
-    public async Task<IActionResult> SetLab(long labnumber, LabGoods lab)
+
+    [HttpPost("/api/lab/set/{labnumber}", Name = "SetLab")]
+    public async Task<IActionResult> SetLab(long labnumber, [FromBody] JsonElement lab)
     {
         var session = (APISession)HttpContext.Items["Session"]!;
-        
-        //[inventorygoods]Fetch Items we are equipping from the DB and set them to isActivated 1 | active 1
-        //[inventorygoods]Fetch the Items we unequipped from the DB and set them to isActivated 0 | active 0
-        //[labgoodsentries]Set list of items the user posted if bgSubType = BASIC 
-        //[labgoodsentries]Fetch the background we are setting and set bgSubType to the name of the background based on look up from product table 
-        /*return Json(new LabGoodsEntry
-        {   
-            labNum = labnumber
+        _logger.LogInformation("SetLab string: {QueryString}", lab);
+
+
+        //Get all items first then update them
+        LabGoods goodsList = JsonSerializer.Deserialize<LabGoods>(lab.ToString());
+        //First check if any components in the lab are active and not in the goodslist
+        var labInfo = await _helper.GetLab(labnumber);
+
+        //Lets check if we have any active components that are not in the goodslist
+        //We must split the components into a list of longs
+        //Make sure components is not empty
+        List<long> activeComponents = new List<long>();
+        if (labInfo.components != "")
+        {
+            string[] activeComponentsString = labInfo.components.Split(",");
+            foreach (string s in activeComponentsString)
+            {
+                activeComponents.Add(long.Parse(s));
+            }
+
+            //Now we have a list of active components, lets check if any of them are not in the goodslist
+            foreach (long l in activeComponents)
+            {
+                if (!goodsList.invenGoodsList.Exists(x => x == l))
+                {
+                    //We have a component that is active but not in the goodslist, lets deactivate it
+                    await _helper.ChangeItemActivation(l, false);
+                }
+            }
+        }
+
+        //Now lets activate all the items in the goodslist
+        goodsList.invenGoodsList.ForEach(goods =>
+        {
+            _helper.ChangeItemActivation(goods, true).Wait();
         });
-        */
+        
+        //Now lets update the lab
+        await _helper.UpdateLab(labnumber, goodsList);
+        
+        //now return an inven result
+        var invenRes = new InvenResult()
+        {
+            invenGoodsList = new List<InvenGoods>(),
+            newRequestArrived = false,
+            tournamentStartDtm = DateTime.Now
+
+        };
+        
+        _helper.GetInventoryGoods(session.Session.userNum).Result.ForEach(goods =>
+        {
+            invenRes.invenGoodsList.Add(new InvenGoods
+            {
+                c = goods.Text,
+                a = goods.Amount,
+                num = goods.Num,
+                userNum = goods.UserNum,
+                isActivated = goods.IsActivated,
+                activated = goods.Activated
+            });
+        });
+
         return Json(new WebResponseHeader
         {
             Cod = 200,
             Msg = "SUCCESS",
-            Rst = new {},
+            Rst = invenRes,
             Eac = 0,
         });
     }

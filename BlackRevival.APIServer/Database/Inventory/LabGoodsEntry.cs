@@ -28,7 +28,4 @@ public class LabGoodsEntry
     [JsonPropertyName("cps")]
     public string components{ get; set; }
 
-    [ForeignKey("InventoryGoods")]
-    [JsonPropertyName("igl")]
-    public ICollection<InventoryGoods> invenGoodsList{ get; set; }
 }

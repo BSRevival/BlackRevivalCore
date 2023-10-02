@@ -140,25 +140,29 @@ public class LobbyController : Controller
             });
         }
         
-        var labGoods = _helper.GetLabGoods(session.Session.userNum).Result;
-        foreach (var goods in labGoods)
+        var labGoods = _helper.GetLabByUser(session.Session.userNum).Result;
+        lobbyInitResult.labList.Add(new LabGoods
         {
-            lobbyInitResult.labList.Add(new LabGoods
+            userNum = labGoods.userNum,
+            labNum = labGoods.labNum,
+            labType = labGoods.labType,
+            bgSubType = labGoods.bgSubType,
+            isActivated = labGoods.isActivated,
+            components = labGoods.components,
+            invenGoodsList = new List<long>()
+        });
+        try
+        {
+            foreach(var invenGoodsNum in labGoods.components.Split(',').Select(long.Parse))
             {
-                userNum = goods.userNum,
-                labNum = goods.labNum,
-                labType = goods.labType,
-                bgSubType = goods.bgSubType,
-                isActivated = goods.isActivated,
-                components = goods.components,
-                invenGoodsList = new List<long>()
-            });
-            foreach(var invenGoodsNum in goods.invenGoodsList)
-            {
-                lobbyInitResult.labList[lobbyInitResult.labList.Count - 1].invenGoodsList.Add(invenGoodsNum.Num);
+                lobbyInitResult.labList[lobbyInitResult.labList.Count - 1].invenGoodsList.Add(invenGoodsNum);
             }
-        }
 
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
 
         return Json(new WebResponseHeader
         {
