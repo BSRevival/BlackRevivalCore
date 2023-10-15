@@ -152,12 +152,13 @@ public class LobbyController : Controller
             invenGoodsList = new List<long>()
         });
         try
-        {
-            foreach(var invenGoodsNum in labGoods.components.Split(',').Select(long.Parse))
-            {
-                lobbyInitResult.labList[lobbyInitResult.labList.Count - 1].invenGoodsList.Add(invenGoodsNum);
+        { 
+            if (labGoods.components != "") {
+                foreach (var invenGoodsNum in labGoods.components.Split(',').Select(long.Parse))
+                {
+                    lobbyInitResult.labList[lobbyInitResult.labList.Count - 1].invenGoodsList.Add(invenGoodsNum);
+                }
             }
-
         }
         catch (Exception e)
         {
