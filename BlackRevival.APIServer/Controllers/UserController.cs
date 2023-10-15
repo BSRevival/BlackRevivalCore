@@ -1,8 +1,11 @@
-﻿using System.Text.Json;
+﻿using System;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using BlackRevival.APIServer.Classes;
 using BlackRevival.APIServer.Database;
 using BlackRevival.Common.Apis;
+using BlackRevival.Common.Enums;
+using BlackRevival.Common.GameDB.Roulette;
 using BlackRevival.Common.GameDB.Skills;
 using BlackRevival.Common.Model;
 using BlackRevival.Common.Responses;
@@ -149,8 +152,21 @@ public class UserController : Controller
     [HttpGet("/api/users/remainFreeBpRouletteTime", Name = "GetNextBPRouletteTime")]
     public IActionResult GetNextBPRouletteTime()
     {
-        //This just sets it so that its always active
-        var result = new Dictionary<string, int>() { { "remainTime", 0 } };
+        var session = (APISession)HttpContext.Items["Session"];
+        if (session == null)
+        {
+            return Json(new WebResponseHeader
+            {
+                Cod = 401,
+                Msg = "Session Does not exist",
+                Rst = null,
+                Eac = 0
+            });
+        }
+
+        var user = _helper.GetUserByNum(session.Session.userNum).Result;
+        var cooldownTime = 60; // 1-minute
+        var result = new Dictionary<string, int>() { { "remainTime", (int)Math.Max(cooldownTime - (DateTime.UtcNow - user.FreeBearRouletteDtm).TotalSeconds,0)}};
         return Json(new WebResponseHeader
         {
             Cod = 200,
@@ -160,15 +176,217 @@ public class UserController : Controller
         });
     }
     [HttpGet("/api/users/freeBpRoulette", Name = "FreeBPRoulette")]
-    public IActionResult FreeBPRoulette()
+    public async Task<IActionResult> FreeBPRoulette()
     {
-        return Json(new WebResponseHeader
+        var session = (APISession)HttpContext.Items["Session"];
+        if (session == null)
         {
-            Cod = 200,
-            Msg = "SUCCESS",
-            Rst = new {},
-            Eac = 0
-        });
+            return Json(new WebResponseHeader
+            {
+                Cod = 401,
+                Msg = "Session Does not exist",
+                Rst = null,
+                Eac = 0
+            });
+        }
+
+
+        //Check if the user has enough gems
+        var userAsset = _helper.GetUserAssetByUserNum(session.Session.userNum).Result;
+        var user = _helper.GetUserByNum(session.Session.userNum).Result;
+
+
+        var count = 1;
+        var type = AcE_ROULETTE_TYPE.BEARPOINT_ROULETTE;
+        var product = TableManager.productsDb.FindRouletteList(PurchaseMethod.BEARPOINT, count)
+            .Find(x => ProductManager.IsAvailableProduct(x.productId, type));
+
+
+        var result = new FreeBpRouletteResult();
+        result.provideResult = new ProvideResult();
+
+        //Get a random item from the pool
+        result.provideResult.isDuplication = false;
+        result.provideResult.creditBonusRate = 1.0f;
+        result.provideResult.results = new List<ProvideResult>();
+        result.lastFreeBpRouletteDtm = DateTime.UtcNow;
+
+        await _helper.UpdateFreeBearRouletteDtm(session.Session.userNum, DateTime.UtcNow);
+
+        RouletteData rouletteData = TableManager.productsDb.FindRouletteData(product.goods.subType);
+        var outlist = (from x in rouletteData.pmf
+                       where x.goods.goodsType != GoodsType.ASSET || x.ratio > 0.0
+                       group x by x.goods.goodsType into g
+                       select new { GType = g.Key, items = g.ToList() });
+
+        //Copy from ProductsController
+        //Get a random item from the pool
+        for (int i = 0; i < count; i++)
+        {
+            // Reseed so it's more unpredictable
+            var random = new Random(Guid.NewGuid().GetHashCode());
+            // Generate a random number between 0 and 1
+            var randomNumber = random.NextDouble();
+
+            // Get a random category
+            // Todo: edge case as total sum ratio of all items could be 0.999998 something...
+            var randomCategory = new List<RoulettePmf>();
+            var currentRng = 0.0;
+            foreach (var goods in outlist)
+            {
+                //Console.WriteLine($"{goods.GType} | {(goods.items.Sum(x => x.ratio)):F2}");
+
+                currentRng += goods.items.Sum(x => x.ratio);
+                if (randomNumber <= currentRng)
+                {
+                    randomCategory = goods.items;
+                    break;
+                }
+            }
+
+            // Generate a random number between 0 and 1
+            randomNumber = random.NextDouble();
+            currentRng = 0.0;
+
+            // Get a random item within category
+            var randomItem = new RoulettePmf();
+            var categoryRatio = randomCategory.Sum(x => x.ratio);
+            foreach (var item in randomCategory)
+            {
+
+                //Console.WriteLine($"{item.goods} | {(item.ratio / categoryRatio):F2}");
+                currentRng += item.ratio / categoryRatio;
+                if (randomNumber <= currentRng)
+                {
+                    randomItem = item;
+                    break;
+                }
+            }
+            //Console.WriteLine($"{(currentRng * 100):F2}");
+            var gachaResult = new ProvideResult();
+
+            gachaResult.rouletteGoods = randomItem.goods;
+
+            gachaResult.invenGoods = new()
+            {
+                a = randomItem.goods.amount,
+                userNum = session.Session.userNum,
+                c = randomItem.goods.goodsCode,
+                isActivated = false,
+                activated = false,
+                expireDtm = DateTime.Now,
+            };
+
+            gachaResult.isDuplication = false;
+            gachaResult.creditBonusRate = 1.0f;
+            gachaResult.goods = randomItem.goods;
+
+            switch (randomItem.goods.goodsType)
+            {
+                case GoodsType.CHARACTER_SKIN:
+                case GoodsType.LIVE2D_SKIN:
+                    {
+                        var skin = TableManager.skinsDb.GetSkinById(int.Parse(randomItem.goods.subType));
+
+                        var newSkin = new OwnedSkin
+                        {
+                            UserNum = session.Session.userNum,
+                            CharacterClass = skin.characterClass,
+                            CharacterSkinType = skin.characterSkinType,
+                            Owned = true,
+                            ActiveLive2D = true,
+                            SkinEnableType = SkinEnableType.PURCHASE
+                        };
+                        gachaResult.characterSkin = new()
+                        {
+                            userNum = session.Session.userNum,
+                            characterClass = (int)skin.characterClass,
+                            characterSkinType = skin.characterSkinType,
+                            owned = true,
+                            activeLive2D = true,
+                            skinEnableType = SkinEnableType.PURCHASE
+                        };
+                        result.provideResult.characterSkin = new()
+                        {
+                            userNum = session.Session.userNum,
+                            characterClass = (int)skin.characterClass,
+                            characterSkinType = skin.characterSkinType,
+                            owned = true,
+                            activeLive2D = true,
+                            skinEnableType = SkinEnableType.PURCHASE
+                        };
+                        //Add skin to the database. 
+                        await _helper.CreateOwnedSkin(newSkin);
+
+
+                    }
+                    break;
+
+                case GoodsType.BACKGROUND:
+                    {
+                        //Add Matching Card InvenGoods based off the background
+                        var matchingCard = new InvenGoods
+                        {
+                            a = 1,
+                            userNum = session.Session.userNum,
+                            c = "34-" + randomItem.goods.subType,
+                            isActivated = false,
+                            activated = false,
+                            expireDtm = DateTime.Now,
+                        };
+
+
+                        await _helper.AddInventoryGoods(gachaResult.invenGoods);
+                        await _helper.AddInventoryGoods(matchingCard);
+                    }
+                    break;
+
+                case GoodsType.LANTERN:
+                case GoodsType.FURNITURE:
+                    {
+                        //Add these items to the db
+                        await _helper.AddInventoryGoods(gachaResult.invenGoods);
+
+                    }
+                    break;
+                //Todo merging of boosters, potential skills
+                case GoodsType.POTENTIAL_SKILL:
+                case GoodsType.BOOSTER:
+                    {
+                        //Add these items to the db
+                        await _helper.AddInventoryGoods(gachaResult.invenGoods);
+                    }
+                    break;
+                case GoodsType.ASSET:
+                    {
+                        AssetType itemCurrencyType = AssetType.NONE;
+                        Enum.TryParse(randomItem.goods.subType, out itemCurrencyType);
+                        //update userasset
+                        userAsset.SetAssetValue(itemCurrencyType, userAsset.GetAssetValue(itemCurrencyType) + (int)randomItem.goods.amount);
+                        await _helper.UpdateUserAsset(session.Session.userNum, userAsset);
+                        if (Response.Headers.ContainsKey($"X-Bs-{randomItem.goods.subType}"))
+                        {
+                            Response.Headers.Remove($"X-Bs-{randomItem.goods.subType}");
+                        }
+                        Response.Headers.Add($"X-Bs-{randomItem.goods.subType}", userAsset.GetAssetValue(itemCurrencyType).ToString());
+                    }
+                    break;
+                default:
+                    {
+                        //Add these items to the db
+                        await _helper.AddInventoryGoods(gachaResult.invenGoods);
+                    }
+                    break;
+            }
+            result.provideResult.results.Add(gachaResult);
+        }
+        return Json(new WebResponseHeader
+            {
+                Cod = 200,
+                Msg = "SUCCESS",
+                Rst = result,
+                Eac = 0
+            });
     }
     
     [HttpPost("/api/users/postLatency", Name = "PostLatency")]

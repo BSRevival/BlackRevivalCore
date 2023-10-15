@@ -7,7 +7,7 @@ namespace BlackRevival.APIServer.Database;
 public class DatabaseHelper 
 {
     private readonly AppDbContext _context;
-    
+
     public DatabaseHelper(AppDbContext context)
     {
         _context = context;
@@ -67,7 +67,15 @@ public class DatabaseHelper
         
         await _context.SaveChangesAsync();
     }
-    
+
+    //Update free bear roulette dtm
+    public async Task UpdateFreeBearRouletteDtm(long num, DateTime dateTime)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.UserNum == num);
+        user.FreeBearRouletteDtm = dateTime;
+        await _context.SaveChangesAsync();
+    }
+
     public async Task<User> GetUserByNickname(string nickname)
     {
         return await _context.Users.FirstOrDefaultAsync(u => u.Nickname == nickname);
@@ -354,6 +362,7 @@ public class DatabaseHelper
         {
             case GoodsType.CHARACTER:
                 break;
+            case GoodsType.MATCHING_CARD:
             case GoodsType.LAB_PRODUCT:
             {
                 var goods = new InventoryGoods
@@ -423,5 +432,38 @@ public class DatabaseHelper
         lab.isActivated = goods.isActivated;
         await _context.SaveChangesAsync();
 
+    }
+
+    public async Task<int> GetUserCurrencyByPurchaseMethod(long userNum, PurchaseMethod type)
+    {
+        var user = await _context.UserAssets.FirstOrDefaultAsync(l => l.UserNum == userNum);
+        
+        switch (type)
+        {
+            case PurchaseMethod.GOLD:
+                return user.Gold;
+            case PurchaseMethod.GEM:
+                return user.Gem;
+            case PurchaseMethod.BEARPOINT:
+                return user.BearPoint;
+            case PurchaseMethod.CREDIT:
+                return user.Credit;
+            case PurchaseMethod.MILEAGE:
+                return user.Mileage;
+            case PurchaseMethod.EXPERIMENT_MEMORY:
+                return user.ExperimentMemory;
+            case PurchaseMethod.TOURNAMENT_POINT:
+                return user.TournamentPoint;
+            //case PurchaseMethod.TOURNAMENT_TICKET:
+            //    return user.TournamentTicket;
+            case PurchaseMethod.VOTE_TICKET:
+                return user.VoteTicket;
+            case PurchaseMethod.VOTE_STAMP:
+                return user.VoteStamp;
+            case PurchaseMethod.LABYRINTH_POINT:
+                return user.LabyrinthPoint;
+            default:
+                return 0;
+        }
     }
 }
